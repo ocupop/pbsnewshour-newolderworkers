@@ -3,22 +3,30 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>PBS NewsHour: The Retiring of Retirement</title>
-  <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <link rel="stylesheet" href="css/style.css">
   <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
+
 <body>
-<!--[if lt IE 7]>
-  <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-<![endif]-->
-<header class="site-header" role="banner">
-  <nav class="site-nav" role="navigation">
-    
+
+<!--[if lt IE 7]><p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]-->
+
+<header>
+  <span class="pbs">PBS NewsHour Presents</span>
+  <h1>The <strong>Retiring</strong> of <strong>Retirement</strong></h1>
+  <nav>
+    <ul>
+      <li><a href="/">Rethinking Retirement</a></li>
+      <li><a href="/">A Snapshot</a></li>
+      <li><a href="/">Working for the Nest Egg</a></li>
+      <li><a href="/">Working in &lsquo;Retirement&rsquo;</a></li>
+      <li><a href="/">Moving Forward</a></li>
+    </ul>      
   </nav>
 </header>

@@ -1,7 +1,11 @@
 <?php require('header.php') ?>
 
-<section>
-  Content.
-</section>
+<article class="rethinking_retirement">
+
+  <section class="">
+    
+  </section>
+
+</article>
 
 <?php require('footer.php') ?>
