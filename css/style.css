@@ -76,7 +76,7 @@ input {
 html {
   background: white;
   color: #333333;
-  font-family: Helvetica, sans-serif;
+  font-family: "AdobeCaslonW01-Regular", sans-serif;
   font-size: 16px;
   line-height: 24px;
   -webkit-font-smoothing: antialiased; }
@@ -88,7 +88,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Helvetica, sans-serif;
+  font-family: "BodoniW01-PosterItalic", serif;
   font-weight: bold;
   line-height: 1; }
 
