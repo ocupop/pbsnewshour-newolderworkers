@@ -18,22 +18,28 @@
   margin: $line auto
   max-width: $desktop
 
-.grid12
+.whole
   @include grid(12)
 
-.grid8
-  @include grid(8)
-
-.grid6
+.half
   @include grid(6)
 
-.grid4
+.twothirds
+  @include grid(8)
+
+.onethird
   @include grid(4)
 
-.grid3
+.threefourths
+  @include grid(9)
+
+.onefourth
   @include grid(3)
 
 .container
   margin: 0 auto
   max-width: $desktop
   padding: $line $gutter
+
+section
+  @extend .container

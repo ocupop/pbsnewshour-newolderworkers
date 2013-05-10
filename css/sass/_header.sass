@@ -1,0 +1,81 @@
+header
+  @extend .container
+  text-align: center
+
+  p,
+  hr,
+  h1 span,
+  h1 em
+    position: relative
+
+  hr
+    z-index: 1
+
+  h1 em
+    z-index: 2
+
+  p,
+  h1 span,
+  h1 small,
+  nav
+    z-index: 3
+
+  p
+    text-transform: uppercase
+    margin: 0 0 $line*1.25
+
+    &:before,
+    &:after
+      color: $text-color-green
+      content: "★"
+      font-size: $font-size*.6
+      padding: 0 $line/4
+      vertical-align: $line*.2
+
+  h1
+    font-family: 'Bodoni W01 Poster'
+    font-size: $font-size*3.5
+    font-weight: normal
+    line-height: 1
+    margin: -$line*1.8 0 $line/4
+    text-transform: uppercase
+    word-spacing: -$line/2
+
+    em
+      background: #fff
+      font-family: 'BodoniW01-PosterItalic', serif
+      font-size: $font-size*6.4
+      font-style: normal
+      margin: 0
+      padding: 0 $line/8
+
+    small
+      color: $text-color-green
+      font-family: 'Adobe Caslon W01 Bd It', serif
+      font-size: $font-size*2.25
+      font-style: normal
+      padding: 0 $line/10
+      text-transform: lowercase
+      vertical-align: $line/3
+
+  nav
+    @include clearfix
+    border-top: 1px solid #888
+    border-bottom: 1px solid #888
+    line-height: 1
+    padding: $line/2 0 $line/2.5
+
+    li
+      float: left
+      letter-spacing: -1px
+      margin: 0 .7em
+      text-transform: uppercase
+
+      &:first-child
+        margin-left: 0
+
+      &:last-child
+        margin-right: 0
+
+    a
+      text-decoration: none

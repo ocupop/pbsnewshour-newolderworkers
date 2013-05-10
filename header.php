@@ -19,8 +19,9 @@
 <!--[if lt IE 7]><p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]-->
 
 <header>
-  <span class="pbs">PBS NewsHour Presents</span>
-  <h1>The <strong>Retiring</strong> of <strong>Retirement</strong></h1>
+  <p>PBS NewsHour Presents</p>
+  <hr>
+  <h1><small>The</small> <em>R</em><span>etiring</span> <small>of</small> <em>R</em><span>etirement</span></h1>
   <nav>
     <ul>
       <li><a href="/">Rethinking Retirement</a></li>
