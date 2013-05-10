@@ -8,6 +8,10 @@ Section 1: Rethinking Retirement
 
 <article class="rethinking_retirement">
 
+  <section class="intro">
+    &nbsp;
+  </section>
+
   <section class="section1">
     <p>The increase of workers 65 and older is due to a variety of factors&mdash;the implications of living longer chief among them.</p>
   </section>

@@ -175,37 +175,38 @@ em {
 
 /* line 1, sass/_header.sass */
 header {
+  margin: 2em auto;
   text-align: center; }
-  /* line 5, sass/_header.sass */
+  /* line 6, sass/_header.sass */
   header p,
   header hr,
   header h1 span,
   header h1 em {
     position: relative; }
-  /* line 11, sass/_header.sass */
+  /* line 12, sass/_header.sass */
   header hr {
     z-index: 1; }
-  /* line 14, sass/_header.sass */
+  /* line 15, sass/_header.sass */
   header h1 em {
     z-index: 2; }
-  /* line 17, sass/_header.sass */
+  /* line 18, sass/_header.sass */
   header p,
   header h1 span,
   header h1 small,
   header nav {
     z-index: 3; }
-  /* line 23, sass/_header.sass */
+  /* line 24, sass/_header.sass */
   header p {
     text-transform: uppercase;
     margin: 0 0 30px; }
-    /* line 27, sass/_header.sass */
+    /* line 28, sass/_header.sass */
     header p:before, header p:after {
       color: #548e85;
       content: "★";
       font-size: 9.6px;
       padding: 0 6px;
       vertical-align: 4.8px; }
-  /* line 35, sass/_header.sass */
+  /* line 36, sass/_header.sass */
   header h1 {
     font-family: "Bodoni W01 Poster";
     font-size: 56px;
@@ -214,7 +215,7 @@ header {
     margin: -43.2px 0 6px;
     text-transform: uppercase;
     word-spacing: -12px; }
-    /* line 44, sass/_header.sass */
+    /* line 45, sass/_header.sass */
     header h1 em {
       background: white;
       font-family: "BodoniW01-PosterItalic", serif;
@@ -222,7 +223,7 @@ header {
       font-style: normal;
       margin: 0;
       padding: 0 3px; }
-    /* line 52, sass/_header.sass */
+    /* line 53, sass/_header.sass */
     header h1 small {
       color: #548e85;
       font-family: "Adobe Caslon W01 Bd It", serif;
@@ -231,7 +232,7 @@ header {
       padding: 0 2.4px;
       text-transform: lowercase;
       vertical-align: 8px; }
-  /* line 61, sass/_header.sass */
+  /* line 62, sass/_header.sass */
   header nav {
     overflow: hidden;
     *zoom: 1;
@@ -239,18 +240,18 @@ header {
     border-bottom: 1px solid #888888;
     line-height: 1;
     padding: 12px 0 9.6px; }
-    /* line 68, sass/_header.sass */
+    /* line 69, sass/_header.sass */
     header nav li {
       float: left;
       letter-spacing: -1px;
       margin: 0 0.7em;
       text-transform: uppercase; }
-      /* line 74, sass/_header.sass */
+      /* line 75, sass/_header.sass */
       header nav li:first-child {
         margin-left: 0; }
-      /* line 77, sass/_header.sass */
+      /* line 78, sass/_header.sass */
       header nav li:last-child {
         margin-right: 0; }
-    /* line 80, sass/_header.sass */
+    /* line 81, sass/_header.sass */
     header nav a {
       text-decoration: none; }
