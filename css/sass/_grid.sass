@@ -1,0 +1,39 @@
+%grid-base
+  float: left
+  padding: $line $gutter
+  width: 100%
+
+@mixin grid($cols)
+  @extend %grid-base
+
+  @if $cols == 3
+    @media (min-width: $tablet)
+      width: 50%
+
+  @media (min-width: $desktop)
+    width: percentage($cols / 12)
+
+.row
+  @include clearfix
+  margin: $line auto
+  max-width: $desktop
+
+.grid12
+  @include grid(12)
+
+.grid8
+  @include grid(8)
+
+.grid6
+  @include grid(6)
+
+.grid4
+  @include grid(4)
+
+.grid3
+  @include grid(3)
+
+.container
+  margin: 0 auto
+  max-width: $desktop
+  padding: $line $gutter
