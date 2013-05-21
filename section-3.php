@@ -6,7 +6,7 @@ Working for the Nest Egg
 
 -->
 
-<article class="snapshot">
+<article class="working_for_the_nest_egg">
 
   <section class="intro">
     <p>
