@@ -15,7 +15,9 @@ Snapshot: A Look at What Getting Older Is Likely to Cost *You*
   </section>
 
   <section class="question gender">
-    <p>Are you male or female?</p>
+    <p>
+      Are you male or female?
+    </p>
    
     <label>
       <input>
@@ -136,8 +138,10 @@ Snapshot: A Look at What Getting Older Is Likely to Cost *You*
     </p>
   </section>
 
-  <section class="question gender">
-    <p>What&rsquo;s your community size?</p>
+  <section class="question community_size">
+    <p>
+      What&rsquo;s your community size?
+    </p>
   
     <label>
       <strong>Largest US Cities</strong>
@@ -159,8 +163,29 @@ Snapshot: A Look at What Getting Older Is Likely to Cost *You*
     </label>
   </section>
 
+  <section class="data">
+    <!--
+    BASED ON DEFINITIONS OF A, B, C AND D COUNTIES, via Dante: 
+    "A" -- Highly urbanized areas. Combined, A counties comprise 40% of households.
+    "B" – Less populated than A,  but have more than 85,000 households. They make up 30% of households.
+    "C" – Rural areas that are less populated than B, but have at least 20,000 households. They contain about 15% of households.
+    "D" – Very rural and sparsely populated. They contain 15% of households.
+
+    COUNTY TYPE (A, B, C OR D) DATA 
+    NOTE: Can be compared 2008–2012
+    NOTE: breakout by 55+, 60+, 65+, 70+
+    employment status
+    top occupations
+    hours worked weekly
+    employed by others vs self-employedfuture work plans if unemployed
+    individual employment income
+    -->
+  </section>
+
   <section class="copy">
-    <p>So what&rsquo;s geography got to do with it? We turned to Dante Chinni, author of Our Patchwork Nation, to explain.</p>
+    <p>
+      So what&rsquo;s geography got to do with it? We turned to Dante Chinni, author of Our Patchwork Nation, to explain.
+    </p>
   </section>
 
   <section class="video">
@@ -168,7 +193,9 @@ Snapshot: A Look at What Getting Older Is Likely to Cost *You*
       <!-- TODO: Dante Chinni Video -->
     </video>
 
-    <h2>The Urban/Rural Divide</h2>
+    <h2>
+      The Urban/Rural Divide
+    </h2>
 
     <p class="caption">
       When you look at a geographic breakdown of older workers, a few points jump out. While the Great Recession took a toll on everyone, when looking at older workers, there was a distinct difference between rural and urban America. The percentage of older Americans employed full- or part-time actually declined in the most urban, densely populated counties. In smaller rural counties, however, the number of older Americans in the workforce rose sharply. Does that mean rural America is actually better for older workers&mdash;a haven for those working for enjoyment or personal fulfillment? Read on.

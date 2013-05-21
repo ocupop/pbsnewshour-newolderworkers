@@ -57,7 +57,9 @@ Rethinking Retirement
   </section>
 
     <section class="question expected_retirement_age">
-    <p>When do you think you&rsquo;ll retire?</p>
+    <p>
+      When do you think you&rsquo;ll retire?
+    </p>
 
     <label>
       <input>
@@ -95,6 +97,14 @@ Rethinking Retirement
     </label>
   </section>
 
+  <section class="data">
+    <!--
+    note: these responses match the options from our survey. Answers can be loaded into larger age range groups based on EBRI below.
+
+    the survey: http://www.pbs.org/newshour/businessdesk/2013/03/how-long-will-you-work.html
+    -->
+  </section>
+
   <blockquote>
     <q>
       I am working about the right amount. I want to contribute and keep alert. Note however, though I may wake up every morning sharp as a tack, some days I&rsquo;m not sure which end it is. ;-)
@@ -110,11 +120,21 @@ Rethinking Retirement
   </section>
 
   <section class="data">
-    [show visualized expected age of retirement, where they fit, and how that&rsquo;s changed over the last 10 years based on this data from EBRI]
+    <!--
+    Based on both answers above: 
+
+    show visualized expected age of retirement, where they fit, and how that&rsquo;s changed over the last 10 years based on this data from EBRI
+
+    [see graph]
+
+    anyone younger than 25 should be put in with ALL WORKERS
+    -->
   </section>
 
-  <section class="paul">
-    <aside class="speaker">Paul Solman</aside>
+  <section class="copy paul">
+    <aside>
+      Paul Solman
+    </aside>
 
     <p>
       At 68, I have now worked in journalism for 50 years (counting college). I have five grandchildren who demand, deserve and bounteously repay my attention. What hair I still have has been gray for years, and I feel the need to touch up my mustache with mascara. My fastball would be lucky to break 40 mph, but a cranky shoulder prevents me from even trying. And yet, I work two jobs&mdash;teaching my brand of real-world economics on the NewsHour (though technically, I&rsquo;m the show&rsquo;s economics reporter) and to college students, mainly at Yale but, occasionally, elsewhere.\
