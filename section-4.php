@@ -46,11 +46,25 @@ Working in 'Retirement'
   <section class="question how_long_work">
     <p>If you are under 65, how long do you want to work?</p>
    
-    <!-- TODO: 8 possible choices -->
+    <!--
+    I want to retire before I reach age 65.
+    I want to work until I'm between 65 and 69.
+    I want to work until I'm between 70 and 74.
+    I want to work until I'm between 75 and 79.
+    I want to work past 80. 
+    Forever.
+    -->
 
     <p>If you are 65 or older, what is your work status?</p>
 
-    <!-- TODO: 5 possible choices -->
+    <!--
+    I am currently working and am happy/OK with working. 
+    I am currently working and am unhappy -- I would prefer to not be working. 
+    I am currently NOT working and am happy / OK with not working.  
+    I am currently NOT working and am unhappy -- I would prefer to be working. 
+    -->
+
+    <!-- based on survey: http://www.pbs.org/newshour/businessdesk/2013/03/how-long-will-you-work.html -->
   </section>
 
   <section class="data">
@@ -58,6 +72,8 @@ Working in 'Retirement'
     Results as a data viz based on where user falls in data collected here and in our online survey. 
 
     survey: http://to.pbs.org/XlCfio
+
+    Show these results: http://htmlpad.org/poll-results
     -->
   </section>
 

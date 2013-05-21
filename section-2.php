@@ -28,6 +28,10 @@ Snapshot: A Look at What Getting Older Is Likely to Cost *You*
       <input>
       <strong>Female</strong>
     </label>
+
+    <!-- based on survey: http://www.pbs.org/newshour/businessdesk/2013/03/how-long-will-you-work.html -->
+
+    <!-- show data: http://htmlpad.org/poll-gender/ -->
   </section>
 
   <div class="female">
@@ -165,6 +169,40 @@ Snapshot: A Look at What Getting Older Is Likely to Cost *You*
 
   <section class="data">
     <!--
+    The most important message is to show the difference
+    between communities: The percentage of older Americans
+    employed full- or part-time actually declined in the
+    most urban, densely populated counties. In smaller
+    rural counties, however, the number of older Americans
+    in the workforce rose sharply.
+
+    I'd go with this list, from important at the top to less necessary at the end: 
+    
+      Employment 
+        EMPLOYED FULL TIME (30+ HOURS)
+        EMPLOYED PART TIME (<30 HOURS)
+        EMPLOYED FULL OR PART TIME
+        NOT EMPLOYED (ANY)
+        etc
+
+      Employment sector 
+        YOUR EMPLOYMENT: AGRICULTURE/FORESTRY/FISHING/HUNTING
+        YOUR EMPLOYMENT: MINING/CONSTRUCTION
+        etc 
+
+      Income
+        INDIVIDUAL EMPLOYMENT INCOME: <$12,500
+        INDIVIDUAL EMPLOYMENT INCOME: $12,500 - $24,999
+        INDIVIDUAL EMPLOYMENT INCOME: $25,000 - $49,999
+        INDIVIDUAL EMPLOYMENT INCOME: $50,000 - $74,999
+        INDIVIDUAL EMPLOYMENT INCOME: $75,000 - $99,999
+        INDIVIDUAL EMPLOYMENT INCOME: $100,000 - $149,999
+        INDIVIDUAL EMPLOYMENT INCOME: $150,000+
+
+
+    ---
+
+
     BASED ON DEFINITIONS OF A, B, C AND D COUNTIES, via Dante: 
     "A" -- Highly urbanized areas. Combined, A counties comprise 40% of households.
     "B" – Less populated than A,  but have more than 85,000 households. They make up 30% of households.
