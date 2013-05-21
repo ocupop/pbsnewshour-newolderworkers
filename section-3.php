@@ -278,7 +278,7 @@ Working for the Nest Egg
 
   <section class="copy">
     <p>
-      The Great Recession swept away about 40% of Americans&rsquo; wealth, forcing many workers to stay on the job to try to recoup some of their savings losses. Some permanently left the stock market. Others were relying on the equity tied to their home values, which are still far below their peak. Again, we turn to Dante Chinni for insight about what&rsquo;s going on.
+      The Great Recession swept away about 40% of Americans&rsquo; wealth, forcing many workers to stay on the job to try to recoup some of their savings losses. Some permanently left the stock market. Others were relying on the equity tied to their home values, which are still far below their peak. Again, we turn to Dante Chinni for insight about what&rsquo;s going on. 
     </p>
   </section>
 
@@ -367,13 +367,24 @@ Working for the Nest Egg
     </cite>
   </blockquote>
 
-  <section class="copy paul">
-    <aside>
-      Paul Solman
-    </aside>
+  <section class="video">
+    <video>
+      <!--
+      TODO: transition video
+      
+      New recording of Paul in a skype record. He would pop up like you just got an instant message.
+
+      dropbox: paul-transition.mov
+      -->
+    </video>
+
+    <h2>
+      Brutal Job Search Reality for Older Americans Out of Work for Six Months or More
+    </h2>
 
     <p>
-      Enough of the doom and gloom. Welcome to the new economy for Older Workers. Some of us continue to work not solely because we need the income or the health insurance but also because we truly enjoy what we&rsquo;re doing. We&rsquo;re living longer and we&rsquo;re healthier than our same-age counterparts in previous generations. Moreover, many of us can work longer because jobs are, on average, not as physically demanding as they used to be.
+      Despite a rosier jobs picture in April 2013, the prospect of finding work is greatly limited for Americans ages 55 or older who have been unemployed long-term. We explore why older workers face joblessness and considerable financial strain.
     </p>
+  </section>
 
 </article>

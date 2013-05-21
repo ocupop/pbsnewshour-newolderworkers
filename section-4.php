@@ -44,24 +44,30 @@ Working in 'Retirement'
   </section>
 
   <section class="question how_long_work">
-    <p>If you are under 65, how long do you want to work?</p>
+    <p>If you are under 65 and not yet fully retired, how long do you WANT to work?</p>
    
     <!--
+    (Only answer this question if you are under 65 years old.)
     I want to retire before I reach age 65.
     I want to work until I'm between 65 and 69.
     I want to work until I'm between 70 and 74.
     I want to work until I'm between 75 and 79.
     I want to work past 80. 
     Forever.
+    Other: 
+
+    results pie chart:  http://htmlpad.org/poll-results 
     -->
 
-    <p>If you are 65 or older, what is your work status?</p>
+    <p>If you are 65 or older, tell us if you&rsquo;re working or not working and whether you are satisfied with that.</p>
 
     <!--
+    (Only answer this question if you are 65 years old or older.)
     I am currently working and am happy/OK with working. 
     I am currently working and am unhappy -- I would prefer to not be working. 
     I am currently NOT working and am happy / OK with not working.  
     I am currently NOT working and am unhappy -- I would prefer to be working. 
+    Other: 
     -->
 
     <!-- based on survey: http://www.pbs.org/newshour/businessdesk/2013/03/how-long-will-you-work.html -->
@@ -163,7 +169,23 @@ Working in 'Retirement'
       Most 65-plus workers say they couldn&rsquo;t be happier with their job. (Less than a third of 16 to 64-year-olds say the same thing.) A little over a quarter say their motivation for working is a combination of wanting to and needing to.
     </p>
 
-    <!-- TODO: get citation for this -->
+    <!-- http://www.pewresearch.org/2009/09/03/recession-turns-a-graying-office-grayer/ -->
+  </section>
+
+  <section class="video">
+    <video>
+      <!--
+      TODO: video
+
+      dropbox: Paul-May20.mp4
+
+      It should auto-play from the beginning. 
+      -->
+    </video>
+
+    <h2>
+      Epilogue: Paul Interviews Paul on Being an Older Worker
+    </h2>
   </section>
 
 </article>

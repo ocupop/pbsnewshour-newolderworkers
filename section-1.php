@@ -10,13 +10,21 @@ Rethinking Retirement
 
   <section class="intro">
     <p>
-      &nbsp;
+      92% of Americans think there&rsquo;s a retirement crisis. 
+    </p>
+
+    <p>
+      And they&rsquo;re right.
+    </p>
+           
+    <p>
+      Over half of today&rsquo;s households won&rsquo;t have enough money for retirement. 
     </p>
   </section>
 
   <section class="copy">
     <p>
-      The percentage of workers who expect to keep working after age 65 has steadily increased in recent years&mdash;from 11% in 1991 to 17% in 1997; 18% in 2002; 24% in 2007; and now 36% in 2013.
+      The percentage of workers who expect to work past 65 has more than tripled in 30 years. From 11% in 1991 to 17% in 1997; 18% in 2002; 24% in 2007; and now 36% in 2013.
     </p>
   </section>
 
@@ -34,12 +42,6 @@ Rethinking Retirement
 
   <section class="copy">
     <p>
-      The difference between what Americans have saved for retirement and what they need to maintain their current standard of living is $6.6 trillion.
-    </p>
-  </section>
-
-  <section class="copy">
-    <p>
       Half of American households have less than $10,000 in savings.
     </p>
   </section>
@@ -52,7 +54,7 @@ Rethinking Retirement
 
   <section class="copy">
     <p>
-      Everyone now knows that the workplace is greying. For a variety of reasons&mdash;the implications of living longer chief among them&mdash;many of us plan to work longer and retire later than we would have just 10 years ago. But for <em>how much</em> longer? The answer has been changing rapidly.
+      Everyone now knows that the workplace is greying. For a variety of reasons, many of us plan to work longer and retire later than we would have just 10 years ago. But for <em>how much</em> longer? The answer has been changing rapidly.
     </p>
   </section>
 
