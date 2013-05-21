@@ -1,13 +1,17 @@
 <!--
 
-Section 1: Rethinking Retirement
+Section 1
+
+Rethinking Retirement
 
 -->
 
 <article class="rethinking_retirement">
 
   <section class="intro">
-    &nbsp;
+    <p>
+      &nbsp;
+    </p>
   </section>
 
   <section class="copy">
@@ -32,6 +36,9 @@ Section 1: Rethinking Retirement
     <p>
       The difference between what Americans have saved for retirement and what they need to maintain their current standard of living is $6.6 trillion.
     </p>
+  </section>
+
+  <section class="copy">
     <p>
       Half of American households have less than $10,000 in savings.
     </p>
@@ -49,17 +56,43 @@ Section 1: Rethinking Retirement
     </p>
   </section>
 
-  <section class="question expected_retirement_age">
-    <label>When do you think you&rsquo;ll retire?</label>
-    <ul>
-      <li>Before I reach age 65.</li>
-      <li>Between 65 and 69.</li>
-      <li>Between 70 and 74.</li>
-      <li>Between 75 and 79.</li>
-      <li>Past 80.</li>
-      <li>Never!</li>
-      <li>I am already retired.</li>
-    </ul>
+    <section class="question expected_retirement_age">
+    <p>When do you think you&rsquo;ll retire?</p>
+
+    <label>
+      <input>
+      <strong>Before I reach age 65.</strong>
+    </label>
+
+    <label>
+      <input>
+      <strong>Between 65 and 69.</strong>
+    </label>
+
+    <label>
+      <input>
+      <strong>Between 70 and 74.</strong>
+    </label>
+
+    <label>
+      <input>
+      <strong>Between 75 and 79.</strong>
+    </label>
+
+    <label>
+      <input>
+      <strong>Past 80.</strong>
+    </label>
+
+    <label>
+      <input>
+      <strong>Never!</strong>
+    </label>
+
+    <label>
+      <input>
+      <strong>I am already retired.</strong>
+    </label>
   </section>
 
   <blockquote>
