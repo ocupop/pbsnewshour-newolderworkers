@@ -14,7 +14,7 @@
   <script type="text/javascript" src="http://fast.fonts.com/jsapi/9d4a68ce-e7a7-41f7-abd3-f2da36d975fa.js"></script>
 </head>
 
-<body class="chapter-<?php echo substr($section, 0, 1); ?>">
+<body class="chapter-<?php echo substr($chapter, 0, 1); ?>">
 
 <!--[if lt IE 8]><p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]-->
 

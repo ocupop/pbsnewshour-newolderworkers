@@ -1,21 +1,14 @@
-<?php require('header.php') ?>
+<?php
 
-<!--
+$chapter = '5-moving-forward';
+require('header.php')
 
-Section 5
+?>
 
-Moving Forward
-
--->
-
-<article class="working_in_retirement">
-
-  <section class="intro">
-    <p>
-      The idea of working and retirement is changing.
-    </p>
-  </section>
-
-</article>
+<section class="intro">
+  <p>
+    The idea of working and retirement is changing.
+  </p>
+</section>
 
 <?php require('footer.php') ?>
