@@ -1,3 +1,5 @@
+<?php require('header.php') ?>
+
 <!--
 
 Section 4
@@ -189,3 +191,5 @@ Working in 'Retirement'
   </section>
 
 </article>
+
+<?php require('footer.php') ?>

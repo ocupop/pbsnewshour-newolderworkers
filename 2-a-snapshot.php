@@ -1,3 +1,5 @@
+<?php require('header.php') ?>
+
 <!--
 
 Section 2
@@ -241,3 +243,5 @@ Snapshot: A Look at What Getting Older Is Likely to Cost *You*
   </section>
 
 </article>
+
+<?php require('footer.php') ?>

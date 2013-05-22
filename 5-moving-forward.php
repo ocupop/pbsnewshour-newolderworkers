@@ -1,3 +1,5 @@
+<?php require('header.php') ?>
+
 <!--
 
 Section 5
@@ -15,3 +17,5 @@ Moving Forward
   </section>
 
 </article>
+
+<?php require('footer.php') ?>

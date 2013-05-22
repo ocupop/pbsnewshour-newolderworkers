@@ -1,3 +1,5 @@
+<?php require('header.php') ?>
+
 <!--
 
 Section 3
@@ -388,3 +390,5 @@ Working for the Nest Egg
   </section>
 
 </article>
+
+<?php require('footer.php') ?>
