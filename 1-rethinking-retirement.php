@@ -1,18 +1,18 @@
-<?php require('header.php') ?>
+<?php
 
-<!--
+$section = '1-rethinking-retirement';
+require('header.php')
 
-Section 1
+?>
 
-Rethinking Retirement
+<div class="bleed fixed company_photo">
+  <img src="../img/<?php echo $section ?>/company_photo.jpg">
+</div>
 
--->
-
-<article class="rethinking_retirement">
-
-  <section class="intro">
+<section class="intro">
+  <div class="contents">
     <p>
-      92% of Americans think there&rsquo;s a retirement crisis. 
+      92% of Americans think there&rsquo;s a retirement crisis.
     </p>
 
     <p>
@@ -20,47 +20,61 @@ Rethinking Retirement
     </p>
            
     <p>
-      Over half of today&rsquo;s households won&rsquo;t have enough money for retirement. 
+      Over half of today&rsquo;s households won&rsquo;t have enough money for retirement.
     </p>
-  </section>
+  </div>
+</section>
 
-  <section class="copy">
+<section class="copy">
+  <div class="contents">
     <p>
       The percentage of workers who expect to work past 65 has more than tripled in 30 years. From 11% in 1991 to 17% in 1997; 18% in 2002; 24% in 2007; and now 36% in 2013.
     </p>
-  </section>
+  </div>
+</section>
 
-  <section class="copy">
+<section class="copy">
+  <div class="contents">
     <p>
       The increase of workers 65 and older is due to a variety of factors&mdash;the  implications of living longer chief among them.
     </p>
-  </section>
+  </div>
+</section>
 
-  <section class="copy">
+<section class="copy">
+  <div class="contents">
     <p>
       Nearly four in ten adults working past the median retirement age of 62 say it is because of the Great Recession.
     </p>
-  </section>
+  </div>
+</section>
 
-  <section class="copy">
+<section class="copy">
+  <div class="contents">
     <p>
       Half of American households have less than $10,000 in savings.
     </p>
-  </section>
+  </div>
+</section>
 
-  <section class="copy">
+<section class="copy">
+    <div class="contents">
     <p>
       Nearly one in four workers will be over the age of 55 by 2016. Why? Mainly because older Americans are working longer, and there are more of them. (The Baby Boom, remember.)
     </p>
-  </section>
+  </div>
+</section>
 
-  <section class="copy">
+<section class="copy">
+  <div class="contents">
     <p>
       Everyone now knows that the workplace is greying. For a variety of reasons, many of us plan to work longer and retire later than we would have just 10 years ago. But for <em>how much</em> longer? The answer has been changing rapidly.
     </p>
-  </section>
+  </div>
+</section>
 
-    <section class="question expected_retirement_age">
+<section class="question expected_retirement_age">
+  <div class="contents">
     <p>
       When do you think you&rsquo;ll retire?
     </p>
@@ -99,9 +113,11 @@ Rethinking Retirement
       <input>
       <strong>I am already retired.</strong>
     </label>
-  </section>
+  </div>
+</section>
 
-  <section class="data">
+<section class="data">
+  <div class="contents">
     <!--
     note: these responses match the options from our survey. Answers can be loaded into larger age range groups based on EBRI below.
 
@@ -116,14 +132,18 @@ Rethinking Retirement
     <cite>
       Robert A. Martin, J.D., 76 and working part-time as a consultant.
     </cite>
-  </blockquote>
+  </div>
+</blockquote>
 
-  <section class="question age">
+<section class="question age">
+  <div class="contents">
     <label>How old are you?</label>
     <input type="range">
-  </section>
+  </div>
+</section>
 
-  <section class="data">
+<section class="data">
+  <div class="contents">
     <!--
     Based on both answers above: 
 
@@ -133,9 +153,11 @@ Rethinking Retirement
 
     anyone younger than 25 should be put in with ALL WORKERS
     -->
-  </section>
+  </div>
+</section>
 
-  <section class="copy paul">
+<section class="copy paul">
+  <div class="contents">
     <aside>
       Paul Solman
     </aside>
@@ -149,21 +171,24 @@ Rethinking Retirement
     <p>
       As I pretty much knew, and have confirmed in the course of reporting for this older workers series, my situation is hardly typical of aging workers in America these days. And yet more Americans than ever, including more and more of my junior colleagues in the baby boom, are staying on the job past what was long considered retirement age. In twenty years workers 65&ndash;69 have doubled in their share of the labor force, and now almost a third of folks in that age range are working, up from one in five twenty years ago. What&rsquo;s more, the portion of people working past 75 has almost tripled since 1993.
     </p>
-  </section>
+  </div>
+</section>
 
-  <section class="data">
+<section class="data">
+  <div class="contents">
     [Labor Force Participation Rates by Age Group, January 1993&ndash;January 2013 attachment. Most interesting: rate of change year over year for each age group. 75+ is dramatic]
-  </section>
+  </div>
+</section>
 
-  <section class="copy">
+<section class="copy">
+  <div class="contents">
     <p>
       Is retirement as we know it becoming a thing of the past? How long are we likely to work and why? Will we be happy on the job, or miserable and counting the dollars and days until retirement? We&rsquo;ve spent much of the past year looking at the factors&mdash;demography, economics, and just plain personal preference&mdash;that help explain what&rsquo;s happening to the American workforce as it ages.
     </p>
     <p>
       So what&rsquo;s going on? And what do statistics say about where you fit into the picture?
     </p>
-  </section>
-  
-</article>
+  </div>
+</section>
 
 <?php require('footer.php') ?>

@@ -4,6 +4,8 @@
 $tablet: 500px
 $desktop: 1000px
 
+$container: $desktop
+
 // Available Fonts:
 // font-family: 'Bodoni MT W01'
 // font-family: 'AdobeCaslonW01-Regular'
@@ -22,16 +24,17 @@ $font-size-small: 12px
 $line: $font-size * 1.5
 $gutter: 10px
 
-$text-color-dark: #383838
-$text-color-medium: #666
-$text-color-light: #aaa
-$text-color-green: #548e85
+$dark: #383838
+$medium: #666
+$light: #aaa
+$green: #548e85
 
-$link-color: $text-color-green
-$link-color-hover: $text-color-dark
+$link-color: $green
+$link-color-hover: $dark
 
 @import 'base'
 @import 'grid'
+@import 'mixins'
 
 @import 'header'
 @import 'footer'

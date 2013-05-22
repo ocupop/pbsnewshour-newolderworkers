@@ -1,7 +1,9 @@
 header
   @extend .container
   margin: 2em auto
+  padding: 0
   text-align: center
+  width: 100%
 
   p,
   hr,
@@ -27,23 +29,25 @@ header
 
     &:before,
     &:after
-      color: $text-color-green
+      color: $green
       content: "★"
       font-size: $font-size*.6
       padding: 0 $line/4
       vertical-align: $line*.2
+
+  hr
+    display: none
 
   h1
     font-family: 'Bodoni W01 Poster'
     font-size: $font-size*3.5
     font-weight: normal
     line-height: 1
-    margin: -$line*1.8 0 $line/4
+    margin: -.25em 0 $line/4
     text-transform: uppercase
     word-spacing: -$line/2
 
     em
-      background: #fff
       font-family: 'BodoniW01-PosterItalic', serif
       font-size: $font-size*6.4
       font-style: normal
@@ -51,7 +55,7 @@ header
       padding: 0 $line/8
 
     small
-      color: $text-color-green
+      color: $green
       font-family: 'Adobe Caslon W01 Bd It', serif
       font-size: $font-size*2.25
       font-style: normal
@@ -59,8 +63,28 @@ header
       text-transform: lowercase
       vertical-align: $line/3
 
+  &.bordered
+    hr
+      display: block
+
+    h1
+      margin-top: -$line*1.8
+
+      em
+        background: #fff
+
+  &.on_top_of_dark_background
+    @include text-shadow($dark 0 0 25px)
+
+    h1
+      color: #fff
+      
+      small
+        color: #fff
+
   nav
     @include clearfix
+    display: none
     border-top: 1px solid #888
     border-bottom: 1px solid #888
     line-height: 1

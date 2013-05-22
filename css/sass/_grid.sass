@@ -13,14 +13,6 @@
   @media (min-width: $desktop)
     width: percentage($cols / 12)
 
-.row
-  @include clearfix
-  margin: $line auto
-  max-width: $desktop
-
-.whole
-  @include grid(12)
-
 .half
   @include grid(6)
 
@@ -40,6 +32,3 @@
   margin: 0 auto
   max-width: $desktop
   padding: $line $gutter
-
-section
-  @extend .container

@@ -11,9 +11,14 @@ a
 input
   margin: 0
 
+html,
+body
+  width: 100%
+  height: 100%
+
 html
   background: white
-  color: $text-color-dark
+  color: $dark
   font-family: $font-family-body
   font-size: $font-size
   line-height: $line
@@ -50,3 +55,33 @@ strong
 
 em
   font-style: italic
+
+// Content
+
+article
+  width: 100%
+
+  section
+    background: #fff
+    width: 100%
+    z-index: 3
+
+    .contents
+      @extend .container
+
+// Types
+
+.fixed
+  position: fixed
+  left: 0
+  top: 0
+
+.bleed
+  width: 100%
+  height: 100%
+
+  img
+    width: 100%
+
+.white_background
+  background: #fff
