@@ -1,9 +1,4 @@
-<?php
-
-$chapter = '1-rethinking-retirement';
-require_once('header.php')
-
-?>
+<?php require_once('header.php') ?>
 
 <div class="bleed fixed company_photo">
   <img src="img/1/company_photo.jpg">
@@ -194,7 +189,6 @@ require_once('header.php')
 </section>
 
 <footer>
-  <!-- <p><a href="#">Previous Chapter</a></p> -->
   <p><a href="chapter-2-a-snapshot">Next Chapter: A Snapshot: What Retirement is Likely to Cost You</a></p>
 </footer>
 

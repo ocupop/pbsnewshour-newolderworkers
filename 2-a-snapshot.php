@@ -1,9 +1,4 @@
-<?php
-
-$chapter = '2-a-snapshot';
-require_once('header.php')
-
-?>
+<?php require_once('header.php') ?>
 
 <section class="intro">
   <div class="contents">

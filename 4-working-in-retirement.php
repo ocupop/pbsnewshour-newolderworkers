@@ -1,9 +1,4 @@
-<?php
-
-$chapter = '4-working-in-retirement';
-require_once('header.php')
-
-?>
+<?php require_once('header.php') ?>
 
 <section class="data">
   <div class="contents">

@@ -1,9 +1,4 @@
-<?php
-
-$chapter = '3-working-for-the-nest-egg';
-require_once('header.php')
-
-?>
+<?php require_once('header.php') ?>
 
 <section class="intro">
   <div class="contents">

@@ -137,7 +137,7 @@ section {
   z-index: 3; }
 
 /* line 74, sass/_base.sass */
-.fixed, .chapter-1 header.site_header.big {
+.fixed, .chapter-1-rethinking-retirement header.site_header.big {
   position: fixed;
   left: 0;
   top: 0; }
@@ -151,7 +151,7 @@ section {
     width: 100%; }
 
 /* line 86, sass/_base.sass */
-.white_background, .chapter-1 .intro {
+.white_background, .chapter-1-rethinking-retirement .intro {
   background: white; }
 
 /* line 1, sass/_grid.sass */
@@ -361,16 +361,16 @@ header.site_header {
       header.site_header.big.bordered h1 em {
         background: white; }
     /* line 165, sass/_header.sass */
-    header.site_header.big.on_top_of_dark_background, .chapter-1 header.site_header.big {
+    header.site_header.big.on_top_of_dark_background, .chapter-1-rethinking-retirement header.site_header.big {
       text-shadow: #383838 0 0 25px; }
       /* line 168, sass/_header.sass */
-      header.site_header.big.on_top_of_dark_background h1, .chapter-1 header.site_header.big h1 {
+      header.site_header.big.on_top_of_dark_background h1, .chapter-1-rethinking-retirement header.site_header.big h1 {
         color: white; }
         /* line 171, sass/_header.sass */
-        header.site_header.big.on_top_of_dark_background h1 small, .chapter-1 header.site_header.big h1 small {
+        header.site_header.big.on_top_of_dark_background h1 small, .chapter-1-rethinking-retirement header.site_header.big h1 small {
           color: white; }
       /* line 175, sass/_header.sass */
-      header.site_header.big.on_top_of_dark_background nav a, .chapter-1 header.site_header.big nav a {
+      header.site_header.big.on_top_of_dark_background nav a, .chapter-1-rethinking-retirement header.site_header.big nav a {
         color: white; }
 
 /* line 1, sass/_footer.sass */
@@ -381,25 +381,25 @@ footer {
     color: white; }
 
 /* line 3, sass/_chapter1.sass */
-.chapter-1 header.site_header.big {
+.chapter-1-rethinking-retirement header.site_header.big {
   z-index: 2; }
   /* line 8, sass/_chapter1.sass */
-  .chapter-1 header.site_header.big p {
+  .chapter-1-rethinking-retirement header.site_header.big p {
     text-shadow: none; }
   /* line 11, sass/_chapter1.sass */
-  .chapter-1 header.site_header.big h1 {
+  .chapter-1-rethinking-retirement header.site_header.big h1 {
     margin-top: 4em; }
   /* line 14, sass/_chapter1.sass */
-  .chapter-1 header.site_header.big nav {
+  .chapter-1-rethinking-retirement header.site_header.big nav {
     display: none; }
 /* line 17, sass/_chapter1.sass */
-.chapter-1 .company_photo {
+.chapter-1-rethinking-retirement .company_photo {
   z-index: 1;
   -webkit-transition: opacity 0.3s;
   -moz-transition: opacity 0.3s;
   -o-transition: opacity 0.3s;
   transition: opacity 0.3s; }
 /* line 21, sass/_chapter1.sass */
-.chapter-1 .intro {
+.chapter-1-rethinking-retirement .intro {
   margin-top: 80%;
   z-index: 3; }
