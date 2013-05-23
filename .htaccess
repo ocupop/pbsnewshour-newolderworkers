@@ -1,7 +1,5 @@
 Options FollowSymLinks MultiViews
 
-DirectoryIndex 1-rethinking-retirement.php
-
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
