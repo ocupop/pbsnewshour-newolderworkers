@@ -1,12 +1,12 @@
 <?php
 
 $chapter = '1-rethinking-retirement';
-require('header.php')
+require_once('header.php')
 
 ?>
 
 <div class="bleed fixed company_photo">
-  <img src="../img/<?php echo $chapter ?>/company_photo.jpg">
+  <img src="img/<?php echo $chapter ?>/company_photo.jpg">
 </div>
 
 <section class="intro">
@@ -147,7 +147,7 @@ require('header.php')
 <section class="data">
   <div class="contents">
     <!--
-    Based on both answers above: 
+    Based on both answers above:
 
     show visualized expected age of retirement, where they fit, and how that&rsquo;s changed over the last 10 years based on this data from EBRI
 
@@ -193,4 +193,4 @@ require('header.php')
   </div>
 </section>
 
-<?php require('footer.php') ?>
+<?php require_once('footer.php') ?>
