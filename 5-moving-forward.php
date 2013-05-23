@@ -13,4 +13,8 @@ require_once('header.php')
   </div>
 </section>
 
+<footer>
+  <p><a href="chapter-4-working-in-retirement">Previous Chapter: Working in &lsquo;Retirement&rsquo;</a></p>
+</footer>
+
 <?php require_once('footer.php') ?>

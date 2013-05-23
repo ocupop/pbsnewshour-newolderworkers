@@ -442,4 +442,9 @@ require_once('header.php')
   </div>
 </section>
 
+<footer>
+  <p><a href="chapter-2-a-snapshot">Previous Chapter: A Snapshot</a></p>
+  <p><a href="chapter-4-working-in-retirement">Next Chapter: Working in Retirement</a></p>
+</footer>
+
 <?php require_once('footer.php') ?>

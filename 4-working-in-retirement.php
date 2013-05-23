@@ -214,4 +214,9 @@ require_once('header.php')
   </div>
 </section>
 
+<footer>
+  <p><a href="chapter-3-working-for-the-nest-egg">Previous Chapter: Working for the Nest Egg</a></p>
+  <p><a href="chapter-5-moving-forward">Next Chapter: Moving Forward</a></p>
+</footer>
+
 <?php require_once('footer.php') ?>

@@ -193,4 +193,9 @@ require_once('header.php')
   </div>
 </section>
 
+<footer>
+  <!-- <p><a href="#">Previous Chapter</a></p> -->
+  <p><a href="chapter-2-a-snapshot">Next Chapter: A Snapshot: What Retirement is Likely to Cost You</a></p>
+</footer>
+
 <?php require_once('footer.php') ?>
