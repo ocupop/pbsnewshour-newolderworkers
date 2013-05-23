@@ -1,7 +1,8 @@
-header
+header.site_header
   padding: 0
   text-transform: uppercase
   width: 100%
+  @include transition(all .3s)
 
   .contents
     padding: 0
@@ -31,8 +32,12 @@ header
     background: rgba(0, 0, 0, .75)
     height: 60px
     overflow: hidden
+    margin-top: -60px
     padding: .5em 0
     z-index: 99
+
+    &.shown
+      margin-top: 0
 
     p
       background: image-url('pbs-light_background.svg') no-repeat left top
