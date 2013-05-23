@@ -1,112 +1,142 @@
 header
-  margin: 2em auto
   padding: 0
   text-align: center
+  text-transform: uppercase
   width: 100%
 
-  p,
-  hr,
-  h1 span,
-  h1 em
-    position: relative
-
-  hr
-    z-index: 1
-
-  h1 em
-    z-index: 2
-
-  p,
-  h1 span,
-  h1 small,
-  nav
-    z-index: 3
+  .contents
+    padding: 0
 
   p
-    text-transform: uppercase
-    margin: 0 0 $line*1.25
-
-    &:before,
-    &:after
-      color: $green
-      content: "★"
-      font-size: $font-size*.6
-      padding: 0 $line/4
-      vertical-align: $line*.2
-
-  hr
-    display: none
+    margin: 0
 
   h1
     font-family: 'Bodoni W01 Poster'
-    font-size: $font-size*3.6
     font-weight: normal
     line-height: 1
-    margin: -.25em 0 $line/4
-    text-transform: uppercase
-    word-spacing: -$line/2
+    margin: 0
 
-    em
-      font-family: 'BodoniW01-PosterItalic', serif
-      font-size: $font-size*6.5
-      font-style: normal
-      margin: 0
-      padding: 0 $line/8
-
-    small
-      color: $green
-      font-family: 'Adobe Caslon W01 Bd It', serif
-      font-size: $font-size*2.3
-      font-style: normal
-      padding: 0 $line/10
-      text-transform: lowercase
-      vertical-align: $line/3
-
-  nav
-    @extend .container
-    @include clearfix
-    border-top: 1px solid #888
-    border-bottom: 1px solid #888
-    line-height: 1
-    padding: $line/2 0 $line/2.5
-
-    li
-      float: left
-      letter-spacing: -1px
-      margin: 0 .9em
-      text-transform: uppercase
-
-      &:first-child
-        margin-left: 0
-
-      &:last-child
-        margin-right: 0
+  li
+    float: left
+    letter-spacing: -1px
 
     a
       text-decoration: none
 
-  &.bordered
+  &.small
+    background: #fff
+    height: 60px
+    overflow: hidden
+    z-index: 99
+
+    p
+      background: image-url('pbs-light_background.svg') no-repeat left top
+      background-size: contain
+      float: left
+      width: 30px
+      height: 30px
+      text-indent: -10000px
+
     hr
-      display: block
+      display: none
 
     h1
-      margin-top: -$line*1.8
+      font-size: 18px
+      margin: 0
+
+  &.big
+    margin: 2em auto
+
+    p,
+    hr,
+    h1 span,
+    h1 em
+      position: relative
+
+    hr
+      z-index: 1
+
+    h1 em
+      z-index: 2
+
+    p,
+    h1 span,
+    h1 small,
+    nav
+      z-index: 3
+
+    p
+      margin: 0 0 $line*1.25
+
+      &:before,
+      &:after
+        color: $green
+        content: "★"
+        font-size: $font-size*.6
+        padding: 0 $line/4
+        vertical-align: $line*.2
+
+    hr
+      display: none
+
+    h1
+      font-size: $font-size*3.6
+      margin: -.25em 0 $line/4
+      word-spacing: -$line/2
 
       em
-        background: #fff
+        font-family: 'BodoniW01-PosterItalic', serif
+        font-size: $font-size*6.5
+        font-style: normal
+        margin: 0
+        padding: 0 $line/8
 
-  &.on_top_of_dark_background
-    @include text-shadow($dark 0 0 25px)
-
-    h1
-      color: #fff
-      
       small
-        color: #fff
+        color: $green
+        font-family: 'Adobe Caslon W01 Bd It', serif
+        font-size: $font-size*2.3
+        font-style: normal
+        padding: 0 $line/10
+        text-transform: lowercase
+        vertical-align: $line/3
 
     nav
-      a
-        color: #fff
+      @extend .container
+      @include clearfix
+      border-top: 1px solid #888
+      border-bottom: 1px solid #888
+      line-height: 1
+      padding: $line/2 0 $line/2.5
 
-  &.minimized
-    //
+      li
+        letter-spacing: -1px
+        margin: 0 .9em
+
+        &:first-child
+          margin-left: 0
+
+        &:last-child
+          margin-right: 0
+
+    &.bordered
+      hr
+        display: block
+
+      h1
+        margin-top: -$line*1.8
+
+        em
+          background: #fff
+
+    &.on_top_of_dark_background
+      @include text-shadow($dark 0 0 25px)
+
+      h1
+        color: #fff
+        
+        small
+          color: #fff
+
+      nav
+        a
+          color: #fff
