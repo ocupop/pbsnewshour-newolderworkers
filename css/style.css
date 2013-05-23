@@ -338,8 +338,12 @@ header {
 
 /* line 20, sass/_chapter1.sass */
 .chapter-1 .company_photo {
-  z-index: 1; }
-/* line 23, sass/_chapter1.sass */
+  z-index: 1;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s; }
+/* line 24, sass/_chapter1.sass */
 .chapter-1 .intro {
   margin-top: 80%;
   z-index: 3; }

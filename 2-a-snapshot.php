@@ -1,7 +1,7 @@
 <?php
 
 $chapter = '2-a-snapshot';
-require('header.php')
+require_once('header.php')
 
 ?>
 
@@ -113,7 +113,7 @@ require('header.php')
   <section class="copy">
     <div class="contents">
       <p>
-        You are likely to have fewer health care expenses than women because on average men don&rsquo;t live as long as women. 
+        You are likely to have fewer health care expenses than women because on average men don&rsquo;t live as long as women.
       </p>
       <p>
         You are significantly more likely than a woman to feel very confident about having enough money for medical expenses and that you will live comfortably in retirement.
@@ -201,19 +201,19 @@ require('header.php')
     rural counties, however, the number of older Americans
     in the workforce rose sharply.
 
-    I'd go with this list, from important at the top to less necessary at the end: 
-    
-      Employment 
+    I'd go with this list, from important at the top to less necessary at the end:
+
+      Employment
         EMPLOYED FULL TIME (30+ HOURS)
         EMPLOYED PART TIME (<30 HOURS)
         EMPLOYED FULL OR PART TIME
         NOT EMPLOYED (ANY)
         etc
 
-      Employment sector 
+      Employment sector
         YOUR EMPLOYMENT: AGRICULTURE/FORESTRY/FISHING/HUNTING
         YOUR EMPLOYMENT: MINING/CONSTRUCTION
-        etc 
+        etc
 
       Income
         INDIVIDUAL EMPLOYMENT INCOME: <$12,500
@@ -228,13 +228,13 @@ require('header.php')
     ---
 
 
-    BASED ON DEFINITIONS OF A, B, C AND D COUNTIES, via Dante: 
+    BASED ON DEFINITIONS OF A, B, C AND D COUNTIES, via Dante:
     "A" -- Highly urbanized areas. Combined, A counties comprise 40% of households.
     "B" – Less populated than A,  but have more than 85,000 households. They make up 30% of households.
     "C" – Rural areas that are less populated than B, but have at least 20,000 households. They contain about 15% of households.
     "D" – Very rural and sparsely populated. They contain 15% of households.
 
-    COUNTY TYPE (A, B, C OR D) DATA 
+    COUNTY TYPE (A, B, C OR D) DATA
     NOTE: Can be compared 2008–2012
     NOTE: breakout by 55+, 60+, 65+, 70+
     employment status
@@ -270,4 +270,4 @@ require('header.php')
   </div>
 </section>
 
-  <?php require('footer.php') ?>
+  <?php require_once('footer.php') ?>

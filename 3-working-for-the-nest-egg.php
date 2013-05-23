@@ -1,7 +1,7 @@
 <?php
 
 $chapter = '3-working-for-the-nest-egg';
-require('header.php')
+require_once('header.php')
 
 ?>
 
@@ -46,7 +46,7 @@ require('header.php')
     </p>
 
     <p class="note">
-      In employer-maintained &ldquo;defined-benefit&rdquo; pensions you receive a fixed regular payout based on salary and how long you worked at the company. 
+      In employer-maintained &ldquo;defined-benefit&rdquo; pensions you receive a fixed regular payout based on salary and how long you worked at the company.
     </p>
 
     <p>
@@ -115,7 +115,7 @@ require('header.php')
 
     Responses are based on both workers 25+ and retirees. However, we don’t know the exact worker/retiree breakdown for this question set within EBRI’s data.
 
-    I could not locate 1995 data on the number and makeup of respondents. It may be reasonable to create a comparison of 1995 respondents using a similar percentage of 2013’s workers to retirees ratio. Here’s the explanation of the 2013 data: 
+    I could not locate 1995 data on the number and makeup of respondents. It may be reasonable to create a comparison of 1995 respondents using a similar percentage of 2013’s workers to retirees ratio. Here’s the explanation of the 2013 data:
 
     1,254 individuals (1,003 workers and 251 retirees) age 25 and older
     -->
@@ -150,7 +150,7 @@ require('header.php')
 
     ---
 
-    Current age -- take from answer above in DEMOGRAPHICS section. 
+    Current age -- take from answer above in DEMOGRAPHICS section.
     round to age that best works with options provided for this calculation:
     18, 25, 30, 35, 40 ,45, 50, 55, 60
     -->
@@ -296,7 +296,7 @@ require('header.php')
     <!--
     TODO: Babs Kindergarten video
     In dropbox as 'Smith_older workers'
-    auto-play 1:19 -- 1:33 
+    auto-play 1:19 -- 1:33
       IN: "It's discouraging..."
       OUT: "Where are all the jobs? North Dakota, right?"
     -->
@@ -315,7 +315,7 @@ require('header.php')
 <section class="copy">
   <div class="contents">
     <p>
-      The Great Recession swept away about 40% of Americans&rsquo; wealth, forcing many workers to stay on the job to try to recoup some of their savings losses. Some permanently left the stock market. Others were relying on the equity tied to their home values, which are still far below their peak. Again, we turn to Dante Chinni for insight about what&rsquo;s going on. 
+      The Great Recession swept away about 40% of Americans&rsquo; wealth, forcing many workers to stay on the job to try to recoup some of their savings losses. Some permanently left the stock market. Others were relying on the equity tied to their home values, which are still far below their peak. Again, we turn to Dante Chinni for insight about what&rsquo;s going on.
     </p>
   </div>
 </section>
@@ -327,7 +327,7 @@ require('header.php')
     </aside>
 
     <p>
-      The Great Recession took a toll on the country as a whole, but it had special implications for older workers, pushing them back into the workplace. While the number of Americans in the workforce as a whole declined between 2008 and 2012&mdash;from 64% to 60%&mdash;the percentage of older Americans in the workforce actually grew, if only slightly. Between 2008 and 2012, the percentage of 60-plus aged Americans working full- or part-time inched up from 26% to 27%. Among those 65 or older, the percentage in the workforce grew slightly more, from 16% to 18%. One reason: the collapse of the stock market dealt a major blow to older Americans living off of retirement accounts with investments tied to the markets. 
+      The Great Recession took a toll on the country as a whole, but it had special implications for older workers, pushing them back into the workplace. While the number of Americans in the workforce as a whole declined between 2008 and 2012&mdash;from 64% to 60%&mdash;the percentage of older Americans in the workforce actually grew, if only slightly. Between 2008 and 2012, the percentage of 60-plus aged Americans working full- or part-time inched up from 26% to 27%. Among those 65 or older, the percentage in the workforce grew slightly more, from 16% to 18%. One reason: the collapse of the stock market dealt a major blow to older Americans living off of retirement accounts with investments tied to the markets.
     </p>
   </div>
 </section>
@@ -350,7 +350,7 @@ require('header.php')
     <!--
     TODO: bike shop owner video
     In dropbox as 'Kemp_OlderWorkers'
-    auto-play 1:19 -- 1:33 
+    auto-play 1:19 -- 1:33
       IN: "I've always been reasonably good"
       OUT: "When I looked at the business, I could do this."
     -->
@@ -425,7 +425,7 @@ require('header.php')
     <video>
     <!--
     TODO: transition video
-    
+
     New recording of Paul in a skype record. He would pop up like you just got an instant message.
 
     dropbox: paul-transition.mov
@@ -442,4 +442,4 @@ require('header.php')
   </div>
 </section>
 
-<?php require('footer.php') ?>
+<?php require_once('footer.php') ?>

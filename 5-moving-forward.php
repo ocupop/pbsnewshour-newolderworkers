@@ -1,7 +1,7 @@
 <?php
 
 $chapter = '5-moving-forward';
-require('header.php')
+require_once('header.php')
 
 ?>
 
@@ -13,4 +13,4 @@ require('header.php')
   </div>
 </section>
 
-<?php require('footer.php') ?>
+<?php require_once('footer.php') ?>

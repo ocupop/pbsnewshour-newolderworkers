@@ -1,7 +1,7 @@
 <?php
 
 $chapter = '4-working-in-retirement';
-require('header.php')
+require_once('header.php')
 
 ?>
 
@@ -38,7 +38,7 @@ require('header.php')
     </p>
 
     <p>
-      For those of you who do work into older age, then, there are obvious benefits to you. And, it turns out, there are benefits to the economy as well. 
+      For those of you who do work into older age, then, there are obvious benefits to you. And, it turns out, there are benefits to the economy as well.
     </p>
   </div>
 </section>
@@ -59,22 +59,22 @@ require('header.php')
     I want to work until I'm between 65 and 69.
     I want to work until I'm between 70 and 74.
     I want to work until I'm between 75 and 79.
-    I want to work past 80. 
+    I want to work past 80.
     Forever.
-    Other: 
+    Other:
 
-    results pie chart:  http://htmlpad.org/poll-results 
+    results pie chart:  http://htmlpad.org/poll-results
   -->
 
   <p>If you are 65 or older, tell us if you&rsquo;re working or not working and whether you are satisfied with that.</p>
 
     <!--
     (Only answer this question if you are 65 years old or older.)
-    I am currently working and am happy/OK with working. 
-    I am currently working and am unhappy -- I would prefer to not be working. 
-    I am currently NOT working and am happy / OK with not working.  
-    I am currently NOT working and am unhappy -- I would prefer to be working. 
-    Other: 
+    I am currently working and am happy/OK with working.
+    I am currently working and am unhappy -- I would prefer to not be working.
+    I am currently NOT working and am happy / OK with not working.
+    I am currently NOT working and am unhappy -- I would prefer to be working.
+    Other:
     -->
 
     <!-- based on survey: http://www.pbs.org/newshour/businessdesk/2013/03/how-long-will-you-work.html -->
@@ -84,7 +84,7 @@ require('header.php')
 <section class="data">
   <div class="contents">
     <!--
-    Results as a data viz based on where user falls in data collected here and in our online survey. 
+    Results as a data viz based on where user falls in data collected here and in our online survey.
 
     survey: http://to.pbs.org/XlCfio
 
@@ -100,7 +100,7 @@ require('header.php')
         TODO: video
 
         http://www.pbs.org/newshour/bb/business/jan-june13/makingsense_03-18.html
-        
+
         No auto-play, but image and caption.
         -->
     </video>
@@ -110,7 +110,7 @@ require('header.php')
     </h2>
 
     <p>
-      In academia, many professors work long past traditional retirement age, leaving younger potential professors shut out from highly coveted full-time, tenured positions. 
+      In academia, many professors work long past traditional retirement age, leaving younger potential professors shut out from highly coveted full-time, tenured positions.
     </p>
   </div>
 </section>
@@ -145,7 +145,7 @@ require('header.php')
     <video>
       <!--
       TODO: video
-      
+
       http://www.pbs.org/newshour/bb/business/jan-june13/entrepreneur_04-22.html
 
       no auto-play, but image with play button
@@ -157,7 +157,7 @@ require('header.php')
     </h2>
 
     <p>
-      Are mature entrepreneurs on the rise? We talked to older workers who decided to pursue their own business dreams later in life. 
+      Are mature entrepreneurs on the rise? We talked to older workers who decided to pursue their own business dreams later in life.
     </p>
   </div>
 </section>
@@ -167,7 +167,7 @@ require('header.php')
     <video>
       <!--
       TODO: video
-      
+
       http://www.pbs.org/newshour/bb/business/jan-june13/makingsense_01-02.html
 
       auto-play 04:29 -- 04:40
@@ -204,7 +204,7 @@ require('header.php')
 
       dropbox: Paul-May20.mp4
 
-      It should auto-play from the beginning. 
+      It should auto-play from the beginning.
       -->
     </video>
 
@@ -214,4 +214,4 @@ require('header.php')
   </div>
 </section>
 
-<?php require('footer.php') ?>
+<?php require_once('footer.php') ?>
