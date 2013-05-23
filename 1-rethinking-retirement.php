@@ -6,7 +6,7 @@ require('header.php')
 ?>
 
 <div class="bleed fixed company_photo">
-  <img src="../img/<?php echo $chapter ?>/company_photo.jpg">
+  <img src="img/<?php echo $chapter ?>/company_photo.jpg">
 </div>
 
 <section class="intro">
