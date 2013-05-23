@@ -36,4 +36,3 @@ $(document).ready ()->
     rethinking_retirement.shrink_header = ()->
       company_photo_height = $company_photo.find('img').height()
       $site_header.toggleClass('small', (pos > company_photo_height))
-      

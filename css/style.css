@@ -207,27 +207,27 @@ header.site_header {
   /* line 7, sass/_header.sass */
   header.site_header .contents {
     padding: 0; }
-  /* line 10, sass/_header.sass */
-  header.site_header p {
-    margin: 0; }
-  /* line 13, sass/_header.sass */
-  header.site_header h1 {
-    font-family: "Bodoni W01 Poster";
-    font-weight: normal;
-    line-height: 1;
-    margin: 0; }
-  /* line 19, sass/_header.sass */
-  header.site_header li {
-    float: left; }
-    /* line 22, sass/_header.sass */
-    header.site_header li:first-child {
-      margin-left: 0; }
-    /* line 25, sass/_header.sass */
-    header.site_header li:last-child {
-      margin-right: 0; }
-    /* line 28, sass/_header.sass */
-    header.site_header li a {
-      text-decoration: none; }
+    /* line 10, sass/_header.sass */
+    header.site_header .contents p {
+      margin: 0; }
+    /* line 13, sass/_header.sass */
+    header.site_header .contents h1 {
+      font-family: "Bodoni W01 Poster";
+      font-weight: normal;
+      line-height: 1;
+      margin: 0; }
+    /* line 19, sass/_header.sass */
+    header.site_header .contents li {
+      float: left; }
+      /* line 22, sass/_header.sass */
+      header.site_header .contents li:first-child {
+        margin-left: 0; }
+      /* line 25, sass/_header.sass */
+      header.site_header .contents li:last-child {
+        margin-right: 0; }
+      /* line 28, sass/_header.sass */
+      header.site_header .contents li a {
+        text-decoration: none; }
   /* line 31, sass/_header.sass */
   header.site_header.small {
     background: rgba(0, 0, 0, 0.75);
