@@ -6,9 +6,11 @@ require('header.php')
 ?>
 
 <section class="intro">
-  <p>
-    The idea of working and retirement is changing.
-  </p>
+  <div class="contents">
+    <p>
+      The idea of working and retirement is changing.
+    </p>
+  </div>
 </section>
 
 <?php require('footer.php') ?>

@@ -18,7 +18,7 @@ require('header.php')
     <p>
       And they&rsquo;re right.
     </p>
-           
+
     <p>
       Over half of today&rsquo;s households won&rsquo;t have enough money for retirement.
     </p>
@@ -58,7 +58,7 @@ require('header.php')
 </section>
 
 <section class="copy">
-    <div class="contents">
+  <div class="contents">
     <p>
       Nearly one in four workers will be over the age of 55 by 2016. Why? Mainly because older Americans are working longer, and there are more of them. (The Baby Boom, remember.)
     </p>
@@ -123,9 +123,11 @@ require('header.php')
 
     the survey: http://www.pbs.org/newshour/businessdesk/2013/03/how-long-will-you-work.html
     -->
-  </section>
+  </div>
+</section>
 
-  <blockquote>
+<section class="quotation">
+  <div class="contents">
     <q>
       I am working about the right amount. I want to contribute and keep alert. Note however, though I may wake up every morning sharp as a tack, some days I&rsquo;m not sure which end it is. ;-)
     </q>
@@ -133,7 +135,7 @@ require('header.php')
       Robert A. Martin, J.D., 76 and working part-time as a consultant.
     </cite>
   </div>
-</blockquote>
+</section>
 
 <section class="question age">
   <div class="contents">
