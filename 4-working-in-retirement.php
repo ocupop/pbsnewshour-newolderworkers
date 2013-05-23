@@ -51,33 +51,71 @@ require_once('header.php')
 
 <section class="question how_long_work">
   <div class="contents">
-    <p>If you are under 65 and not yet fully retired, how long do you WANT to work?</p>
+    <label>How old are you?</label>
+    <input type="num" min="13" max="116" name="entry.1280847796" id="entry_1280847796">
+
+    <div class="under_65">
+      <p>If you are under 65 and not yet fully retired, how long do you WANT to work?</p>
+      <label>
+        <input type="radio" name="entry.1251379033" id="entry.1251379033_1">
+        <strong>I want to retire before I reach age 65.</strong>
+      </label>
+      <label>
+        <input type="radio" name="entry.1251379033" id="entry.1251379033_2">
+        <strong>I want to work until I'm between 65 and 69.</strong>
+      </label>
+      <label>
+        <input type="radio" name="entry.1251379033" id="entry.1251379033_3">
+        <strong>I want to work until I'm between 70 and 74.</strong>
+      </label>
+      <label>
+        <input type="radio" name="entry.1251379033" id="entry.1251379033_4">
+        <strong>I want to work until I'm between 75 and 79.</strong>
+      </label>
+      <label>
+        <input type="radio" name="entry.1251379033" id="entry.1251379033_5">
+        <strong>I want to work past 80.</strong>
+      </label>
+      <label>
+        <input type="radio" name="entry.1251379033" id="entry.1251379033_6">
+        <strong>Forever.</strong>
+      </label>
+      <label>
+        <input type="radio" name="entry.1251379033" id="entry.1251379033_7">
+        <strong>Other:</strong>
+        <input type="text" name="entry.1251379033.other_option_response" id="entry_1251379033_other_option_response">
+      </label>
+    </div>
+
+    <div class="over_65">
+      <p>If you are 65 or older, tell us if you&rsquo;re working or not working and whether you are satisfied with that.</p>
+      <label>
+        <input type="radio" name="entry.1192439293" id="entry.1192439293_1">
+        <strong>I am currently working and am happy/OK with working.</strong>
+      </label>
+      <label>
+        <input type="radio" name="entry.1192439293" id="entry.1192439293_2">
+        <strong>I am currently working and am unhappy -- I would prefer to not be working.</strong>
+      </label>
+      <label>
+        <input type="radio" name="entry.1192439293" id="entry.1192439293_3">
+        <strong>I am currently <em>NOT</em> working and am happy / OK with not working.</strong>
+      </label>
+      <label>
+        <input type="radio" name="entry.1192439293" id="entry.1192439293-4">
+        <strong>I am currently <em>NOT</em> working and am unhappy -- I would prefer to be working.</strong>
+      </label>
+      <label>
+        <input type="radio" name="entry.1192439293" id="entry.1192439293_5">
+        <strong>Other:</strong>
+        <input type="text" name="entry.1192439293.other_option_response" id="entry_1192439293_other_option_response">
+      </label>
+    </div>
 
     <!--
-    (Only answer this question if you are under 65 years old.)
-    I want to retire before I reach age 65.
-    I want to work until I'm between 65 and 69.
-    I want to work until I'm between 70 and 74.
-    I want to work until I'm between 75 and 79.
-    I want to work past 80.
-    Forever.
-    Other:
-
     results pie chart:  http://htmlpad.org/poll-results
-  -->
 
-  <p>If you are 65 or older, tell us if you&rsquo;re working or not working and whether you are satisfied with that.</p>
-
-    <!--
-    (Only answer this question if you are 65 years old or older.)
-    I am currently working and am happy/OK with working.
-    I am currently working and am unhappy -- I would prefer to not be working.
-    I am currently NOT working and am happy / OK with not working.
-    I am currently NOT working and am unhappy -- I would prefer to be working.
-    Other:
-    -->
-
-    <!-- based on survey: http://www.pbs.org/newshour/businessdesk/2013/03/how-long-will-you-work.html -->
+    based on survey: http://www.pbs.org/newshour/businessdesk/2013/03/how-long-will-you-work.html -->
   </div>
 </section>
 

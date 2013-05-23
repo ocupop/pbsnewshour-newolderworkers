@@ -20,12 +20,12 @@ require_once('header.php')
     </p>
 
     <label>
-      <input>
+      <input type="radio" name="entry.2021902959" id="entry.2021902959_1">
       <strong>Male</strong>
     </label>
 
     <label>
-      <input>
+      <input type="radio" name="entry.2021902959" id="entry.2021902959_2">
       <strong>Female</strong>
     </label>
 
@@ -171,20 +171,24 @@ require_once('header.php')
     </p>
 
     <label>
+      <input type="radio" name="xxx" id="xxx_1">
       <strong>Largest US Cities</strong>
     </label>
 
     <label>
+      <input type="radio" name="xxx" id="xxx_2">
       <strong>Less Urbanized</strong>
       <span>More than 85,000 households</span>
     </label>
 
     <label>
+      <input type="radio" name="xxx" id="xxx_3">
       <strong>Rural Area</strong>
       <span>More than 20,000 households</span>
     </label>
 
     <label>
+      <input type="radio" name="xxx" id="xxx_4">
       <strong>Very Rural Area</strong>
       <span>Less than 20,000 households</span>
     </label>

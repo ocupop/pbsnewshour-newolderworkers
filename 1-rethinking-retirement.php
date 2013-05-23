@@ -79,38 +79,38 @@ require_once('header.php')
       When do you think you&rsquo;ll retire?
     </p>
 
-    <label>
-      <input>
+    <label name>
+      <input type="radio" name="entry.1251379033" id="group_1251379033_1">
       <strong>Before I reach age 65.</strong>
     </label>
 
     <label>
-      <input>
+      <input type="radio" name="entry.1251379033" id="group_1251379033_2">
       <strong>Between 65 and 69.</strong>
     </label>
 
     <label>
-      <input>
+      <input type="radio" name="entry.1251379033" id="group_1251379033_3">
       <strong>Between 70 and 74.</strong>
     </label>
 
     <label>
-      <input>
+      <input type="radio" name="entry.1251379033" id="group_1251379033_4">
       <strong>Between 75 and 79.</strong>
     </label>
 
     <label>
-      <input>
+      <input type="radio" name="entry.1251379033" id="group_1251379033_5">
       <strong>Past 80.</strong>
     </label>
 
     <label>
-      <input>
+      <input type="radio" name="entry.1251379033" id="group_1251379033_6">
       <strong>Never!</strong>
     </label>
 
     <label>
-      <input>
+      <input type="radio" name="entry.1251379033" id="group_1251379033_7">
       <strong>I am already retired.</strong>
     </label>
   </div>
@@ -140,7 +140,7 @@ require_once('header.php')
 <section class="question age">
   <div class="contents">
     <label>How old are you?</label>
-    <input type="range">
+    <input type="num" min="13" max="116" name="entry.1280847796" id="entry_1280847796">
   </div>
 </section>
 

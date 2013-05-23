@@ -60,12 +60,12 @@ require_once('header.php')
     <p>Are you a retiree?</p>
 
     <label>
-      <input>
+      <input type="radio" name="xxx" id="_1">
       <strong>Yes</strong>
     </label>
 
     <label>
-      <input>
+      <input type="radio" name="xxx" id="_2">
       <strong>No</strong>
     </label>
   </div>
@@ -78,27 +78,27 @@ require_once('header.php')
     </p>
 
     <label>
-      <input>
+      <input type="radio" name="xxxxx" id="_1">
       <strong>Very confident</strong>
     </label>
 
     <label>
-      <input>
+      <input type="radio" name="xxxxx" id="_2">
       <strong>Somewhat confident</strong>
     </label>
 
     <label>
-      <input>
+      <input type="radio" name="xxxxx" id="_3">
       <strong>Not too confident</strong>
     </label>
 
     <label>
-      <input>
+      <input type="radio" name="xxxxx" id="_4">
       <strong>Not at all confident</strong>
     </label>
 
     <label>
-      <input>
+      <input type="radio" name="xxxxx" id="_5">
       <strong>Don&rsquo;t know</strong>
     </label>
   </div>
@@ -162,37 +162,37 @@ require_once('header.php')
     <p>How much income do you think you&rsquo;ll need per month? (Remember, a rule of thumb is 80% of your current income at a minimum. So, if you&rsquo;re making $1,250 per month, you&rsquo;d want to have at least $1,000 to maintain your current standard of living.)</p>
 
     <label>
-      <input>
+      <input type="radio" name="xxxxxx" id="_1">
       <strong>$1,000/month</strong>
     </label>
 
     <label>
-      <input>
+      <input type="radio" name="xxxxxx" id="_2">
       <strong>$2,000/month</strong>
     </label>
 
     <label>
-      <input>
+      <input type="radio" name="xxxxxx" id="_3">
       <strong>$3,000/month</strong>
     </label>
 
     <label>
-      <input>
+      <input type="radio" name="xxxxxx" id="_4">
       <strong>$4,000/month</strong>
     </label>
 
     <label>
-      <input>
+      <input type="radio" name="xxxxxx" id="_5">
       <strong>$5,000/month</strong>
     </label>
 
     <label>
-      <input>
+      <input type="radio" name="xxxxxx" id="_6">
       <strong>$5,000&ndash;$10,000/month</strong>
     </label>
 
     <label>
-      <input>
+      <input type="radio" name="xxxxxx" id="_7">
       <strong>More than $10,000/month</strong>
     </label>
   </div>
