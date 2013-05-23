@@ -316,8 +316,12 @@ header {
     display: none; }
 /* line 16, sass/_chapter1.sass */
 .chapter-1 .company_photo {
-  z-index: 1; }
-/* line 19, sass/_chapter1.sass */
+  z-index: 1;
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  transition: opacity 0.2s; }
+/* line 20, sass/_chapter1.sass */
 .chapter-1 .intro {
   margin-top: 80%;
   z-index: 3; }
