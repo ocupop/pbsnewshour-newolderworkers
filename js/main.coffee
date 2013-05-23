@@ -15,7 +15,6 @@ $(document).ready ()->
       $window.one 'scroll', onScroll
     , 200
 
-
   # Rethinking Retirement
   rethinking_retirement = {}
 
@@ -33,5 +32,5 @@ $(document).ready ()->
       if company_photo_height > pos
         $company_photo.css {opacity: (1 + factor) * (offset + company_photo_height - pos) / company_photo_height }
 
-    rethinking.shrink_header = ()->
+    rethinking_retirement.shrink_header = ()->
       $site_header.toggleClass('small', (pos > company_photo_height))
