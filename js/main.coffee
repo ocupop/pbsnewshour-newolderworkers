@@ -1,6 +1,4 @@
 $(document).ready ()->
-  console.log Date.now()
-
   $window = $(window)
 
   # global scroll position handler
