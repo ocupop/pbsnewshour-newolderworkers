@@ -18,7 +18,7 @@
 
 <!--[if lt IE 8]><p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]-->
 
-<header>
+<header class="site-header">
   <div class="contents">
     <p>PBS NewsHour Presents</p>
     <hr>
@@ -30,7 +30,7 @@
         <li><a href="/chapter-3-working-for-the-nest-egg">Working for the Nest Egg</a></li>
         <li><a href="/chapter-4-working-in-retirement">Working in &lsquo;Retirement&rsquo;</a></li>
         <li><a href="/chapter-5-moving-forward">Moving Forward</a></li>
-      </ul>      
+      </ul>
     </nav>
   </div>
 </header>
