@@ -1,9 +1,7 @@
 Options FollowSymLinks MultiViews
 
-DirectoryIndex 1-rethinking-retirement.php
-
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
-RewriteRule ^chapter/([0-9A-Za-z\-]+)/?$ /$1.php [L]
+RewriteRule ^chapter-([0-9A-Za-z\-]+)/?$ /$1.php [L]
 </IfModule>
