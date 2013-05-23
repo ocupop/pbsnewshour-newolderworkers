@@ -39,7 +39,7 @@ header
 
   h1
     font-family: 'Bodoni W01 Poster'
-    font-size: $font-size*3.5
+    font-size: $font-size*3.6
     font-weight: normal
     line-height: 1
     margin: -.25em 0 $line/4
@@ -48,7 +48,7 @@ header
 
     em
       font-family: 'BodoniW01-PosterItalic', serif
-      font-size: $font-size*6.4
+      font-size: $font-size*6.5
       font-style: normal
       margin: 0
       padding: 0 $line/8
@@ -56,7 +56,7 @@ header
     small
       color: $green
       font-family: 'Adobe Caslon W01 Bd It', serif
-      font-size: $font-size*2.25
+      font-size: $font-size*2.3
       font-style: normal
       padding: 0 $line/10
       text-transform: lowercase
@@ -81,9 +81,13 @@ header
       small
         color: #fff
 
+    nav
+      a
+        color: #fff
+
   nav
+    @extend .container
     @include clearfix
-    display: none
     border-top: 1px solid #888
     border-bottom: 1px solid #888
     line-height: 1
@@ -92,7 +96,7 @@ header
     li
       float: left
       letter-spacing: -1px
-      margin: 0 .7em
+      margin: 0 .9em
       text-transform: uppercase
 
       &:first-child
