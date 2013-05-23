@@ -13,6 +13,8 @@ require_once('header.php')
   </div>
 </section>
 
-<!-- submit when this page is loaded? maybe some sort of prompt? is this even designed yet?? -->
+<footer>
+  <p><a href="chapter-4-working-in-retirement">Previous Chapter: Working in &lsquo;Retirement&rsquo;</a></p>
+</footer>
 
 <?php require_once('footer.php') ?>
