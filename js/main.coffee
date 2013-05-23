@@ -9,16 +9,15 @@ $(document).ready ()->
     setTimeout ()->
       pos = $window.scrollTop()
 
-      rethinking.fade_header()
-      rethinking.shrink_header()
-
+      rethinking_retirement.fade_header()
+      rethinking_retirement.shrink_header()
 
       $window.one 'scroll', onScroll
     , 200
 
 
   # Rethinking Retirement
-  rethinking = {}
+  rethinking_retirement = {}
 
   do ()->
     $company_photo = $('.company_photo')
@@ -28,7 +27,7 @@ $(document).ready ()->
     $window.on "resize", ()->
       company_photo_height = $company_photo.find('img').height()
 
-    rethinking.fade_header = ()->
+    rethinking_retirement.fade_header = ()->
       factor = 0
       offset = 0
       if company_photo_height > pos

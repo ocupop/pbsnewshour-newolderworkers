@@ -1,6 +1,5 @@
 header
   padding: 0
-  text-align: center
   text-transform: uppercase
   width: 100%
 
@@ -18,34 +17,70 @@ header
 
   li
     float: left
-    letter-spacing: -1px
+
+    &:first-child
+      margin-left: 0
+
+    &:last-child
+      margin-right: 0
 
     a
       text-decoration: none
 
   &.small
-    background: #fff
+    background: rgba(0, 0, 0, .75)
     height: 60px
     overflow: hidden
+    padding: .5em 0
     z-index: 99
 
     p
       background: image-url('pbs-light_background.svg') no-repeat left top
       background-size: contain
       float: left
-      width: 30px
-      height: 30px
+      margin-right: 1em
+      width: 35px
+      height: 35px
       text-indent: -10000px
 
     hr
       display: none
 
     h1
-      font-size: 18px
-      margin: 0
+      color: $light
+      font-size: $font-size*0.8
+
+      em
+        font-family: 'BodoniW01-PosterItalic', serif
+        font-size: $font-size
+        font-style: normal
+
+      small
+        color: $light
+        font-family: 'Adobe Caslon W01 Bd It', serif
+        font-size: $font-size*0.9
+        font-style: normal
+        padding: 0 $line/10
+        text-transform: lowercase
+
+    nav
+      font-family: Helvetica, sans-serif
+      font-size: 12px
+      margin-left: -0.5em
+
+      li
+        margin: 0 0.1em
+
+        a
+          color: $light
+          padding: 0 0.3em
+
+        a:hover
+          color: $medium
 
   &.big
     margin: 2em auto
+    text-align: center
 
     p,
     hr,
@@ -111,12 +146,6 @@ header
       li
         letter-spacing: -1px
         margin: 0 .9em
-
-        &:first-child
-          margin-left: 0
-
-        &:last-child
-          margin-right: 0
 
     &.bordered
       hr

@@ -198,96 +198,131 @@ section {
 /* line 1, sass/_header.sass */
 header {
   padding: 0;
-  text-align: center;
   text-transform: uppercase;
   width: 100%; }
-  /* line 7, sass/_header.sass */
+  /* line 6, sass/_header.sass */
   header .contents {
     padding: 0; }
-  /* line 10, sass/_header.sass */
+  /* line 9, sass/_header.sass */
   header p {
     margin: 0; }
-  /* line 13, sass/_header.sass */
+  /* line 12, sass/_header.sass */
   header h1 {
     font-family: "Bodoni W01 Poster";
     font-weight: normal;
     line-height: 1;
     margin: 0; }
-  /* line 19, sass/_header.sass */
+  /* line 18, sass/_header.sass */
   header li {
-    float: left;
-    letter-spacing: -1px; }
-    /* line 23, sass/_header.sass */
+    float: left; }
+    /* line 21, sass/_header.sass */
+    header li:first-child {
+      margin-left: 0; }
+    /* line 24, sass/_header.sass */
+    header li:last-child {
+      margin-right: 0; }
+    /* line 27, sass/_header.sass */
     header li a {
       text-decoration: none; }
-  /* line 26, sass/_header.sass */
+  /* line 30, sass/_header.sass */
   header.small, .chapter-1 header {
-    background: white;
+    background: rgba(0, 0, 0, 0.75);
     height: 60px;
     overflow: hidden;
+    padding: 0.5em 0;
     z-index: 99; }
-    /* line 32, sass/_header.sass */
+    /* line 37, sass/_header.sass */
     header.small p, .chapter-1 header p {
       background: url('../img/pbs-light_background.svg?1369273560') no-repeat left top;
       background-size: contain;
       float: left;
-      width: 30px;
-      height: 30px;
+      margin-right: 1em;
+      width: 35px;
+      height: 35px;
       text-indent: -10000px; }
-    /* line 40, sass/_header.sass */
+    /* line 46, sass/_header.sass */
     header.small hr, .chapter-1 header hr {
       display: none; }
-    /* line 43, sass/_header.sass */
+    /* line 49, sass/_header.sass */
     header.small h1, .chapter-1 header h1 {
-      font-size: 18px;
-      margin: 0; }
-  /* line 47, sass/_header.sass */
+      color: #aaaaaa;
+      font-size: 12.8px; }
+      /* line 53, sass/_header.sass */
+      header.small h1 em, .chapter-1 header h1 em {
+        font-family: "BodoniW01-PosterItalic", serif;
+        font-size: 16px;
+        font-style: normal; }
+      /* line 58, sass/_header.sass */
+      header.small h1 small, .chapter-1 header h1 small {
+        color: #aaaaaa;
+        font-family: "Adobe Caslon W01 Bd It", serif;
+        font-size: 14.4px;
+        font-style: normal;
+        padding: 0 2.4px;
+        text-transform: lowercase; }
+    /* line 66, sass/_header.sass */
+    header.small nav, .chapter-1 header nav {
+      font-family: Helvetica, sans-serif;
+      font-size: 12px;
+      margin-left: -0.5em; }
+      /* line 71, sass/_header.sass */
+      header.small nav li, .chapter-1 header nav li {
+        margin: 0 0.1em; }
+        /* line 74, sass/_header.sass */
+        header.small nav li a, .chapter-1 header nav li a {
+          color: #aaaaaa;
+          padding: 0 0.3em; }
+        /* line 78, sass/_header.sass */
+        header.small nav li a:hover, .chapter-1 header nav li a:hover {
+          color: #666666; }
+  /* line 81, sass/_header.sass */
   header.big {
-    margin: 2em auto; }
-    /* line 50, sass/_header.sass */
+    margin: 2em auto;
+    text-align: center; }
+    /* line 85, sass/_header.sass */
     header.big p,
     header.big hr,
     header.big h1 span,
     header.big h1 em {
       position: relative; }
-    /* line 56, sass/_header.sass */
+    /* line 91, sass/_header.sass */
     header.big hr {
       z-index: 1; }
-    /* line 59, sass/_header.sass */
+    /* line 94, sass/_header.sass */
     header.big h1 em {
       z-index: 2; }
-    /* line 62, sass/_header.sass */
+    /* line 97, sass/_header.sass */
     header.big p,
     header.big h1 span,
     header.big h1 small,
     header.big nav {
       z-index: 3; }
-    /* line 68, sass/_header.sass */
+    /* line 103, sass/_header.sass */
     header.big p {
       margin: 0 0 30px; }
-      /* line 71, sass/_header.sass */
+      /* line 106, sass/_header.sass */
       header.big p:before, header.big p:after {
         color: #548e85;
         content: "★";
         font-size: 9.6px;
         padding: 0 6px;
         vertical-align: 4.8px; }
-    /* line 79, sass/_header.sass */
+    /* line 114, sass/_header.sass */
     header.big hr {
       display: none; }
-    /* line 82, sass/_header.sass */
+    /* line 117, sass/_header.sass */
     header.big h1 {
       font-size: 57.6px;
       margin: -0.25em 0 6px;
       word-spacing: -12px; }
-      /* line 87, sass/_header.sass */
+      /* line 122, sass/_header.sass */
       header.big h1 em {
         font-family: "BodoniW01-PosterItalic", serif;
         font-size: 104px;
         font-style: normal;
         margin: 0;
         padding: 0 3px; }
-      /* line 94, sass/_header.sass */
+      /* line 129, sass/_header.sass */
       header.big h1 small {
         color: #548e85;
         font-family: "Adobe Caslon W01 Bd It", serif;
@@ -296,7 +331,7 @@ header {
         padding: 0 2.4px;
         text-transform: lowercase;
         vertical-align: 8px; }
-    /* line 103, sass/_header.sass */
+    /* line 138, sass/_header.sass */
     header.big nav {
       overflow: hidden;
       *zoom: 1;
@@ -304,46 +339,40 @@ header {
       border-bottom: 1px solid #888888;
       line-height: 1;
       padding: 12px 0 9.6px; }
-      /* line 111, sass/_header.sass */
+      /* line 146, sass/_header.sass */
       header.big nav li {
         letter-spacing: -1px;
         margin: 0 0.9em; }
-        /* line 115, sass/_header.sass */
-        header.big nav li:first-child {
-          margin-left: 0; }
-        /* line 118, sass/_header.sass */
-        header.big nav li:last-child {
-          margin-right: 0; }
-    /* line 122, sass/_header.sass */
+    /* line 151, sass/_header.sass */
     header.big.bordered hr {
       display: block; }
-    /* line 125, sass/_header.sass */
+    /* line 154, sass/_header.sass */
     header.big.bordered h1 {
       margin-top: -43.2px; }
-      /* line 128, sass/_header.sass */
+      /* line 157, sass/_header.sass */
       header.big.bordered h1 em {
         background: white; }
-    /* line 131, sass/_header.sass */
+    /* line 160, sass/_header.sass */
     header.big.on_top_of_dark_background {
       text-shadow: #383838 0 0 25px; }
-      /* line 134, sass/_header.sass */
+      /* line 163, sass/_header.sass */
       header.big.on_top_of_dark_background h1 {
         color: white; }
-        /* line 137, sass/_header.sass */
+        /* line 166, sass/_header.sass */
         header.big.on_top_of_dark_background h1 small {
           color: white; }
-      /* line 141, sass/_header.sass */
+      /* line 170, sass/_header.sass */
       header.big.on_top_of_dark_background nav a {
         color: white; }
 
-/* line 20, sass/_chapter1.sass */
+/* line 19, sass/_chapter1.sass */
 .chapter-1 .company_photo {
   z-index: 1;
   -webkit-transition: opacity 0.3s;
   -moz-transition: opacity 0.3s;
   -o-transition: opacity 0.3s;
   transition: opacity 0.3s; }
-/* line 24, sass/_chapter1.sass */
+/* line 23, sass/_chapter1.sass */
 .chapter-1 .intro {
   margin-top: 80%;
   z-index: 3; }
