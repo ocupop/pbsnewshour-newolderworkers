@@ -16,23 +16,34 @@ require_once('header.php');
 
 <section class="intro">
   <div class="contents">
-    <p>
-      92% of Americans think there&rsquo;s a retirement crisis.
+    <img src="img/1/92percent.png" id="92percent">
+
+    <p class="first">
+      92% of Americans think<br>
+      there&rsquo;s a retirement crisis.
     </p>
 
-    <p>
+    <p class="second">
       And they&rsquo;re right.
     </p>
 
-    <p>
-      Over half of today&rsquo;s households won&rsquo;t have enough money for retirement.
+    <p class="third">
+      Over half of today&rsquo;s households<br>
+      won&rsquo;t have enough money for retirement.
     </p>
+
+    <img src="img/1/50percent.png" id="50percent">
   </div>
 </section>
 
-<section class="heading">
+<section class="chapter">
   <div class="contents">
-    <h2>Rethinking Retirement</h2>
+    <p>
+      Chapter One
+    </p>
+    <h2>
+      Rethinking Retirement
+    </h2>
   </div>
 </div>
 

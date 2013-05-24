@@ -12,5 +12,12 @@
     @include transition(opacity .3s)
 
   .intro
-    background: pink
     margin-top: 80%
+    text-align: center
+
+    p.first,
+    p.third
+      @extend .major
+
+    p.second
+      @extend .major-alt

@@ -19,7 +19,7 @@ body
 html
   background: white
   color: $dark
-  font-family: $font-family-body
+  font-family: $font-body
   font-size: $font-size
   line-height: $line
   -webkit-font-smoothing: antialiased
@@ -30,13 +30,14 @@ h3,
 h4,
 h5,
 h6
-  font-family: $font-family-heading
   font-weight: normal
   line-height: 1
 
-h1
-  font-size: $line*2
-  margin-bottom: $line
+h1,
+h2
+  font-family: $bodoni-poster
+  text-align: center
+  text-transform: uppercase
 
 h2
   font-size: $line*1.25
@@ -83,5 +84,24 @@ section
   img
     width: 100%
 
-.white_background
-  background: #fff
+.chapter
+  text-align: center
+
+  p
+    font-family: $font-chapter
+    text-transform: uppercase
+
+.major
+  font-family: $font-heading
+  font-size: 30px
+  text-transform: uppercase
+  line-height: 1.3
+
+.major-alt
+  @extend .major
+  border-top: 2px solid $dark
+  border-bottom: 2px solid $dark
+  font-size: 20px
+  margin: 0 auto
+  padding: .5em 0
+  width: 75% 
