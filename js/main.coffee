@@ -40,3 +40,20 @@ $(document).ready ()->
       $site_header.toggleClass 'big',   (pos_percent < 95)
       $site_header.toggleClass 'small', (pos_percent > 99)
       $site_header.toggleClass 'shown', (pos_percent > 100)
+
+
+  # Working in "Retirement"
+
+  working_in_retirement = {}
+
+  do ()->
+    $user_age = $('.user_age')
+    $how_long_work = $('.how_long_work')
+
+    # Toggle between "how long do you want to work" / are you retired already
+    do set_how_long_work = ()->
+      age = $user_age.val()
+      $how_long_work.toggleClass 'show_over_65', (age >= 65)
+
+    $user_age.on "keyup change", set_how_long_work
+

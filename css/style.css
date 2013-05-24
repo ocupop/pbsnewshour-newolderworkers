@@ -415,3 +415,16 @@ footer {
 .chapter-1-rethinking-retirement .intro {
   margin-top: 80%;
   z-index: 3; }
+
+/* line 2, sass/_chapter4.sass */
+.how_long_work .under_65 {
+  display: block; }
+/* line 4, sass/_chapter4.sass */
+.how_long_work .over_65 {
+  display: none; }
+/* line 8, sass/_chapter4.sass */
+.how_long_work.show_over_65 .under_65 {
+  display: none; }
+/* line 10, sass/_chapter4.sass */
+.how_long_work.show_over_65 .over_65 {
+  display: block; }
