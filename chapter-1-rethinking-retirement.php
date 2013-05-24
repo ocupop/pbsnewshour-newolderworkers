@@ -25,6 +25,12 @@ require_once('header.php');
   </div>
 </section>
 
+<section class="heading">
+  <div class="contents">
+    <h2>Rethinking Retirement</h2>
+  </div>
+</div>
+
 <section class="copy">
   <div class="contents">
     <p>

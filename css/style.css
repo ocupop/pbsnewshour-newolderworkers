@@ -151,7 +151,7 @@ section {
     width: 100%; }
 
 /* line 86, sass/_base.sass */
-.white_background, .chapter-1-rethinking-retirement .intro {
+.white_background {
   background: white; }
 
 /* line 1, sass/_grid.sass */
@@ -452,6 +452,7 @@ footer {
   transition: opacity 0.3s; }
 /* line 20, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement .intro {
+  background: pink;
   margin-top: 80%; }
 
 /* line 2, sass/_chapter4.sass */
