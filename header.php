@@ -2,11 +2,11 @@
 
 // All chapters.
 $chapters = array(
-  array( 'number' => '1', 'title' => 'Rethinking Retirement',               'slug' => 'chapter-1-rethinking-retirement' ),
-  array( 'number' => '2', 'title' => 'A Snapshot',                          'slug' => 'chapter-2-a-snapshot' ),
-  array( 'number' => '3', 'title' => 'Working for the Nest Egg',            'slug' => 'chapter-3-working-for-the-nest-egg' ),
-  array( 'number' => '4', 'title' => 'Working in &lsquo;Retirement&rsquo;', 'slug' => 'chapter-4-working-in-retirement' ),
-  array( 'number' => '5', 'title' => 'Moving Forward',                      'slug' => 'chapter-5-moving-forward' )
+  '1' => array( 'number' => '1', 'title' => 'Rethinking Retirement',               'slug' => 'chapter-1-rethinking-retirement' ),
+  '2' => array( 'number' => '2', 'title' => 'A Snapshot',                          'slug' => 'chapter-2-a-snapshot' ),
+  '3' => array( 'number' => '3', 'title' => 'Working for the Nest Egg',            'slug' => 'chapter-3-working-for-the-nest-egg' ),
+  '4' => array( 'number' => '4', 'title' => 'Working in &lsquo;Retirement&rsquo;', 'slug' => 'chapter-4-working-in-retirement' ),
+  '5' => array( 'number' => '5', 'title' => 'Moving Forward',                      'slug' => 'chapter-5-moving-forward' )
   );
 
 $current_chapter_number = $chapter;
