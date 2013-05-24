@@ -237,7 +237,7 @@ header.site_header {
         text-decoration: none; }
   /* line 39, sass/_header.sass */
   header.site_header.small {
-    background: rgba(0, 0, 0, 0.8);
+    background: #383838;
     height: 60px;
     overflow: hidden;
     margin-top: -1000px;
