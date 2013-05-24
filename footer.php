@@ -1,9 +1,21 @@
 <footer>
-  <nav>
-    <ul>
-      <li></li>
-    </ul>
-  </nav>
+  <div class="contents">
+    <nav>
+      <ul>
+        <?php
+        $prev_chapter = $current_chapter_number - 1;
+        $next_chapter = $current_chapter_number + 1;
+
+        if ($current_chapter_number != '1')
+          echo '<li class="prev"><a href="/' . $chapters[$prev_chapter]['slug'] . '"><strong>Previous</strong><span>' . $chapters[$prev_chapter]['title'] . '</span></a></li>';
+
+        if ($current_chapter_number != '5')
+          echo '<li class="next"><a href="/' . $chapters[$next_chapter]['slug'] . '"><strong>Next</strong><span>' . $chapters[$next_chapter]['title'] . '</span></a></li>';
+          
+        ?>
+      </ul>
+    </nav>
+  </div>
 </footer>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

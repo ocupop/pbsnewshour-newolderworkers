@@ -376,7 +376,19 @@ header.site_header {
 /* line 1, sass/_footer.sass */
 footer {
   background: #383838; }
-  /* line 4, sass/_footer.sass */
+  /* line 5, sass/_footer.sass */
+  footer nav ul {
+    overflow: hidden; }
+  /* line 8, sass/_footer.sass */
+  footer nav li {
+    display: block;
+    float: left;
+    padding: 2em 0;
+    width: 50%; }
+    /* line 16, sass/_footer.sass */
+    footer nav li a strong {
+      display: block; }
+  /* line 19, sass/_footer.sass */
   footer a {
     color: white; }
 

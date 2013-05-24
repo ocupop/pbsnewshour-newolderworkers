@@ -2,15 +2,15 @@
 
 // All chapters.
 $chapters = array(
-  '1' => array('title' => 'Rethinking Retirement',               'slug' => '1-rethinking-retirement' ),
-  '2' => array('title' => 'A Snapshot',                          'slug' => '2-a-snapshot' ),
-  '3' => array('title' => 'Working for the Nest Egg',            'slug' => '3-working-for-the-nest-egg' ),
-  '4' => array('title' => 'Working in &lsquo;Retirement&rsquo;', 'slug' => '4-working-in-retirement' ),
-  '5' => array('title' => 'Moving Forward',                      'slug' => '5-moving-forward' )
+  '1' => array('title' => 'Rethinking Retirement',               'slug' => 'chapter-1-rethinking-retirement' ),
+  '2' => array('title' => 'A Snapshot',                          'slug' => 'chapter-2-a-snapshot' ),
+  '3' => array('title' => 'Working for the Nest Egg',            'slug' => 'chapter-3-working-for-the-nest-egg' ),
+  '4' => array('title' => 'Working in &lsquo;Retirement&rsquo;', 'slug' => 'chapter-4-working-in-retirement' ),
+  '5' => array('title' => 'Moving Forward',                      'slug' => 'chapter-5-moving-forward' )
   );
 
-// Deduce the current chapter from the script name including this file.
-$current_chapter = $chapters[substr($_SERVER["PHP_SELF"], 1, 1)];
+$current_chapter_number = $chapter;
+$current_chapter = $chapters[$chapter];
 
 ?><!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -28,7 +28,7 @@ $current_chapter = $chapters[substr($_SERVER["PHP_SELF"], 1, 1)];
   <script type="text/javascript" src="http://fast.fonts.com/jsapi/9d4a68ce-e7a7-41f7-abd3-f2da36d975fa.js"></script>
 </head>
 
-<body class="chapter-<?php echo $current_chapter['slug']; ?>">
+<body class="<?php echo $current_chapter['slug']; ?>">
 
 <!--[if lt IE 8]><p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]-->
 
@@ -39,10 +39,10 @@ $current_chapter = $chapters[substr($_SERVER["PHP_SELF"], 1, 1)];
     <h1><small>The</small> <em>R</em><span>etiring</span> <small>of</small> <em>R</em><span>etirement</span></h1>
     <nav>
       <ul>
-<?php
-foreach ($chapters as $chapter)
-  echo "\t" . '<li><a href="/chapter-' . $chapter['slug'] . '">' . $chapter['title'] . '</a></li>' . "\n";
-?>
+        <?php
+        foreach ($chapters as $chapter)
+          echo '<li><a href="/' . $chapter['slug'] . '">' . $chapter['title'] . '</a></li>';
+        ?>
       </ul>
     </nav>
   </div>

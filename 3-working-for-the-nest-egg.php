@@ -1,4 +1,9 @@
-<?php require_once('header.php') ?>
+<?php
+
+$chapter = 3;
+require_once('header.php');
+
+?>
 
 <section class="intro">
   <div class="contents">
@@ -436,10 +441,5 @@
     </p>
   </div>
 </section>
-
-<footer>
-  <p><a href="chapter-2-a-snapshot">Previous Chapter: A Snapshot</a></p>
-  <p><a href="chapter-4-working-in-retirement">Next Chapter: Working in Retirement</a></p>
-</footer>
 
 <?php require_once('footer.php') ?>
