@@ -189,11 +189,20 @@ header.story_header {
     padding: 12em 0; }
   /* line 119, sass/_base.sass */
   .chapter_title p {
-    font-size: 16px; }
-  /* line 122, sass/_base.sass */
+    border-bottom: 2px solid #383838;
+    display: inline-block;
+    font-size: 14.4px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    padding: 0 1em 0.25em 1em; }
+  /* line 127, sass/_base.sass */
   .chapter_title h2 {
-    font-size: 44px; }
-  /* line 126, sass/_base.sass */
+    font-size: 44px;
+    margin: 0; }
+  /* line 132, sass/_base.sass */
+  .chapter_title.on_dark_background p, .chapter-1-rethinking-retirement article .chapter_title p {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.6); }
+  /* line 135, sass/_base.sass */
   .chapter_title.on_dark_background p, .chapter-1-rethinking-retirement article .chapter_title p,
   .chapter_title.on_dark_background h2,
   .chapter-1-rethinking-retirement article .chapter_title h2 {
