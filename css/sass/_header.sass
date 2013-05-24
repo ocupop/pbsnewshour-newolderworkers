@@ -9,7 +9,7 @@ header.story_header
     margin: 0
 
   nav li
-    float: left
+    display: inline-block
 
     &:first-child
       margin-left: 0
@@ -32,8 +32,9 @@ header.site_header
   height: 60px
   overflow: hidden
   margin-top: -1000px
-  padding: .7em 0 .5em 0
+  padding: .5em 0 .5em 0
   opacity: 1 !important
+  text-align: center
   z-index: 4
   @include transition(all .5s)
 
@@ -43,43 +44,46 @@ header.site_header
   .contents
     padding: 0
 
-  p
+  a.pbs
     background: image-url('pbs-light_background.svg') no-repeat left top
     background-size: contain
     float: left
-    margin-right: 1em
+    margin: .2em 1em 0 0
     width: 38px
     height: 38px
     text-indent: -10000px
 
-  h1
-    color: $light
-    font-family: 'Bodoni W01 Poster'
-    font-size: $font-size*0.8
-    font-weight: normal
-    line-height: 1
-    margin: 0
-
-    em
-      font-family: 'BodoniW01-PosterItalic', serif
-      font-size: $font-size
-      font-style: normal
-
-    small
+  a.title
+    text-decoration: none
+  
+    h1
       color: $light
-      font-family: 'Adobe Caslon W01 Bd It', serif
-      font-size: $font-size*0.9
-      font-style: normal
-      padding: 0 $line/10
-      text-transform: lowercase
+      font-family: 'Bodoni W01 Poster'
+      font-size: $font-size
+      font-weight: normal
+      line-height: 1
+      margin: 0
+
+      em
+        font-family: 'BodoniW01-PosterItalic', serif
+        font-size: $font-size*1.2
+        font-style: normal
+
+      small
+        color: $light
+        font-family: 'Adobe Caslon W01 Bd It', serif
+        font-size: $font-size
+        font-style: normal
+        padding: 0 $line/10
+        text-transform: lowercase
 
   nav
     font-family: Helvetica, sans-serif
-    font-size: 12px
+    font-size: 11px
     margin-top: .25em
 
     li
-      margin: 0 0.3em
+      margin: 0 0.6em
 
       a
         color: $light

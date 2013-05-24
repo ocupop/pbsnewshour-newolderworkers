@@ -34,8 +34,8 @@ $current_chapter = $chapters[$chapter];
 
 <header class="site_header">
   <div class="contents">
-    <p>PBS NewsHour</p>
-    <h1><small>The</small> <em>R</em><span>etiring</span> <small>of</small> <em>R</em><span>etirement</span></h1>
+    <a class="pbs">PBS</a>
+    <a class="title" href="./"><h1><small>The</small> <em>R</em><span>etiring</span> <small>of</small> <em>R</em><span>etirement</span></h1></a>
     <nav>
       <ul>
         <?php
