@@ -37,6 +37,6 @@ $(document).ready ()->
     rethinking_retirement.shrink_header = ()->
       pos_percent = pos / $window_height * 100
 
-      $site_header.toggleClass 'big',   (pos_percent < 95)
-      $site_header.toggleClass 'small', (pos_percent > 99)
+      $site_header.toggleClass 'big',   (pos_percent < 90)
+      $site_header.toggleClass 'small', (pos_percent > 90)
       $site_header.toggleClass 'shown', (pos_percent > 100)
