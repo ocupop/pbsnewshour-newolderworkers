@@ -161,21 +161,44 @@ header.story_header {
     text-transform: uppercase; }
 
 /* line 94, sass/_base.sass */
-.major, .major-alt, .chapter-1-rethinking-retirement .intro p.second, .chapter-1-rethinking-retirement .intro p.first,
-.chapter-1-rethinking-retirement .intro p.third {
+.major, .major-alt, .chapter-1-rethinking-retirement article .intro p.second, .chapter-1-rethinking-retirement article .intro p.first,
+.chapter-1-rethinking-retirement article .intro p.third {
   font-family: "Proxima N W01 Bold", "Century Gothic", Helvetica, Arial, sans-serif;
   font-size: 30px;
   text-transform: uppercase;
   line-height: 1.3; }
 
 /* line 100, sass/_base.sass */
-.major-alt, .chapter-1-rethinking-retirement .intro p.second {
+.major-alt, .chapter-1-rethinking-retirement article .intro p.second {
   border-top: 2px solid #383838;
   border-bottom: 2px solid #383838;
   font-size: 20px;
   margin: 0 auto;
   padding: 0.5em 0;
   width: 75%; }
+
+/* line 109, sass/_base.sass */
+.chapter_title {
+  text-align: center;
+  text-transform: uppercase;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; }
+  /* line 116, sass/_base.sass */
+  .chapter_title .contents {
+    padding: 12em 0; }
+  /* line 119, sass/_base.sass */
+  .chapter_title p {
+    font-size: 16px; }
+  /* line 122, sass/_base.sass */
+  .chapter_title h2 {
+    font-size: 44px; }
+  /* line 126, sass/_base.sass */
+  .chapter_title.on_dark_background p, .chapter-1-rethinking-retirement article .chapter_title p,
+  .chapter_title.on_dark_background h2,
+  .chapter-1-rethinking-retirement article .chapter_title h2 {
+    color: white;
+    text-shadow: #383838 0 0 25px; }
 
 /* line 1, sass/_grid.sass */
 .half, .twothirds, .onethird, .threefourths, .onefourth {
@@ -423,9 +446,9 @@ header.story_header {
     header.story_header.bordered h1 em {
       background: white; }
   /* line 183, sass/_header.sass */
-  header.story_header.on_dark_background h1, .chapter-1-rethinking-retirement header.story_header h1,
+  header.story_header.on_dark_background h1, .chapter-1-rethinking-retirement article header.story_header h1,
   header.story_header.on_dark_background h1 small,
-  .chapter-1-rethinking-retirement header.story_header h1 small {
+  .chapter-1-rethinking-retirement article header.story_header h1 small {
     color: white; }
 
 /* line 1, sass/_footer.sass */
@@ -480,23 +503,26 @@ footer {
     color: white; }
 
 /* line 2, sass/_chapter1.sass */
-.chapter-1-rethinking-retirement header.story_header {
+.chapter-1-rethinking-retirement article header.story_header {
   z-index: 2; }
   /* line 6, sass/_chapter1.sass */
-  .chapter-1-rethinking-retirement header.story_header h1 {
+  .chapter-1-rethinking-retirement article header.story_header h1 {
     text-shadow: #383838 0 0 25px;
     margin-top: 4em; }
 /* line 10, sass/_chapter1.sass */
-.chapter-1-rethinking-retirement .company_photo {
+.chapter-1-rethinking-retirement article .company_photo {
   z-index: 1;
   -webkit-transition: opacity 0.3s;
   -moz-transition: opacity 0.3s;
   -o-transition: opacity 0.3s;
   transition: opacity 0.3s; }
 /* line 14, sass/_chapter1.sass */
-.chapter-1-rethinking-retirement .intro {
+.chapter-1-rethinking-retirement article .intro {
   margin-top: 80%;
   text-align: center; }
+/* line 25, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .chapter_title {
+  background-image: url('../img/1/path.jpg?1369435802'); }
 
 /* line 2, sass/_chapter4.sass */
 .how_long_work .under_65 {

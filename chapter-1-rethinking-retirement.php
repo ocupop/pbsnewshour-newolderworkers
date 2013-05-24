@@ -36,7 +36,7 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="chapter">
+<section class="chapter_title">
   <div class="contents">
     <p>
       Chapter One
@@ -45,7 +45,7 @@ require_once('header.php');
       Rethinking Retirement
     </h2>
   </div>
-</div>
+</section>
 
 <section class="copy">
   <div class="contents">

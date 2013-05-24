@@ -1,3 +1,5 @@
+</article>
+
 <footer>
   <div class="contents">
     <nav>
