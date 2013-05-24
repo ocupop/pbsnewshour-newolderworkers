@@ -32,7 +32,7 @@ $current_chapter = $chapters[$chapter];
 
 <!--[if lt IE 8]><p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]-->
 
-<header class="site_header">
+<header class="site_header <?php echo $current_chapter !== '1' ? 'shown' : null; ?>">
   <div class="contents">
     <a class="pbs">PBS</a>
     <a class="title" href="./"><h1><small>The</small> <em>R</em><span>etiring</span> <small>of</small> <em>R</em><span>etirement</span></h1></a>
