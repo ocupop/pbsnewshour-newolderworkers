@@ -196,6 +196,12 @@ header.story_header {
   max-width: 1000px;
   padding: 24px 10px; }
 
+/* line 1, sass/_mixins.sass */
+header.site_header nav li:hover:after, header.site_header nav li.current_chapter:after {
+  content: "";
+  position: absolute;
+  left: 50%; }
+
 /* line 1, sass/_header.sass */
 header.site_header,
 header.story_header {
@@ -291,16 +297,28 @@ header.site_header {
     margin-top: 0.25em; }
     /* line 85, sass/_header.sass */
     header.site_header nav li {
-      margin: 0 0.6em; }
-      /* line 88, sass/_header.sass */
+      margin: 0 0.6em;
+      padding-bottom: 5px; }
+      /* line 89, sass/_header.sass */
       header.site_header nav li a {
         color: #aaaaaa;
-        padding: 0 0.3em; }
-      /* line 92, sass/_header.sass */
-      header.site_header nav li a:hover {
+        padding: 0 0.3em;
+        -webkit-transition: all, 0.2s;
+        -moz-transition: all, 0.2s;
+        -o-transition: all, 0.2s;
+        transition: all, 0.2s; }
+      /* line 17, sass/_mixins.sass */
+      header.site_header nav li:hover:after, header.site_header nav li.current_chapter:after {
+        bottom: 0;
+        margin-left: -7px;
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-bottom: 7px solid white; }
+      /* line 98, sass/_header.sass */
+      header.site_header nav li:hover a, header.site_header nav li.current_chapter a {
         color: white; }
 
-/* line 95, sass/_header.sass */
+/* line 101, sass/_header.sass */
 header.story_header {
   margin-top: 3em;
   text-align: center;
@@ -308,50 +326,50 @@ header.story_header {
   -moz-transition: opacity 0.3s;
   -o-transition: opacity 0.3s;
   transition: opacity 0.3s; }
-  /* line 100, sass/_header.sass */
+  /* line 106, sass/_header.sass */
   header.story_header p,
   header.story_header hr,
   header.story_header h1 span,
   header.story_header h1 em {
     position: relative; }
-  /* line 106, sass/_header.sass */
+  /* line 112, sass/_header.sass */
   header.story_header hr {
     z-index: 1; }
-  /* line 109, sass/_header.sass */
+  /* line 115, sass/_header.sass */
   header.story_header h1 em {
     z-index: 2; }
-  /* line 112, sass/_header.sass */
+  /* line 118, sass/_header.sass */
   header.story_header p,
   header.story_header h1 span,
   header.story_header h1 small,
   header.story_header nav {
     z-index: 3; }
-  /* line 118, sass/_header.sass */
+  /* line 124, sass/_header.sass */
   header.story_header p {
     margin-bottom: 30px; }
-    /* line 121, sass/_header.sass */
+    /* line 127, sass/_header.sass */
     header.story_header p:before, header.story_header p:after {
       color: #548e85;
       content: "★";
       font-size: 9.6px;
       padding: 0 6px;
       vertical-align: 4.8px; }
-  /* line 129, sass/_header.sass */
+  /* line 135, sass/_header.sass */
   header.story_header hr {
     display: none; }
-  /* line 132, sass/_header.sass */
+  /* line 138, sass/_header.sass */
   header.story_header h1 {
     font-size: 57.6px;
     margin: -0.25em 0 6px;
     word-spacing: -12px; }
-    /* line 137, sass/_header.sass */
+    /* line 143, sass/_header.sass */
     header.story_header h1 em {
       font-family: "BodoniW01-PosterItalic", serif;
       font-size: 104px;
       font-style: normal;
       margin: 0;
       padding: 0 3px; }
-    /* line 144, sass/_header.sass */
+    /* line 150, sass/_header.sass */
     header.story_header h1 small {
       color: #548e85;
       font-family: "Adobe Caslon W01 Bd It", serif;
@@ -360,7 +378,7 @@ header.story_header {
       padding: 0 2.4px;
       text-transform: lowercase;
       vertical-align: 8px; }
-  /* line 153, sass/_header.sass */
+  /* line 159, sass/_header.sass */
   header.story_header nav {
     overflow: hidden;
     *zoom: 1;
@@ -368,20 +386,20 @@ header.story_header {
     border-bottom: 1px solid #888888;
     line-height: 1;
     padding: 12px 0 9.6px; }
-    /* line 161, sass/_header.sass */
+    /* line 167, sass/_header.sass */
     header.story_header nav li {
       letter-spacing: -1px;
       margin: 0 0.9em; }
-  /* line 166, sass/_header.sass */
+  /* line 172, sass/_header.sass */
   header.story_header.bordered hr {
     display: block; }
-  /* line 169, sass/_header.sass */
+  /* line 175, sass/_header.sass */
   header.story_header.bordered h1 {
     margin-top: -43.2px; }
-    /* line 172, sass/_header.sass */
+    /* line 178, sass/_header.sass */
     header.story_header.bordered h1 em {
       background: white; }
-  /* line 176, sass/_header.sass */
+  /* line 182, sass/_header.sass */
   header.story_header.on_dark_background h1, .chapter-1-rethinking-retirement header.story_header h1,
   header.story_header.on_dark_background h1 small,
   .chapter-1-rethinking-retirement header.story_header h1 small {

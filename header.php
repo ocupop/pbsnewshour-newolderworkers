@@ -2,11 +2,11 @@
 
 // All chapters.
 $chapters = array(
-  '1' => array( 'title' => 'Rethinking Retirement',               'slug' => 'chapter-1-rethinking-retirement' ),
-  '2' => array( 'title' => 'A Snapshot',                          'slug' => 'chapter-2-a-snapshot' ),
-  '3' => array( 'title' => 'Working for the Nest Egg',            'slug' => 'chapter-3-working-for-the-nest-egg' ),
-  '4' => array( 'title' => 'Working in &lsquo;Retirement&rsquo;', 'slug' => 'chapter-4-working-in-retirement' ),
-  '5' => array( 'title' => 'Moving Forward',                      'slug' => 'chapter-5-moving-forward' )
+  array( 'number' => '1', 'title' => 'Rethinking Retirement',               'slug' => 'chapter-1-rethinking-retirement' ),
+  array( 'number' => '2', 'title' => 'A Snapshot',                          'slug' => 'chapter-2-a-snapshot' ),
+  array( 'number' => '3', 'title' => 'Working for the Nest Egg',            'slug' => 'chapter-3-working-for-the-nest-egg' ),
+  array( 'number' => '4', 'title' => 'Working in &lsquo;Retirement&rsquo;', 'slug' => 'chapter-4-working-in-retirement' ),
+  array( 'number' => '5', 'title' => 'Moving Forward',                      'slug' => 'chapter-5-moving-forward' )
   );
 
 $current_chapter_number = $chapter;
@@ -39,8 +39,11 @@ $current_chapter = $chapters[$chapter];
     <nav>
       <ul>
         <?php
-        foreach ($chapters as $chapter)
-          echo '<li><a href="/' . $chapter['slug'] . '.php">' . $chapter['title'] . '</a></li>';
+        foreach ($chapters as $chapter) {
+          echo '<li';
+          echo $current_chapter_number == $chapter['number'] ? ' class="current_chapter"' : null;
+          echo '><a href="/' . $chapter['slug'] . '.php">' . $chapter['title'] . '</a></li>';
+        }
         ?>
       </ul>
     </nav>
@@ -48,4 +51,3 @@ $current_chapter = $chapters[$chapter];
 </header>
 
 <article>
-
