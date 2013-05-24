@@ -32,10 +32,9 @@ $current_chapter = $chapters[$chapter];
 
 <!--[if lt IE 8]><p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]-->
 
-<header class="site_header <?php echo $current_chapter == '1' ? 'big' : 'small shown'; ?>">
+<header class="site_header">
   <div class="contents">
-    <p>PBS NewsHour Presents</p>
-    <hr>
+    <p>PBS NewsHour</p>
     <h1><small>The</small> <em>R</em><span>etiring</span> <small>of</small> <em>R</em><span>etirement</span></h1>
     <nav>
       <ul>

@@ -5,6 +5,11 @@ require_once('header.php');
 
 ?>
 
+<header class="story_header">
+  <p>PBS NewsHour Presents</p>
+  <h1><small>The</small> <em>R</em><span>etiring</span> <small>of</small> <em>R</em><span>etirement</span></h1>
+</header>
+
 <div class="bleed fixed company_photo">
   <img src="img/1/company_photo.jpg">
 </div>
