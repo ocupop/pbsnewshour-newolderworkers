@@ -20,12 +20,13 @@ $(document).ready ()->
   $window.on "resize", ()->
     $window_height = $window.height()
 
+
   # Rethinking Retirement
   rethinking_retirement = {}
 
   do ()->
     $company_photo = $('.company_photo')
-    $site_header = $('.site_header')
+    $site_header = $('.chapter-1-rethinking-retirement .site_header')
 
     rethinking_retirement.fade_header = ()->
       factor = 0
@@ -43,7 +44,6 @@ $(document).ready ()->
 
 
   # Working in "Retirement"
-
   working_in_retirement = {}
 
   do ()->
