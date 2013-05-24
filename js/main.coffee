@@ -15,24 +15,28 @@ $(document).ready ()->
       $window.one 'scroll', onScroll
     , 200
 
+  $window_height = $window.height()
+
+  $window.on "resize", ()->
+    $window_height = $window.height()
+
   # Rethinking Retirement
   rethinking_retirement = {}
 
   do ()->
     $company_photo = $('.company_photo')
-    company_photo_height = $company_photo.find('img').height()
     $site_header = $('.site_header')
-
-    $window.on "resize", ()->
-      company_photo_height = $company_photo.find('img').height()
 
     rethinking_retirement.fade_header = ()->
       factor = 0
       offset = 0
-      if company_photo_height > pos
-        $company_photo.css {opacity: (1 + factor) * (offset + company_photo_height - pos) / company_photo_height }
-        $site_header.css {opacity: 1 * (100 + company_photo_height - pos) / company_photo_height }
+      if $window_height > pos
+        $company_photo.css {opacity: (1 + factor) * (offset + $window_height - pos) / $window_height }
+        $site_header.css {opacity: 1 * (100 + $window_height - pos) / $window_height }
 
     rethinking_retirement.shrink_header = ()->
-      company_photo_height = $company_photo.find('img').height()
-      $site_header.toggleClass('small', (pos > company_photo_height))
+      pos_percent = pos / $window_height * 100
+
+      $site_header.toggleClass 'big',   (pos_percent < 95)
+      $site_header.toggleClass 'small', (pos_percent > 99)
+      $site_header.toggleClass 'shown', (pos_percent > 100)
