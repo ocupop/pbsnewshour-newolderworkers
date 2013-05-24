@@ -375,20 +375,52 @@ header.site_header {
 
 /* line 1, sass/_footer.sass */
 footer {
-  background: #383838; }
-  /* line 5, sass/_footer.sass */
+  background: #383838;
+  padding: 1.5em 0;
+  z-index: 2; }
+  /* line 7, sass/_footer.sass */
   footer nav ul {
     overflow: hidden; }
-  /* line 8, sass/_footer.sass */
+  /* line 10, sass/_footer.sass */
   footer nav li {
     display: block;
-    float: left;
-    padding: 2em 0;
+    font-family: "Bodoni MT W01";
+    text-align: center;
+    text-transform: uppercase;
     width: 50%; }
-    /* line 16, sass/_footer.sass */
-    footer nav li a strong {
-      display: block; }
-  /* line 19, sass/_footer.sass */
+    /* line 17, sass/_footer.sass */
+    footer nav li.previous {
+      background: url('../img/chapter-previous.svg?1369355902') 30px center no-repeat;
+      float: left; }
+    /* line 21, sass/_footer.sass */
+    footer nav li.next {
+      background: url('../img/chapter-next.svg?1369351919') 400px center no-repeat;
+      float: right; }
+    /* line 25, sass/_footer.sass */
+    footer nav li a {
+      color: white;
+      text-decoration: none; }
+      /* line 29, sass/_footer.sass */
+      footer nav li a .label {
+        border-bottom: 2px solid #aaaaaa;
+        color: #aaaaaa;
+        display: inline-block;
+        padding-bottom: 0;
+        font-size: 19.2px; }
+      /* line 36, sass/_footer.sass */
+      footer nav li a .chapter_title {
+        display: block;
+        font-size: 30px;
+        line-height: 1.1;
+        margin: 0.5em auto 0 auto;
+        width: 60%; }
+      /* line 43, sass/_footer.sass */
+      footer nav li a:hover {
+        color: #548e85; }
+        /* line 46, sass/_footer.sass */
+        footer nav li a:hover .label {
+          border-bottom-color: #548e85; }
+  /* line 49, sass/_footer.sass */
   footer a {
     color: white; }
 
