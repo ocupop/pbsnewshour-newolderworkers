@@ -1,7 +1,0 @@
-Options FollowSymLinks MultiViews
-
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteBase /
-RewriteRule ^chapter-([0-9A-Za-z\-]+)/?$ /$1.php [L]
-</IfModule>

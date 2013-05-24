@@ -41,7 +41,7 @@ $current_chapter = $chapters[$chapter];
       <ul>
         <?php
         foreach ($chapters as $chapter)
-          echo '<li><a href="/' . $chapter['slug'] . '">' . $chapter['title'] . '</a></li>';
+          echo '<li><a href="/' . $chapter['slug'] . '.php">' . $chapter['title'] . '</a></li>';
         ?>
       </ul>
     </nav>
