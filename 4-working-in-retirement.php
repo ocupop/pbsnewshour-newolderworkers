@@ -52,7 +52,7 @@ require_once('header.php');
 <section class="question how_long_work">
   <div class="contents">
     <label>How old are you?</label>
-    <input type="num" min="13" max="116" name="entry.1280847796" id="entry_1280847796">
+    <input type="number" min="13" max="116" name="entry.1280847796" id="entry_1280847796" class="user_age">
 
     <div class="under_65">
       <p>If you are under 65 and not yet fully retired, how long do you WANT to work?</p>
