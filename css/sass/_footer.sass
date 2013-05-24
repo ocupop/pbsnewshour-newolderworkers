@@ -1,20 +1,50 @@
 footer
   background: $dark
+  padding: 1.5em 0
+  z-index: 2
 
   nav
     ul
       overflow: hidden
 
-    li  
+    li
       display: block
-      float: left
-      padding: 2em 0
+      font-family: 'Bodoni MT W01'
+      text-align: center
+      text-transform: uppercase
       width: 50%
 
-      a
+      &.previous
+        background: image-url('chapter-previous.svg') 30px center no-repeat
+        float: left
 
-        strong
+      &.next
+        background: image-url('chapter-next.svg') 400px center no-repeat
+        float: right
+
+      a
+        color: #fff
+        text-decoration: none
+
+        .label
+          border-bottom: 2px solid $light
+          color: $light
+          display: inline-block
+          padding-bottom: 0
+          font-size: $line*0.8
+
+        .chapter_title
           display: block
+          font-size: $line*1.25
+          line-height: 1.1
+          margin: .5em auto 0 auto
+          width: 60%
+
+        &:hover
+          color: $green
+
+          .label
+            border-bottom-color: $green
 
   a
     color: #fff

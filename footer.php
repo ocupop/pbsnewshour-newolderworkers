@@ -3,14 +3,14 @@
     <nav>
       <ul>
         <?php
-        $prev_chapter = $current_chapter_number - 1;
+        $previous_chapter = $current_chapter_number - 1;
         $next_chapter = $current_chapter_number + 1;
 
         if ($current_chapter_number != '1')
-          echo '<li class="prev"><a href="/' . $chapters[$prev_chapter]['slug'] . '"><strong>Previous</strong><span>' . $chapters[$prev_chapter]['title'] . '</span></a></li>';
+          echo '<li class="previous"><a href="/' . $chapters[$previous_chapter]['slug'] . '"><span class="label">Previous</span><span class="chapter_title">' . $chapters[$previous_chapter]['title'] . '</span></a></li>';
 
         if ($current_chapter_number != '5')
-          echo '<li class="next"><a href="/' . $chapters[$next_chapter]['slug'] . '"><strong>Next</strong><span>' . $chapters[$next_chapter]['title'] . '</span></a></li>';
+          echo '<li class="next"><a href="/' . $chapters[$next_chapter]['slug'] . '"><span class="label">Next</span><span class="chapter_title">' . $chapters[$next_chapter]['title'] . '</span></a></li>';
           
         ?>
       </ul>
