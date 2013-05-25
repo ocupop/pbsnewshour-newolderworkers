@@ -47,7 +47,7 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="copy percentage_of_workers">
+<section class="percentage_of_workers">
   <div class="contents">
     <p>
       The percentage of workers<br>
@@ -67,16 +67,22 @@ require_once('header.php');
 
 <section class="copy increase_of_workers">
   <div class="contents">
-    <p>
-      The increase of workers 65 and older is due to a variety of factors&mdash;the  implications of living longer chief among them.
+    <p class="first">
+      The increase of workers
+      <span>
+        <strong>65+</strong>
+      </span>
+      is due to a variety of factors&mdash;the  implications of living longer chief among them.
     </p>
-  </div>
-</section>
 
-<section class="copy">
-  <div class="contents">
-    <p>
-      Nearly four in ten adults working past the median retirement age of 62 say it is because of the Great Recession.
+    <p class="second">
+      Nearly
+      <span>
+        <strong>4</strong>
+        in
+        <strong>10</strong>
+      </span>
+      adults working past the median retirement age of 62 say it is because of the Great Recession.
     </p>
   </div>
 </section>

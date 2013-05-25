@@ -84,3 +84,30 @@
         left: 804px
         top: -63px
 
+  .increase_of_workers
+    @include clearfix
+    @extend .background-image
+    background-image: image-url('1/grumpy_man.jpg')
+    background-position: 70% center
+    padding: 3em 6em
+
+    p
+      @include boxed(#fff, left)
+      @extend .onethird
+      clear: left
+      text-align: center
+
+      span
+        @extend .bordered
+        display: block
+        line-height: 1
+        margin: .25em 0 .5em
+        padding: .75em 0 .75em
+        width: 100%
+
+        strong
+          display: inline-block
+          font-family: $bodoni-poster-italic
+          font-size: 60px
+          margin: 0 .1em
+
