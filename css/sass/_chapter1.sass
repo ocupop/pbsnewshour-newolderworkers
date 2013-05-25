@@ -48,6 +48,8 @@
       padding: .5em .75em
       text-align: center
       position: absolute
+      opacity: 0
+      margin-top: 10px
       @include triangle-bottom(4px, rgba(0, 0, 0, .8), down)
       @include transition(all, .3s)
 
@@ -55,6 +57,10 @@
         display: block
         font-family: $bodoni-poster-italic
         font-size: $font-size*1.5
+
+      &.active
+        margin-top: 0
+        opacity: 1
 
       &#expectation_chart-data_point-1
         left: 157px
