@@ -47,8 +47,9 @@ $(document).ready ()->
 
     rethinking_retirement.snag_monument = ()->
       # TODO - use generalized parallax tool
-      scroll_factor = -5
-      $chapter_title.css('background-position-y', "#{(pos - chapter_title_top) * scroll_factor / chapter_title_top * 100}%" )
+      scroll_factor = -0.7
+      # console.log pos, chapter_title_top, $window_height, "#{(pos - chapter_title_top) * scroll_factor / ($window_height) * 100}%"
+      $chapter_title.css('background-position-y', "#{(pos + ($window_height * scroll_factor)  - chapter_title_top) * scroll_factor / ($window_height) * 100}%" )
 
   # Working in "Retirement"
   working_in_retirement = {}
