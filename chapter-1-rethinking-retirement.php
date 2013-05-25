@@ -87,30 +87,6 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="copy half_of_american_households">
-  <div class="contents">
-    <p>
-      Half of American households have less than $10,000 in savings.
-    </p>
-  </div>
-</section>
-
-<section class="copy one_in_four_workers">
-  <div class="contents">
-    <div>
-      <p class="first">
-        Nearly one in four workers will be over<br>
-        the age of 55 by 2016.
-      </p>
-      <p class="second">
-        Why? Mainly because older Americans are<br>
-        working longer, and there are more of them.<br>
-        (The Baby Boom, remember.)
-      </p>
-    </div>
-  </div>
-</section>
-
 <section class="copy">
   <div class="contents">
     <p>
@@ -162,24 +138,49 @@ require_once('header.php');
   </div>
 </section>
 
+<!--
 <section class="data">
   <div class="contents">
-    <!--
     note: these responses match the options from our survey. Answers can be loaded into larger age range groups based on EBRI below.
 
     the survey: http://www.pbs.org/newshour/businessdesk/2013/03/how-long-will-you-work.html
-    -->
+  </div>
+</section>
+-->
+
+<section class="copy one_in_four_workers">
+  <div class="contents">
+    <div>
+      <p class="first">
+        Nearly one in four workers will be over<br>
+        the age of 55 by 2016.
+      </p>
+      <p class="second">
+        Why? Mainly because older Americans are<br>
+        working longer, and there are more of them.<br>
+        (The Baby Boom, remember.)
+      </p>
+    </div>
   </div>
 </section>
 
-<section class="quotation">
+<section class="quotation working_about_the_right_amount">
   <div class="contents">
-    <q>
-      I am working about the right amount. I want to contribute and keep alert. Note however, though I may wake up every morning sharp as a tack, some days I&rsquo;m not sure which end it is. ;-)
-    </q>
-    <cite>
-      Robert A. Martin, J.D., 76 and working part-time as a consultant.
-    </cite>
+    <blockquote>
+      <p>I am working about the right amount. I want to contribute and keep alert. Note however, though I may wake up every morning sharp as a tack, some days I&rsquo;m not sure which end it is. ;-)</p>
+      <cite class="robert_a_martin">
+        <strong>Robert A. Martin, J.D.</strong>
+        76 and working part-time as a consultant.
+      </cite>
+    </blockquote>
+  </div>
+</section>
+
+<section class="copy half_of_american_households">
+  <div class="contents">
+    <p>
+      Half of American households have less than $10,000 in savings.
+    </p>
   </div>
 </section>
 
@@ -222,18 +223,20 @@ require_once('header.php');
   </div>
 </section>
 
+<!--
 <section class="data">
   <div class="contents">
     [Labor Force Participation Rates by Age Group, January 1993&ndash;January 2013 attachment. Most interesting: rate of change year over year for each age group. 75+ is dramatic]
   </div>
 </section>
+-->
 
 <section class="copy outro">
   <div class="contents">
-    <p>
+    <p class="first">
       Is retirement as we know it becoming a thing of the past? How long are we likely to work and why? Will we be happy on the job, or miserable and counting the dollars and days until retirement? We&rsquo;ve spent much of the past year looking at the factors&mdash;demography, economics, and just plain personal preference&mdash;that help explain what&rsquo;s happening to the American workforce as it ages.
     </p>
-    <p>
+    <p class="second">
       So what&rsquo;s going on? And what do statistics say about where you fit into the picture?
     </p>
   </div>
