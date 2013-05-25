@@ -27,7 +27,7 @@
       margin-bottom: - $size
     @else
       border-bottom: $size solid $color
-      
+
 @mixin triangle-left($size, $color, $position: 50%)
   &:before
     content: ""
@@ -78,3 +78,24 @@
     margin: .75em auto 0
     width: 50px
     border-bottom: 2px solid $dark
+
+
+@mixin animation($string)
+  -webkit-animation: $string
+  -moz-animation:    $string
+  -o-animation:      $string
+  animation:         $string
+
+
+@mixin keyframes($name)
+  @-webkit-keyframes $name
+    @content
+
+  @-moz-keyframes $name
+    @content
+
+  @-o-keyframes $name
+    @content
+
+  @keyframes $name
+    @content

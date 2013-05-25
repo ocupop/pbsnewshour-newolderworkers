@@ -16,7 +16,19 @@ require_once('header.php');
 
 <section class="intro">
   <div class="contents">
-    <img src="img/1/92percent.png" id="92percent">
+    <div class="percent_92">
+      <svg width="100" height="100">
+        <clipPath id="circle_mask">
+          <circle cx="50" cy="50" r="50" />
+        </clipPath>
+        <g clip-path="url(#circle_mask)">
+          <rect x="0" y="0" width="100" height="100" fill="#383838"/>
+          <rect fill="#528f85" x="50" y="0" width="50" height="100"/>
+          <rect class="pie_slice" fill="#528f85" x="0" y="0" width="50" height="100"/>
+        </g>
+      </svg>
+      <img src="img/1/92percent.png" id="92percent">
+    </div>
 
     <p class="first">
       <strong>92%</strong> of Americans think<br>
@@ -31,8 +43,20 @@ require_once('header.php');
       Over <strong>half</strong> of today&rsquo;s households<br>
       won&rsquo;t have enough money for retirement.
     </p>
+    <div class="percent_50">
+      <svg width="100" height="100">
+        <clipPath id="circle_mask_2">
+          <circle cx="50" cy="50" r="50" />
+        </clipPath>
+        <g clip-path="url(#circle_mask_2)">
+          <rect x="0" y="0" width="100" height="100" fill="#383838"/>
+          <rect class="pie_slice" fill="#528f85" x="50" y="0" width="50" height="100"/>
+          <rect fill="#383838" x="0" y="0" width="50" height="100"/>
+        </g>
+      </svg>
+      <img src="img/1/50percent.png" id="50percent">
+    </div>
 
-    <img src="img/1/50percent.png" id="50percent">
   </div>
 </section>
 

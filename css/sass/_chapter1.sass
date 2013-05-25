@@ -39,6 +39,27 @@
       @extend .major
       @extend .bordered
 
+  .pie_slice
+    @include transform-origin(50px, 50px)
+    @include transform(rotate(-180deg))
+    @include transition(transform 2s)
+
+  .percent_50, .percent_92
+    width: 100px
+    height: 100px
+    margin: 0 auto
+    // leave image for polyfilling if necessary
+    img
+      display: none
+
+  .active
+    .percent_92 .pie_slice
+      @include transform(rotate(-20deg))
+
+    .percent_50 .pie_slice
+      @include transform(rotate(0deg))
+
+
   .expectation_chart
     background: image-url('1/expectation_chart.svg') left top no-repeat
     background-size: contain

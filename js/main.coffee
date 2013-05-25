@@ -11,11 +11,12 @@ $(document).ready ()->
 
       rethinking_retirement.fade_header()
       rethinking_retirement.shrink_header()
+      rethinking_retirement.animate_pies()
       rethinking_retirement.snag_monument()
       rethinking_retirement.show_data_points()
 
       $window.one 'scroll', onScroll
-    , 10
+    , 100
 
   $window_height = $window.height()
 
@@ -29,14 +30,18 @@ $(document).ready ()->
   rethinking_retirement = {}
 
   do ()->
-    $company_photo = $('.company_photo')
-    $site_header = $('.chapter-1-rethinking-retirement .site_header')
-    $story_header = $('.chapter-1-rethinking-retirement .story_header')
-    $chapter_title = $('.chapter_title')
+    $chapter = $('.chapter-1-rethinking-retirement')
+    $company_photo = $('.company_photo', $chapter)
+    $site_header = $('.site_header', $chapter)
+    $story_header = $('.story_header', $chapter)
+    $chapter_title = $('.chapter_title', $chapter)
+    $intro = $('.intro', $chapter)
+    intro_top = $intro.offset().top
     chapter_title_top = $chapter_title.offset().top
-    $expectation_chart = $('.expectation_chart')
+    $expectation_chart = $('.expectation_chart', $chapter)
     expectation_chart_top = $expectation_chart.offset().top
-    $expectation_chart_points = $('.expectation_chart .data_point')
+    $expectation_chart_points = $('.data_point', $expectation_chart)
+
 
     rethinking_retirement.fade_header = ()->
       factor = 0
@@ -48,6 +53,9 @@ $(document).ready ()->
     rethinking_retirement.shrink_header = ()->
       pos_percent = pos / $window_height * 100
       $site_header.toggleClass 'shown', (pos_percent > 100)
+
+    rethinking_retirement.animate_pies = ()->
+      $intro.toggleClass "active", (pos > chapter_title_top - $window_height)
 
     rethinking_retirement.snag_monument = ()->
       # TODO - use generalized parallax tool
