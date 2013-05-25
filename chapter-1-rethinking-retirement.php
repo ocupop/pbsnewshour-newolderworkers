@@ -87,7 +87,7 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="copy half_of_america_households">
+<section class="copy half_of_american_households">
   <div class="contents">
     <p>
       Half of American households have less than $10,000 in savings.
@@ -99,7 +99,8 @@ require_once('header.php');
   <div class="contents">
     <div>
       <p class="first">
-        Nearly one in four workers will be over the age of 55 by 2016.
+        Nearly one in four workers will be over<br>
+        the age of 55 by 2016.
       </p>
       <p class="second">
         Why? Mainly because older Americans are<br>
