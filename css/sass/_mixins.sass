@@ -49,3 +49,13 @@
     border-bottom: $size solid transparent
     border-left: $size solid $color
     margin-right: - ($size)
+
+@mixin boxed($color, $position)
+  background: $color
+  margin-top: 2em
+  margin-bottom: 2em
+  padding: 2em
+  @if $position == "left"
+    float: left
+  @if $position == "right"
+    float: right

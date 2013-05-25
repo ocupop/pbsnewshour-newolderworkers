@@ -46,7 +46,9 @@ $(document).ready ()->
       $site_header.toggleClass 'shown', (pos_percent > 100)
 
     rethinking_retirement.snag_monument = ()->
-      $chapter_title.css('background-position-y', "#{(pos - chapter_title_top) * -5 / chapter_title_top * 100}%" )
+      # TODO - use generalized parallax tool
+      scroll_factor = -5
+      $chapter_title.css('background-position-y', "#{(pos - chapter_title_top) * scroll_factor / chapter_title_top * 100}%" )
 
   # Working in "Retirement"
   working_in_retirement = {}
