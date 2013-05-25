@@ -21,7 +21,60 @@
 
     p.second
       @extend .major-alt
+      @extend .bordered
 
   .chapter_title
     @extend .on_dark_background
     background-image: image-url('1/path.jpg')
+
+  .percentage_of_workers
+    p
+      @extend .major
+      @extend .bordered
+
+  .expectation_chart
+    background: image-url('1/expectation_chart.svg') left top no-repeat
+    background-size: contain
+    margin: 5em auto 2em auto
+    width: 90%
+    height: 280px
+    position: relative
+
+    .data_point
+      background: rgba(0, 0, 0, .8)
+      border-radius: 2px
+      color: #fff
+      display: inline-block
+      padding: .5em .75em
+      text-align: center
+      position: absolute
+      @include triangle-bottom(4px, rgba(0, 0, 0, .8), down)
+      @include transition(all, .3s)
+
+      strong
+        display: block
+        font-family: $bodoni-poster-italic
+        font-size: $font-size*1.5
+
+      &#expectation_chart-data_point-1
+        left: 157px
+        top: 80px
+
+      &#expectation_chart-data_point-2
+        left: 319px
+        top: 46px
+
+      &#expectation_chart-data_point-3
+        left: 475px
+        top: 38px
+
+      &#expectation_chart-data_point-4
+        left: 642px
+        top: 2px
+
+      &#expectation_chart-data_point-5
+        background: $green
+        @include triangle-bottom(4px, $green, down)
+        left: 804px
+        top: -63px
+

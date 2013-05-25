@@ -47,15 +47,25 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="copy">
+<section class="copy percentage_of_workers">
   <div class="contents">
     <p>
-      The percentage of workers who expect to work past 65 has more than tripled in 30 years. From 11% in 1991 to 17% in 1997; 18% in 2002; 24% in 2007; and now 36% in 2013.
+      The percentage of workers<br>
+      who expect to work past 65<br>
+      has more than tripled in 30 years.
     </p>
+
+    <div class="expectation_chart">
+      <div class="data_point" id="expectation_chart-data_point-1">from <strong>11%</strong> in 1991</div>
+      <div class="data_point" id="expectation_chart-data_point-2">to <strong>17%</strong> in 1997</div>
+      <div class="data_point" id="expectation_chart-data_point-3">to <strong>18%</strong> in 2002</div>
+      <div class="data_point" id="expectation_chart-data_point-4">to <strong>24%</strong> in 2007</div>
+      <div class="data_point" id="expectation_chart-data_point-5">and now <strong>36%</strong> in 2013</div>
+    </div>
   </div>
 </section>
 
-<section class="copy">
+<section class="copy increase_of_workers">
   <div class="contents">
     <p>
       The increase of workers 65 and older is due to a variety of factors&mdash;the  implications of living longer chief among them.

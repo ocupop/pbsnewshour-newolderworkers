@@ -161,33 +161,16 @@ header.story_header {
     text-transform: uppercase; }
 
 /* line 94, sass/_base.sass */
-.major, .major-alt, .chapter-1-rethinking-retirement article .intro p.second, .chapter-1-rethinking-retirement article .intro p.first,
-.chapter-1-rethinking-retirement article .intro p.third {
-  font-family: "Proxima N W01 Bold", "Century Gothic", Helvetica, Arial, sans-serif;
-  font-size: 30px;
-  text-transform: uppercase;
-  line-height: 1.3; }
-
-/* line 100, sass/_base.sass */
-.major-alt, .chapter-1-rethinking-retirement article .intro p.second {
-  border-top: 2px solid #383838;
-  border-bottom: 2px solid #383838;
-  font-size: 20px;
-  margin: 0 auto;
-  padding: 0.5em 0;
-  width: 75%; }
-
-/* line 109, sass/_base.sass */
 .chapter_title {
   text-align: center;
   text-transform: uppercase;
   background-attachment: fixed;
   background-position: center;
   background-size: cover; }
-  /* line 116, sass/_base.sass */
+  /* line 101, sass/_base.sass */
   .chapter_title .contents {
     padding: 12em 0; }
-  /* line 119, sass/_base.sass */
+  /* line 104, sass/_base.sass */
   .chapter_title p {
     border-bottom: 2px solid #383838;
     display: inline-block;
@@ -195,19 +178,40 @@ header.story_header {
     letter-spacing: 1px;
     margin: 0 auto;
     padding: 0 1em 0.25em 1em; }
-  /* line 127, sass/_base.sass */
+  /* line 112, sass/_base.sass */
   .chapter_title h2 {
     font-size: 44px;
     margin: 0; }
-  /* line 132, sass/_base.sass */
+  /* line 117, sass/_base.sass */
   .chapter_title.on_dark_background p, .chapter-1-rethinking-retirement article .chapter_title p {
     border-bottom: 2px solid rgba(255, 255, 255, 0.6); }
-  /* line 135, sass/_base.sass */
+  /* line 120, sass/_base.sass */
   .chapter_title.on_dark_background p, .chapter-1-rethinking-retirement article .chapter_title p,
   .chapter_title.on_dark_background h2,
   .chapter-1-rethinking-retirement article .chapter_title h2 {
     color: white;
     text-shadow: #383838 0 0 25px; }
+
+/* line 125, sass/_base.sass */
+.major, .major-alt, .chapter-1-rethinking-retirement article .intro p.second, .chapter-1-rethinking-retirement article .intro p.first,
+.chapter-1-rethinking-retirement article .intro p.third, .chapter-1-rethinking-retirement article .percentage_of_workers p {
+  font-family: "Proxima N W01 Bold", "Century Gothic", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.3; }
+
+/* line 132, sass/_base.sass */
+.major-alt, .chapter-1-rethinking-retirement article .intro p.second {
+  font-size: 20px; }
+
+/* line 136, sass/_base.sass */
+.bordered, .chapter-1-rethinking-retirement article .intro p.second, .chapter-1-rethinking-retirement article .percentage_of_workers p {
+  border-top: 2px solid #383838;
+  border-bottom: 2px solid #383838;
+  margin: 0 auto;
+  padding: 0.5em 0 0.4em 0;
+  width: 75%; }
 
 /* line 1, sass/_grid.sass */
 .half, .twothirds, .onethird, .threefourths, .onefourth {
@@ -251,7 +255,7 @@ header.story_header {
   padding: 48px 10px; }
 
 /* line 1, sass/_mixins.sass */
-header.site_header nav li:hover:after, header.site_header nav li.current_chapter:after {
+header.site_header nav li:hover:after, header.site_header nav li.current_chapter:after, .chapter-1-rethinking-retirement article .expectation_chart .data_point:after, .chapter-1-rethinking-retirement article .expectation_chart .data_point#expectation_chart-data_point-5:after {
   content: "";
   position: absolute;
   left: 50%; }
@@ -533,9 +537,72 @@ footer {
 .chapter-1-rethinking-retirement article .intro {
   margin-top: 80%;
   text-align: center; }
-/* line 25, sass/_chapter1.sass */
+/* line 26, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .chapter_title {
   background-image: url('../img/1/path.jpg?1369435802'); }
+/* line 35, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .expectation_chart {
+  background: url('../img/1/expectation_chart.svg?1369439694') left top no-repeat;
+  background-size: contain;
+  margin: 5em auto 2em auto;
+  width: 90%;
+  height: 280px;
+  position: relative; }
+  /* line 43, sass/_chapter1.sass */
+  .chapter-1-rethinking-retirement article .expectation_chart .data_point {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 2px;
+    color: white;
+    display: inline-block;
+    padding: 0.5em 0.75em;
+    text-align: center;
+    position: absolute;
+    -webkit-transition: all, 0.3s;
+    -moz-transition: all, 0.3s;
+    -o-transition: all, 0.3s;
+    transition: all, 0.3s; }
+    /* line 17, sass/_mixins.sass */
+    .chapter-1-rethinking-retirement article .expectation_chart .data_point:after {
+      bottom: 0;
+      margin-left: -4px;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-top: 4px solid rgba(0, 0, 0, 0.8);
+      margin-bottom: -4px; }
+    /* line 54, sass/_chapter1.sass */
+    .chapter-1-rethinking-retirement article .expectation_chart .data_point strong {
+      display: block;
+      font-family: "BodoniW01-PosterItalic";
+      font-size: 24px; }
+    /* line 59, sass/_chapter1.sass */
+    .chapter-1-rethinking-retirement article .expectation_chart .data_point#expectation_chart-data_point-1 {
+      left: 157px;
+      top: 80px; }
+    /* line 63, sass/_chapter1.sass */
+    .chapter-1-rethinking-retirement article .expectation_chart .data_point#expectation_chart-data_point-2 {
+      left: 319px;
+      top: 46px; }
+    /* line 67, sass/_chapter1.sass */
+    .chapter-1-rethinking-retirement article .expectation_chart .data_point#expectation_chart-data_point-3 {
+      left: 475px;
+      top: 38px; }
+    /* line 71, sass/_chapter1.sass */
+    .chapter-1-rethinking-retirement article .expectation_chart .data_point#expectation_chart-data_point-4 {
+      left: 642px;
+      top: 2px; }
+    /* line 75, sass/_chapter1.sass */
+    .chapter-1-rethinking-retirement article .expectation_chart .data_point#expectation_chart-data_point-5 {
+      background: #548e85;
+      left: 804px;
+      top: -63px; }
+      /* line 17, sass/_mixins.sass */
+      .chapter-1-rethinking-retirement article .expectation_chart .data_point#expectation_chart-data_point-5:after {
+        bottom: 0;
+        margin-left: -4px;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-top: 4px solid #548e85;
+        margin-bottom: -4px; }
 
 /* line 2, sass/_chapter4.sass */
 .how_long_work .under_65 {
