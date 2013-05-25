@@ -1,6 +1,7 @@
 header.site_header,
 header.story_header
   @extend .fixed
+  // @include translateZ(0)
   padding: 0
   text-transform: uppercase
   width: 100%
@@ -57,7 +58,7 @@ header.site_header
 
   a.title
     text-decoration: none
-  
+
     h1
       color: $light
       font-family: 'Bodoni W01 Poster'
@@ -97,7 +98,7 @@ header.site_header
       &:hover,
       &.current_chapter
         @include triangle-bottom(7px, #888, up)
-        
+
         a
           color: #fff
 
@@ -186,4 +187,3 @@ header.story_header
     h1,
     h1 small
       color: #fff
-      

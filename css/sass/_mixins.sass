@@ -99,3 +99,21 @@
 
   @keyframes $name
     @content
+
+@mixin multi-background($name)
+  // TODO: handle retina screens
+
+  // giant iMac Displays
+  background-image: image-url( $name + '-giant.jpg')
+
+  // most displays up to HDTV size
+  @media screen and (max-height: 1080px) and (max-width: 1920px)
+    background-image: image-url( $name + "-large.jpg")
+
+  // small displays; largest image that iOS can load into single memory buffer
+  @media screen and (max-height: 1024px) and (max-width: 1024px)
+    background-image: image-url($name + "-medium.jpg"  + $ex)
+
+  // phones
+  @media screen and (max-height: 640px) and (max-width: 640px)
+    background-image: image-url($name + "-small.jpg")

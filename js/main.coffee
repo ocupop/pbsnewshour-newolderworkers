@@ -12,7 +12,6 @@ $(document).ready ()->
       rethinking_retirement.fade_header()
       rethinking_retirement.shrink_header()
       rethinking_retirement.animate_pies()
-      rethinking_retirement.snag_monument()
       rethinking_retirement.show_data_points()
 
       $window.one 'scroll', onScroll
@@ -61,7 +60,7 @@ $(document).ready ()->
       # TODO - use generalized parallax tool
       scroll_factor = -0.7
       # console.log pos, chapter_title_top, $window_height, "#{(pos - chapter_title_top) * scroll_factor / ($window_height) * 100}%"
-      # $chapter_title.css('background-position-y', "#{(pos + ($window_height * scroll_factor)  - chapter_title_top) * scroll_factor / ($window_height) * 100}%" )
+      $chapter_title.css('background-position-y', "#{(pos + ($window_height * scroll_factor)  - chapter_title_top) * scroll_factor / ($window_height) * 100}%" )
 
     rethinking_retirement.show_data_points = ()->
       $expectation_chart_points.toggleClass 'active', (pos > (expectation_chart_top - 400))

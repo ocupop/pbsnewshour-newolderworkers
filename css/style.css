@@ -177,19 +177,19 @@ section {
     background-position: center;
     background-size: cover;
     padding: 3em 6em; }
-  /* line 105, sass/_base.sass */
+  /* line 107, sass/_base.sass */
   section.chapter {
     text-align: center; }
-    /* line 108, sass/_base.sass */
+    /* line 110, sass/_base.sass */
     section.chapter p {
       font-family: "Bodoni MT W01", "Times New Roman", Times, serif;
       text-transform: uppercase; }
-  /* line 112, sass/_base.sass */
+  /* line 114, sass/_base.sass */
   section.chapter_title {
     text-align: center;
     text-transform: uppercase;
     padding: 12em 0; }
-    /* line 118, sass/_base.sass */
+    /* line 120, sass/_base.sass */
     section.chapter_title p {
       border-bottom: 2px solid #383838;
       display: inline-block;
@@ -197,48 +197,48 @@ section {
       letter-spacing: 1px;
       margin: 0 auto;
       padding: 0 1em 0.25em 1em; }
-    /* line 126, sass/_base.sass */
+    /* line 128, sass/_base.sass */
     section.chapter_title h2 {
       font-size: 44px;
       margin: 0; }
-    /* line 131, sass/_base.sass */
+    /* line 133, sass/_base.sass */
     section.chapter_title.on_dark_background p, .chapter-1-rethinking-retirement article section.chapter_title p {
       border-bottom: 2px solid rgba(255, 255, 255, 0.6); }
-    /* line 134, sass/_base.sass */
+    /* line 136, sass/_base.sass */
     section.chapter_title.on_dark_background p, .chapter-1-rethinking-retirement article section.chapter_title p,
     section.chapter_title.on_dark_background h2,
     .chapter-1-rethinking-retirement article section.chapter_title h2 {
       color: white;
       text-shadow: #383838 0 0 25px; }
-  /* line 140, sass/_base.sass */
+  /* line 142, sass/_base.sass */
   section.copy p {
     font-size: 18px;
     line-height: 1.3; }
-  /* line 145, sass/_base.sass */
+  /* line 147, sass/_base.sass */
   section.quotation .contents {
     overflow: hidden;
     *zoom: 1;
     background-repeat: no-repeat;
     padding: 6em 0; }
-  /* line 150, sass/_base.sass */
+  /* line 152, sass/_base.sass */
   section.quotation blockquote {
     background: #548e85;
     color: white;
     display: block;
     padding: 2em;
     width: 50%; }
-    /* line 157, sass/_base.sass */
+    /* line 159, sass/_base.sass */
     section.quotation blockquote p {
       font-size: 19.2px;
       margin-top: 0; }
-  /* line 161, sass/_base.sass */
+  /* line 163, sass/_base.sass */
   section.quotation cite {
     font-size: 14.4px; }
-    /* line 164, sass/_base.sass */
+    /* line 166, sass/_base.sass */
     section.quotation cite strong {
       display: block;
       font-size: 16px; }
-  /* line 168, sass/_base.sass */
+  /* line 170, sass/_base.sass */
   section.quotation.left, .chapter-1-rethinking-retirement article section.working_about_the_right_amount {
     float: left; }
     /* line 44, sass/_mixins.sass */
@@ -252,10 +252,10 @@ section {
       border-bottom: 25px solid transparent;
       border-left: 25px solid #548e85;
       margin-right: -25px; }
-    /* line 174, sass/_base.sass */
+    /* line 176, sass/_base.sass */
     section.quotation.left .contents, .chapter-1-rethinking-retirement article section.working_about_the_right_amount .contents {
       background-position: 90% center; }
-  /* line 177, sass/_base.sass */
+  /* line 179, sass/_base.sass */
   section.quotation.right {
     float: right; }
     /* line 32, sass/_mixins.sass */
@@ -269,15 +269,15 @@ section {
       border-bottom: 25px solid transparent;
       border-right: 25px solid #548e85;
       margin-left: -24px; }
-    /* line 183, sass/_base.sass */
+    /* line 185, sass/_base.sass */
     section.quotation.right .contents {
       background-position: left; }
-  /* line 187, sass/_base.sass */
+  /* line 189, sass/_base.sass */
   section.quotation.paul .contents {
     background-image: url('../img/1/paul.jpg?1369489914');
     background-repeat: no-repeat;
     background-position: 0 8em; }
-  /* line 192, sass/_base.sass */
+  /* line 194, sass/_base.sass */
   section.quotation.paul blockquote {
     float: right;
     width: 75%; }
@@ -293,7 +293,7 @@ section {
       border-right: 25px solid #548e85;
       margin-left: -24px; }
 
-/* line 197, sass/_base.sass */
+/* line 199, sass/_base.sass */
 .major, .major-alt, .chapter-1-rethinking-retirement article .intro p.second, .chapter-1-rethinking-retirement article .intro p.first,
 .chapter-1-rethinking-retirement article .intro p.third, .chapter-1-rethinking-retirement article .percentage_of_workers p, .chapter-1-rethinking-retirement article .half_of_american_households p, .chapter-1-rethinking-retirement article .one_in_four_workers .contents div p.first {
   font-family: "Proxima N W01 Bold", "Century Gothic", Helvetica, Arial, sans-serif;
@@ -302,15 +302,15 @@ section {
   text-transform: uppercase;
   line-height: 1.3; }
 
-/* line 204, sass/_base.sass */
+/* line 206, sass/_base.sass */
 .major-alt, .chapter-1-rethinking-retirement article .intro p.second {
   font-size: 20px; }
 
-/* line 209, sass/_base.sass */
+/* line 211, sass/_base.sass */
 .half-width p, .chapter-1-rethinking-retirement article .outro p {
   width: 50%; }
 
-/* line 212, sass/_base.sass */
+/* line 214, sass/_base.sass */
 .bordered, .chapter-1-rethinking-retirement article .intro p.second, .chapter-1-rethinking-retirement article .percentage_of_workers p, .chapter-1-rethinking-retirement article .increase_of_workers p span {
   border-top: 2px solid #383838;
   border-bottom: 2px solid #383838;
@@ -318,7 +318,7 @@ section {
   padding: 0.5em 0 0.4em 0;
   width: 75%; }
 
-/* line 220, sass/_base.sass */
+/* line 222, sass/_base.sass */
 .hr-top .contents:before, .chapter-1-rethinking-retirement article .outro .contents:before {
   content: "";
   display: block;
@@ -331,36 +331,36 @@ header.story_header {
   padding: 0;
   text-transform: uppercase;
   width: 100%; }
-  /* line 8, sass/_header.sass */
+  /* line 9, sass/_header.sass */
   header.site_header p,
   header.story_header p {
     margin: 0; }
-  /* line 11, sass/_header.sass */
+  /* line 12, sass/_header.sass */
   header.site_header nav li,
   header.story_header nav li {
     display: inline-block; }
-    /* line 14, sass/_header.sass */
+    /* line 15, sass/_header.sass */
     header.site_header nav li:first-child,
     header.story_header nav li:first-child {
       margin-left: 0; }
-      /* line 17, sass/_header.sass */
+      /* line 18, sass/_header.sass */
       header.site_header nav li:first-child a,
       header.story_header nav li:first-child a {
         padding-left: 0; }
-    /* line 20, sass/_header.sass */
+    /* line 21, sass/_header.sass */
     header.site_header nav li:last-child,
     header.story_header nav li:last-child {
       margin-right: 0; }
-      /* line 23, sass/_header.sass */
+      /* line 24, sass/_header.sass */
       header.site_header nav li:last-child a,
       header.story_header nav li:last-child a {
         padding-right: 0; }
-    /* line 26, sass/_header.sass */
+    /* line 27, sass/_header.sass */
     header.site_header nav li a,
     header.story_header nav li a {
       text-decoration: none; }
 
-/* line 30, sass/_header.sass */
+/* line 31, sass/_header.sass */
 header.site_header {
   background: #383838;
   height: 60px;
@@ -374,14 +374,14 @@ header.site_header {
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s; }
-  /* line 41, sass/_header.sass */
+  /* line 42, sass/_header.sass */
   header.site_header.shown {
     margin-top: 0; }
-  /* line 44, sass/_header.sass */
+  /* line 45, sass/_header.sass */
   header.site_header .contents {
     padding: 0;
     max-width: 1000px; }
-  /* line 48, sass/_header.sass */
+  /* line 49, sass/_header.sass */
   header.site_header a.pbs {
     background: url('../img/pbs-light_background.svg?1369273560') no-repeat left top;
     background-size: contain;
@@ -391,10 +391,10 @@ header.site_header {
     text-indent: -10000px;
     position: absolute;
     left: 0; }
-  /* line 58, sass/_header.sass */
+  /* line 59, sass/_header.sass */
   header.site_header a.title {
     text-decoration: none; }
-    /* line 61, sass/_header.sass */
+    /* line 62, sass/_header.sass */
     header.site_header a.title h1 {
       color: #aaaaaa;
       font-family: "Bodoni W01 Poster";
@@ -402,12 +402,12 @@ header.site_header {
       font-weight: normal;
       line-height: 1;
       margin: 0; }
-      /* line 69, sass/_header.sass */
+      /* line 70, sass/_header.sass */
       header.site_header a.title h1 em {
         font-family: "BodoniW01-PosterItalic", serif;
         font-size: 19.2px;
         font-style: normal; }
-      /* line 74, sass/_header.sass */
+      /* line 75, sass/_header.sass */
       header.site_header a.title h1 small {
         color: #aaaaaa;
         font-family: "Adobe Caslon W01 Bd It", serif;
@@ -415,12 +415,12 @@ header.site_header {
         font-style: normal;
         padding: 0 2.4px;
         text-transform: lowercase; }
-  /* line 82, sass/_header.sass */
+  /* line 83, sass/_header.sass */
   header.site_header nav {
     font-family: Helvetica, sans-serif;
     font-size: 11px;
     margin-top: 0.25em; }
-    /* line 87, sass/_header.sass */
+    /* line 88, sass/_header.sass */
     header.site_header nav li {
       margin: 0 0.6em;
       padding-bottom: 5px;
@@ -428,7 +428,7 @@ header.site_header {
       -moz-transition: all, 0.2s;
       -o-transition: all, 0.2s;
       transition: all, 0.2s; }
-      /* line 92, sass/_header.sass */
+      /* line 93, sass/_header.sass */
       header.site_header nav li a {
         color: #aaaaaa;
         padding: 0 0.3em;
@@ -443,11 +443,11 @@ header.site_header {
         border-left: 7px solid transparent;
         border-right: 7px solid transparent;
         border-bottom: 7px solid #888888; }
-      /* line 101, sass/_header.sass */
+      /* line 102, sass/_header.sass */
       header.site_header nav li:hover a, header.site_header nav li.current_chapter a {
         color: white; }
 
-/* line 104, sass/_header.sass */
+/* line 105, sass/_header.sass */
 header.story_header {
   margin-top: 3em;
   text-align: center;
@@ -455,51 +455,51 @@ header.story_header {
   -moz-transition: opacity 0.3s;
   -o-transition: opacity 0.3s;
   transition: opacity 0.3s; }
-  /* line 109, sass/_header.sass */
+  /* line 110, sass/_header.sass */
   header.story_header p,
   header.story_header hr,
   header.story_header h1 span,
   header.story_header h1 em {
     position: relative; }
-  /* line 115, sass/_header.sass */
+  /* line 116, sass/_header.sass */
   header.story_header hr {
     z-index: 1; }
-  /* line 118, sass/_header.sass */
+  /* line 119, sass/_header.sass */
   header.story_header h1 em {
     z-index: 2; }
-  /* line 121, sass/_header.sass */
+  /* line 122, sass/_header.sass */
   header.story_header p,
   header.story_header h1 span,
   header.story_header h1 small,
   header.story_header nav {
     z-index: 3; }
-  /* line 127, sass/_header.sass */
+  /* line 128, sass/_header.sass */
   header.story_header p {
     font-family: "Bodoni MT W01";
     margin-bottom: 30px; }
-    /* line 131, sass/_header.sass */
+    /* line 132, sass/_header.sass */
     header.story_header p:before, header.story_header p:after {
       color: #548e85;
       content: "★";
       font-size: 9.6px;
       padding: 0 6px;
       vertical-align: 4.8px; }
-  /* line 139, sass/_header.sass */
+  /* line 140, sass/_header.sass */
   header.story_header hr {
     display: none; }
-  /* line 142, sass/_header.sass */
+  /* line 143, sass/_header.sass */
   header.story_header h1 {
     font-size: 57.6px;
     margin: -0.25em 0 6px;
     word-spacing: -12px; }
-    /* line 147, sass/_header.sass */
+    /* line 148, sass/_header.sass */
     header.story_header h1 em {
       font-family: "BodoniW01-PosterItalic", serif;
       font-size: 104px;
       font-style: normal;
       margin: 0;
       padding: 0 3px; }
-    /* line 154, sass/_header.sass */
+    /* line 155, sass/_header.sass */
     header.story_header h1 small {
       color: #548e85;
       font-family: "Adobe Caslon W01 Bd It", serif;
@@ -508,7 +508,7 @@ header.story_header {
       padding: 0 2.4px;
       text-transform: lowercase;
       vertical-align: 8px; }
-  /* line 163, sass/_header.sass */
+  /* line 164, sass/_header.sass */
   header.story_header nav {
     overflow: hidden;
     *zoom: 1;
@@ -516,20 +516,20 @@ header.story_header {
     border-bottom: 1px solid #888888;
     line-height: 1;
     padding: 12px 0 9.6px; }
-    /* line 171, sass/_header.sass */
+    /* line 172, sass/_header.sass */
     header.story_header nav li {
       letter-spacing: -1px;
       margin: 0 0.9em; }
-  /* line 176, sass/_header.sass */
+  /* line 177, sass/_header.sass */
   header.story_header.bordered hr {
     display: block; }
-  /* line 179, sass/_header.sass */
+  /* line 180, sass/_header.sass */
   header.story_header.bordered h1 {
     margin-top: -43.2px; }
-    /* line 182, sass/_header.sass */
+    /* line 183, sass/_header.sass */
     header.story_header.bordered h1 em {
       background: white; }
-  /* line 186, sass/_header.sass */
+  /* line 187, sass/_header.sass */
   header.story_header.on_dark_background h1, .chapter-1-rethinking-retirement article header.story_header h1, .chapter-1-rethinking-retirement article header.story_header.chapter_title h1,
   header.story_header.on_dark_background h1 small,
   .chapter-1-rethinking-retirement article header.story_header h1 small,
@@ -614,7 +614,6 @@ footer {
 .chapter-1-rethinking-retirement article .chapter_title {
   background-image: url('../img/1/path.jpg?1369437709');
   background-position: center;
-  background-size: cover;
   background-attachment: fixed; }
 /* line 42, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .pie_slice {
