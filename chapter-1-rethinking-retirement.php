@@ -228,7 +228,7 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="copy">
+<section class="copy outro">
   <div class="contents">
     <p>
       Is retirement as we know it becoming a thing of the past? How long are we likely to work and why? Will we be happy on the job, or miserable and counting the dollars and days until retirement? We&rsquo;ve spent much of the past year looking at the factors&mdash;demography, economics, and just plain personal preference&mdash;that help explain what&rsquo;s happening to the American workforce as it ages.
