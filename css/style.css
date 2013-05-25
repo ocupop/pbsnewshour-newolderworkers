@@ -133,47 +133,53 @@ article {
 
 /* line 65, sass/_base.sass */
 section {
+  overflow: hidden;
+  *zoom: 1;
   background: white;
   width: 100%;
   z-index: 3; }
 
-/* line 75, sass/_base.sass */
+/* line 71, sass/_base.sass */
+.contents {
+  overflow: hidden;
+  *zoom: 1; }
+
+/* line 77, sass/_base.sass */
 .fixed, header.site_header,
 header.story_header {
   position: fixed;
   left: 0;
   top: 0; }
 
-/* line 80, sass/_base.sass */
+/* line 82, sass/_base.sass */
 .bleed {
   width: 100%;
   height: 100%; }
-  /* line 84, sass/_base.sass */
+  /* line 86, sass/_base.sass */
   .bleed img {
     width: 100%; }
 
-/* line 87, sass/_base.sass */
-.background-image, .chapter_title, .chapter-1-rethinking-retirement article .increase_of_workers {
+/* line 89, sass/_base.sass */
+.background-image, .chapter_title, .chapter-1-rethinking-retirement article .increase_of_workers, .chapter-1-rethinking-retirement article .one_in_four_workers {
   background-attachment: fixed;
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  padding: 3em 6em; }
 
-/* line 92, sass/_base.sass */
+/* line 95, sass/_base.sass */
 .chapter {
   text-align: center; }
-  /* line 95, sass/_base.sass */
+  /* line 98, sass/_base.sass */
   .chapter p {
     font-family: "Bodoni MT W01", "Times New Roman", Times, serif;
     text-transform: uppercase; }
 
-/* line 99, sass/_base.sass */
+/* line 102, sass/_base.sass */
 .chapter_title {
   text-align: center;
-  text-transform: uppercase; }
-  /* line 104, sass/_base.sass */
-  .chapter_title .contents {
-    padding: 12em 0; }
-  /* line 107, sass/_base.sass */
+  text-transform: uppercase;
+  padding: 12em 0; }
+  /* line 108, sass/_base.sass */
   .chapter_title p {
     border-bottom: 2px solid #383838;
     display: inline-block;
@@ -181,39 +187,39 @@ header.story_header {
     letter-spacing: 1px;
     margin: 0 auto;
     padding: 0 1em 0.25em 1em; }
-  /* line 115, sass/_base.sass */
+  /* line 116, sass/_base.sass */
   .chapter_title h2 {
     font-size: 44px;
     margin: 0; }
-  /* line 120, sass/_base.sass */
+  /* line 121, sass/_base.sass */
   .chapter_title.on_dark_background p, .chapter-1-rethinking-retirement article .chapter_title p {
     border-bottom: 2px solid rgba(255, 255, 255, 0.6); }
-  /* line 123, sass/_base.sass */
+  /* line 124, sass/_base.sass */
   .chapter_title.on_dark_background p, .chapter-1-rethinking-retirement article .chapter_title p,
   .chapter_title.on_dark_background h2,
   .chapter-1-rethinking-retirement article .chapter_title h2 {
     color: white;
     text-shadow: #383838 0 0 25px; }
 
-/* line 128, sass/_base.sass */
+/* line 129, sass/_base.sass */
 .major, .major-alt, .chapter-1-rethinking-retirement article .intro p.second, .chapter-1-rethinking-retirement article .intro p.first,
-.chapter-1-rethinking-retirement article .intro p.third, .chapter-1-rethinking-retirement article .percentage_of_workers p {
+.chapter-1-rethinking-retirement article .intro p.third, .chapter-1-rethinking-retirement article .percentage_of_workers p, .chapter-1-rethinking-retirement article .one_in_four_workers .contents div p.first {
   font-family: "Proxima N W01 Bold", "Century Gothic", Helvetica, Arial, sans-serif;
   font-size: 30px;
   text-align: center;
   text-transform: uppercase;
   line-height: 1.3; }
 
-/* line 135, sass/_base.sass */
+/* line 136, sass/_base.sass */
 .major-alt, .chapter-1-rethinking-retirement article .intro p.second {
   font-size: 20px; }
 
-/* line 140, sass/_base.sass */
+/* line 141, sass/_base.sass */
 .copy p {
   font-size: 18px;
   line-height: 1.3; }
 
-/* line 144, sass/_base.sass */
+/* line 145, sass/_base.sass */
 .bordered, .chapter-1-rethinking-retirement article .intro p.second, .chapter-1-rethinking-retirement article .percentage_of_workers p, .chapter-1-rethinking-retirement article .increase_of_workers p span {
   border-top: 2px solid #383838;
   border-bottom: 2px solid #383838;
@@ -222,7 +228,7 @@ header.story_header {
   width: 75%; }
 
 /* line 1, sass/_grid.sass */
-.half, .twothirds, .onethird, .chapter-1-rethinking-retirement article .increase_of_workers p, .threefourths, .onefourth {
+.half, .twothirds, .onethird, .threefourths, .onefourth {
   float: left;
   padding: 24px 10px;
   width: 100%; }
@@ -239,7 +245,7 @@ header.story_header {
 
 @media (min-width: 1000px) {
   /* line 22, sass/_grid.sass */
-  .onethird, .chapter-1-rethinking-retirement article .increase_of_workers p {
+  .onethird {
     width: 33.33333%; } }
 
 @media (min-width: 1000px) {
@@ -619,33 +625,45 @@ footer {
         margin-bottom: -4px; }
 /* line 87, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .increase_of_workers {
-  overflow: hidden;
-  *zoom: 1;
   background-image: url('../img/1/grumpy_man.jpg?1369442609');
-  background-position: 70% center;
-  padding: 3em 6em; }
-  /* line 94, sass/_chapter1.sass */
+  background-position: 70% center; }
+  /* line 92, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .increase_of_workers p {
+    clear: left;
     background: white;
     margin-top: 2em;
     margin-bottom: 2em;
     padding: 2em;
+    width: 40%;
     float: left;
-    clear: left;
     text-align: center; }
-    /* line 100, sass/_chapter1.sass */
+    /* line 95, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .increase_of_workers p span {
       display: block;
       line-height: 1;
       margin: 0.25em 0 0.5em;
       padding: 0.75em 0 0.75em;
       width: 100%; }
-      /* line 108, sass/_chapter1.sass */
+      /* line 103, sass/_chapter1.sass */
       .chapter-1-rethinking-retirement article .increase_of_workers p span strong {
         display: inline-block;
         font-family: "BodoniW01-PosterItalic";
         font-size: 60px;
         margin: 0 0.1em; }
+/* line 112, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .one_in_four_workers {
+  background-image: url('../img/1/diner.jpg?1369444335');
+  background-position: 20% center; }
+  /* line 117, sass/_chapter1.sass */
+  .chapter-1-rethinking-retirement article .one_in_four_workers .contents div {
+    clear: left;
+    background: white;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 2em;
+    width: 60%;
+    float: right;
+    text-align: center; }
 
 /* line 2, sass/_chapter4.sass */
 .how_long_work .under_65 {
