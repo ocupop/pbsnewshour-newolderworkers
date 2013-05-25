@@ -143,6 +143,7 @@ section
 
   &.quotation
     .contents
+      @include clearfix
       background-repeat: no-repeat
       padding: 6em 0
 
@@ -182,6 +183,17 @@ section
       .contents
         background-position: left
 
+    &.paul
+      .contents
+        background-image: image-url('1/paul.jpg')
+        background-repeat: no-repeat
+        background-position: 0 8em
+
+      blockquote
+        float: right
+        width: 75%
+        @include triangle-left(25px, $green, 10%)
+
 .major
   font-family: $font-heading
   font-size: 30px
@@ -203,3 +215,11 @@ section
   margin: 0 auto
   padding: .5em 0 .4em 0
   width: 75%
+
+.hr-top
+  .contents:before
+    content: ""
+    display: block
+    border-top: 2px solid $dark
+    width: 100%
+    

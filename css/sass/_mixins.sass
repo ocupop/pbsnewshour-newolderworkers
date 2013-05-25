@@ -28,11 +28,11 @@
     @else
       border-bottom: $size solid $color
       
-@mixin triangle-left($size, $color)
+@mixin triangle-left($size, $color, $position: 50%)
   &:before
     content: ""
     position: absolute
-    top: 50%
+    top: $position
     left: 0
     margin-top: - $size
     border-top: $size solid transparent

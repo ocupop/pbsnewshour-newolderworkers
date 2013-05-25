@@ -95,6 +95,7 @@ require_once('header.php');
   </div>
 </section>
 
+<!--
 <section class="question expected_retirement_age">
   <div class="contents">
     <p>
@@ -138,7 +139,6 @@ require_once('header.php');
   </div>
 </section>
 
-<!--
 <section class="data">
   <div class="contents">
     note: these responses match the options from our survey. Answers can be loaded into larger age range groups based on EBRI below.
@@ -184,6 +184,7 @@ require_once('header.php');
   </div>
 </section>
 
+<!--
 <section class="question age">
   <div class="contents">
     <label>How old are you?</label>
@@ -193,7 +194,6 @@ require_once('header.php');
 
 <section class="data">
   <div class="contents">
-    <!--
     Based on both answers above:
 
     show visualized expected age of retirement, where they fit, and how that&rsquo;s changed over the last 10 years based on this data from EBRI
@@ -201,25 +201,27 @@ require_once('header.php');
     [see graph]
 
     anyone younger than 25 should be put in with ALL WORKERS
-    -->
   </div>
 </section>
+-->
 
-<section class="copy paul">
+<section class="quotation paul">
   <div class="contents">
-    <aside>
-      Paul Solman
-    </aside>
-
-    <p>
-      At 68, I have now worked in journalism for 50 years (counting college). I have five grandchildren who demand, deserve and bounteously repay my attention. What hair I still have has been gray for years, and I feel the need to touch up my mustache with mascara. My fastball would be lucky to break 40 mph, but a cranky shoulder prevents me from even trying. And yet, I work two jobs&mdash;teaching my brand of real-world economics on the NewsHour (though technically, I&rsquo;m the show&rsquo;s economics reporter) and to college students, mainly at Yale but, occasionally, elsewhere.
-    </p>
-    <p>
-      I consider the jobs a privilege, regardless of age, consider myself &ldquo;absurdly fortunate&rdquo; (as my father once said in discussing my NewsHour job). So I intend to keep working as long as I possibly can.
-    </p>
-    <p>
-      As I pretty much knew, and have confirmed in the course of reporting for this older workers series, my situation is hardly typical of aging workers in America these days. And yet more Americans than ever, including more and more of my junior colleagues in the baby boom, are staying on the job past what was long considered retirement age. In twenty years workers 65&ndash;69 have doubled in their share of the labor force, and now almost a third of folks in that age range are working, up from one in five twenty years ago. What&rsquo;s more, the portion of people working past 75 has almost tripled since 1993.
-    </p>
+    <blockquote>
+      <p>
+        At 68, I have now worked in journalism for 50 years (counting college). I have five grandchildren who demand, deserve and bounteously repay my attention. What hair I still have has been gray for years, and I feel the need to touch up my mustache with mascara. My fastball would be lucky to break 40 mph, but a cranky shoulder prevents me from even trying. And yet, I work two jobs&mdash;teaching my brand of real-world economics on the NewsHour (though technically, I&rsquo;m the show&rsquo;s economics reporter) and to college students, mainly at Yale but, occasionally, elsewhere.
+      </p>
+      <p>
+        I consider the jobs a privilege, regardless of age, consider myself &ldquo;absurdly fortunate&rdquo; (as my father once said in discussing my NewsHour job). So I intend to keep working as long as I possibly can.
+      </p>
+      <p>
+        As I pretty much knew, and have confirmed in the course of reporting for this older workers series, my situation is hardly typical of aging workers in America these days. And yet more Americans than ever, including more and more of my junior colleagues in the baby boom, are staying on the job past what was long considered retirement age. In twenty years workers 65&ndash;69 have doubled in their share of the labor force, and now almost a third of folks in that age range are working, up from one in five twenty years ago. What&rsquo;s more, the portion of people working past 75 has almost tripled since 1993.
+      </p>
+      <cite>
+        <strong>Paul Solman</strong>
+        PBS Journalist, 68
+      </cite>
+    </blockquote>
   </div>
 </section>
 
@@ -231,7 +233,7 @@ require_once('header.php');
 </section>
 -->
 
-<section class="copy outro">
+<section class="copy outro ">
   <div class="contents">
     <p class="first">
       Is retirement as we know it becoming a thing of the past? How long are we likely to work and why? Will we be happy on the job, or miserable and counting the dollars and days until retirement? We&rsquo;ve spent much of the past year looking at the factors&mdash;demography, economics, and just plain personal preference&mdash;that help explain what&rsquo;s happening to the American workforce as it ages.
