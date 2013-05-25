@@ -554,8 +554,10 @@ footer {
   text-align: center; }
 /* line 26, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .chapter_title {
-  background-image: url('../img/1/path.jpg?1369435802'); }
-/* line 35, sass/_chapter1.sass */
+  background-image: url('../img/1/path.jpg?1369435802');
+  background-position: center 100%;
+  background-size: 150%; }
+/* line 37, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .expectation_chart {
   background: url('../img/1/expectation_chart.svg?1369439694') left top no-repeat;
   background-size: contain;
@@ -563,7 +565,7 @@ footer {
   width: 90%;
   height: 280px;
   position: relative; }
-  /* line 43, sass/_chapter1.sass */
+  /* line 45, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .expectation_chart .data_point {
     background: rgba(0, 0, 0, 0.8);
     border-radius: 2px;
@@ -586,32 +588,32 @@ footer {
       border-right: 4px solid transparent;
       border-top: 4px solid rgba(0, 0, 0, 0.8);
       margin-bottom: -4px; }
-    /* line 56, sass/_chapter1.sass */
+    /* line 58, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .expectation_chart .data_point strong {
       display: block;
       font-family: "BodoniW01-PosterItalic";
       font-size: 24px; }
-    /* line 61, sass/_chapter1.sass */
+    /* line 63, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .expectation_chart .data_point.active {
       margin-top: 0;
       opacity: 1; }
-    /* line 65, sass/_chapter1.sass */
+    /* line 67, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .expectation_chart .data_point#expectation_chart-data_point-1 {
       left: 157px;
       top: 80px; }
-    /* line 69, sass/_chapter1.sass */
+    /* line 71, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .expectation_chart .data_point#expectation_chart-data_point-2 {
       left: 319px;
       top: 46px; }
-    /* line 73, sass/_chapter1.sass */
+    /* line 75, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .expectation_chart .data_point#expectation_chart-data_point-3 {
       left: 475px;
       top: 38px; }
-    /* line 77, sass/_chapter1.sass */
+    /* line 79, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .expectation_chart .data_point#expectation_chart-data_point-4 {
       left: 642px;
       top: 2px; }
-    /* line 81, sass/_chapter1.sass */
+    /* line 83, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .expectation_chart .data_point#expectation_chart-data_point-5 {
       background: #548e85;
       left: 804px;
@@ -624,11 +626,11 @@ footer {
         border-right: 4px solid transparent;
         border-top: 4px solid #548e85;
         margin-bottom: -4px; }
-/* line 87, sass/_chapter1.sass */
+/* line 89, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .increase_of_workers {
   background-image: url('../img/1/grumpy_man.jpg?1369442609');
   background-position: 70% center; }
-  /* line 92, sass/_chapter1.sass */
+  /* line 94, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .increase_of_workers p {
     clear: left;
     background: white;
@@ -638,24 +640,24 @@ footer {
     width: 40%;
     float: left;
     text-align: center; }
-    /* line 95, sass/_chapter1.sass */
+    /* line 97, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .increase_of_workers p span {
       display: block;
       line-height: 1;
       margin: 0.25em 0 0.5em;
       padding: 0.75em 0 0.75em;
       width: 100%; }
-      /* line 103, sass/_chapter1.sass */
+      /* line 105, sass/_chapter1.sass */
       .chapter-1-rethinking-retirement article .increase_of_workers p span strong {
         display: inline-block;
         font-family: "BodoniW01-PosterItalic";
         font-size: 60px;
         margin: 0 0.1em; }
-/* line 112, sass/_chapter1.sass */
+/* line 114, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .one_in_four_workers {
   background-image: url('../img/1/diner.jpg?1369444335');
   background-position: 20% center; }
-  /* line 117, sass/_chapter1.sass */
+  /* line 119, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .one_in_four_workers .contents div {
     clear: left;
     background: white;
