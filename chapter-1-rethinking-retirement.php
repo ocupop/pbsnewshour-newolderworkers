@@ -19,7 +19,7 @@ require_once('header.php');
     <img src="img/1/92percent.png" id="92percent">
 
     <p class="first">
-      92% of Americans think<br>
+      <strong>92%</strong> of Americans think<br>
       there&rsquo;s a retirement crisis.
     </p>
 
@@ -28,7 +28,7 @@ require_once('header.php');
     </p>
 
     <p class="third">
-      Over half of today&rsquo;s households<br>
+      Over <strong>half</strong> of today&rsquo;s households<br>
       won&rsquo;t have enough money for retirement.
     </p>
 
