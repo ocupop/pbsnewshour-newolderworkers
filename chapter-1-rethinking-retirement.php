@@ -87,7 +87,7 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="copy">
+<section class="copy half_of_america_households">
   <div class="contents">
     <p>
       Half of American households have less than $10,000 in savings.
@@ -95,11 +95,18 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="copy">
+<section class="copy one_in_four_workers">
   <div class="contents">
-    <p>
-      Nearly one in four workers will be over the age of 55 by 2016. Why? Mainly because older Americans are working longer, and there are more of them. (The Baby Boom, remember.)
-    </p>
+    <div>
+      <p class="first">
+        Nearly one in four workers will be over the age of 55 by 2016.
+      </p>
+      <p class="second">
+        Why? Mainly because older Americans are<br>
+        working longer, and there are more of them.<br>
+        (The Baby Boom, remember.)
+      </p>
+    </div>
   </div>
 </section>
 

@@ -63,11 +63,13 @@ article
   width: 100%
 
 section
+  @include clearfix
   background: #fff
   width: 100%
   z-index: 3
 
 .contents
+  @include clearfix
   @extend .container
 
 // Types
@@ -88,6 +90,7 @@ section
   background-attachment: fixed
   background-position: center
   background-size: cover
+  padding: 3em 6em
 
 .chapter
   text-align: center
@@ -100,9 +103,7 @@ section
   text-align: center
   text-transform: uppercase
   @extend .background-image
-
-  .contents
-    padding: 12em 0
+  padding: 12em 0
 
   p
     border-bottom: 2px solid $dark

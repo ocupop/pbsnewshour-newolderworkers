@@ -87,17 +87,12 @@
         top: -63px
 
   .increase_of_workers
-    @include clearfix
     @extend .background-image
     background-image: image-url('1/grumpy_man.jpg')
     background-position: 70% center
-    padding: 3em 6em
 
     p
-      @include boxed(#fff, left)
-      @extend .onethird
-      clear: left
-      text-align: center
+      @include boxed(#fff, left, third, centered)
 
       span
         @extend .bordered
@@ -112,4 +107,20 @@
           font-family: $bodoni-poster-italic
           font-size: 60px
           margin: 0 .1em
+
+  .half_of_american_households
+    //
+
+  .one_in_four_workers
+    @extend .background-image
+    background-image: image-url('1/diner.jpg')
+    background-position: 20% center
+
+    .contents div
+      @include boxed(#fff, right, half, centered)
+
+      p.first
+        @extend .major
+
+
 

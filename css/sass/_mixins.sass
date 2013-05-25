@@ -50,12 +50,19 @@
     border-left: $size solid $color
     margin-right: - ($size)
 
-@mixin boxed($color, $position)
+@mixin boxed($color, $position, $size, $text-alignment)
+  clear: left
   background: $color
   margin-top: 2em
   margin-bottom: 2em
   padding: 2em
+  @if $size == "third"
+    width: 40%
+  @if $size == "half"
+    width: 60%
   @if $position == "left"
     float: left
   @if $position == "right"
     float: right
+  @if $text-alignment == "centered"
+    text-align: center
