@@ -59,6 +59,11 @@ em
 
 // Content
 
+.contents
+  margin: 0 auto
+  max-width: $desktop
+  padding: $line*2 0
+
 article
   width: 100%
 
@@ -67,9 +72,6 @@ section
   background: #fff
   width: 100%
   z-index: 3
-
-.contents
-  @extend .container
 
 // Types
 
@@ -85,20 +87,20 @@ section
   img
     width: 100%
 
-.background-image
+section.background-image
   background-attachment: fixed
   background-position: center
   background-size: cover
   padding: 3em 6em
 
-.chapter
+section.chapter
   text-align: center
 
   p
     font-family: $font-chapter
     text-transform: uppercase
 
-.chapter_title
+section.chapter_title
   text-align: center
   text-transform: uppercase
   @extend .background-image

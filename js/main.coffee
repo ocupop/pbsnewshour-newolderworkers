@@ -12,6 +12,7 @@ $(document).ready ()->
       rethinking_retirement.fade_header()
       rethinking_retirement.shrink_header()
       rethinking_retirement.snag_monument()
+      rethinking_retirement.show_data_points()
 
       $window.one 'scroll', onScroll
     , 10
@@ -33,6 +34,9 @@ $(document).ready ()->
     $story_header = $('.chapter-1-rethinking-retirement .story_header')
     $chapter_title = $('.chapter_title')
     chapter_title_top = $chapter_title.offset().top
+    $expectation_chart = $('.expectation_chart')
+    expectation_chart_top = $expectation_chart.offset().top
+    $expectation_chart_points = $('.expectation_chart .data_point')
 
     rethinking_retirement.fade_header = ()->
       factor = 0
@@ -50,6 +54,9 @@ $(document).ready ()->
       scroll_factor = -0.7
       # console.log pos, chapter_title_top, $window_height, "#{(pos - chapter_title_top) * scroll_factor / ($window_height) * 100}%"
       $chapter_title.css('background-position-y', "#{(pos + ($window_height * scroll_factor)  - chapter_title_top) * scroll_factor / ($window_height) * 100}%" )
+
+    rethinking_retirement.show_data_points = ()->
+      $expectation_chart_points.toggleClass 'active', (pos > (expectation_chart_top - 400))
 
   # Working in "Retirement"
   working_in_retirement = {}

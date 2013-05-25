@@ -211,7 +211,7 @@ require_once('header.php');
     </aside>
 
     <p>
-      At 68, I have now worked in journalism for 50 years (counting college). I have five grandchildren who demand, deserve and bounteously repay my attention. What hair I still have has been gray for years, and I feel the need to touch up my mustache with mascara. My fastball would be lucky to break 40 mph, but a cranky shoulder prevents me from even trying. And yet, I work two jobs&mdash;teaching my brand of real-world economics on the NewsHour (though technically, I&rsquo;m the show&rsquo;s economics reporter) and to college students, mainly at Yale but, occasionally, elsewhere.\
+      At 68, I have now worked in journalism for 50 years (counting college). I have five grandchildren who demand, deserve and bounteously repay my attention. What hair I still have has been gray for years, and I feel the need to touch up my mustache with mascara. My fastball would be lucky to break 40 mph, but a cranky shoulder prevents me from even trying. And yet, I work two jobs&mdash;teaching my brand of real-world economics on the NewsHour (though technically, I&rsquo;m the show&rsquo;s economics reporter) and to college students, mainly at Yale but, occasionally, elsewhere.
     </p>
     <p>
       I consider the jobs a privilege, regardless of age, consider myself &ldquo;absurdly fortunate&rdquo; (as my father once said in discussing my NewsHour job). So I intend to keep working as long as I possibly can.
