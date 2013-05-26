@@ -319,7 +319,7 @@ section {
   width: 75%; }
 
 /* line 222, sass/_base.sass */
-.hr-top .contents:before, .chapter-1-rethinking-retirement article .outro .contents:before {
+.hr-top .contents:before {
   content: "";
   display: block;
   border-top: 2px solid #383838;
@@ -824,7 +824,7 @@ footer {
 /* line 165, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .working_about_the_right_amount .contents {
   background-image: url('../img/1/quoter.jpg?1369452684'); }
-/* line 175, sass/_chapter1.sass */
+/* line 174, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .outro .second {
   font-family: "Adobe Caslon W01 Bd";
   font-size: 20.8px; }

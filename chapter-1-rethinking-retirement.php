@@ -116,6 +116,8 @@ require_once('header.php');
     <p>
       Everyone now knows that the workplace is greying. For a variety of reasons, many of us plan to work longer and retire later than we would have just 10 years ago. But for <em>how much</em> longer? The answer has been changing rapidly.
     </p>
+
+    <p><strong>[FORM GOES HERE]</strong></p>
   </div>
 </section>
 
@@ -170,6 +172,25 @@ require_once('header.php');
     the survey: http://www.pbs.org/newshour/businessdesk/2013/03/how-long-will-you-work.html
   </div>
 </section>
+
+<section class="question age">
+  <div class="contents">
+    <label>How old are you?</label>
+    <input type="number" min="13" max="116" name="entry.1280847796" id="entry_1280847796">
+  </div>
+</section>
+
+<section class="data">
+  <div class="contents">
+    Based on both answers above:
+
+    show visualized expected age of retirement, where they fit, and how that&rsquo;s changed over the last 10 years based on this data from EBRI
+
+    [see graph]
+
+    anyone younger than 25 should be put in with ALL WORKERS
+  </div>
+</section>
 -->
 
 <section class="copy one_in_four_workers">
@@ -208,27 +229,6 @@ require_once('header.php');
   </div>
 </section>
 
-<!--
-<section class="question age">
-  <div class="contents">
-    <label>How old are you?</label>
-    <input type="number" min="13" max="116" name="entry.1280847796" id="entry_1280847796">
-  </div>
-</section>
-
-<section class="data">
-  <div class="contents">
-    Based on both answers above:
-
-    show visualized expected age of retirement, where they fit, and how that&rsquo;s changed over the last 10 years based on this data from EBRI
-
-    [see graph]
-
-    anyone younger than 25 should be put in with ALL WORKERS
-  </div>
-</section>
--->
-
 <section class="quotation paul">
   <div class="contents">
     <blockquote>
@@ -249,15 +249,13 @@ require_once('header.php');
   </div>
 </section>
 
-<!--
 <section class="data">
   <div class="contents">
-    [Labor Force Participation Rates by Age Group, January 1993&ndash;January 2013 attachment. Most interesting: rate of change year over year for each age group. 75+ is dramatic]
+    <p class="major bordered">[Labor Force Participation Rates by Age Group, January 1993&ndash;January 2013 attachment. Most interesting: rate of change year over year for each age group. 75+ is dramatic]</p>
   </div>
 </section>
--->
 
-<section class="copy outro ">
+<section class="copy outro">
   <div class="contents">
     <p class="first">
       Is retirement as we know it becoming a thing of the past? How long are we likely to work and why? Will we be happy on the job, or miserable and counting the dollars and days until retirement? We&rsquo;ve spent much of the past year looking at the factors&mdash;demography, economics, and just plain personal preference&mdash;that help explain what&rsquo;s happening to the American workforce as it ages.
