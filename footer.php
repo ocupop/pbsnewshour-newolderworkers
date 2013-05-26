@@ -5,15 +5,14 @@
     <nav>
       <ul>
         <?php
-        $previous_chapter = $current_chapter_number - 1;
-        $next_chapter = $current_chapter_number + 1;
+        $previous_chapter = $chapter_list[$chapter - 1];
+        $next_chapter = $chapter_list[$chapter + 1];
 
-        if ($current_chapter_number != '1')
-          echo '<li class="previous"><a href="' . $chapters[$previous_chapter]['slug'] . '.php"><span class="label">Previous</span><span class="chapter_title">' . $chapters[$previous_chapter]['title'] . '</span></a></li>';
+        if ($chapter > 1)
+          echo '<li class="previous"><a href="' . $previous_chapter['slug'] . '.php"><span class="label">Previous</span><span class="chapter_title">' . $previous_chapter['title'] . '</span></a></li>';
 
-        if ($current_chapter_number != '5')
-          // echo '<li class="next"><a href="' . $chapters[$next_chapter]['slug'] . '.php"><span class="label">Next</span><span class="chapter_title">' . $chapters[$next_chapter]['title'] . '</span></a></li>';
-          echo '<li class="next"><a href="#"><span class="label">Next</span><span class="chapter_title">' . $chapters[$next_chapter]['title'] . '</span></a></li>';
+        if ($chapter < 5)
+          echo '<li class="next"><a href="' . $next_chapter['slug']. '.php"><span class="label">Next</span><span class="chapter_title">' . $next_chapter['title'] . '</span></a></li>';
 
         ?>
       </ul>

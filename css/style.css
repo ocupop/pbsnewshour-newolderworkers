@@ -600,7 +600,7 @@ footer {
     text-shadow: #383838 0 0 25px;
     margin-top: 4em; }
 /* line 10, sass/_chapter1.sass */
-.chapter-1-rethinking-retirement article .company_photo {
+.chapter-1-rethinking-retirement article .story_header_wrapper {
   z-index: 1;
   -webkit-transition: opacity 0.3s;
   -moz-transition: opacity 0.3s;
