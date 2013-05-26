@@ -1,4 +1,4 @@
-/* line 17, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,38 +19,38 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
-/* line 22, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1; }
 
-/* line 24, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none; }
 
-/* line 26, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 28, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
-/* line 30, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none; }
-  /* line 103, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 103, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none; }
 
-/* line 32, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none; }
 
-/* line 116, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
@@ -274,7 +274,7 @@ section {
       background-position: left; }
   /* line 189, sass/_base.sass */
   section.quotation.paul .contents {
-    background-image: url('../img/1/paul.jpg?1369489914');
+    background-image: url('../img/1/paul.jpg?1369452927');
     background-repeat: no-repeat;
     background-position: 0 8em; }
   /* line 194, sass/_base.sass */
@@ -383,7 +383,7 @@ header.site_header {
     max-width: 1000px; }
   /* line 49, sass/_header.sass */
   header.site_header a.pbs {
-    background: url('../img/pbs-light_background.svg?1369273560') no-repeat left top;
+    background: url('../img/pbs-light_background.svg?1369272538') no-repeat left top;
     background-size: contain;
     margin: 0.2em 1em 0 0;
     width: 38px;
@@ -530,10 +530,9 @@ header.story_header {
     header.story_header.bordered h1 em {
       background: white; }
   /* line 187, sass/_header.sass */
-  header.story_header.on_dark_background h1, .chapter-1-rethinking-retirement article header.story_header h1, .chapter-1-rethinking-retirement article header.story_header.chapter_title h1,
+  header.story_header.on_dark_background h1, .chapter-1-rethinking-retirement article header.story_header h1,
   header.story_header.on_dark_background h1 small,
-  .chapter-1-rethinking-retirement article header.story_header h1 small,
-  .chapter-1-rethinking-retirement article header.story_header.chapter_title h1 small {
+  .chapter-1-rethinking-retirement article header.story_header h1 small {
     color: white; }
 
 /* line 1, sass/_footer.sass */
@@ -553,11 +552,11 @@ footer {
     width: 50%; }
     /* line 17, sass/_footer.sass */
     footer nav li.previous {
-      background: url('../img/chapter-previous.svg?1369358830') left no-repeat;
+      background: url('../img/chapter-previous.svg?1369355902') left no-repeat;
       float: left; }
     /* line 21, sass/_footer.sass */
     footer nav li.next {
-      background: url('../img/chapter-next.svg?1369358830') right no-repeat;
+      background: url('../img/chapter-next.svg?1369351919') right no-repeat;
       float: right; }
     /* line 25, sass/_footer.sass */
     footer nav li a {
@@ -612,7 +611,7 @@ footer {
     font-weight: normal; }
 /* line 30, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .chapter_title {
-  background-image: url('../img/1/path.jpg?1369437709');
+  background-image: url('../img/1/path.jpg?1369435802');
   background-position: center;
   background-attachment: fixed; }
 /* line 42, sass/_chapter1.sass */
@@ -655,7 +654,7 @@ footer {
   transform: rotate(0deg); }
 /* line 63, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .expectation_chart {
-  background: url('../img/1/expectation_chart.svg?1369441558') left top no-repeat;
+  background: url('../img/1/expectation_chart.svg?1369439694') left top no-repeat;
   background-size: contain;
   margin: 5em 0 2em -40px;
   width: 870px;
@@ -744,7 +743,7 @@ footer {
         margin-bottom: -4px; }
 /* line 120, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .increase_of_workers {
-  background-image: url('../img/1/grumpy_man.jpg?1369444550');
+  background-image: url('../img/1/grumpy_man.jpg?1369442609');
   background-position: 70% center; }
   /* line 125, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .increase_of_workers p {
@@ -780,7 +779,7 @@ footer {
         margin: 0 0.1em; }
 /* line 142, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .half_of_american_households {
-  background-image: url('../img/1/jars.jpg?1369489914');
+  background-image: url('../img/1/jars.jpg?1369445831');
   background-position: 20% center; }
   /* line 147, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .half_of_american_households p {
@@ -793,9 +792,7 @@ footer {
     float: left;
     text-align: center; }
     /* line 75, sass/_mixins.sass */
-    .chapter-1-rethinking-retirement article .half_of_american_households p .major:after, .chapter-1-rethinking-retirement article .half_of_american_households p .major-alt:after, .chapter-1-rethinking-retirement article .half_of_american_households p .intro p.second:after, .chapter-1-rethinking-retirement article .intro .half_of_american_households p p.second:after, .chapter-1-rethinking-retirement article .half_of_american_households p .intro p.first:after, .chapter-1-rethinking-retirement article .intro .half_of_american_households p p.first:after,
-    .chapter-1-rethinking-retirement article .half_of_american_households p .intro p.third:after,
-    .chapter-1-rethinking-retirement article .intro .half_of_american_households p p.third:after, .chapter-1-rethinking-retirement article .half_of_american_households p .percentage_of_workers p:after, .chapter-1-rethinking-retirement article .percentage_of_workers .half_of_american_households p p:after, .chapter-1-rethinking-retirement article .half_of_american_households p p:after, .chapter-1-rethinking-retirement article .half_of_american_households p .one_in_four_workers .contents div p.first:after, .chapter-1-rethinking-retirement article .one_in_four_workers .contents div .half_of_american_households p p.first:after {
+    .chapter-1-rethinking-retirement article .half_of_american_households p .major:after, .chapter-1-rethinking-retirement article .half_of_american_households p .major-alt:after, .chapter-1-rethinking-retirement article .half_of_american_households p p:after, .chapter-1-rethinking-retirement article .half_of_american_households p .one_in_four_workers .contents div p.first:after, .chapter-1-rethinking-retirement article .one_in_four_workers .contents div .half_of_american_households p p.first:after {
       content: "";
       display: block;
       margin: 0.75em auto 0;
@@ -803,7 +800,7 @@ footer {
       border-bottom: 2px solid #383838; }
 /* line 151, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .one_in_four_workers {
-  background-image: url('../img/1/diner.jpg?1369445278');
+  background-image: url('../img/1/diner.jpg?1369444335');
   background-position: 20% center; }
   /* line 156, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .one_in_four_workers .contents div {
@@ -816,7 +813,7 @@ footer {
     float: right;
     text-align: center; }
     /* line 75, sass/_mixins.sass */
-    .chapter-1-rethinking-retirement article .one_in_four_workers .contents div .major:after, .chapter-1-rethinking-retirement article .one_in_four_workers .contents div .major-alt:after, .chapter-1-rethinking-retirement article .one_in_four_workers .contents div .intro p.second:after, .chapter-1-rethinking-retirement article .intro .one_in_four_workers .contents div p.second:after, .chapter-1-rethinking-retirement article .one_in_four_workers .contents div .intro p.first:after, .chapter-1-rethinking-retirement article .intro .one_in_four_workers .contents div p.first:after,
+    .chapter-1-rethinking-retirement article .one_in_four_workers .contents div .major:after, .chapter-1-rethinking-retirement article .one_in_four_workers .contents div .major-alt:after, .chapter-1-rethinking-retirement article .one_in_four_workers .contents div .intro p.second:after, .chapter-1-rethinking-retirement article .intro .one_in_four_workers .contents div p.second:after,
     .chapter-1-rethinking-retirement article .one_in_four_workers .contents div .intro p.third:after,
     .chapter-1-rethinking-retirement article .intro .one_in_four_workers .contents div p.third:after, .chapter-1-rethinking-retirement article .one_in_four_workers .contents div .percentage_of_workers p:after, .chapter-1-rethinking-retirement article .percentage_of_workers .one_in_four_workers .contents div p:after, .chapter-1-rethinking-retirement article .one_in_four_workers .contents div .half_of_american_households p:after, .chapter-1-rethinking-retirement article .half_of_american_households .one_in_four_workers .contents div p:after, .chapter-1-rethinking-retirement article .one_in_four_workers .contents div p.first:after {
       content: "";
@@ -826,7 +823,7 @@ footer {
       border-bottom: 2px solid #383838; }
 /* line 165, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .working_about_the_right_amount .contents {
-  background-image: url('../img/1/quoter.jpg?1369489914'); }
+  background-image: url('../img/1/quoter.jpg?1369452684'); }
 /* line 175, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .outro .second {
   font-family: "Adobe Caslon W01 Bd";
