@@ -1,13 +1,40 @@
 $(document).ready ()->
   $window = $(window)
 
+  $window_height = $window.height()
+
+  $page_height = $(document).height()
+
+  $window.on "resize", ()->
+    $window_height = $window.height()
+
+  $.fn.parallax = (rate)->
+    $this = $(this)
+    top = $this.offset().top
+    prefix = Modernizr.prefixed('transform')
+
+    $window.on "resize", ()->
+      top = $this.offset().top
+
+    do update = ()->
+      window.requestAnimationFrame update
+      next_css = if Modernizr.csstransforms3d
+        "translate3d(0, #{(top - pos - $window_height) * rate}px, 0)"
+      else
+        "translateY(#{(top - pos - $window_height) * rate}px)"
+      $this.css(prefix, next_css)
+
+
   # global scroll position handler
   pos = 1
+
+  $window.on "scroll", ()->
+    pos = $window.scrollTop()
 
   do onScroll = ()->
     # debounced window scroll binding
     setTimeout ()->
-      pos = $window.scrollTop()
+      # pos = $window.scrollTop()
 
       rethinking_retirement.fade_header()
       rethinking_retirement.shrink_header()
@@ -17,12 +44,6 @@ $(document).ready ()->
       $window.one 'scroll', onScroll
     , 100
 
-  $window_height = $window.height()
-
-  $page_height = $(document).height()
-
-  $window.on "resize", ()->
-    $window_height = $window.height()
 
 
   # Rethinking Retirement
@@ -40,6 +61,11 @@ $(document).ready ()->
     $expectation_chart = $('.expectation_chart', $chapter)
     expectation_chart_top = $expectation_chart.offset().top
     $expectation_chart_points = $('.data_point', $expectation_chart)
+
+
+    $('.background-image').each ()->
+      $(this).parallax(.1)
+
 
 
     rethinking_retirement.fade_header = ()->

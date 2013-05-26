@@ -14,7 +14,7 @@
         if ($current_chapter_number != '5')
           // echo '<li class="next"><a href="' . $chapters[$next_chapter]['slug'] . '.php"><span class="label">Next</span><span class="chapter_title">' . $chapters[$next_chapter]['title'] . '</span></a></li>';
           echo '<li class="next"><a href="#"><span class="label">Next</span><span class="chapter_title">' . $chapters[$next_chapter]['title'] . '</span></a></li>';
-          
+
         ?>
       </ul>
     </nav>
@@ -23,6 +23,7 @@
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="js/vendor/raf-polyfill.js"></script>
 <script src="js/vendor/jquery.cookie.js"></script>
 <script src="js/main.js"></script>
 

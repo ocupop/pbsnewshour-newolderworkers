@@ -29,10 +29,10 @@
 
   .chapter_title
     @extend .on_dark_background
-    background-image: image-url('1/path.jpg')
-    background-position: center
-    // background-size: cover
-    background-attachment: fixed
+
+    .background-image
+      background-image: image-url('1/path.jpg')
+      background-position: center
 
   .percentage_of_workers
     p
@@ -118,9 +118,10 @@
         @include transition-delay(1s)
 
   .increase_of_workers
-    @extend .background-image
-    background-image: image-url('1/grumpy_man.jpg')
-    background-position: 70% center
+
+    .background-image
+      background-image: image-url('1/grumpy_man.jpg')
+      background-position: 70% center
 
     p
       @include boxed(#fff, left, third, centered)
@@ -140,18 +141,18 @@
           margin: 0 .1em
 
   .half_of_american_households
-    @extend .background-image
-    background-image: image-url('1/jars.jpg')
-    background-position: 20% center
+    .background-image
+      background-image: image-url('1/jars.jpg')
+      // background-position: 20% center
 
     p
       @extend .major
       @include boxed(#fff, left, third, centered)
 
   .one_in_four_workers
-    @extend .background-image
-    background-image: image-url('1/diner.jpg')
-    background-position: 20% center
+    .background-image
+      background-image: image-url('1/diner.jpg')
+      // background-position: 20% center
 
     .contents div
       @include boxed(#fff, right, half, centered)
