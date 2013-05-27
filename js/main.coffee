@@ -34,8 +34,11 @@ $(document).ready ()->
       $this.css(prefix, next_css)
 
   # apply parallax to all background image containers
-  $('.background-image').each ()->
+  $('.background-image', 'section').each ()->
     $(this).parallax(-0.3)
+
+  # and to the intro photo
+  $('.background-image', '.company_photo').parallax(0.3)
 
 
   # container for scroll actions

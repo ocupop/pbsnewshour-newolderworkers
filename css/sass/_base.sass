@@ -91,28 +91,28 @@ em
 
 // Content Types
 
+.background-image
+  position: absolute
+  width: 100%
+  height: 200%
+  top: 0
+  left: 0
+  // incompatible with 3d transform tricks
+  // background-attachment: fixed
+  background-position: 50% 0%
+  background-repeat: no-repeat
+  // has severe performance issues:
+  // background-size: cover
+  // padding: 3em 6em
+
+  -webkit-backface-visibility: hidden
+  -webkit-perspective: 1000
+
 section
-  border: 1px solid #ccc
   @include clearfix
   background: #fff
   width: 100%
   z-index: 3
-
-  .background-image
-    position: absolute
-    width: 100%
-    height: 100%
-    top: 0
-    left: 0
-    // incompatible with 3d transform tricks
-    // background-attachment: fixed
-    background-position: 50% 0%
-    // has severe performance issues:
-    // background-size: cover
-    padding: 3em 6em
-
-    -webkit-backface-visibility: hidden
-    -webkit-perspective: 1000
 
   &.chapter
     text-align: center

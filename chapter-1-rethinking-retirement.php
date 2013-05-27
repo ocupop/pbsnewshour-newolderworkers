@@ -12,7 +12,7 @@ require_once('header.php');
   </header>
 
   <div class="bleed fixed company_photo">
-    <img src="img/1/company_photo.jpg">
+    <div class="background-image"></div>
   </div>
 
 </div>
@@ -144,7 +144,7 @@ require_once('header.php');
     <p>
       If you are under 65 and not yet fully retired, how long do you WANT to work?
     </p>
-    
+
     <label>
       <input type="radio" name="entry.1251379033" value="I want to retire before I reach age 65." id="group_1251379033_1">
       <span>I want to retire before I reach age 65.</span>
@@ -193,7 +193,7 @@ require_once('header.php');
 
     <label>
       <input type="radio" name="entry.1192439293" value="I am currently NOT working and am happy / OK with not working. &nbsp;" id="group_1192439293_3">
-      I am currently NOT working and am happy/OK with not working. 
+      I am currently NOT working and am happy/OK with not working.
     </label>
 
     <label>

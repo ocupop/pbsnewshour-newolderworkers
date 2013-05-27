@@ -9,7 +9,11 @@
 
   .story_header_wrapper
     z-index: 1
-    @include transition(opacity .3s)
+    @include transition(opacity 1s)
+
+  .company_photo .background-image
+    background-image: image-url('1/company_photo.jpg')
+    background-size: 100%
 
   .intro
     margin-top: 80%
@@ -32,7 +36,7 @@
 
     .background-image
       background-image: image-url('1/path.jpg')
-      background-position: center
+      // background-position: center
 
   .percentage_of_workers
     p
@@ -121,7 +125,7 @@
 
     .background-image
       background-image: image-url('1/grumpy_man.jpg')
-      background-position: 70% center
+      // background-position: 70% center
 
     p
       @include boxed(#fff, left, third, centered)
