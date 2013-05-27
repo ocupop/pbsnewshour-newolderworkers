@@ -4,6 +4,7 @@
   @include box-sizing(border-box)
   position: relative
 
+
 a
   color: $link-color
 
@@ -109,6 +110,9 @@ section
     // has severe performance issues:
     // background-size: cover
     padding: 3em 6em
+
+    -webkit-backface-visibility: hidden
+    -webkit-perspective: 1000
 
   &.chapter
     text-align: center
