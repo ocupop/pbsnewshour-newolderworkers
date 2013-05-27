@@ -19,6 +19,7 @@ require_once('header.php');
 
 <section class="intro">
   <div class="contents">
+
     <div class="percent_92">
       <svg width="100" height="100">
         <clipPath id="circle_mask">
@@ -46,6 +47,7 @@ require_once('header.php');
       Over <strong>half</strong> of today&rsquo;s households<br>
       won&rsquo;t have enough money for retirement.
     </p>
+
     <div class="percent_50">
       <svg width="100" height="100">
         <clipPath id="circle_mask_2">
@@ -117,87 +119,98 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="copy">
+<section class="question age_and_retirement">
   <div class="contents">
     <p>
       Everyone now knows that the workplace is greying. For a variety of reasons, many of us plan to work longer and retire later than we would have just 10 years ago. But for <em>how much</em> longer? The answer has been changing rapidly.
     </p>
 
-    <p><strong>[FORM GOES HERE]</strong></p>
-  </div>
-</section>
+    <!-- form questions from: http://www.pbs.org/newshour/businessdesk/2013/03/how-long-will-you-work.html -->
 
-<!--
-<section class="question expected_retirement_age">
-  <div class="contents">
-    <p>
-      When do you think you&rsquo;ll retire?
-    </p>
-
-    <label name>
-      <input type="radio" name="entry.1251379033" id="group_1251379033_1">
-      <strong>Before I reach age 65.</strong>
-    </label>
-
-    <label>
-      <input type="radio" name="entry.1251379033" id="group_1251379033_2">
-      <strong>Between 65 and 69.</strong>
-    </label>
-
-    <label>
-      <input type="radio" name="entry.1251379033" id="group_1251379033_3">
-      <strong>Between 70 and 74.</strong>
-    </label>
-
-    <label>
-      <input type="radio" name="entry.1251379033" id="group_1251379033_4">
-      <strong>Between 75 and 79.</strong>
-    </label>
-
-    <label>
-      <input type="radio" name="entry.1251379033" id="group_1251379033_5">
-      <strong>Past 80.</strong>
-    </label>
-
-    <label>
-      <input type="radio" name="entry.1251379033" id="group_1251379033_6">
-      <strong>Never!</strong>
-    </label>
-
-    <label>
-      <input type="radio" name="entry.1251379033" id="group_1251379033_7">
-      <strong>I am already retired.</strong>
-    </label>
-  </div>
-</section>
-
-<section class="data">
-  <div class="contents">
-    note: these responses match the options from our survey. Answers can be loaded into larger age range groups based on EBRI below.
-
-    the survey: http://www.pbs.org/newshour/businessdesk/2013/03/how-long-will-you-work.html
-  </div>
-</section>
-
-<section class="question age">
-  <div class="contents">
     <label>How old are you?</label>
     <input type="number" min="13" max="116" name="entry.1280847796" id="entry_1280847796">
+
+    <hr>
+
+    <label>Are you a current retiree?</label>
+    <select name="entry.981715763" id="entry_981715763">
+      <option value=""></option>
+      <option value="Yes, I am a retiree.&nbsp;">Yes, I am a retiree.&nbsp;</option>
+      <option value="No, I am not a retiree.&nbsp;">No, I am not a retiree.&nbsp;</option>
+    </select>
+
+    <hr>
+
+    <p>
+      If you are under 65 and not yet fully retired, how long do you WANT to work?
+    </p>
+    
+    <label>
+      <input type="radio" name="entry.1251379033" value="I want to retire before I reach age 65." id="group_1251379033_1">
+      <span>I want to retire before I reach age 65.</span>
+    </label>
+
+    <label>
+      <input type="radio" name="entry.1251379033" value="I want to work until I'm between 65 and 69." id="group_1251379033_2">
+      <span>I want to work until I'm between 65 and 69.</span>
+    </label>
+
+    <label>
+      <input type="radio" name="entry.1251379033" value="I want to work until I'm between 70 and 74." id="group_1251379033_3">
+      <span>I want to work until I'm between 70 and 74.</span>
+    </label>
+
+    <label>
+      <input type="radio" name="entry.1251379033" value="I want to work until I'm between 75 and 79." id="group_1251379033_4">
+      <span>I want to work until I'm between 75 and 79.</span>
+    </label>
+
+    <label>
+      <input type="radio" name="entry.1251379033" value="I want to work past 80.&nbsp;" id="group_1251379033_5">
+      <span>I want to work past 80.</span>
+    </label>
+
+    <label>
+      <input type="radio" name="entry.1251379033" value="Forever." id="group_1251379033_6">
+      <span>Forever.</span>
+    </label>
+
+    <hr>
+
+    <p>
+      If you are 65 or older, tell us if you&rsquo;re working or not working and whether you are satisfied with that.
+    </p>
+
+    <label>
+      <input type="radio" name="entry.1192439293" value="I am currently working and am happy/OK with working.&nbsp;" id="group_1192439293_1">
+      I am currently working and am happy/OK with working.
+    </label>
+
+    <label>
+      <input type="radio" name="entry.1192439293" value="I am currently working and am unhappy -- I would prefer to not be working.&nbsp;" id="group_1192439293_2">
+      I am currently working and am unhappy&mdash;I would prefer to not be working.
+    </label>
+
+    <label>
+      <input type="radio" name="entry.1192439293" value="I am currently NOT working and am happy / OK with not working. &nbsp;" id="group_1192439293_3">
+      I am currently NOT working and am happy/OK with not working. 
+    </label>
+
+    <label>
+      <input type="radio" name="entry.1192439293" value="I am currently NOT working and am unhappy -- I would prefer to be working.&nbsp;" id="group_1192439293_4">
+      I am currently NOT working and am unhappy&mdash;I would prefer to be working.
+    </label>
+
   </div>
 </section>
 
 <section class="data">
   <div class="contents">
-    Based on both answers above:
+    <h2>Results</h2>
 
-    show visualized expected age of retirement, where they fit, and how that&rsquo;s changed over the last 10 years based on this data from EBRI
-
-    [see graph]
-
-    anyone younger than 25 should be put in with ALL WORKERS
+    <p>Based on both answers above, show visualized expected age of retirement, where they fit, and how that&rsquo;s changed over the last 10 years based on this data from EBRI (anyone younger than 25 should be put in with ALL WORKERS).</p>
   </div>
 </section>
--->
 
 <section class="copy one_in_four_workers">
   <div class="background-image"></div>
