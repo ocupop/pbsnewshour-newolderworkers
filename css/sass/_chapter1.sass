@@ -123,6 +123,7 @@
         @include transition-delay(1s)
 
   .increase_of_workers
+    @extend .spread
 
     .background-image
       background-image: image-url('1/grumpy_man.jpg')
@@ -145,25 +146,27 @@
           font-size: 60px
           margin: 0 .1em
 
-  .half_of_american_households
-    .background-image
-      background-image: image-url('1/jars.jpg')
-      // background-position: 20% center
-
-    p
-      @extend .major
-      @include boxed(#fff, left, third, centered)
-
   .one_in_four_workers
+    @extend .spread
+
     .background-image
       background-image: image-url('1/diner.jpg')
-      // background-position: 20% center
 
     .contents div
       @include boxed(#fff, right, half, centered)
 
       p.first
         @extend .major
+
+  .half_of_american_households
+    @extend .spread
+
+    .background-image
+      background-image: image-url('1/jars.jpg')
+
+    p
+      @extend .major
+      @include boxed(#fff, left, third, centered)
 
   .working_about_the_right_amount
     @extend .quotation.left
