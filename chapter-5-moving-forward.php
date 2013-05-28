@@ -10,6 +10,13 @@ require_once('header.php');
     <p>
       The idea of working and retirement is changing.
     </p>
+    <p>How old are you?</p>
+    <input type="text" name="age">
+    <form id="the_form">
+      <input type="submit">
+    </form>
+
+
   </div>
 </section>
 

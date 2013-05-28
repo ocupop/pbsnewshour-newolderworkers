@@ -1,16 +1,18 @@
 <?php
 
+// $chapter = current chapter number
+
 // All chapters.
-$chapters = array(
-  '1' => array( 'number' => '1', 'title' => 'Rethinking Retirement',               'slug' => 'chapter-1-rethinking-retirement' ),
-  '2' => array( 'number' => '2', 'title' => 'A Snapshot',                          'slug' => 'chapter-2-a-snapshot' ),
-  '3' => array( 'number' => '3', 'title' => 'Working for the Nest Egg',            'slug' => 'chapter-3-working-for-the-nest-egg' ),
-  '4' => array( 'number' => '4', 'title' => 'Working in &lsquo;Retirement&rsquo;', 'slug' => 'chapter-4-working-in-retirement' ),
-  '5' => array( 'number' => '5', 'title' => 'Moving Forward',                      'slug' => 'chapter-5-moving-forward' )
+// indexed for human-friendliness
+$chapter_list = array(
+  1 => array( 'title' => 'Rethinking Retirement',               'slug' => 'chapter-1-rethinking-retirement' ),
+  2 => array( 'title' => 'A Snapshot',                          'slug' => 'chapter-2-a-snapshot' ),
+  3 => array( 'title' => 'Working for the Nest Egg',            'slug' => 'chapter-3-working-for-the-nest-egg' ),
+  4 => array( 'title' => 'Working in &lsquo;Retirement&rsquo;', 'slug' => 'chapter-4-working-in-retirement' ),
+  5 => array( 'title' => 'Moving Forward',                      'slug' => 'chapter-5-moving-forward' )
   );
 
-$current_chapter_number = $chapter;
-$current_chapter = $chapters[$chapter];
+$current_chapter = $chapter_list[$chapter];
 
 ?><!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -32,17 +34,17 @@ $current_chapter = $chapters[$chapter];
 
 <!--[if lt IE 8]><p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]-->
 
-<header class="site_header <?php echo $current_chapter !== '1' ? 'shown' : null; ?>">
+<header class="site_header <?php echo $chapter !== 1 ? 'shown' : null; ?>">
   <div class="contents">
     <a class="pbs">PBS</a>
     <a class="title" href="./"><h1><small>The</small> <em>R</em><span>etiring</span> <small>of</small> <em>R</em><span>etirement</span></h1></a>
     <nav>
       <ul>
         <?php
-        foreach ($chapters as $chapter) {
+        foreach ($chapter_list as $index => $ch) {
           echo '<li';
-          echo $current_chapter_number == $chapter['number'] ? ' class="current_chapter"' : null;
-          echo '><a href="/' . $chapter['slug'] . '.php">' . $chapter['title'] . '</a></li>';
+          echo $chapter == $index ? ' class="current_chapter"' : null;
+          echo '><a href="' . $ch['slug'] . '.php">' . $ch['title'] . '</a></li>';
         }
         ?>
       </ul>
