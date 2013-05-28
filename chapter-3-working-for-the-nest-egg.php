@@ -248,11 +248,18 @@ require_once('header.php');
   </div>
 </section>
 
+<section class="copy">
+  <div class="contents">
+    <h2>
+      I retired; then the crash hit
+    </h2>
+  </div>
+</section>
+
 <section class="video">
   <div class="contents">
     <video>
     <!--
-    TODO: Babs Kindergarten video
     In dropbox as 'Tatalias_OlderWorkers'
     autoplay 00:21 -- 00:37
       IN: "Because I didn't want to touch my nest egg..."
@@ -289,12 +296,10 @@ require_once('header.php');
   </div>
 </section>
 
-
 <section class="video">
   <div class="contents">
     <video>
     <!--
-    TODO: Babs Kindergarten video
     In dropbox as 'Smith_older workers'
     auto-play 1:19 -- 1:33
       IN: "It's discouraging..."
