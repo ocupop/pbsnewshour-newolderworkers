@@ -1,11 +1,13 @@
-.how_long_work
-  .under_65
-    display: block
-  .over_65
-    display: none
+.chapter-4-working-in-retirement article
 
-  &.show_over_65
+  .how_long_work
     .under_65
-      display: none
-    .over_65
       display: block
+    .over_65
+      display: none
+
+    &.show_over_65
+      .under_65
+        display: none
+      .over_65
+        display: block

@@ -97,14 +97,8 @@ em
   height: 200%
   top: 0
   left: 0
-  // incompatible with 3d transform tricks
-  // background-attachment: fixed
   background-position: 50% 0%
   background-repeat: no-repeat
-  // has severe performance issues:
-  // background-size: cover
-  // padding: 3em 6em
-
   -webkit-backface-visibility: hidden
   -webkit-perspective: 1000
 
@@ -230,6 +224,18 @@ section
   margin: 0 auto
   padding: .5em 0 .4em 0
   width: 75%
+
+.form_fields
+  background: image-url('form-background.jpg') center bottom  repeat-x
+  font-family: $proxima-semibold
+
+  label
+    font-size: 20px
+    text-transform: uppercase
+
+    span
+      display: inline-block
+      margin: 0 .5em
 
 .hr-top
   .contents:before

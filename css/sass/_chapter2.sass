@@ -1,0 +1,121 @@
+.chapter-2-a-snapshot article
+
+  .chapter_title
+    @extend .on_dark_background
+
+    .background-image
+      background-image: image-url('2/fishing-large.jpg')
+      background-position: center bottom
+
+    .contents
+      max-width: 900px
+
+    h2
+      font-family: $bodoni-poster-italic
+      font-size: 111px
+      text-indent: 4px
+
+      span
+        @include text-shadow(none)
+        background: #fff
+        color: $dark
+        display: block
+        font-family: $bodoni
+        font-size: 24px
+        margin: 0 auto
+        padding: .5em 0 .4em
+        text-indent: 0
+        width: 820px
+
+  .intro
+    p
+      text-align: center
+
+    p.first
+      color: #36301b
+      font-family: $bodoni-poster-italic
+      font-size: 68px
+      text-transform: uppercase
+      white-space: nowrap
+
+    p.second
+      color: $dark
+      font-family: $proxima-semibold
+      font-size: 20px
+      margin: 0 auto
+      padding: .5em 0 .4em
+      text-indent: 0
+      text-transform: uppercase
+      width: 820px
+
+  .gender
+    .contents
+      max-width: 100%
+      padding: 0
+
+      .question_text
+        background: $green
+        color: #fff
+        font-family: $proxima-bold
+        font-size: 28px
+        margin: 0
+        text-transform: uppercase
+        padding: 1em 0 .9em
+        text-align: center
+
+      .form_fields
+        margin: 0 auto
+        overflow: hidden
+        padding: 1em 1.5em
+        width: 500px
+
+        label
+          display: block
+          float: left
+          width: 50%
+
+          &.second
+            text-align: right
+
+  .gender_split
+    background: image-url('line-background.png') center top repeat-y
+    margin: 0 auto
+    width: $desktop
+    overflow: hidden
+
+    section
+      clear: both
+      width: 40%
+
+      .contents
+        padding: $line 0
+
+      &.female
+        float: right
+
+      &.male
+        float: left
+
+      &.quotation
+        width: 45%
+
+        blockquote
+          width: 330px
+
+        &.male
+          @extend .quotation.left
+
+        &.female
+          @extend .quotation.right
+
+          blockquote
+            float: right
+
+  .men_and_women
+    @extend .spread
+
+    .background-image
+      background-image: image-url('2/briefcases-large.jpg')
+
+    .contents div
+      @include boxed(#fff, right, half, centered)
