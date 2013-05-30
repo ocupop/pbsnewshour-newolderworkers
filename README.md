@@ -5,20 +5,26 @@ Research and story by PBS NewsHour. Website developed by Ocupop.
 
 ## Credits
 
-### Ocupop
+### PBS NewsHour: Content and Editorial
+- **Paul Solman**
+- **Patti Parson**
+- **Elizabeth Shell**
+- **Vanessa Dennis**
+- **Travis Daub**
+- **Diane Lincoln**
+- **Dante Chinni**
+- **David Pelcyger**
+- **Justin Scullietti**
+- **Mike Fritz**
+- **Bob Burns**
+- **Joshua Barajas**
 
-- **Justin Falcone**, development
-- **Nick Krusick**, video editing
+### Design and Development: Ocupop
 - **Abby Lindstrom**, design and illustration
 - **Matthew McVickar**, art direction and development
+- **Justin Falcone**, development
+- **Nick Krusick**, video editing
 - **Michael Nieling**, art direction
-
-### PBS NewsHour
-
-- **Travis Daub**
-- **Vanessa Dennis**
-- **Elizabeth Shell**
-- **Paul Solman**
 
 
 ## Technologies

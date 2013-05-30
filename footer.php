@@ -38,16 +38,23 @@
 
     <h2>Credits</h2>
 
-    <h3>PBS NewsHour</h3>
+    <h3>PBS NewsHour: Content and Editorial</h3>
     <ul>
-      <li><strong>Travis Daub</strong></li>
-      <li><strong>Vanessa Dennis</strong></li>
-      <li><strong>Elizabeth Shell</strong></li>
       <li><strong>Paul Solman</strong></li>
-      <li><strong>TODO</strong></li>
+      <li><strong>Patti Parson</strong></li>
+      <li><strong>Elizabeth Shell</strong></li>
+      <li><strong>Vanessa Dennis</strong></li>
+      <li><strong>Travis Daub</strong></li>
+      <li><strong>Diane Lincoln Estes</strong></li>
+      <li><strong>Dante Chinni</strong></li>
+      <li><strong>David Pelcyger</strong></li>
+      <li><strong>Justin Scullietti</strong></li>
+      <li><strong>Mike Fritz</strong></li>
+      <li><strong>Bob Burns</strong></li>
+      <li><strong>Joshua Barajas</strong></li>
     </ul>
 
-    <h3>Ocupop</h3>
+    <h3>Design and Development: Ocupop</h3>
     <ul>
       <li><strong>Abby Lindstrom</strong> design and illustration</li>
       <li><strong>Matthew McVickar</strong> art direction and development</li>
