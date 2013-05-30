@@ -134,8 +134,13 @@ section
     text-transform: uppercase
     padding: 16em 0
 
+    p,
+    h2
+      color: #fff
+      @include text-shadow($dark 0 0 25px)
+
     p
-      border-bottom: 2px solid $dark
+      border-bottom: 2px solid rgba(255, 255, 255, .6)
       display: inline-block
       font-size: $font-size*0.9
       letter-spacing: 1px
@@ -143,17 +148,9 @@ section
       padding: 0 1em .25em 1em
 
     h2
-      font-size: 44px
+      font-family: $bodoni-poster-italic
+      font-size: 90px
       margin: 0
-
-    &.on_dark_background
-      p
-        border-bottom: 2px solid rgba(255, 255, 255, .6)
-
-      p,
-      h2
-        color: #fff
-        @include text-shadow($dark 0 0 25px)
 
   &.copy
     p
