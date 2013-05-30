@@ -32,6 +32,7 @@
 
     li
       color: $medium
+      cursor: pointer
       float: left
       font-family: $proxima-semibold
       line-height: 1.4
@@ -42,31 +43,67 @@
       position: relative
       @include transition(color .1s)
 
+      &:hover
+        color: $dark
+
+        .services
+          opacity: 1
+
+        .icon
+          opacity: .75
+
+        p
+          color: $green
+
+      .services,
+      .icon,
+      .icon span
+        @include transition(opacity .2s)
+
       .services
+        text-align: center
+        opacity: 0
         position: absolute
         top: 75px
         left: 5px
-        text-align: center
         width: 160px
-        z-index: 6
+        height: 160px
+        z-index: 2
 
         span
-          border: 1px  solid black
+          background-position: center center
+          background-repeat: no-repeat
+          cursor: pointer
           display: block
           float: left
           margin: 0 5px
+          opacity: .8
+          text-indent: -99999px
           width: 40px
           height: 40px
-          text-indent: -99999px
+          z-index: 2
+
+          &:hover
+            opacity: 1
+
+          &.twitter
+            background-image: image-url('button-twitter.png')
+
+          &.facebook
+            background-image: image-url('button-facebook.png')
+
+          &.email
+            background-image: image-url('button-email.png')
 
       .icon
         width: 160px
         height: 160px
         display: block
         margin: 1em auto
+        z-index: 1
 
-      &:hover
-        color: $dark
+      p
+        @include transition(color .2s)
 
   .ask_details a.big,
   .three_steps a

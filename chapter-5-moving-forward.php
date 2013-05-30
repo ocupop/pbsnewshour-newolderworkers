@@ -33,7 +33,7 @@ require_once('header.php');
             <span class="facebook">Facebook</span>
             <span class="email">Email</span>
           </div>
-          <img class="icon" src="img/5/share1.png">
+          <img class="icon" src="img/5/share-1.jpg">
           <p>Half of American households have less than $10k in savings.</p>
         </li>
         <li class="death_of_the_pension">
@@ -42,7 +42,7 @@ require_once('header.php');
             <span class="facebook">Facebook</span>
             <span class="email">Email</span>
           </div>
-          <img class="icon" src="img/5/share2.png">
+          <img class="icon" src="img/5/share-2.jpg">
           <p>In 1975, 85% of private sector employees had pensions. In 2013, only 35% do.</p>
         </li>
         <li class="death_of_the_pension">
@@ -51,7 +51,7 @@ require_once('header.php');
             <span class="facebook">Facebook</span>
             <span class="email">Email</span>
           </div>
-          <img class="icon" src="img/5/share3.png">
+          <img class="icon" src="img/5/share-3.jpg">
           <p>The average investor underperforms during inflation.</p>
         </li>
         <li class="death_of_the_pension">
@@ -60,7 +60,7 @@ require_once('header.php');
             <span class="facebook">Facebook</span>
             <span class="email">Email</span>
           </div>
-          <img class="icon" src="img/5/share4.png">
+          <img class="icon" src="img/5/share-4.jpg">
           <p>A third of Baby Boomers have no retirement savings.</p>
         </li>
       </ul>

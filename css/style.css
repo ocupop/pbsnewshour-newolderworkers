@@ -2063,6 +2063,7 @@ footer {
 /* line 33, sass/_chapter5.sass */
 .chapter-5-moving-forward article .share_options li {
   color: #666666;
+  cursor: pointer;
   float: left;
   font-family: "Proxima N W01 Smbd";
   line-height: 1.4;
@@ -2075,33 +2076,75 @@ footer {
   -moz-transition: color 0.1s;
   -o-transition: color 0.1s;
   transition: color 0.1s; }
-  /* line 45, sass/_chapter5.sass */
+  /* line 46, sass/_chapter5.sass */
+  .chapter-5-moving-forward article .share_options li:hover {
+    color: #383838; }
+    /* line 49, sass/_chapter5.sass */
+    .chapter-5-moving-forward article .share_options li:hover .services {
+      opacity: 1; }
+    /* line 52, sass/_chapter5.sass */
+    .chapter-5-moving-forward article .share_options li:hover .icon {
+      opacity: 0.75; }
+    /* line 55, sass/_chapter5.sass */
+    .chapter-5-moving-forward article .share_options li:hover p {
+      color: #548e85; }
+  /* line 58, sass/_chapter5.sass */
+  .chapter-5-moving-forward article .share_options li .services,
+  .chapter-5-moving-forward article .share_options li .icon,
+  .chapter-5-moving-forward article .share_options li .icon span {
+    -webkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    transition: opacity 0.2s; }
+  /* line 63, sass/_chapter5.sass */
   .chapter-5-moving-forward article .share_options li .services {
+    text-align: center;
+    opacity: 0;
     position: absolute;
     top: 75px;
     left: 5px;
-    text-align: center;
     width: 160px;
-    z-index: 6; }
-    /* line 53, sass/_chapter5.sass */
+    height: 160px;
+    z-index: 2; }
+    /* line 73, sass/_chapter5.sass */
     .chapter-5-moving-forward article .share_options li .services span {
-      border: 1px solid black;
+      background-position: center center;
+      background-repeat: no-repeat;
+      cursor: pointer;
       display: block;
       float: left;
       margin: 0 5px;
+      opacity: 0.8;
+      text-indent: -99999px;
       width: 40px;
       height: 40px;
-      text-indent: -99999px; }
-  /* line 62, sass/_chapter5.sass */
+      z-index: 2; }
+      /* line 86, sass/_chapter5.sass */
+      .chapter-5-moving-forward article .share_options li .services span:hover {
+        opacity: 1; }
+      /* line 89, sass/_chapter5.sass */
+      .chapter-5-moving-forward article .share_options li .services span.twitter {
+        background-image: url('../img/button-twitter.png?1369949801'); }
+      /* line 92, sass/_chapter5.sass */
+      .chapter-5-moving-forward article .share_options li .services span.facebook {
+        background-image: url('../img/button-facebook.png?1369942741'); }
+      /* line 95, sass/_chapter5.sass */
+      .chapter-5-moving-forward article .share_options li .services span.email {
+        background-image: url('../img/button-email.png?1369949779'); }
+  /* line 98, sass/_chapter5.sass */
   .chapter-5-moving-forward article .share_options li .icon {
     width: 160px;
     height: 160px;
     display: block;
-    margin: 1em auto; }
-  /* line 68, sass/_chapter5.sass */
-  .chapter-5-moving-forward article .share_options li:hover {
-    color: #383838; }
-/* line 71, sass/_chapter5.sass */
+    margin: 1em auto;
+    z-index: 1; }
+  /* line 105, sass/_chapter5.sass */
+  .chapter-5-moving-forward article .share_options li p {
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    transition: color 0.2s; }
+/* line 108, sass/_chapter5.sass */
 .chapter-5-moving-forward article .ask_details a.big,
 .chapter-5-moving-forward article .three_steps a {
   background: #548e85;
@@ -2124,7 +2167,7 @@ footer {
     border-bottom: 20px solid transparent;
     border-left: 20px solid #548e85;
     margin-right: -20px; }
-  /* line 83, sass/_chapter5.sass */
+  /* line 120, sass/_chapter5.sass */
   .chapter-5-moving-forward article .ask_details a.big:hover,
   .chapter-5-moving-forward article .three_steps a:hover {
     background: #383838; }
@@ -2140,35 +2183,35 @@ footer {
       border-bottom: 20px solid transparent;
       border-left: 20px solid #383838;
       margin-right: -20px; }
-/* line 87, sass/_chapter5.sass */
+/* line 124, sass/_chapter5.sass */
 .chapter-5-moving-forward article .ask_details {
   padding: 0 1.5em; }
-  /* line 90, sass/_chapter5.sass */
+  /* line 127, sass/_chapter5.sass */
   .chapter-5-moving-forward article .ask_details p {
     font-family: "Proxima N W01 Smbd";
     font-size: 18px;
     float: left;
     width: 45%; }
-    /* line 96, sass/_chapter5.sass */
+    /* line 133, sass/_chapter5.sass */
     .chapter-5-moving-forward article .ask_details p.first {
       margin-right: 5%; }
-    /* line 99, sass/_chapter5.sass */
+    /* line 136, sass/_chapter5.sass */
     .chapter-5-moving-forward article .ask_details p.second {
       margin-left: 5%; }
-/* line 103, sass/_chapter5.sass */
+/* line 140, sass/_chapter5.sass */
 .chapter-5-moving-forward article .three_steps .first_step,
 .chapter-5-moving-forward article .three_steps .second_step,
 .chapter-5-moving-forward article .three_steps .third_step {
   margin-bottom: 5em;
   padding-left: 200px; }
-/* line 109, sass/_chapter5.sass */
+/* line 146, sass/_chapter5.sass */
 .chapter-5-moving-forward article .three_steps h3 {
   font-family: "Proxima N W01 Smbd";
   font-size: 22px;
   line-height: 1.3;
   margin-bottom: 1em;
   text-transform: uppercase; }
-/* line 116, sass/_chapter5.sass */
+/* line 153, sass/_chapter5.sass */
 .chapter-5-moving-forward article .three_steps p {
   font-size: 18px;
   margin: 0.5em 0 1.5em; }
