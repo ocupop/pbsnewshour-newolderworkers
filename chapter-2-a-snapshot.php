@@ -286,7 +286,7 @@ require_once('header.php');
 
 <section class="video joel_peters">
   <div class="contents">
-    <video preload="auto">
+    <video controls preload="auto">
       <source src="video/OlderWorkers-JoelPeters.mp4" type="video/mp4">
       <source src="video/OlderWorkers-JoelPeters.webm" type="video/webm">
     </video>
@@ -313,7 +313,7 @@ require_once('header.php');
       The Urban/Rural Divide
     </h2>
 
-    <video>
+    <video controls preload="auto">
       <!-- TODO: Dante Chinni Video -->
     </video>
 

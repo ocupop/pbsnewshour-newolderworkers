@@ -367,7 +367,7 @@ require_once('header.php');
 
 <section class="video babs_tatalias">
   <div class="contents">
-    <video preload="auto">
+    <video controls preload="auto">
       <source src="video/OlderWorkers-BabsTatalias.mp4" type="video/mp4">
       <source src="video/OlderWorkers-BabsTatalias.webm" type="video/webm">
     </video>
@@ -401,7 +401,7 @@ require_once('header.php');
 
 <section class="video charles_smith">
   <div class="contents">
-    <video preload="auto">
+    <video controls preload="auto">
       <source src="video/OlderWorkers-CharlesSmith.mp4" type="video/mp4">
       <source src="video/OlderWorkers-CharlesSmith.webm" type="video/webm">
     </video>
@@ -440,7 +440,7 @@ require_once('header.php');
 
 <section class="video mike_kemp">
   <div class="contents">
-    <video preload="auto">
+    <video controls preload="auto">
       <source src="video/OlderWorkers-MikeKemp.mp4" type="video/mp4">
       <source src="video/OlderWorkers-MikeKemp.webm" type="video/webm">
     </video>
@@ -475,7 +475,7 @@ require_once('header.php');
 
 <section class="video brutal_job_search">
   <div class="contents">
-    <video>
+    <video controls preload="auto">
     <!-- TODO: Broadcast - Brutal Job Search Reality for Older Americans Out of Work for Six Months or More -->
     </video>
 
@@ -515,7 +515,7 @@ require_once('header.php');
 
 <section class="video paul_transition">
   <div class="contents">
-    <video preload="auto">
+    <video controls preload="auto">
       <source src="video/Paul-Transition.mp4" type="video/mp4">
       <source src="video/Paul-Transition.webm" type="video/webm"/>
     </video>
