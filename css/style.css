@@ -2048,7 +2048,7 @@ footer {
 .chapter-5-moving-forward article .ask span,
 .chapter-5-moving-forward article .act span {
   display: block;
-  font-size: 17.6px;
+  font-size: 22px;
   margin: 0.25em 0; }
 /* line 23, sass/_chapter5.sass */
 .chapter-5-moving-forward article .share_options,
@@ -2147,14 +2147,18 @@ footer {
 /* line 108, sass/_chapter5.sass */
 .chapter-5-moving-forward article .ask_details a.big,
 .chapter-5-moving-forward article .three_steps a {
-  background: #548e85;
+  background-color: #548e85;
   color: white;
   display: inline-block;
   font-family: "Proxima N W01 Bold";
   font-size: 18px;
   margin: 0.5em 0;
   padding: 0.5em 1em 0.4em 1em;
-  text-decoration: none; }
+  text-decoration: none;
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  -o-transition: background-color 0.2s;
+  transition: background-color 0.2s; }
   /* line 44, sass/_mixins.sass */
   .chapter-5-moving-forward article .ask_details a.big:before,
   .chapter-5-moving-forward article .three_steps a:before {
@@ -2167,7 +2171,14 @@ footer {
     border-bottom: 20px solid transparent;
     border-left: 20px solid #548e85;
     margin-right: -20px; }
-  /* line 120, sass/_chapter5.sass */
+  /* line 121, sass/_chapter5.sass */
+  .chapter-5-moving-forward article .ask_details a.big:before,
+  .chapter-5-moving-forward article .three_steps a:before {
+    -webkit-transition: border-left-color 0.2s;
+    -moz-transition: border-left-color 0.2s;
+    -o-transition: border-left-color 0.2s;
+    transition: border-left-color 0.2s; }
+  /* line 124, sass/_chapter5.sass */
   .chapter-5-moving-forward article .ask_details a.big:hover,
   .chapter-5-moving-forward article .three_steps a:hover {
     background: #383838; }
@@ -2183,35 +2194,49 @@ footer {
       border-bottom: 20px solid transparent;
       border-left: 20px solid #383838;
       margin-right: -20px; }
-/* line 124, sass/_chapter5.sass */
+/* line 128, sass/_chapter5.sass */
 .chapter-5-moving-forward article .ask_details {
   padding: 0 1.5em; }
-  /* line 127, sass/_chapter5.sass */
+  /* line 131, sass/_chapter5.sass */
   .chapter-5-moving-forward article .ask_details p {
     font-family: "Proxima N W01 Smbd";
     font-size: 18px;
     float: left;
     width: 45%; }
-    /* line 133, sass/_chapter5.sass */
+    /* line 137, sass/_chapter5.sass */
     .chapter-5-moving-forward article .ask_details p.first {
       margin-right: 5%; }
-    /* line 136, sass/_chapter5.sass */
+    /* line 140, sass/_chapter5.sass */
     .chapter-5-moving-forward article .ask_details p.second {
       margin-left: 5%; }
-/* line 140, sass/_chapter5.sass */
+/* line 144, sass/_chapter5.sass */
 .chapter-5-moving-forward article .three_steps .first_step,
 .chapter-5-moving-forward article .three_steps .second_step,
 .chapter-5-moving-forward article .three_steps .third_step {
+  background-repeat: no-repeat;
   margin-bottom: 5em;
+  padding-top: 2em;
   padding-left: 200px; }
-/* line 146, sass/_chapter5.sass */
+/* line 152, sass/_chapter5.sass */
 .chapter-5-moving-forward article .three_steps h3 {
   font-family: "Proxima N W01 Smbd";
   font-size: 22px;
   line-height: 1.3;
   margin-bottom: 1em;
   text-transform: uppercase; }
-/* line 153, sass/_chapter5.sass */
+/* line 159, sass/_chapter5.sass */
 .chapter-5-moving-forward article .three_steps p {
   font-size: 18px;
   margin: 0.5em 0 1.5em; }
+/* line 163, sass/_chapter5.sass */
+.chapter-5-moving-forward article .three_steps .first_step {
+  background-image: url('../img/5/1.gif?1369937150');
+  background-position: left 30px; }
+/* line 167, sass/_chapter5.sass */
+.chapter-5-moving-forward article .three_steps .second_step {
+  background-image: url('../img/5/2.gif?1369937161');
+  background-position: left 12px; }
+/* line 171, sass/_chapter5.sass */
+.chapter-5-moving-forward article .three_steps .third_step {
+  background-image: url('../img/5/3.gif?1369937170');
+  background-position: left 25px; }
