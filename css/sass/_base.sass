@@ -43,6 +43,7 @@ h2
   text-transform: uppercase
 
 h2
+  font-family: $font-heading
   font-size: $line*1.25
   margin: $line 0
   padding: $line 0 0
@@ -67,6 +68,16 @@ em
   margin: 0 auto
   max-width: $desktop
   padding: $line*2 0
+
+.blend-top .contents
+  padding-top: 0
+
+.blend-bottom .contents
+  padding-bottom: 0
+
+.blend .contents
+  padding-top: 0
+  padding-bottom: 0
 
 .fixed
   position: fixed
@@ -101,12 +112,6 @@ em
   background-repeat: no-repeat
   -webkit-backface-visibility: hidden
   -webkit-perspective: 1000
-
-section
-  border: 1px solid lightblue
-
-.contents
-  border: 1px solid pink
 
 section
   @include clearfix
@@ -157,6 +162,7 @@ section
 
   &.quotation
     .contents
+      @include clearfix
       background-repeat: no-repeat
       padding: 8em 0
 
@@ -191,6 +197,7 @@ section
     cite
       display: block
       font-size: $font-size * 0.95
+      line-height: 1.3
       margin-left: 1.5em
 
       strong
@@ -198,7 +205,8 @@ section
         font-family: $caslon-bold
         font-size: 18px
         font-weight: normal
-        text-indent: -1.1em
+        line-height: 1.5
+        text-indent: -1.2em
         text-transform: uppercase
 
         small
@@ -266,9 +274,18 @@ section
     .contents
       @include clearfix
 
-      p.caption
-        font-size: 18px
-        line-height: 1.6
+      .caption
+        h2
+          font-family: $proxima-semibold
+          font-size: 20px
+          line-height: 1.3
+          margin: 1em 0 .75em
+          text-align: left
+
+        p
+          font-size: 18px
+          line-height: 1.4
+          margin: .75em 0
 
     video
       background: #000

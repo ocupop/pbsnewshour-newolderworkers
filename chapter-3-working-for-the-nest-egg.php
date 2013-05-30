@@ -291,44 +291,26 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="copy">
-  <div class="contents">
-    <h2>
-      I retired; then the crash hit
-    </h2>
-  </div>
-</section>
-
-<section class="video">
+<section class="video babs_tatalias">
   <div class="contents">
     <video>
-    <!--
-    In dropbox as 'Tatalias_OlderWorkers'
-    autoplay 00:21 -- 00:37
-      IN: "Because I didn't want to touch my nest egg..."
-      OUT: "...And that's why I went back to work."
-    -->
+    <!-- TODO: Older Workers - Babs Tatalias -->
     </video>
 
-    <h2>
-      Babs Tatalias
-    </h2>
+    <div class="caption">
+      <h2>
+        I retired.<br>
+        Then the crash hit.
+      </h2>
 
-    <p>
-      Babs Tatalias retired at 61. After being forced back to work by the stock market crash in 2008, she found a new passion and a new career.
-    </p>
+      <p>
+        Babs Tatalias retired at 61. After being forced back to work by the stock market crash in 2008, she found a new passion and a new career.
+      </p>
+    </div>
   </div>
 </section>
 
-<section class="copy">
-  <div class="contents">
-    <h2>
-      I can&rsquo;t afford to stop working yet.
-    </h2>
-  </div>
-</section>
-
-<section class="quotation diane_oakley">
+<section class="quotation diane_oakley a_third_of_baby_boomers">
   <div class="contents">
     <blockquote>
       <p>
@@ -342,82 +324,66 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="video">
+<section class="video charles_smith">
   <div class="contents">
     <video>
-    <!--
-    In dropbox as 'Smith_older workers'
-    auto-play 1:19 -- 1:33
-      IN: "It's discouraging..."
-      OUT: "Where are all the jobs? North Dakota, right?"
-    -->
+    <!-- TODO: Older Workers - Charles Smith -->
     </video>
 
-    <h2>
-      Charles Smith
-    </h2>
+    <div class="caption">
+      <h2>
+        I can&rsquo;t afford to stop working yet.
+      </h2>
 
-    <p>
-      Rather than retire after a long career in the federal government, 63 year old Charles Smith works in a produce department for $10 an hour to support his family
-    </p>
+      <p>
+        Rather than retire after a long career in the federal government, 63 year old Charles Smith works in a produce department for $10 an hour to support his family
+      </p>
+    </div>
   </div>
 </section>
 
-<section class="copy">
+<section class="quotation dante_chinni the_great_recession">
   <div class="contents">
-    <p>
+    <p class="intro">
       The Great Recession swept away about 40% of Americans&rsquo; wealth, forcing many workers to stay on the job to try to recoup some of their savings losses. Some permanently left the stock market. Others were relying on the equity tied to their home values, which are still far below their peak. Again, we turn to Dante Chinni for insight about what&rsquo;s going on.
     </p>
+
+    <blockquote>
+      <p>
+        The Great Recession took a toll on the country as a whole, but it had special implications for older workers, pushing them back into the workplace. While the number of Americans in the workforce as a whole declined between 2008 and 2012&mdash;from 64% to 60%&mdash;the percentage of older Americans in the workforce actually grew, if only slightly. Between 2008 and 2012, the percentage of 60-plus aged Americans working full- or part-time inched up from 26% to 27%. Among those 65 or older, the percentage in the workforce grew slightly more, from 16% to 18%. One reason: the collapse of the stock market dealt a major blow to older Americans living off of retirement accounts with investments tied to the markets.
+      </p>
+
+      <cite>
+        <strong>&mdash; Dante Chinni</strong>
+         Author of <em>Our Patchwork Nation</em>
+      </cite>
+    </blockquote>
   </div>
 </section>
 
-<section class="copy dante">
-  <div class="contents">
-    <aside>
-      Dante Chinni
-    </aside>
-
-    <p>
-      The Great Recession took a toll on the country as a whole, but it had special implications for older workers, pushing them back into the workplace. While the number of Americans in the workforce as a whole declined between 2008 and 2012&mdash;from 64% to 60%&mdash;the percentage of older Americans in the workforce actually grew, if only slightly. Between 2008 and 2012, the percentage of 60-plus aged Americans working full- or part-time inched up from 26% to 27%. Among those 65 or older, the percentage in the workforce grew slightly more, from 16% to 18%. One reason: the collapse of the stock market dealt a major blow to older Americans living off of retirement accounts with investments tied to the markets.
-    </p>
-  </div>
-</section>
-
-<section class="copy">
-  <div class="contents">
-    <h2>
-      Best Laid Plans
-    </h2>
-
-    <p>
-      Though we may want to work longer, many of us have to hang it up earlier than planned&mdash;sometimes for health or family reasons&mdash;often, because we&rsquo;ve lost a job and can&rsquo;t find another.
-    </p>
-  </div>
-</section>
-
-<section class="video">
+<section class="video mike_kemp">
   <div class="contents">
     <video>
-    <!--
-    TODO: bike shop owner video
-    In dropbox as 'Kemp_OlderWorkers'
-    auto-play 1:19 -- 1:33
-      IN: "I've always been reasonably good"
-      OUT: "When I looked at the business, I could do this."
-    -->
+    <!-- TODO: Older Workers - Mike Kemp-->
     </video>
 
-    <h2>
-      Mike Kemp
-    </h2>
+    <div class="caption">
+      <h2>
+        Best-laid Plans
+      </h2>
 
-    <p>
-      69-year-old bike store owner Mike Kemp would continue to work if his health would allow it.
-    </p>
+      <p>
+        Though we may want to work longer, many of us have to hang it up earlier than planned&mdash;sometimes for health or family reasons&mdash;often, because we&rsquo;ve lost a job and can&rsquo;t find another.
+      </p>
+
+      <p>
+        69-year-old bike store owner Mike Kemp would continue to work if his health would allow it.
+      </p>
+    </div>
   </div>
 </section>
 
-<section class="copy">
+<section class="copy unemployed_but_wanting_to_work">
   <div class="contents">
     <h2>
       Unemployed But Wanting to Work
@@ -429,29 +395,25 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="video">
+<section class="video brutal_job_search">
   <div class="contents">
     <video>
-    <!--
-    TODO: bike shop owner video
-    In dropbox as 'Brutal Job Search Reality for Older Americans'
-    auto-play 08:41 -- 09:22
-      IN: "I’ve gone through"
-      OUT: "after the unemployment runs out, probably."
-    -->
+    <!-- TODO: Broadcast - Brutal Job Search Reality for Older Americans Out of Work for Six Months or More -->
     </video>
 
-    <h2>
-      Brutal Job Search Reality for Older Americans Out of Work for Six Months or More
-    </h2>
+    <div class="caption">
+      <h2>
+        Brutal Job Search Reality for Older Americans Out of Work for Six Months or More
+      </h2>
 
-    <p>
-      Despite a rosier jobs picture in April 2013, the prospect of finding work is greatly limited for Americans ages 55 or older who have been unemployed long-term. We explore why older workers face joblessness and considerable financial strain.
-    </p>
+      <p>
+        Despite a rosier jobs picture in April 2013, the prospect of finding work is greatly limited for Americans ages 55 or older who have been unemployed long-term. We explore why older workers face joblessness and considerable financial strain.
+      </p>
+    </div>
   </div>
 </section>
 
-<section class="copy">
+<section class="copy why_is_it_harder">
   <div class="contents">
     <p>
       Why is it harder for older folks who want to keep working to land a job? Economist Julie Zissimopoulos of the University of Southern California:
@@ -474,25 +436,11 @@ require_once('header.php');
 </section>
 
 
-<section class="video">
+<section class="video paul_transition">
   <div class="contents">
     <video>
-    <!--
-    TODO: transition video
-
-    New recording of Paul in a skype record. He would pop up like you just got an instant message.
-
-    dropbox: paul-transition.mov
-    -->
+    <!-- TODO: Paul - Transition -->
     </video>
-
-    <h2>
-      Brutal Job Search Reality for Older Americans Out of Work for Six Months or More
-    </h2>
-
-    <p>
-      Despite a rosier jobs picture in April 2013, the prospect of finding work is greatly limited for Americans ages 55 or older who have been unemployed long-term. We explore why older workers face joblessness and considerable financial strain.
-    </p>
   </div>
 </section>
 

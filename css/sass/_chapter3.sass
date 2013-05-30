@@ -99,14 +99,13 @@
 
   .sheryl_garrett
     @extend .left
+    @extend .blend-bottom
 
     .contents
       background-position: 92% 200px !important
-      padding-bottom: 0
 
   .investor_underperforms
-    .contents
-      padding-top: 0
+    @extend .blend-top
 
     p
       @extend .major
@@ -210,3 +209,54 @@
         &.active
           margin-top: 0
           opacity: 1
+
+  .babs_tatalias
+    @extend .video.left
+
+  .a_third_of_baby_boomers
+    @extend .quotation.right
+
+  .charles_smith
+    @extend .video.left
+
+  .the_great_recession
+    @extend .quotation.right
+
+    .contents
+      background-position: left 65% !important
+      padding: 2em 0
+
+      p.intro
+        width: 100%
+
+  .mike_kemp
+    @extend .video.left
+
+    h2
+      margin-top: 0 !important
+      padding-top: 0
+
+  .unemployed_but_wanting_to_work
+    @extend .blend-bottom
+
+    h2
+      font-size: 42px
+
+  .brutal_job_search
+    @extend .video.right
+
+    h2
+      margin-top: -.25em !important
+      padding-top: 0
+
+  .why_is_it_harder
+    @extend .blend
+
+  .julie_zissimopoulos
+    @extend .quotation.right
+    @extend .blend
+
+  .paul_transition
+    @extend .video.full
+
+    margin-top: 5em
