@@ -116,7 +116,7 @@ $(document).ready ()->
       $intro.toggleClass "active", (pos > chapter_title_top - $window_height)
 
     scroll_actions.show_data_points = ()->
-      $percentage_of_workers_chart_points.toggleClass 'active', (pos > (percentage_of_workers_chart_top - 400))
+      $percentage_of_workers_chart_points.toggleClass 'active', (pos + (2 * $window_height / 3) > percentage_of_workers_chart_top)  
 
 
   # Chapter 2: A Snapshot
