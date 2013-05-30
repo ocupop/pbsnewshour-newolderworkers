@@ -32,25 +32,23 @@
             font-size: 36px
             margin-bottom: .5em
 
-  .pie_slice
-    @include transform-origin(50px, 50px)
-    @include transform(rotate(-90deg))
-    @include transition(transform 2s)
-
-    // leave image for polyfilling if necessary
     img
       display: none
 
-  .active
-    .percent_68 .pie_slice
-      @include transform(rotate(65deg))
+    .pie_slice
+      @include transform-origin(50px, 50px)
+      @include transform(rotate(-90deg))
+      @include transition(transform 2s)
 
-    .percent_59 .pie_slice
-      @include transform(rotate(32deg))
+    .active
+      .percent_68 .pie_slice
+        @include transform(rotate(65deg))
 
-    .percent_57 .pie_slice
-      @include transform(rotate(30deg))
+      .percent_59 .pie_slice
+        @include transform(rotate(32deg))
 
+      .percent_57 .pie_slice
+        @include transform(rotate(30deg))
 
   .nancy_goldberg
     @extend .right

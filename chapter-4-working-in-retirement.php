@@ -42,7 +42,7 @@ require_once('header.php');
             <rect fill="#383838" x="0" y="0" width="50" height="50" />
           </g>
         </svg>
-        <!-- TODO: get image fallback from Abby  -->
+        <img src="img/4/68percent.jpg">
         <p>
           <strong>68%</strong>
           Want to feel useful<br>and productive
@@ -64,7 +64,7 @@ require_once('header.php');
             <rect fill="#383838" x="0" y="0" width="50" height="50" />
           </g>
         </svg>
-        <!-- TODO: get image fallback from Abby  -->
+        <img src="img/4/59percent.jpg">
         <p>
           <strong>59%</strong>
           Want to live<br>independently
@@ -86,7 +86,7 @@ require_once('header.php');
             <rect fill="#383838" x="0" y="0" width="50" height="50" />
           </g>
         </svg>
-        <!-- TODO: get image fallback from Abby  -->
+        <img src="img/4/57percent.jpg">
         <p>
           <strong>57%</strong>
           Want to have<br>something to do
