@@ -2,7 +2,6 @@
 
 Research and story by PBS NewsHour. Website developed by Ocupop.
 
----
 
 ## Credits
 
@@ -20,7 +19,6 @@ Research and story by PBS NewsHour. Website developed by Ocupop.
 - Vanessa Dennis
 - Elizabeth Shell
 
----
 
 ## Technologies
 
