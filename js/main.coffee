@@ -173,8 +173,8 @@ $(document).ready ()->
   # Credits
 
   $('#credits-open').on "click", ()->
-    $('#credits').show()
+    $('#credits').fadeIn()
 
   $('#credits-close').on "click", (e)->
     e.preventDefault()
-    $('#credits').hide()
+    $('#credits').fadeOut()
