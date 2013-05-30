@@ -44,7 +44,7 @@ $current_chapter = $chapter_list[$chapter];
         foreach ($chapter_list as $index => $ch) {
           echo '<li';
           echo $chapter == $index ? ' class="current_chapter"' : null;
-          echo '><a href="' . $ch['slug'] . '.php">' . $ch['title'] . '</a></li>';
+          echo '><a href="' . $ch['slug'] . '">' . $ch['title'] . '</a></li>';
         }
         ?>
       </ul>
