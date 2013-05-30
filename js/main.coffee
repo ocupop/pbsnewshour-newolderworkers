@@ -135,7 +135,9 @@ $(document).ready ()->
     $investor_underperforms_chart_points = $('.data_point', $investor_underperforms_chart)
 
     scroll_actions.show_data_points = ()->
-      $financially_unprepared_chart_points.toggleClass 'active', (pos > (financially_unprepared_chart_top - 400))
+      $financially_unprepared_chart_points.toggleClass 'active', (pos + (2 * $window_height / 3) > financially_unprepared_chart_top)
+      $investor_underperforms_chart_points.toggleClass 'active', (pos + (2 * $window_height / 3) > investor_underperforms_chart_top)
+
 
   # Chapter 4: Working in "Retirement"
 
