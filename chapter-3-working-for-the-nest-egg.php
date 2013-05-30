@@ -27,13 +27,16 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="quotation">
+<section class="quotation jack_vanderhei">
   <div class="contents">
-    <q>
-      If you look at the lowest income quartile of earners, 41% of them will run short of money within 10 years of retirement. I don&rsquo;t have a clue what will happen to them after that.
-    </q>
+    <blockquote>
+      <p>
+        If you look at the lowest income quartile of earners, 41% of them will run short of money within 10 years of retirement. I don&rsquo;t have a clue what will happen to them after that.
+      </p>
+    <//blockquote>
     <cite>
-      Jack VanDerhei, Employee Benefit Research Institute
+      <strong>&mdash; Jack VanDerhei</strong>
+      Employee Benefit Research Institute
     </cite>
   </div>
 </section>
@@ -236,13 +239,16 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="quotation">
+<section class="quotation sheryl_garrett">
   <div class="contents">
-    <q>
-      So many people are clueless when it comes to investing.
-    </q>
+    <blockquote>
+      <p>
+        So many people are clueless when it comes to investing.
+      </p>
+    </blockquote>
     <cite>
-      Sheryl Garrett (CFP&reg;, AIF&reg;, founder of The Garrett Planning Network, Inc.)
+      <strong>&mdash; Sheryl Garrett</strong>
+      CFP&reg;, AIF&reg;, founder of The Garrett Planning Network, Inc.)
     </cite>
   </div>
 </section>
@@ -299,13 +305,16 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="quotation">
+<section class="quotation diane_oakley">
   <div class="contents">
-    <q>
-      A third of the baby boomers have no retirement savings.
-    </q>
+    <blockquote>
+      <p>
+        A third of the baby boomers have no retirement savings.
+      </p>
+    </blockquote>
     <cite>
-      Diane Oakley, Executive Director of the National Institute on Retirement Security
+      <strong>&mdash; Diane Oakley</strong>
+      Executive Director of the National Institute on Retirement Security
     </cite>
   </div>
 </section>
@@ -427,13 +436,16 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="quotation">
+<section class="quotation julie_zissimopoulos">
   <div class="contents">
-    <q>
-      About half of unemployed middle aged and older workers are still unemployed two years later. If you are near retirement and an employer wants to hire you, there’s fixed costs to hiring you. They have to train you. They have to invest in you and if their investment is only going to be spread over a few years then that might not be the best investment for them compared to a worker where that investment might be spread over many more years.
-    </q>
+    <blockquote>
+      <p>
+        About half of unemployed middle aged and older workers are still unemployed two years later. If you are near retirement and an employer wants to hire you, there’s fixed costs to hiring you. They have to train you. They have to invest in you and if their investment is only going to be spread over a few years then that might not be the best investment for them compared to a worker where that investment might be spread over many more years.
+      </p>
+    </blockquote>
     <cite>
-      Julie Zissimopoulos, Economist, University of Southern California
+      <strong>&mdash; Julie Zissimopoulos</strong>
+      Economist, University of Southern California
     </cite>
   </div>
 </section>

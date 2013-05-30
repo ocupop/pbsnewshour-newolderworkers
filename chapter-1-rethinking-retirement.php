@@ -229,12 +229,12 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="quotation working_about_the_right_amount">
+<section class="quotation robert_martin working_about_the_right_amount">
   <div class="contents">
     <blockquote>
       <p>I am working about the right amount. I want to contribute and keep alert. Note however, though I may wake up every morning sharp as a tack, some days I&rsquo;m not sure which end it is. ;-)</p>
-      <cite class="robert_a_martin">
-        <strong>Robert A. Martin, J.D.</strong>
+      <cite>
+        <strong>&mdash; Robert A. Martin, J.D.</strong>
         76 and working part-time as a consultant.
       </cite>
     </blockquote>
@@ -263,7 +263,7 @@ require_once('header.php');
         As I pretty much knew, and have confirmed in the course of reporting for this older workers series, my situation is hardly typical of aging workers in America these days. And yet more Americans than ever, including more and more of my junior colleagues in the baby boom, are staying on the job past what was long considered retirement age. In twenty years workers 65&ndash;69 have doubled in their share of the labor force, and now almost a third of folks in that age range are working, up from one in five twenty years ago. What&rsquo;s more, the portion of people working past 75 has almost tripled since 1993.
       </p>
       <cite>
-        <strong>Paul Solman</strong>
+        <strong>&mdash; Paul Solman</strong>
         PBS Journalist, 68
       </cite>
     </blockquote>

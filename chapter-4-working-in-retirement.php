@@ -19,13 +19,15 @@ require_once('header.php');
 </div>
 </section>
 
-<section class="quotation">
+<section class="quotation nancy_goldberg">
   <div class="contents">
-    <q>
-      I am 77 and run an all-arts camp empowering women with my daughter, 47. I do the jobs that suit me: write letters, deal with prospective staff, help the younger women. The experiences I have gained I am passing on to the younger generation.
-    </q>
+    <blockquote>
+      <p>
+        I am 77 and run an all-arts camp empowering women with my daughter, 47. I do the jobs that suit me: write letters, deal with prospective staff, help the younger women. The experiences I have gained I am passing on to the younger generation.
+      </p>
+    </blockquote>
     <cite>
-      Nancy Goldberg
+      <strong>&mdash; Nancy Goldberg, 77</strong>
     </cite>
   </div>
 </section>
@@ -161,13 +163,16 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="quotation">
+<section class="quotation marc_freedman">
   <div class="contents">
-    <q>
-      I think there&rsquo;s a kind of sweet spot that&rsquo;s emerging in life that&rsquo;s a function of the longevity revolution. So when you&rsquo;re 50 years old, you have the chance to have a whole new chapter and it&rsquo;s an extraordinary opportunity for individuals to have another chance to do something important.
-    </q>
+    <blockquote>
+      <p>
+        I think there&rsquo;s a kind of sweet spot that&rsquo;s emerging in life that&rsquo;s a function of the longevity revolution. So when you&rsquo;re 50 years old, you have the chance to have a whole new chapter and it&rsquo;s an extraordinary opportunity for individuals to have another chance to do something important.
+      </p>
+    </blockquote>
     <cite>
-      Marc Freedman, Founder, Encore.org
+      <strong>&mdash; Marc Freedman</strong>
+      Founder, Encore.org
     </cite>
   </div>
 </section>

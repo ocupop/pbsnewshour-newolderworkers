@@ -73,14 +73,14 @@ require_once('header.php');
     </div>
   </section>
 
-  <section class="quotation female">
+  <section class="quotation paula_gjerstad female">
     <div class="contents">
       <blockquote>
         <p>
           I started a new career at the age of 54 and I am now teaching nursing. I feel young, and luckily my body matches that life vision.
         </p>
         <cite>
-          <strong>Paula Gjerstad, 68</strong>
+          <strong>&mdash; Paula Gjerstad, 68</strong>
         </cite>
       </blockquote>
     </div>
@@ -118,14 +118,14 @@ require_once('header.php');
     </div>
   </section>
 
-  <section class="quotation female">
+  <section class="quotation jack_vanderhei female">
     <div class="contents">
       <blockquote>
         <p>
           In a household where the wife stayed home to raise the kids and then enters  the workforce in her 40s or 50s, you often find she will put a much, much higher percentage into her retirement savings than a woman of the same age who’s worked her whole life. This is an acknowledgement that she has to catch up for all those years she missed.
         </p>
-        <cite class="jack_vanderhei">
-          <strong>Jack VanDerhei</strong>
+        <cite>
+          <strong>&mdash; Jack VanDerhei</strong>
           Research Director, Employee Benefit Research Institute
         </cite>
       </blockquote>
@@ -143,27 +143,27 @@ require_once('header.php');
     </div>
   </section>
 
-  <section class="quotation male">
+  <section class="quotation michael_davidson male">
     <div class="contents">
       <blockquote>
         <p>
           I was tentatively flirting with early retirement in the late &lsquo;90s until my neatly-built nest egg disappeared with the dot-com downturn. I stayed on and continued to progress up the ladder of success until 2008 when that rug was pulled out from under me&hellip; again! I am now a farmer! And I'm going to stay a farmer until they pry my cold, dead hands off my (soon to be bought) tractor.
         </p>
         <cite>
-          <strong>Michael Davidson, 65</strong>
+          <strong>&mdash; Michael Davidson, 65</strong>
         </cite>
       </blockquote>
     </div>
   </section>
 
-  <section class="quotation female">
+  <section class="quotation traer_sunley female">
     <div class="contents">
       <blockquote>
         <p>
           After I retired [at age 66] I competed for a volunteer docent position at a large local museum, received two years of intensive training comparable to an undergraduate degree in art history, and am now immersed in a whole new life of work! It is wonderful to re-pot yourself and let younger people step up.
         </p>
         <cite>
-          <strong>Traer Sunley, 70</strong>
+          <strong>&mdash; Traer Sunley, 70</strong>
         </cite>
       </blockquote>
     </div>
