@@ -34,6 +34,5 @@ Research and story by PBS NewsHour. Website developed by Ocupop.
 - [HTML5](http://www.w3.org/html/wg/)
 - [jQuery](http://jquery.com/)
 - [Modernizr](http://modernizr.com/)
-- [PopcornJS](http://popcornjs.org/)
 - [RAF Polyfill](https://gist.github.com/paulirish/1579671)
 - [SASS](http://sass-lang.com/)
