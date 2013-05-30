@@ -211,7 +211,7 @@ section {
   section.chapter_title {
     text-align: center;
     text-transform: uppercase;
-    padding: 12em 0; }
+    padding: 16em 0; }
     /* line 137, sass/_base.sass */
     section.chapter_title p {
       border-bottom: 2px solid #383838;
@@ -1170,17 +1170,16 @@ footer {
 
 /* line 6, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .chapter_title .background_image {
-  background-image: url('../img/2/fishing-large.jpg?1369781987');
-  background-position: center bottom; }
-/* line 10, sass/_chapter2.sass */
+  background-image: url('../img/2/fishing-large.jpg?1369781987'); }
+/* line 9, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .chapter_title .contents {
   max-width: 900px; }
-/* line 13, sass/_chapter2.sass */
+/* line 12, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .chapter_title h2 {
   font-family: "BodoniW01-PosterItalic";
   font-size: 111px;
   text-indent: 4px; }
-  /* line 18, sass/_chapter2.sass */
+  /* line 17, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .chapter_title h2 span {
     text-shadow: none;
     background: white;
@@ -1192,17 +1191,17 @@ footer {
     padding: 0.5em 0 0.4em;
     text-indent: 0;
     width: 820px; }
-/* line 31, sass/_chapter2.sass */
+/* line 30, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .intro p {
   text-align: center; }
-/* line 34, sass/_chapter2.sass */
+/* line 33, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .intro p.first {
   color: #36301b;
   font-family: "BodoniW01-PosterItalic";
   font-size: 68px;
   text-transform: uppercase;
   white-space: nowrap; }
-/* line 41, sass/_chapter2.sass */
+/* line 40, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .intro p.second {
   color: #383838;
   font-family: "Proxima N W01 Smbd";
@@ -1212,54 +1211,54 @@ footer {
   text-indent: 0;
   text-transform: uppercase;
   width: 820px; }
-/* line 54, sass/_chapter2.sass */
+/* line 53, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .gender .contents {
   max-width: 100%; }
-  /* line 57, sass/_chapter2.sass */
+  /* line 56, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .gender .contents .form_fields {
     padding: 1em 1.5em;
     width: 500px; }
-    /* line 61, sass/_chapter2.sass */
+    /* line 60, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .gender .contents .form_fields label {
       display: block;
       float: left;
       width: 50%; }
-      /* line 66, sass/_chapter2.sass */
+      /* line 65, sass/_chapter2.sass */
       .chapter-2-a-snapshot article .gender .contents .form_fields label.second {
         text-align: right; }
-/* line 69, sass/_chapter2.sass */
+/* line 68, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .gender_split {
   background: url('../img/line-background.png?1369792536') center top repeat-y;
   margin: 0 auto;
   padding-bottom: 3em;
   width: 800px;
   overflow: hidden; }
-  /* line 76, sass/_chapter2.sass */
+  /* line 75, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .gender_split section {
     clear: both;
     width: 40%; }
-    /* line 80, sass/_chapter2.sass */
+    /* line 79, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .gender_split section .contents {
       padding: 24px 0; }
-    /* line 83, sass/_chapter2.sass */
+    /* line 82, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .gender_split section.female {
       float: right; }
-    /* line 86, sass/_chapter2.sass */
+    /* line 85, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .gender_split section.male {
       float: left; }
-    /* line 89, sass/_chapter2.sass */
+    /* line 88, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .gender_split section.quotation {
       width: 48%; }
-      /* line 92, sass/_chapter2.sass */
+      /* line 91, sass/_chapter2.sass */
       .chapter-2-a-snapshot article .gender_split section.quotation blockquote {
         width: 330px; }
-      /* line 101, sass/_chapter2.sass */
+      /* line 100, sass/_chapter2.sass */
       .chapter-2-a-snapshot article .gender_split section.quotation.female blockquote {
         float: right; }
-/* line 107, sass/_chapter2.sass */
+/* line 106, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .men_and_women .background_image {
   background-image: url('../img/2/briefcases-large.jpg?1369782220'); }
-/* line 110, sass/_chapter2.sass */
+/* line 109, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .men_and_women .contents div {
   clear: left;
   background: white;
@@ -1275,22 +1274,22 @@ footer {
     margin: 0.75em auto 0;
     width: 50px;
     border-bottom: 2px solid #383838; }
-  /* line 113, sass/_chapter2.sass */
+  /* line 112, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .men_and_women .contents div p {
     margin-top: 0; }
-  /* line 117, sass/_chapter2.sass */
+  /* line 116, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .men_and_women .contents div ul {
     margin-left: 1.5em;
     margin-bottom: 0; }
-    /* line 121, sass/_chapter2.sass */
+    /* line 120, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .men_and_women .contents div ul li {
       font-size: 18px;
       list-style: square;
       margin: 1em 0; }
-      /* line 126, sass/_chapter2.sass */
+      /* line 125, sass/_chapter2.sass */
       .chapter-2-a-snapshot article .men_and_women .contents div ul li:last-child {
         margin-bottom: 0; }
-/* line 131, sass/_chapter2.sass */
+/* line 130, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .question.community_size .form_fields label {
   color: #666666;
   float: left;
@@ -1302,23 +1301,23 @@ footer {
   -moz-transition: color 0.2s;
   -o-transition: color 0.2s;
   transition: color 0.2s; }
-  /* line 140, sass/_chapter2.sass */
+  /* line 139, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label input,
   .chapter-2-a-snapshot article .question.community_size .form_fields label strong,
   .chapter-2-a-snapshot article .question.community_size .form_fields label span {
     display: block;
     margin: 0 auto; }
-  /* line 146, sass/_chapter2.sass */
+  /* line 145, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label input + strong {
     margin-top: 0.75em; }
-  /* line 149, sass/_chapter2.sass */
+  /* line 148, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label .icon {
     width: 81px;
     height: 81px;
     display: block;
     margin: 1em auto;
     position: relative; }
-    /* line 156, sass/_chapter2.sass */
+    /* line 155, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .question.community_size .form_fields label .icon:after {
       content: "";
       background-image: url('../img/2/community-size.png?1369874575');
@@ -1333,31 +1332,31 @@ footer {
       -moz-transition: opacity 0.2s;
       -o-transition: opacity 0.2s;
       transition: opacity 0.2s; }
-  /* line 168, sass/_chapter2.sass */
+  /* line 167, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label.highly_urbanized .icon:after {
     background-position: 0 0; }
-  /* line 171, sass/_chapter2.sass */
+  /* line 170, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label.less_urbanized .icon:after {
     background-position: -473px 0; }
-  /* line 174, sass/_chapter2.sass */
+  /* line 173, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label.rural_area .icon:after {
     background-position: -946px 0; }
-  /* line 177, sass/_chapter2.sass */
+  /* line 176, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label.very_rural_area .icon:after {
     background-position: -1420px 0; }
-  /* line 180, sass/_chapter2.sass */
+  /* line 179, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label:hover {
     color: #383838; }
-    /* line 183, sass/_chapter2.sass */
+    /* line 182, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .question.community_size .form_fields label:hover .icon:after {
       opacity: 1; }
-/* line 194, sass/_chapter2.sass */
+/* line 193, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .dante_chinni .intro {
   font-size: 18px; }
-/* line 197, sass/_chapter2.sass */
+/* line 196, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .dante_chinni h2 {
   font-size: 63px; }
-/* line 200, sass/_chapter2.sass */
+/* line 199, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .dante_chinni .caption {
   font-size: 18px; }
 
@@ -1623,54 +1622,51 @@ footer {
 .chapter-3-working-for-the-nest-egg article .paul_transition {
   margin-top: 5em; }
 
-/* line 3, sass/_chapter4.sass */
-.chapter-4-working-in-retirement article .chapter_title {
-  padding: 5em 0 30em; }
-  /* line 7, sass/_chapter4.sass */
-  .chapter-4-working-in-retirement article .chapter_title .background_image {
-    background-image: url('../img/4/barber-large.jpg?1369910365');
-    background-position: center -200px; }
-  /* line 11, sass/_chapter4.sass */
-  .chapter-4-working-in-retirement article .chapter_title .contents {
-    max-width: 900px; }
-  /* line 14, sass/_chapter4.sass */
-  .chapter-4-working-in-retirement article .chapter_title h2 {
-    font-family: "BodoniW01-PosterItalic";
-    font-size: 90px;
-    text-indent: 4px; }
-    /* line 19, sass/_chapter4.sass */
-    .chapter-4-working-in-retirement article .chapter_title h2 span {
-      text-shadow: none;
-      background: white;
-      color: #383838;
-      display: block;
-      font-family: "Bodoni MT W01";
-      font-size: 24px;
-      margin: 0 auto;
-      padding: 0.5em 0 0.4em;
-      text-indent: 0;
-      width: 820px; }
-/* line 32, sass/_chapter4.sass */
+/* line 6, sass/_chapter4.sass */
+.chapter-4-working-in-retirement article .chapter_title .background_image {
+  background-image: url('../img/4/barber-large.jpg?1369910365');
+  background-position: center -200px; }
+/* line 10, sass/_chapter4.sass */
+.chapter-4-working-in-retirement article .chapter_title .contents {
+  max-width: 900px; }
+/* line 13, sass/_chapter4.sass */
+.chapter-4-working-in-retirement article .chapter_title h2 {
+  font-family: "BodoniW01-PosterItalic";
+  font-size: 90px;
+  text-indent: 4px; }
+  /* line 18, sass/_chapter4.sass */
+  .chapter-4-working-in-retirement article .chapter_title h2 span {
+    text-shadow: none;
+    background: white;
+    color: #383838;
+    display: block;
+    font-family: "Bodoni MT W01";
+    font-size: 24px;
+    margin: 0 auto;
+    padding: 0.5em 0 0.4em;
+    text-indent: 0;
+    width: 820px; }
+/* line 31, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .intro .contents {
   overflow: hidden;
   *zoom: 1; }
-/* line 39, sass/_chapter4.sass */
+/* line 38, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .intro .top_three_reasons div {
   float: left;
   text-align: center;
   width: 33%; }
-  /* line 44, sass/_chapter4.sass */
+  /* line 43, sass/_chapter4.sass */
   .chapter-4-working-in-retirement article .intro .top_three_reasons div p {
     font-family: "Proxima N W01 Smbd";
     font-size: 18px;
     text-transform: uppercase; }
-    /* line 49, sass/_chapter4.sass */
+    /* line 48, sass/_chapter4.sass */
     .chapter-4-working-in-retirement article .intro .top_three_reasons div p strong {
       display: block;
       font-family: "BodoniW01-PosterItalic";
       font-size: 36px;
       margin-bottom: 0.5em; }
-/* line 55, sass/_chapter4.sass */
+/* line 54, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .pie_slice {
   -webkit-transform-origin: 50px 50px;
   -moz-transform-origin: 50px 50px;
@@ -1686,60 +1682,60 @@ footer {
   -moz-transition: -moz-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s; }
-  /* line 61, sass/_chapter4.sass */
+  /* line 60, sass/_chapter4.sass */
   .chapter-4-working-in-retirement article .pie_slice img {
     display: none; }
-/* line 65, sass/_chapter4.sass */
+/* line 64, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .active .percent_68 .pie_slice {
   -webkit-transform: rotate(65deg);
   -moz-transform: rotate(65deg);
   -ms-transform: rotate(65deg);
   -o-transform: rotate(65deg);
   transform: rotate(65deg); }
-/* line 68, sass/_chapter4.sass */
+/* line 67, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .active .percent_59 .pie_slice {
   -webkit-transform: rotate(32deg);
   -moz-transform: rotate(32deg);
   -ms-transform: rotate(32deg);
   -o-transform: rotate(32deg);
   transform: rotate(32deg); }
-/* line 71, sass/_chapter4.sass */
+/* line 70, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .active .percent_57 .pie_slice {
   -webkit-transform: rotate(30deg);
   -moz-transform: rotate(30deg);
   -ms-transform: rotate(30deg);
   -o-transform: rotate(30deg);
   transform: rotate(30deg); }
-/* line 78, sass/_chapter4.sass */
+/* line 77, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .nancy_goldberg .contents {
   overflow: hidden;
   *zoom: 1; }
-/* line 86, sass/_chapter4.sass */
+/* line 85, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .working_longer h2 {
   font-size: 42px; }
-/* line 92, sass/_chapter4.sass */
+/* line 91, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .colleges_see_graying_workforce .contents {
   padding-top: 1em; }
-/* line 95, sass/_chapter4.sass */
+/* line 94, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .colleges_see_graying_workforce h2 {
   padding-top: 0; }
-/* line 98, sass/_chapter4.sass */
+/* line 97, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .they_want_to {
   margin-top: 3em; }
-/* line 109, sass/_chapter4.sass */
+/* line 108, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .marc_freedman .contents {
   background-position: left 130px !important; }
-/* line 112, sass/_chapter4.sass */
+/* line 111, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .reasons_for_working {
   margin: 4em 0; }
-  /* line 115, sass/_chapter4.sass */
+  /* line 114, sass/_chapter4.sass */
   .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart {
     background: url('../img/4/reasons_for_working-chart.gif?1369915955') left top no-repeat;
     margin: 0 0 0 -37px;
     width: 837px;
     height: 365px;
     position: relative; }
-    /* line 122, sass/_chapter4.sass */
+    /* line 121, sass/_chapter4.sass */
     .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar {
       display: block;
       position: absolute;
@@ -1751,159 +1747,159 @@ footer {
       -moz-transition: all 0.3s;
       -o-transition: all 0.3s;
       transition: all 0.3s; }
-      /* line 131, sass/_chapter4.sass */
+      /* line 130, sass/_chapter4.sass */
       .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar.old {
         background: rgba(0, 0, 0, 0.8); }
-      /* line 134, sass/_chapter4.sass */
+      /* line 133, sass/_chapter4.sass */
       .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar.young {
         background: rgba(84, 142, 133, 0.8); }
-      /* line 139, sass/_chapter4.sass */
+      /* line 138, sass/_chapter4.sass */
       .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-1 {
         left: 70px;
         -webkit-transition-delay: 0.1s;
         -moz-transition-delay: 0.1s;
         -o-transition-delay: 0.1s;
         transition-delay: 0.1s; }
-        /* line 143, sass/_chapter4.sass */
+        /* line 142, sass/_chapter4.sass */
         .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-1.active {
           height: 205px; }
-      /* line 146, sass/_chapter4.sass */
+      /* line 145, sass/_chapter4.sass */
       .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-2 {
         left: 100px;
         -webkit-transition-delay: 1s;
         -moz-transition-delay: 1s;
         -o-transition-delay: 1s;
         transition-delay: 1s; }
-        /* line 150, sass/_chapter4.sass */
+        /* line 149, sass/_chapter4.sass */
         .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-2.active {
           height: 205px; }
-      /* line 153, sass/_chapter4.sass */
+      /* line 152, sass/_chapter4.sass */
       .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-3 {
         left: 190px;
         -webkit-transition-delay: 0.2s;
         -moz-transition-delay: 0.2s;
         -o-transition-delay: 0.2s;
         transition-delay: 0.2s; }
-        /* line 157, sass/_chapter4.sass */
+        /* line 156, sass/_chapter4.sass */
         .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-3.active {
           height: 185px; }
-      /* line 160, sass/_chapter4.sass */
+      /* line 159, sass/_chapter4.sass */
       .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-4 {
         left: 220px;
         -webkit-transition-delay: 1.1s;
         -moz-transition-delay: 1.1s;
         -o-transition-delay: 1.1s;
         transition-delay: 1.1s; }
-        /* line 164, sass/_chapter4.sass */
+        /* line 163, sass/_chapter4.sass */
         .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-4.active {
           height: 250px; }
-      /* line 167, sass/_chapter4.sass */
+      /* line 166, sass/_chapter4.sass */
       .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-5 {
         left: 305px;
         -webkit-transition-delay: 0.3s;
         -moz-transition-delay: 0.3s;
         -o-transition-delay: 0.3s;
         transition-delay: 0.3s; }
-        /* line 171, sass/_chapter4.sass */
+        /* line 170, sass/_chapter4.sass */
         .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-5.active {
           height: 182px; }
-      /* line 174, sass/_chapter4.sass */
+      /* line 173, sass/_chapter4.sass */
       .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-6 {
         left: 335px;
         -webkit-transition-delay: 1.2s;
         -moz-transition-delay: 1.2s;
         -o-transition-delay: 1.2s;
         transition-delay: 1.2s; }
-        /* line 178, sass/_chapter4.sass */
+        /* line 177, sass/_chapter4.sass */
         .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-6.active {
           height: 129px; }
-      /* line 181, sass/_chapter4.sass */
+      /* line 180, sass/_chapter4.sass */
       .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-7 {
         left: 410px;
         -webkit-transition-delay: 0.4s;
         -moz-transition-delay: 0.4s;
         -o-transition-delay: 0.4s;
         transition-delay: 0.4s; }
-        /* line 185, sass/_chapter4.sass */
+        /* line 184, sass/_chapter4.sass */
         .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-7.active {
           height: 182px; }
-      /* line 188, sass/_chapter4.sass */
+      /* line 187, sass/_chapter4.sass */
       .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-8 {
         left: 440px;
         -webkit-transition-delay: 1.3s;
         -moz-transition-delay: 1.3s;
         -o-transition-delay: 1.3s;
         transition-delay: 1.3s; }
-        /* line 192, sass/_chapter4.sass */
+        /* line 191, sass/_chapter4.sass */
         .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-8.active {
           height: 114px; }
-      /* line 195, sass/_chapter4.sass */
+      /* line 194, sass/_chapter4.sass */
       .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-9 {
         left: 525px;
         -webkit-transition-delay: 0.5s;
         -moz-transition-delay: 0.5s;
         -o-transition-delay: 0.5s;
         transition-delay: 0.5s; }
-        /* line 199, sass/_chapter4.sass */
+        /* line 198, sass/_chapter4.sass */
         .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-9.active {
           height: 182px; }
-      /* line 202, sass/_chapter4.sass */
+      /* line 201, sass/_chapter4.sass */
       .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-10 {
         left: 555px;
         -webkit-transition-delay: 1.4s;
         -moz-transition-delay: 1.4s;
         -o-transition-delay: 1.4s;
         transition-delay: 1.4s; }
-        /* line 206, sass/_chapter4.sass */
+        /* line 205, sass/_chapter4.sass */
         .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-10.active {
           height: 114px; }
-      /* line 209, sass/_chapter4.sass */
+      /* line 208, sass/_chapter4.sass */
       .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-11 {
         left: 648px;
         -webkit-transition-delay: 0.6s;
         -moz-transition-delay: 0.6s;
         -o-transition-delay: 0.6s;
         transition-delay: 0.6s; }
-        /* line 213, sass/_chapter4.sass */
+        /* line 212, sass/_chapter4.sass */
         .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-11.active {
           height: 114px; }
-      /* line 216, sass/_chapter4.sass */
+      /* line 215, sass/_chapter4.sass */
       .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-12 {
         left: 678px;
         -webkit-transition-delay: 1.5s;
         -moz-transition-delay: 1.5s;
         -o-transition-delay: 1.5s;
         transition-delay: 1.5s; }
-        /* line 220, sass/_chapter4.sass */
+        /* line 219, sass/_chapter4.sass */
         .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-12.active {
           height: 224px; }
-      /* line 223, sass/_chapter4.sass */
+      /* line 222, sass/_chapter4.sass */
       .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-13 {
         left: 760px;
         -webkit-transition-delay: 0.7s;
         -moz-transition-delay: 0.7s;
         -o-transition-delay: 0.7s;
         transition-delay: 0.7s; }
-        /* line 227, sass/_chapter4.sass */
+        /* line 226, sass/_chapter4.sass */
         .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-13.active {
           height: 75px; }
-      /* line 230, sass/_chapter4.sass */
+      /* line 229, sass/_chapter4.sass */
       .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-14 {
         left: 790px;
         -webkit-transition-delay: 1.6s;
         -moz-transition-delay: 1.6s;
         -o-transition-delay: 1.6s;
         transition-delay: 1.6s; }
-        /* line 234, sass/_chapter4.sass */
+        /* line 233, sass/_chapter4.sass */
         .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-14.active {
           height: 192px; }
-/* line 240, sass/_chapter4.sass */
+/* line 239, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .boom_in_entrepreneurship h2 {
   margin-top: 0 !important; }
-/* line 246, sass/_chapter4.sass */
+/* line 245, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .vita_needle h2 {
   margin-top: -0.25em !important;
   padding-top: 0; }
-/* line 250, sass/_chapter4.sass */
+/* line 249, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .couldnt_be_happier {
   margin-top: 3em; }
