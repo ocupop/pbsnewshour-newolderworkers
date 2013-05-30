@@ -118,7 +118,8 @@
         investor_underperforms_chart_top = $investor_underperforms_chart.offset().top;
         $investor_underperforms_chart_points = $('.data_point', $investor_underperforms_chart);
         return scroll_actions.show_data_points = function() {
-          return $financially_unprepared_chart_points.toggleClass('active', pos > (financially_unprepared_chart_top - 400));
+          $financially_unprepared_chart_points.toggleClass('active', pos + (2 * $window_height / 3) > financially_unprepared_chart_top);
+          return $investor_underperforms_chart_points.toggleClass('active', pos + (2 * $window_height / 3) > investor_underperforms_chart_top);
         };
       })();
     }
