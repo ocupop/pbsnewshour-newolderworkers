@@ -86,12 +86,12 @@ require_once('header.php');
       has more than tripled in 30 years.
     </p>
 
-    <div class="expectation_chart">
-      <div class="data_point" id="expectation_chart-data_point-1">from <strong>11%</strong> in 1991</div>
-      <div class="data_point" id="expectation_chart-data_point-2">to <strong>17%</strong> in 1997</div>
-      <div class="data_point" id="expectation_chart-data_point-3">to <strong>18%</strong> in 2002</div>
-      <div class="data_point" id="expectation_chart-data_point-4">to <strong>24%</strong> in 2007</div>
-      <div class="data_point" id="expectation_chart-data_point-5">and now <strong>36%</strong> in 2013</div>
+    <div class="percentage_of_workers-chart">
+      <div class="data_point" id="percentage_of_workers-chart-data_point-1">from <strong>11%</strong> in 1991</div>
+      <div class="data_point" id="percentage_of_workers-chart-data_point-2">to <strong>17%</strong> in 1997</div>
+      <div class="data_point" id="percentage_of_workers-chart-data_point-3">to <strong>18%</strong> in 2002</div>
+      <div class="data_point" id="percentage_of_workers-chart-data_point-4">to <strong>24%</strong> in 2007</div>
+      <div class="data_point" id="percentage_of_workers-chart-data_point-5">and now <strong>36%</strong> in 2013</div>
     </div>
   </div>
 </section>
@@ -272,7 +272,7 @@ require_once('header.php');
 
 <section class="data">
   <div class="contents">
-    <p class="major bordered">[Labor Force Participation Rates by Age Group, January 1993&ndash;January 2013 attachment. Most interesting: rate of change year over year for each age group. 75+ is dramatic]</p>
+    <h2>[Labor Force Participation Rates by Age Group, January 1993&ndash;January 2013 attachment. Most interesting: rate of change year over year for each age group. 75+ is dramatic]</h2>
   </div>
 </section>
 

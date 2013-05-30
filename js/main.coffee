@@ -1,8 +1,6 @@
 $(document).ready ()->
   $window = $(window)
-
   $window_height = $window.height()
-
   $page_height = $(document).height()
 
   # global scroll position handler
@@ -91,7 +89,7 @@ $(document).ready ()->
       console.log "Success!"
 
 
-  # Rethinking Retirement
+  # Chapter 1: Rethinking Retirement
 
   if $('body').hasClass('chapter-1-rethinking-retirement') then do ()->
     $site_header = $('.site_header')
@@ -99,9 +97,9 @@ $(document).ready ()->
     $chapter_title = $('.chapter_title')
     $intro = $('.intro')
     chapter_title_top = $chapter_title.offset().top
-    $expectation_chart = $('.expectation_chart')
-    expectation_chart_top = $expectation_chart.offset().top
-    $expectation_chart_points = $('.data_point', $expectation_chart)
+    $percentage_of_workers_chart = $('.percentage_of_workers-chart')
+    percentage_of_workers_chart_top = $percentage_of_workers_chart.offset().top
+    $percentage_of_workers_chart_points = $('.data_point', $percentage_of_workers_chart)
 
     scroll_actions.fade_header = ()->
       factor = 0
@@ -117,9 +115,32 @@ $(document).ready ()->
       $intro.toggleClass "active", (pos > chapter_title_top - $window_height)
 
     scroll_actions.show_data_points = ()->
-      $expectation_chart_points.toggleClass 'active', (pos > (expectation_chart_top - 400))
+      $percentage_of_workers_chart_points.toggleClass 'active', (pos > (percentage_of_workers_chart_top - 400))
 
-  # Working in "Retirement"
+
+  # Chapter 2: A Snapshot
+
+  # if $('body').hasClass('chapter-2-a-snapshot') then do ()->
+
+
+  # Chapter 3: Working for the Nest Egg
+
+  if $('body').hasClass('chapter-3-working-for-the-nest-egg') then do ()->
+    $financially_unprepared_chart = $('.financially_unprepared-chart')
+    financially_unprepared_chart_top = $financially_unprepared_chart.offset().top
+    $financially_unprepared_chart_points = $('.data_point', $financially_unprepared_chart)
+    $investor_underperforms_chart = $('.investor_underperforms-chart')
+    investor_underperforms_chart_top = $investor_underperforms_chart.offset().top
+    $investor_underperforms_chart_points = $('.data_point', $investor_underperforms_chart)
+
+    scroll_actions.show_data_points = ()->
+      $financially_unprepared_chart_points.toggleClass 'active', (pos > (financially_unprepared_chart_top - 400))
+
+    scroll_actions.show_data_points = ()->
+      $investor_underperforms_chart_points.toggleClass 'active', (pos > (investor_underperforms_chart_top - 400))
+
+
+  # Chapter 4: Working in "Retirement"
 
   if $('body').hasClass('chapter-4-working-in-retirement') then do ()->
     $user_age = $('.user_age')
@@ -131,6 +152,12 @@ $(document).ready ()->
       $how_long_work.toggleClass 'show_over_65', (age >= 65)
 
     $user_age.on "keyup change", set_how_long_work
+
+
+  # Chapter 5: Moving Forward
+
+  # if $('body').hasClass('chapter-5-moving-forward') then do ()->
+
 
   # Credits
 

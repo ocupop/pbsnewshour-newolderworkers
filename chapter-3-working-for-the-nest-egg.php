@@ -27,7 +27,7 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="quotation jack_vanderhei">
+<section class="quotation jack_vanderhei if_you_look_at">
   <div class="contents">
     <blockquote>
       <p>
@@ -41,12 +41,25 @@ require_once('header.php');
   </div>
 </section>
 
-
-<section class="copy">
+<section class="copy financially_unprepared">
   <div class="contents">
-    <p>
-      53% of American workers 30 and older are on a path that will leave them financially unprepared for retirement if they expect to maintain a constant living standard. In 2001, only 38% of Americans were at risk of declining living standards in old age. In 1989, just 30% faced the same risk.
+    <p class="first">
+      53% of American workers 30 and older are<br>
+      on a path that will leave them financially unprepared for retirement if they expect<br>
+      to maintain a constant living standard.
     </p>
+    <p class="second">
+      In 2001, only 38% of Americans were at risk of declining living standards in old age.
+    </p>
+    <p class="third">
+      In 1989, just 30% faced the same risk.
+    </p>
+
+    <div class="financially_unprepared-chart">
+      <div class="data_point" id="financially_unprepared-chart-data_point-1"><strong>30%</strong></div>
+      <div class="data_point" id="financially_unprepared-chart-data_point-2"><strong>38%</strong></div>
+      <div class="data_point" id="financially_unprepared-chart-data_point-3"><strong>53%</strong></div>
+    </div>
   </div>
 </section>
 
@@ -233,38 +246,48 @@ require_once('header.php');
     <p>
       According to the Social Security Administration, for most of us, Social Security alone will not provide enough income for a comfortable living, even assuming the program experiences no benefit cuts in coming years.
     </p>
-    <p>
-      The decline in pensions has meant that most people are now responsible for their own retirement investments.
-    </p>
   </div>
 </section>
 
 <section class="quotation sheryl_garrett">
   <div class="contents">
+    <p class="first">
+      The decline in pensions has meant that most people are now responsible for their own retirement investments.
+    </p>
+
     <blockquote>
       <p>
         So many people are clueless when it comes to investing.
       </p>
       <cite>
-        <strong>&mdash; Sheryl Garrett</strong>
-        CFP&reg;, AIF&reg;, founder of The Garrett Planning Network, Inc.)
+        <strong>&mdash; Sheryl Garrett <small>CFP&reg;, AIF&reg;</small></strong>
+        Founder of The Garrett Planning Network, Inc.
       </cite>
     </blockquote>
+
+    <p class="second">
+      Investment firm BlackRock has found that the average investor underperforms even during inflation. S/he knows she is supposed to buy low and sell high. But check out this rather sobering chart, which shows that in fact individual investors, on average, buy high&mdash;joining the crowd when stocks or bonds are rising in value&mdash;and sell low&mdash;stampeding to get out of investments once they have lost value.
+    </p>
   </div>
 </section>
 
-
-<section>
+<section class="investor_underperforms">
   <div class="contents">
     <p>
-      Investment firm BlackRock has found that the average investor underperforms even inflation. S/he knows she is supposed to buy low and sell high. But check out this rather sobering chart, which shows that in fact individual investors, on average, buy high&mdash;joining the crowd when stocks or bonds are rising in value&mdash;and sell low&mdash;stampeding to get out of investments once they have lost value.
+      The average investor underperforms during inflation
     </p>
 
-    <!--
-    TODO: graphic
-
-    https://www2.blackrock.com/us/financial-professionals/market-insight/chart-of-the-week/volatility-propels-emotional-investing
-    -->
+    <div class="investor_underperforms-chart">
+      <div class="data_point bar" id="investor_underperforms-chart-data_point-1"></div>
+      <div class="data_point bar" id="investor_underperforms-chart-data_point-2"></div>
+      <div class="data_point bar" id="investor_underperforms-chart-data_point-3"></div>
+      <div class="data_point bar" id="investor_underperforms-chart-data_point-4"></div>
+      <div class="data_point bar" id="investor_underperforms-chart-data_point-5"></div>
+      <div class="data_point bar" id="investor_underperforms-chart-data_point-6"></div>
+      <div class="data_point bar" id="investor_underperforms-chart-data_point-7"></div>
+      <div class="data_point bar" id="investor_underperforms-chart-data_point-8"></div>
+      <div class="data_point" id="investor_underperforms-chart-data_point-9">2.1%</div>
+    </div>
   </div>
 </section>
 

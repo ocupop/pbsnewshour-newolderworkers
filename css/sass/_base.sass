@@ -103,6 +103,12 @@ em
   -webkit-perspective: 1000
 
 section
+  border: 1px solid lightblue
+
+.contents
+  border: 1px solid pink
+
+section
   @include clearfix
   background: #fff
   width: 100%
@@ -110,14 +116,6 @@ section
 
   &.spread
     min-height: 800px
-
-  &.border-top
-    border-top: 2px solid $dark
-    width: 100%
-
-  &.border-bottom
-    border-bottom: 2px solid $dark
-    width: 100%
 
   &.chapter
     text-align: center
@@ -159,9 +157,23 @@ section
 
   &.quotation
     .contents
-      @include clearfix
       background-repeat: no-repeat
       padding: 8em 0
+
+    p
+      clear: both
+      font-size: 18px
+      padding-bottom: 1.5em
+      width: 50%
+
+      &:first-child
+        margin-top: 0
+
+      &:last-child
+        margin-bottom: 0
+
+    blockquote + p
+      padding-top: 3em
 
     blockquote
       background: $green
@@ -173,6 +185,8 @@ section
       p
         font-size: $font-size * 1.2
         margin-top: 0
+        padding: 0
+        width: 100%
 
     cite
       display: block
@@ -184,22 +198,24 @@ section
         font-family: $caslon-bold
         font-size: 18px
         font-weight: normal
-        text-indent: -1.25em
+        text-indent: -1.1em
         text-transform: uppercase
 
-    &.left
-      float: left
+        small
+          font-size: 14px
+          margin-left: .4em
 
+    &.left
       blockquote
+        float: left
         @include triangle-right(25px, $green)
 
       .contents
-        background-position: 90% center
+        background-position: 92% center
 
     &.right
-      float: right
-
       blockquote
+        float: right
         @include triangle-left(25px, $green)
 
       .contents
@@ -290,9 +306,13 @@ section
   @extend .major
   font-size: 20px
 
-.half-width
-  p
-    width: 50%
+.border-top
+  border-top: 2px solid $dark
+  width: 100%
+
+.border-bottom
+  border-bottom: 2px solid $dark
+  width: 100%
 
 .bordered
   border-top: 2px solid $dark
