@@ -2,7 +2,7 @@
 
   .chapter_title
     .background_image
-      background-image: image-url('4/barber-large.jpg')
+      @include multi-background("4/barber")
       background-position: center -200px
 
     .contents
@@ -88,7 +88,7 @@
       background-position: left 130px !important
 
   .reasons_for_working
-    margin: 4em 0 
+    margin: 4em 0
 
     .reasons_for_working-chart
       background: image-url('4/reasons_for_working-chart.gif') left top no-repeat
@@ -119,7 +119,7 @@
           @include transition-delay(.1s)
 
           &.active
-            height: 205px            
+            height: 205px
 
         &#reasons_for_working-chart-data_point-2
           left: 100px
@@ -211,7 +211,7 @@
 
           &.active
             height: 192px
-            
+
   .boom_in_entrepreneurship
     @extend .left
 

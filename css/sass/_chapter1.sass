@@ -32,7 +32,7 @@
     padding: 24em 0 2em 0
 
     .background_image
-      background-image: image-url('1/park-medium.jpg')
+      @include multi-background("1/park")
 
   .percentage_of_workers
     p
@@ -120,7 +120,7 @@
     @extend .spread
 
     .background_image
-      background-image: image-url('1/grump-large.jpg')
+      @include multi-background("1/grump")
 
     p
       @include boxed(#fff, left, third, centered)
@@ -155,7 +155,7 @@
     @extend .spread
 
     .background_image
-      background-image: image-url('1/jars-large.jpg')
+      @include multi-background("1/jars")
 
     p
       @extend .major
@@ -182,7 +182,7 @@
 
       &.second
         width: 305px
-        margin-left: 120px 
+        margin-left: 120px
 
     .labor_force-chart
       background: image-url('1/labor_force-chart.gif') left top no-repeat
