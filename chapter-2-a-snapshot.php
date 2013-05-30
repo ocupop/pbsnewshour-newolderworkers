@@ -6,7 +6,7 @@ require_once('header.php');
 ?>
 
 <section class="chapter_title">
-  <div class="background-image"></div>
+  <div class="background_image"></div>
 
   <div class="contents">
     <p>
@@ -32,7 +32,7 @@ require_once('header.php');
 
 <section class="question gender">
   <div class="contents">
-    <p class="question_text">
+    <p class="form_question">
       Are you male or female?
     </p>
 
@@ -172,64 +172,65 @@ require_once('header.php');
 </div>
 
 <section class="copy men_and_women">
+  <div class="background_image"></div>
   <div class="contents">
-    <p>
-      <strong>Men and women</strong> are equally likely to:
-    </p>
-    <ul>
-      <li>say they and/or their spouse have saved at least something for retirement (but a third aren&rsquo;t saving at all)</li>
-      <li>calculate how much will be needed to live comfortably in retirement (though over half of us who are working still haven&rsquo;t done this</li>
-      <li>think less than $250,000 will be sufficient for retirement (teaser: it&rsquo;s not!</li>
-      <li>have a median expected retirement age of 65</li>
-      <li>work than not&mdash;about 62% of men and 59% of women work</li>
-    </ul>
-  </div>
-</section>
-
-<section class="video">
-  <div class="contents">
-    <video>
-      <!-- auto-play 02:10-02:22 -->
-    </video>
-    <p class="caption">
-      Joel Peters is a 61-year-old paramedic who works 12-hour shifts. He does not know if he'll be able to retire or what his financial future will hold, but he is sure that he will not be moving from his rural home near Taos, NM.
-    </p>
+    <div>
+      <p>
+        Men and women are equally likely to:
+      </p>
+      <ul>
+        <li>Say they and/or their spouse have saved at least something for retirement (but a third aren&rsquo;t saving at all).</li>
+        <li>Calculate how much will be needed to live comfortably in retirement (though over half of us who are working still haven&rsquo;t done this.</li>
+        <li>Think less than $250,000 will be sufficient for retirement. (Teaser: it&rsquo;s not!)</li>
+        <li>Have a median expected retirement age of 65.</li>
+        <li>Work than not&mdash;about 62% of men and 59% of women work.</li>
+      </ul>
+    </div>
   </div>
 </section>
 
 <section class="question community_size">
   <div class="contents">
-    <p>
+    <p class="form_question">
       What&rsquo;s your community size?
     </p>
 
-    <label>
-      <input type="radio" name="xxx" id="xxx_1">
-      <strong>Largest US Cities</strong>
-    </label>
+    <div class="form_fields">
+      <label class="highly_urbanized">
+        <input type="radio" name="xxx" id="xxx_1">
+        <strong>Largest<br>U.S. Cities</strong>
+        <div class="icon"></div>
+        <span>More than <strong>9000,000</strong> households</span>
+      </label>
 
-    <label>
-      <input type="radio" name="xxx" id="xxx_2">
-      <strong>Less Urbanized</strong>
-      <span>More than 85,000 households</span>
-    </label>
+      <label class="less_urbanized">
+        <input type="radio" name="xxx" id="xxx_2">
+        <strong>Less<br>Urbanized</strong>
+        <div class="icon"></div>
+        <span>More than <strong>85,000</strong> households</span>
+      </label>
 
-    <label>
-      <input type="radio" name="xxx" id="xxx_3">
-      <strong>Rural Area</strong>
-      <span>More than 20,000 households</span>
-    </label>
+      <label class="rural_area">
+        <input type="radio" name="xxx" id="xxx_3">
+        <strong>Rural<br>Area</strong>
+        <div class="icon"></div>
+        <span>More than <strong>20,000</strong> households</span>
+      </label>
 
-    <label>
-      <input type="radio" name="xxx" id="xxx_4">
-      <strong>Very Rural Area</strong>
-      <span>Less than 20,000 households</span>
-    </label>
+      <label class="very_rural_area">
+        <input type="radio" name="xxx" id="xxx_4">
+        <strong>Very<br>Rural Area</strong>
+        <div class="icon"></div>
+        <span>Less than <strong>20,000</strong> households</span>
+      </label>
+    </div>
   </div>
 </section>
 
 <section class="data">
   <div class="contents">
+    <h2>TODO: RESULTS</h2>
+
     <!--
     The most important message is to show the difference
     between communities: The percentage of older Americans
@@ -283,26 +284,34 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="copy">
+<section class="video joel_peters">
   <div class="contents">
-    <p>
-      So what&rsquo;s geography got to do with it? We turned to Dante Chinni, author of Our Patchwork Nation, to explain.
+    <video>
+      <!-- Joel Peters -->
+    </video>
+ 
+    <p class="caption">
+      Joel Peters is a 61-year-old paramedic who works 12-hour shifts. He does not know if he&rsquo;ll be able to retire or what his financial future will hold, but he is sure that he will not be moving from his rural home near Taos, NM.
     </p>
   </div>
 </section>
 
-<section class="video">
+<section class="video dante_chinni">
   <div class="contents">
-    <video>
-      <!-- TODO: Dante Chinni Video -->
-    </video>
+    <p class="intro">
+      So what&rsquo;s geography got to do with it? We turned to Dante Chinni, author of <em>Our Patchwork Nation</em>, to explain:
+    </p>
 
     <h2>
       The Urban/Rural Divide
     </h2>
 
+    <video>
+      <!-- TODO: Dante Chinni Video -->
+    </video>
+
     <p class="caption">
-      When you look at a geographic breakdown of older workers, a few points jump out. While the Great Recession took a toll on everyone, when looking at older workers, there was a distinct difference between rural and urban America. The percentage of older Americans employed full- or part-time actually declined in the most urban, densely populated counties. In smaller rural counties, however, the number of older Americans in the workforce rose sharply. Does that mean rural America is actually better for older workers&mdash;a haven for those working for enjoyment or personal fulfillment? Read on.
+      When you look at a geographic breakdown of older workers, a few points jump out. While the Great Recession took a toll on everyone, when looking at older workers, there was a distinct difference between rural and urban America. The percentage of older Americans employed full- or part-time actually declined in the most urban, densely populated counties. In smaller rural counties, however, the number of older Americans in the workforce rose sharply. Does that mean rural America is actually better for older workers&mdash;a haven for those working for enjoyment or personal fulfillment? <a href="chapter-3-working-for-the-nest-egg.php">Read on.</a>
     </p>
   </div>
 </section>

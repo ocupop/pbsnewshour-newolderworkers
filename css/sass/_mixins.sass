@@ -88,18 +88,27 @@
   -o-animation:      $string
   animation:         $string
 
+@mixin animation-delay($string)
+  -webkit-animation-delay: $string
+  -moz-animation-delay:    $string
+  -o-animation-delay:      $string
+  animation-delay:         $string
+
 @mixin keyframes($name)
-  @-webkit-keyframes $name
+  @-webkit-keyframes #{$name}
     @content
 
-  @-moz-keyframes $name
+  @-moz-keyframes #{$name}
     @content
 
-  @-o-keyframes $name
+  @-o-keyframes #{$name}
     @content
 
-  @keyframes $name
+  @keyframes #{$name}
     @content
+
+
+// Multiple Backgrounds
 
 @mixin multi-background($name)
   // TODO: handle retina screens

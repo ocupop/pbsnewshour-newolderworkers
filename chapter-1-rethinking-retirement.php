@@ -12,7 +12,7 @@ require_once('header.php');
   </header>
 
   <div class="bleed fixed company_photo">
-    <div class="background-image"></div>
+    <div class="background_image"></div>
   </div>
 
 </div>
@@ -66,7 +66,7 @@ require_once('header.php');
 </section>
 
 <section class="chapter_title">
-  <div class="background-image"></div>
+  <div class="background_image"></div>
 
   <div class="contents">
     <p>
@@ -97,7 +97,7 @@ require_once('header.php');
 </section>
 
 <section class="copy increase_of_workers">
-  <div class="background-image"></div>
+  <div class="background_image"></div>
   <div class="contents">
     <p class="first">
       The increase of workers
@@ -206,14 +206,14 @@ require_once('header.php');
 
 <section class="data">
   <div class="contents">
-    <h2>Results</h2>
+    <h2>TODO: RESULTS</h2>
 
     <p>Based on both answers above, show visualized expected age of retirement, where they fit, and how that&rsquo;s changed over the last 10 years based on this data from EBRI (anyone younger than 25 should be put in with ALL WORKERS).</p>
   </div>
 </section>
 
 <section class="copy one_in_four_workers">
-  <div class="background-image"></div>
+  <div class="background_image"></div>
   <div class="contents">
     <div>
       <p class="first">
@@ -242,7 +242,7 @@ require_once('header.php');
 </section>
 
 <section class="copy half_of_american_households">
-  <div class="background-image"></div>
+  <div class="background_image"></div>
   <div class="contents">
     <p>
       Half of American households have less than $10,000 in savings.

@@ -91,7 +91,7 @@ em
 
 // Content Types
 
-.background-image
+.background_image
   position: absolute
   width: 100%
   height: 200%
@@ -108,6 +108,17 @@ section
   width: 100%
   z-index: 3
 
+  &.spread
+    min-height: 800px
+
+  &.border-top
+    border-top: 2px solid $dark
+    width: 100%
+
+  &.border-bottom
+    border-bottom: 2px solid $dark
+    width: 100%
+
   &.chapter
     text-align: center
 
@@ -118,7 +129,6 @@ section
   &.chapter_title
     text-align: center
     text-transform: uppercase
-    // @extend .background-image
     padding: 12em 0
 
     p
@@ -141,9 +151,6 @@ section
       h2
         color: #fff
         @include text-shadow($dark 0 0 25px)
-
-  &.spread
-    min-height: 800px
 
   &.copy
     p
@@ -203,6 +210,35 @@ section
         width: 75%
         @include triangle-left(25px, $green, 10%)
 
+  &.video    
+    .contents
+      @include clearfix
+
+      p.caption
+        font-size: 18px
+        line-height: 1.6
+
+    video
+      background: #000
+      width: 500px
+      height: 280px
+
+    &.right
+      video
+        float: right
+        margin-left: 2em
+
+    &.left
+      video
+        float: left
+        margin-right: 2em
+
+    &.full
+      video
+        width: 800px
+        height: 450px
+        margin-bottom: 1.5em
+
 .major
   font-family: $font-heading
   font-size: 30px
@@ -225,9 +261,22 @@ section
   padding: .5em 0 .4em 0
   width: 75%
 
+.form_question
+  background: $green
+  color: #fff
+  font-family: $proxima-bold
+  font-size: 28px
+  margin: 0 0 0 -2.5%
+  text-transform: uppercase
+  padding: 1em 0 .9em
+  text-align: center
+  width: 105%
+
 .form_fields
   background: image-url('form-background.jpg') center bottom  repeat-x
   font-family: $proxima-semibold
+  margin: 0 auto
+  overflow: hidden
 
   label
     font-size: 20px
@@ -237,9 +286,15 @@ section
       display: inline-block
       margin: 0 .5em
 
-.hr-top
-  .contents:before
-    content: ""
-    display: block
-    border-top: 2px solid $dark
-    width: 100%
+
+// Animations
+
+@include keyframes(pulse-highlight)
+  0%
+    opacity: .8
+
+  50%
+    opacity: 1
+
+  100%
+    opacity: .8

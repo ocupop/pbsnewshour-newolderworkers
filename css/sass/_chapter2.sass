@@ -3,7 +3,7 @@
   .chapter_title
     @extend .on_dark_background
 
-    .background-image
+    .background_image
       background-image: image-url('2/fishing-large.jpg')
       background-position: center bottom
 
@@ -53,19 +53,7 @@
       max-width: 100%
       padding: 0
 
-      .question_text
-        background: $green
-        color: #fff
-        font-family: $proxima-bold
-        font-size: 28px
-        margin: 0
-        text-transform: uppercase
-        padding: 1em 0 .9em
-        text-align: center
-
       .form_fields
-        margin: 0 auto
-        overflow: hidden
         padding: 1em 1.5em
         width: 500px
 
@@ -80,6 +68,7 @@
   .gender_split
     background: image-url('line-background.png') center top repeat-y
     margin: 0 auto
+    padding-bottom: 3em
     width: $desktop
     overflow: hidden
 
@@ -97,7 +86,7 @@
         float: left
 
       &.quotation
-        width: 45%
+        width: 48%
 
         blockquote
           width: 330px
@@ -114,8 +103,95 @@
   .men_and_women
     @extend .spread
 
-    .background-image
+    .background_image
       background-image: image-url('2/briefcases-large.jpg')
 
     .contents div
-      @include boxed(#fff, right, half, centered)
+      @include boxed(#fff, right, half, left)
+
+      p
+        @extend .major
+        margin-top: 0
+
+      ul
+        margin-left: 1.5em
+        margin-bottom: 0
+
+        li
+          font-size: 18px
+          list-style: square
+          margin: 1em 0
+
+          &:last-child
+            margin-bottom: 0
+
+  .question.community_size
+    .form_fields
+      label
+        color: $medium
+        float: left
+        text-align: center
+        margin: 0 2.5%
+        padding: 2em 0
+        width: 20%
+        @include transition(color .2s)
+
+        input,
+        strong,
+        span
+          display: block
+          margin: 0 auto
+
+        input + strong
+          margin-top: .75em
+
+        .icon
+          width: 81px
+          height: 81px
+          display: block
+          margin: 1em auto
+          position: relative
+
+          &:after
+            content: ""
+            background-image: image-url('2/community-size.png')
+            background-repeat: no-repeat
+            width: 81px
+            height: 81px
+            position: absolute
+            left: 0
+            top: 0
+            opacity: .75
+            @include transition(opacity .2s)
+
+        &.highly_urbanized .icon:after
+          background-position: 0 0
+
+        &.less_urbanized .icon:after  
+          background-position: -473px 0
+
+        &.rural_area .icon:after  
+          background-position: -946px 0
+
+        &.very_rural_area .icon:after 
+          background-position: -1420px 0
+
+        &:hover
+          color: $dark
+
+          .icon:after
+            opacity: 1          
+
+  .joel_peters
+    @extend .video.right
+    @extend .border-top
+    @extend .border-bottom
+
+  .dante_chinni
+    @extend .video.full
+
+    .intro
+      font-size: 18px
+
+    h2
+      font-size: 50px

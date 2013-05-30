@@ -12,7 +12,7 @@
     z-index: 1
     @include transition(opacity 1s)
 
-  .company_photo .background-image
+  .company_photo .background_image
     background-image: image-url('1/company_photo.jpg')
     background-size: 100%
 
@@ -36,7 +36,7 @@
     @extend .on_dark_background
     padding: 24em 0 2em 0
 
-    .background-image
+    .background_image
       background-image: image-url('1/path.jpg')
 
   .percentage_of_workers
@@ -85,7 +85,7 @@
       opacity: 0
       margin-top: 10px
       @include triangle-bottom(4px, rgba(0, 0, 0, .8), down)
-      @include transition(all, .3s)
+      @include transition(all .3s)
 
       strong
         display: block
@@ -126,7 +126,7 @@
   .increase_of_workers
     @extend .spread
 
-    .background-image
+    .background_image
       background-image: image-url('1/grumpy_man.jpg')
       // background-position: 70% center
 
@@ -150,7 +150,7 @@
   .one_in_four_workers
     @extend .spread
 
-    .background-image
+    .background_image
       background-image: image-url('1/diner.jpg')
 
     .contents div
@@ -162,7 +162,7 @@
   .half_of_american_households
     @extend .spread
 
-    .background-image
+    .background_image
       background-image: image-url('1/jars.jpg')
 
     p
