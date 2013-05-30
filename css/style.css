@@ -790,13 +790,10 @@ footer {
       /* line 49, sass/_footer.sass */
       footer .contents nav li a:hover {
         color: #548e85; }
-        /* line 52, sass/_footer.sass */
-        footer .contents nav li a:hover .label {
-          border-bottom-color: #548e85; }
-  /* line 55, sass/_footer.sass */
+  /* line 52, sass/_footer.sass */
   footer .contents div {
     margin-top: 3em; }
-    /* line 58, sass/_footer.sass */
+    /* line 55, sass/_footer.sass */
     footer .contents div p {
       color: white;
       font-family: "Proxima N W01 Smbd";
@@ -808,39 +805,39 @@ footer {
       -moz-transition: opacity 0.1s;
       -o-transition: opacity 0.1s;
       transition: opacity 0.1s; }
-      /* line 67, sass/_footer.sass */
+      /* line 64, sass/_footer.sass */
       footer .contents div p:hover {
         opacity: 1; }
-      /* line 70, sass/_footer.sass */
+      /* line 67, sass/_footer.sass */
       footer .contents div p a:hover {
         color: white; }
-      /* line 73, sass/_footer.sass */
+      /* line 70, sass/_footer.sass */
       footer .contents div p.pbs {
         float: left; }
-        /* line 76, sass/_footer.sass */
+        /* line 73, sass/_footer.sass */
         footer .contents div p.pbs a {
           text-decoration: none; }
-        /* line 79, sass/_footer.sass */
+        /* line 76, sass/_footer.sass */
         footer .contents div p.pbs img {
           margin-right: 0.5em;
           vertical-align: -6px;
           width: 24px; }
-        /* line 84, sass/_footer.sass */
+        /* line 81, sass/_footer.sass */
         footer .contents div p.pbs span {
           font-size: 20px; }
-      /* line 87, sass/_footer.sass */
+      /* line 84, sass/_footer.sass */
       footer .contents div p.extra {
         float: right;
         font-size: 18px;
         margin-top: 0.35em; }
-        /* line 92, sass/_footer.sass */
+        /* line 89, sass/_footer.sass */
         footer .contents div p.extra #credits-open {
           border-bottom: 2px solid rgba(255, 255, 255, 0.5);
           cursor: pointer;
           margin-left: 1em;
           text-transform: uppercase; }
 
-/* line 98, sass/_footer.sass */
+/* line 95, sass/_footer.sass */
 #credits {
   display: none;
   background: rgba(0, 0, 0, 0.8);
@@ -850,7 +847,7 @@ footer {
   width: 100%;
   height: 100%;
   z-index: 98; }
-  /* line 108, sass/_footer.sass */
+  /* line 105, sass/_footer.sass */
   #credits .credits-content {
     background: white;
     border-radius: 6px;
@@ -865,55 +862,55 @@ footer {
     -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0 0 35px rgba(0, 0, 0, 0.75);
     box-shadow: 0 0 35px rgba(0, 0, 0, 0.75); }
-    /* line 121, sass/_footer.sass */
+    /* line 118, sass/_footer.sass */
     #credits .credits-content h2 {
       font-family: "BodoniW01-PosterItalic";
       font-size: 32px;
       margin: 0;
       padding: 0;
       text-align: left; }
-    /* line 128, sass/_footer.sass */
+    /* line 125, sass/_footer.sass */
     #credits .credits-content h3 {
       font-family: "Proxima N W01 Bold";
       font-size: 18px;
       text-transform: uppercase; }
-      /* line 133, sass/_footer.sass */
+      /* line 130, sass/_footer.sass */
       #credits .credits-content h3 span {
         color: #aaaaaa;
         font-size: 85%;
         margin-left: 0.5em;
         text-transform: none; }
-    /* line 140, sass/_footer.sass */
+    /* line 137, sass/_footer.sass */
     #credits .credits-content ul li {
       color: #aaaaaa;
       font-family: "Proxima N W01 Smbd";
       font-size: 14px; }
-      /* line 145, sass/_footer.sass */
+      /* line 142, sass/_footer.sass */
       #credits .credits-content ul li strong {
         color: #383838;
         font-family: "Proxima N W01 Bold";
         font-size: 16px;
         font-weight: normal;
         margin-right: 0.5em; }
-    /* line 152, sass/_footer.sass */
+    /* line 149, sass/_footer.sass */
     #credits .credits-content a {
       text-decoration: none; }
-    /* line 155, sass/_footer.sass */
+    /* line 152, sass/_footer.sass */
     #credits .credits-content .photo_credits {
       opacity: 0.5; }
-      /* line 158, sass/_footer.sass */
+      /* line 155, sass/_footer.sass */
       #credits .credits-content .photo_credits h3 {
         font-size: 16px;
         margin-bottom: 0.5em;
         text-transform: none; }
-      /* line 163, sass/_footer.sass */
+      /* line 160, sass/_footer.sass */
       #credits .credits-content .photo_credits ul li {
         font-size: 13px; }
-        /* line 166, sass/_footer.sass */
+        /* line 163, sass/_footer.sass */
         #credits .credits-content .photo_credits ul li strong {
           font-family: "Proxima N W01 Smbd";
           font-size: 13px; }
-    /* line 170, sass/_footer.sass */
+    /* line 167, sass/_footer.sass */
     #credits .credits-content #credits-close {
       color: #aaaaaa;
       cursor: pointer;
@@ -925,7 +922,7 @@ footer {
       top: 0;
       right: 0;
       z-index: 10; }
-      /* line 182, sass/_footer.sass */
+      /* line 179, sass/_footer.sass */
       #credits .credits-content #credits-close:hover {
         color: #383838; }
 
