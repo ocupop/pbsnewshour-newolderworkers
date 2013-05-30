@@ -1156,19 +1156,19 @@ footer {
       margin: 0 0.1em; }
 /* line 145, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .one_in_four_workers .background_image {
-  background-image: url('../img/1/diner-giant.jpg'); }
+  background-image: url('../img/1/waitress-giant.jpg?1369956981'); }
   @media screen and (max-height: 1080px) and (max-width: 1920px) {
     /* line 145, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .one_in_four_workers .background_image {
-      background-image: url('../img/1/diner-large.jpg'); } }
+      background-image: url('../img/1/waitress-large.jpg?1369957024'); } }
   @media screen and (max-height: 1024px) and (max-width: 1024px) {
     /* line 145, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .one_in_four_workers .background_image {
-      background-image: url('../img/1/diner-medium.jpg'); } }
+      background-image: url('../img/1/waitress-medium.jpg?1369957113'); } }
   @media screen and (max-height: 640px) and (max-width: 640px) {
     /* line 145, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .one_in_four_workers .background_image {
-      background-image: url('../img/1/diner-small.jpg'); } }
+      background-image: url('../img/1/waitress-small.jpg?1369957142'); } }
 /* line 148, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .one_in_four_workers .contents div {
   clear: left;
