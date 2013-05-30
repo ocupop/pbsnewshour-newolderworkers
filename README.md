@@ -7,17 +7,18 @@ Research and story by PBS NewsHour. Website developed by Ocupop.
 
 ### Ocupop
 
-- Justin Falcone, development
-- Nick Krusick, video editing
-- Abby Lindstrom, design and illustration
-- Matthew McVickar, art direction and development
-- Michael Nieling, art direction
+- **Justin Falcone**, development
+- **Nick Krusick**, video editing
+- **Abby Lindstrom**, design and illustration
+- **Matthew McVickar**, art direction and development
+- **Michael Nieling**, art direction
 
 ### PBS NewsHour
 
-- Travis Daub
-- Vanessa Dennis
-- Elizabeth Shell
+- **Travis Daub**
+- **Vanessa Dennis**
+- **Elizabeth Shell**
+- **Paul Solman**
 
 
 ## Technologies
