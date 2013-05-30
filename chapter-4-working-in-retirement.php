@@ -51,15 +51,15 @@ require_once('header.php');
 
       <div class="percent_59">
         <svg width="100" height="100">
-          <clipPath id="circle_mask">
+          <clipPath id="circle_mask_1">
             <circle cx="50" cy="50" r="50" />
           </clipPath>
-          <clipPath id="pieChunk">
+          <clipPath id="pieChunk_1">
             <rect x="50" y="0" width="50" height="50" />
           </clipPath>
-          <g clip-path="url(#circle_mask)">
+          <g clip-path="url(#circle_mask_1)">
             <rect x="0" y="0" width="100" height="100" fill="#383838"/>
-            <rect fill="#528f85" x="50" y="0" width="50" height="100" clip-path="url(#pieChunk)"/>
+            <rect fill="#528f85" x="50" y="0" width="50" height="100" clip-path="url(#pieChunk_1)"/>
             <rect class="pie_slice" fill="#528f85" x="50" y="0" width="50" height="100"/>
             <rect fill="#383838" x="0" y="0" width="50" height="50" />
           </g>
@@ -73,15 +73,15 @@ require_once('header.php');
 
       <div class="percent_57">
         <svg width="100" height="100">
-          <clipPath id="circle_mask">
+          <clipPath id="circle_mask_2">
             <circle cx="50" cy="50" r="50" />
           </clipPath>
-          <clipPath id="pieChunk">
+          <clipPath id="pieChunk_2">
             <rect x="50" y="0" width="50" height="50" />
           </clipPath>
-          <g clip-path="url(#circle_mask)">
+          <g clip-path="url(#circle_mask_2)">
             <rect x="0" y="0" width="100" height="100" fill="#383838"/>
-            <rect fill="#528f85" x="50" y="0" width="50" height="100" clip-path="url(#pieChunk)"/>
+            <rect fill="#528f85" x="50" y="0" width="50" height="100" clip-path="url(#pieChunk_2)"/>
             <rect class="pie_slice" fill="#528f85" x="50" y="0" width="50" height="100"/>
             <rect fill="#383838" x="0" y="0" width="50" height="50" />
           </g>
