@@ -1,4 +1,5 @@
 .chapter-3-working-for-the-nest-egg article
+
   .chapter_title
     @extend .on_dark_background
     padding: 5em 0 30em
@@ -32,7 +33,7 @@
       @extend .major
 
   .if_you_look_at
-    @extend .quotation.right
+    @extend .right
 
     .contents
       @include clearfix
@@ -211,16 +212,16 @@
           opacity: 1
 
   .babs_tatalias
-    @extend .video.left
+    @extend .left
 
   .a_third_of_baby_boomers
-    @extend .quotation.right
+    @extend .right
 
   .charles_smith
-    @extend .video.left
+    @extend .left
 
   .the_great_recession
-    @extend .quotation.right
+    @extend .right
 
     .contents
       background-position: left 65% !important
@@ -230,7 +231,7 @@
         width: 100%
 
   .mike_kemp
-    @extend .video.left
+    @extend .left
 
     h2
       margin-top: 0 !important
@@ -243,7 +244,7 @@
       font-size: 42px
 
   .brutal_job_search
-    @extend .video.right
+    @extend .right
 
     h2
       margin-top: -.25em !important
@@ -253,10 +254,26 @@
     @extend .blend
 
   .julie_zissimopoulos
-    @extend .quotation.right
+    @extend .right
     @extend .blend
 
   .paul_transition
     @extend .video.full
 
     margin-top: 5em
+
+
+//
+
+
+  .how_long_work
+    .under_65
+      display: block
+    .over_65
+      display: none
+
+    &.show_over_65
+      .under_65
+        display: none
+      .over_65
+        display: block

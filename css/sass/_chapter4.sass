@@ -1,13 +1,112 @@
 .chapter-4-working-in-retirement article
 
-  .how_long_work
-    .under_65
-      display: block
-    .over_65
-      display: none
+  .chapter_title
+    @extend .on_dark_background
+    padding: 5em 0 30em
 
-    &.show_over_65
-      .under_65
-        display: none
-      .over_65
+    .background_image
+      background-image: image-url('4/barber-large.jpg')
+      background-position: center -200px
+
+    .contents
+      max-width: 900px
+
+    h2
+      font-family: $bodoni-poster-italic
+      font-size: 90px
+      text-indent: 4px
+
+      span
+        @include text-shadow(none)
+        background: #fff
+        color: $dark
         display: block
+        font-family: $bodoni
+        font-size: 24px
+        margin: 0 auto
+        padding: .5em 0 .4em
+        text-indent: 0
+        width: 820px
+
+  .intro
+    .contents
+      @include clearfix
+
+    p.intro
+      @extend .major
+
+    .top_three_reasons
+      div
+        float: left
+        text-align: center
+        width: 33%
+
+        p
+          font-family: $proxima-semibold
+          font-size: 18px
+          text-transform: uppercase
+
+          strong
+            display: block
+            font-family: $bodoni-poster-italic
+            font-size: 36px
+            margin-bottom: .5em
+
+  .nancy_goldberg
+    @extend .right
+
+    .contents
+      @include clearfix
+      @extend .border-top
+      @extend .border-bottom
+
+  .working_longer
+    @extend .blend-bottom
+
+    h2
+      font-size: 42px
+
+  .colleges_see_graying_workforce
+    @extend .left
+
+    .contents
+      padding-top: 1em
+
+    h2
+      padding-top: 0
+
+  .they_want_to
+    @extend .bordered
+    margin-top: 3em
+    
+    p
+      @extend .major
+
+  .marc_freedman
+    @extend .right
+    @extend .blend-bottom
+
+    .contents
+      background-position: left 130px !important
+
+  .boom_in_entrepreneurship
+    @extend .left
+    @extend .blend-top
+
+    h2
+      margin-top: 0 !important
+
+  .vita_needle
+    @extend .right
+
+    h2
+      margin-top: -.25em !important
+      padding-top: 0
+
+  .couldnt_be_happier
+    @extend .bordered
+    margin-top: 3em
+
+  .paul_interviews_paul
+    @extend .full
+

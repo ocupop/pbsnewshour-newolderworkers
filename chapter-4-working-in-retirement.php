@@ -5,17 +5,82 @@ require_once('header.php');
 
 ?>
 
-<section class="data">
+<section class="chapter_title">
+  <div class="background_image"></div>
+
   <div class="contents">
     <p>
+      Chapter Four
+    </p>
+    <h2>
+      Working in<br>
+      &lsquo;Retirement&rsquo;
+    </h2>
+  </div>
+</section>
+
+<section class="intro">
+  <div class="contents">
+    <p class="intro"> 
       The reasons to keep on working go beyond the pocketbook. The top three reasons folks over 65 say they work?
     </p>
 
-    <!--
-    To feel useful and productive -- 68%
-    To live independently -- 59%
-    To have something to do -- 57%
-    -->
+    <div class="top_three_reasons">
+
+      <div class="percent_68">
+        <svg width="100" height="100">
+          <clipPath id="circle_mask">
+            <circle cx="50" cy="50" r="50" />
+          </clipPath>
+          <g clip-path="url(#circle_mask)">
+            <rect x="0" y="0" width="100" height="100" fill="#383838"/>
+            <rect fill="#528f85" x="50" y="0" width="50" height="100"/>
+            <rect class="pie_slice" fill="#528f85" x="0" y="0" width="50" height="100"/>
+          </g>
+        </svg>
+        <!-- TODO: get image fallback from Abby  -->
+        <p>
+          <strong>68%</strong>
+          To feel useful<br>and productive
+        </p>
+      </div>
+
+      <div class="percent_59">
+        <svg width="100" height="100">
+          <clipPath id="circle_mask">
+            <circle cx="50" cy="50" r="50" />
+          </clipPath>
+          <g clip-path="url(#circle_mask)">
+            <rect x="0" y="0" width="100" height="100" fill="#383838"/>
+            <rect fill="#528f85" x="50" y="0" width="50" height="100"/>
+            <rect class="pie_slice" fill="#528f85" x="0" y="0" width="50" height="100"/>
+          </g>
+        </svg>
+        <!-- TODO: get image fallback from Abby  -->
+        <p>
+          <strong>59%</strong>
+          To live<br>independently
+        </p>
+      </div>
+
+      <div class="percent_57">
+        <svg width="100" height="100">
+          <clipPath id="circle_mask">
+            <circle cx="50" cy="50" r="50" />
+          </clipPath>
+          <g clip-path="url(#circle_mask)">
+            <rect x="0" y="0" width="100" height="100" fill="#383838"/>
+            <rect fill="#528f85" x="50" y="0" width="50" height="100"/>
+            <rect class="pie_slice" fill="#528f85" x="0" y="0" width="50" height="100"/>
+          </g>
+        </svg>
+        <!-- TODO: get image fallback from Abby  -->
+        <p>
+          <strong>57%</strong>
+          To have<br>something to do
+        </p>
+      </div>
+    </div>
 </div>
 </section>
 
@@ -32,8 +97,12 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="copy">
+<section class="copy working_longer">
   <div class="contents">
+    <h2>
+      The Economics of Working Longer
+    </h2>
+
     <p>
       Even if many continue to work because they want to, there are, of course, financial benefits to remaining on the job. As economist Larry Kotlikoff has pointed out in his weekly column, Social Security&rsquo;s rules encourage you to work for as long as possible. His post <a href="http://www.pbs.org/newshour/businessdesk/2013/02/how-social-security-pays-you-t-1.html">How Social Security Pays You to Keep Working Forever</a> was wildly popular with PBS NewsHour's online audience.
     </p>
@@ -44,117 +113,25 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="copy">
-  <div class="contents">
-    <h2>Economics of Working Longer</h2>
-  </div>
-</section>
-
-<section class="question how_long_work">
-  <div class="contents">
-    <label>How old are you?</label>
-    <input type="number" min="13" max="116" name="entry.1280847796" id="entry_1280847796" class="user_age">
-
-    <div class="under_65">
-      <p>If you are under 65 and not yet fully retired, how long do you WANT to work?</p>
-      <label>
-        <input type="radio" name="entry.1251379033" id="entry.1251379033_1">
-        <strong>I want to retire before I reach age 65.</strong>
-      </label>
-      <label>
-        <input type="radio" name="entry.1251379033" id="entry.1251379033_2">
-        <strong>I want to work until I'm between 65 and 69.</strong>
-      </label>
-      <label>
-        <input type="radio" name="entry.1251379033" id="entry.1251379033_3">
-        <strong>I want to work until I'm between 70 and 74.</strong>
-      </label>
-      <label>
-        <input type="radio" name="entry.1251379033" id="entry.1251379033_4">
-        <strong>I want to work until I'm between 75 and 79.</strong>
-      </label>
-      <label>
-        <input type="radio" name="entry.1251379033" id="entry.1251379033_5">
-        <strong>I want to work past 80.</strong>
-      </label>
-      <label>
-        <input type="radio" name="entry.1251379033" id="entry.1251379033_6">
-        <strong>Forever.</strong>
-      </label>
-      <label>
-        <input type="radio" name="entry.1251379033" id="entry.1251379033_7">
-        <strong>Other:</strong>
-        <input type="text" name="entry.1251379033.other_option_response" id="entry_1251379033_other_option_response">
-      </label>
-    </div>
-
-    <div class="over_65">
-      <p>If you are 65 or older, tell us if you&rsquo;re working or not working and whether you are satisfied with that.</p>
-      <label>
-        <input type="radio" name="entry.1192439293" id="entry.1192439293_1">
-        <strong>I am currently working and am happy/OK with working.</strong>
-      </label>
-      <label>
-        <input type="radio" name="entry.1192439293" id="entry.1192439293_2">
-        <strong>I am currently working and am unhappy -- I would prefer to not be working.</strong>
-      </label>
-      <label>
-        <input type="radio" name="entry.1192439293" id="entry.1192439293_3">
-        <strong>I am currently <em>NOT</em> working and am happy / OK with not working.</strong>
-      </label>
-      <label>
-        <input type="radio" name="entry.1192439293" id="entry.1192439293-4">
-        <strong>I am currently <em>NOT</em> working and am unhappy -- I would prefer to be working.</strong>
-      </label>
-      <label>
-        <input type="radio" name="entry.1192439293" id="entry.1192439293_5">
-        <strong>Other:</strong>
-        <input type="text" name="entry.1192439293.other_option_response" id="entry_1192439293_other_option_response">
-      </label>
-    </div>
-
-    <!--
-    results pie chart:  http://htmlpad.org/poll-results
-
-    based on survey: http://www.pbs.org/newshour/businessdesk/2013/03/how-long-will-you-work.html -->
-  </div>
-</section>
-
-<section class="data">
-  <div class="contents">
-    <!--
-    Results as a data viz based on where user falls in data collected here and in our online survey.
-
-    survey: http://to.pbs.org/XlCfio
-
-    Show these results: http://htmlpad.org/poll-results
-    -->
-  </div>
-</section>
-
-<section class="video">
+<section class="video colleges_see_graying_workforce">
   <div class="contents">
     <video>
-        <!--
-        TODO: video
-
-        http://www.pbs.org/newshour/bb/business/jan-june13/makingsense_03-18.html
-
-        No auto-play, but image and caption.
-        -->
+      <!-- TODO: Broadcast - Colleges and Universities See Graying Workforce Holding On to Coveted Positions -->
     </video>
 
-    <h2>
-      Colleges and Universities See Graying Workforce Holding on to Coveted Positions
-    </h2>
+    <div class="caption">
+      <h2>
+        Colleges and Universities See Graying Workforce Holding on to Coveted Positions
+      </h2>
 
-    <p>
-      In academia, many professors work long past traditional retirement age, leaving younger potential professors shut out from highly coveted full-time, tenured positions.
-    </p>
+      <p>
+        In academia, many professors work long past traditional retirement age, leaving younger potential professors shut out from highly coveted full-time, tenured positions.
+      </p>
+    </div>
   </div>
 </section>
 
-<section class="copy">
+<section class="copy they_want_to">
   <div class="contents">
     <p>
       A majority&mdash;a full 54%&mdash;of workers 65 and older say the main reason they continue to work is because they want to.
@@ -182,55 +159,45 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="video">
+<section class="video boom_in_entrepreneurship">
   <div class="contents">
     <video>
-      <!--
-      TODO: video
-
-      http://www.pbs.org/newshour/bb/business/jan-june13/entrepreneur_04-22.html
-
-      no auto-play, but image with play button
-      -->
+      <!-- TODO: Broadcast - A Boom in Entrepreneurship, Self-Employment Among Late Bloomers -->
     </video>
 
-    <h2>
-      A Boom in Entrepreneurship, Self-Employment Among Late Bloomers
-    </h2>
+    <div class="caption">
+      <h2>
+        A Boom in Entrepreneurship, Self-Employment Among Late Bloomers
+      </h2>
 
-    <p>
-      Are mature entrepreneurs on the rise? We talked to older workers who decided to pursue their own business dreams later in life.
-    </p>
+      <p>
+        Are mature entrepreneurs on the rise? We talked to older workers who decided to pursue their own business dreams later in life.
+      </p>
+    </div>
   </div>
 </section>
 
-<section class="video">
+<section class="video vita_needle">
   <div class="contents">
     <video>
-      <!--
-      TODO: video
-
-      http://www.pbs.org/newshour/bb/business/jan-june13/makingsense_01-02.html
-
-      auto-play 04:29 -- 04:40
-        IN "My friends are all in the ground"
-        OUT "I don't want to be like that."
-      -->
+      <!-- TODO: Broadcast - Manufacturer Vita Needle Finds Investment in Older Workers Turns a Big Profit -->
     </video>
 
-    <h2>
-      Manufacturer Vita Needle Finds Investment in Older Workers Turns a Big Profit
-    </h2>
+    <div class="caption">
+      <h2>
+        For Vita Needle, Investment in Older Workers Turns a Profit
+      </h2>
 
-    <p>
-      The average age of Vita Needle's workers is 74, and that's no accident. The manufacturing company has intentionally hired seniors&mdash;a decision that&rsquo;s been good for the bottom line and benefited older workers who often have a hard time finding a job. We look into the firm&rsquo;s unique business model in this video.
-    </p>
+      <p>
+        The average age of Vita Needle's workers is 74, and that's no accident. The manufacturing company has intentionally hired seniors&mdash;a decision that&rsquo;s been good for the bottom line and benefited older workers who often have a hard time finding a job.
+      </p>
+    </div>
   </div>
 </section>
 
-<section class="copy">
+<section class="copy couldnt_be_happier">
   <div class="contents">
-    <p>
+    <p class="first">
       Most 65-plus workers say they couldn&rsquo;t be happier with their job. (Less than a third of 16 to 64-year-olds say the same thing.) A little over a quarter say their motivation for working is a combination of wanting to and needing to.
     </p>
 
@@ -238,21 +205,15 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="video">
+<section class="video paul_interviews_paul">
   <div class="contents">
-    <video>
-      <!--
-      TODO: video
-
-      dropbox: Paul-May20.mp4
-
-      It should auto-play from the beginning.
-      -->
-    </video>
-
     <h2>
-      Epilogue: Paul Interviews Paul on Being an Older Worker
+      Paul Interviews Paul on Being an Older Worker
     </h2>
+
+    <video>
+      <!-- TODO: Paul - Self-Interview -->
+    </video>
   </div>
 </section>
 
