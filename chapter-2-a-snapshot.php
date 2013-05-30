@@ -322,7 +322,7 @@ require_once('header.php');
         When you look at a geographic breakdown of older workers, a few points jump out. While the Great Recession took a toll on everyone, when looking at older workers, there was a distinct difference between rural and urban America. The percentage of older Americans employed full- or part-time actually declined in the most urban, densely populated counties. In smaller rural counties, however, the number of older Americans in the workforce rose sharply.
       </p>
       <p>
-        Does that mean rural America is actually better for older workers&mdash;a haven for those working for enjoyment or personal fulfillment? <strong><a href="chapter-3-working-for-the-nest-egg">Read on.</a></strong>
+        Does that mean rural America is actually better for older workers&mdash;a haven for those working for enjoyment or personal fulfillment? <strong><a href="chapter-3-working-for-the-nest-egg.php">Read on.</a></strong>
       </p>
     </div>
   </div>

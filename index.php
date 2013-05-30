@@ -1,1 +1,1 @@
-<?php header("Location:chapter-1-rethinking-retirement") ?>
+<?php header("Location:chapter-1-rethinking-retirement.php") ?>
