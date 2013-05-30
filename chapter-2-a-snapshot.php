@@ -291,6 +291,10 @@ require_once('header.php');
     </video>
  
     <div class="caption">
+      <h2>
+        Joel Peters, Paramedic
+      </h2>
+
       <p>
       Joel Peters is a 61-year-old paramedic who works 12-hour shifts. He does not know if he&rsquo;ll be able to retire or what his financial future will hold, but he is sure that he will not be moving from his rural home near Taos, NM.
       </p>
