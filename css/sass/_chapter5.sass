@@ -8,3 +8,112 @@
 
     .contents
       max-width: 900px
+
+  .share,
+  .ask,
+  .act
+    h2
+      @extend .form_question
+
+    span
+      display: block
+      font-size: $font-size * 1.1
+      margin: .25em 0
+
+  .share_options,
+  .ask_details
+    @include clearfix
+    background: image-url('form-background.jpg') center bottom  repeat-x
+
+  .share_options
+    ul
+      margin: 0
+      padding: 0
+
+    li
+      color: $medium
+      float: left
+      font-family: $proxima-semibold
+      line-height: 1.4
+      text-align: center
+      margin: 0 2.5%
+      padding: 0
+      width: 20%
+      position: relative
+      @include transition(color .1s)
+
+      .services
+        position: absolute
+        top: 75px
+        left: 5px
+        text-align: center
+        width: 160px
+        z-index: 6
+
+        span
+          border: 1px  solid black
+          display: block
+          float: left
+          margin: 0 5px
+          width: 40px
+          height: 40px
+          text-indent: -99999px
+
+      .icon
+        width: 160px
+        height: 160px
+        display: block
+        margin: 1em auto
+
+      &:hover
+        color: $dark
+
+  .ask_details,
+  .three_steps
+    a
+      background: $green
+      color: #fff
+      display: inline-block
+      font-family: $proxima-bold
+      font-size: 18px
+      margin: .5em 0
+      padding: 0.5em 1em 0.4em 1em
+      text-decoration: none
+      @include triangle-right(20px, $green)
+
+      &:hover
+        background: $dark
+        @include triangle-right(20px, $dark)
+
+  .ask_details
+    padding: 0 1.5em
+
+    p
+      font-family: $proxima-semibold
+      font-size: 18px
+      float: left
+      width: 45%
+
+      &.first
+        margin-right: 5%
+
+      &.second
+        margin-left: 5%
+
+  .three_steps
+    .first_step,
+    .second_step,
+    .third_step
+      margin-bottom: 5em
+      padding-left: 200px
+
+    h3
+      font-family: $proxima-semibold
+      font-size: 22px
+      line-height: 1.3
+      margin-bottom: 1em
+      text-transform: uppercase
+
+    p
+      font-size: 18px
+      margin: .5em 0 1.5em
