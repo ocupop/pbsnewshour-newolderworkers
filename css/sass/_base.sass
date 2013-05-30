@@ -267,7 +267,7 @@ section
     &.traer_sunley .contents
       background-image: image-url('person-traer_sunley.jpg')
 
-  &.video    
+  &.video
     .contents
       @include clearfix
 
@@ -284,26 +284,44 @@ section
           line-height: 1.4
           margin: .75em 0
 
-    video
+    video, .replay
       // background: #000
       width: 500px
       height: 280px
+      display: block
+
+    .replay
+      position: absolute
+      z-index: 10
+      background-repeat: no-repeat
+      background-position: center
+
+    &.playing .replay
+      display: none
 
     &.right
       video
         float: right
         margin-left: 2em
+      .replay
+        right: 0
+        background-image: image-url("play-small.png")
 
     &.left
       video
         float: left
         margin-right: 2em
+      .replay
+        left: 0
+        background-image: image-url("play-small.png")
 
     &.full
-      video
+      video, .replay
         width: 800px
         height: 450px
         margin-bottom: 1.5em
+      .replay
+        background-image: image-url("play-large.png")
 
 .major
   font-family: $font-heading
