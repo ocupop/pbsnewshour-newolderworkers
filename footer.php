@@ -13,7 +13,6 @@
 
         if ($chapter < 5)
           echo '<li class="next"><a href="' . $next_chapter['slug']. '.php"><span class="label">Next</span><span class="chapter_title">' . $next_chapter['title'] . '</span></a></li>';
-
         ?>
       </ul>
     </nav>
