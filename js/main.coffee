@@ -16,6 +16,7 @@ $(document).ready ()->
   # parallax effect
   $.fn.parallax = (rate)->
     $this = $(this)
+    return if $this.length is 0
     top = $this.offset().top
     prefix = Modernizr.prefixed('transform')
 
@@ -135,10 +136,6 @@ $(document).ready ()->
 
     scroll_actions.show_data_points = ()->
       $financially_unprepared_chart_points.toggleClass 'active', (pos > (financially_unprepared_chart_top - 400))
-
-    scroll_actions.show_data_points = ()->
-      $investor_underperforms_chart_points.toggleClass 'active', (pos > (investor_underperforms_chart_top - 400))
-
 
   # Chapter 4: Working in "Retirement"
 
