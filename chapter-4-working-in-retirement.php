@@ -128,7 +128,8 @@ require_once('header.php');
 <section class="video colleges_see_graying_workforce">
   <div class="contents">
     <video>
-      <!-- TODO: Broadcast - Colleges and Universities See Graying Workforce Holding On to Coveted Positions -->
+      <source src="video/Broadcast-CollegesandUniversitiesSeeGrayingWorkforce.mp4" type="video/mp4">
+      <source src="video/Broadcast-CollegesandUniversitiesSeeGrayingWorkforce.webm" type="video/webm">
     </video>
 
     <div class="caption">
@@ -193,7 +194,8 @@ require_once('header.php');
 <section class="video boom_in_entrepreneurship">
   <div class="contents">
     <video>
-      <!-- TODO: Broadcast - A Boom in Entrepreneurship, Self-Employment Among Late Bloomers -->
+      <source src="video/Broadcast-ABoominEntrepreneurship.mp4" type="video/mp4">
+      <source src="video/Broadcast-ABoominEntrepreneurship.webm" type="video/webm">
     </video>
 
     <div class="caption">
@@ -211,7 +213,8 @@ require_once('header.php');
 <section class="video vita_needle">
   <div class="contents">
     <video>
-      <!-- TODO: Broadcast - Manufacturer Vita Needle Finds Investment in Older Workers Turns a Big Profit -->
+      <source src="video/Broadcast-ManufacturerVitaNeedleFinds.mp4" type="video/mp4">
+      <source src="video/Broadcast-ManufacturerVitaNeedleFinds.webm" type="video/webm">
     </video>
 
     <div class="caption">
@@ -243,7 +246,8 @@ require_once('header.php');
     </h2>
 
     <video>
-      <!-- TODO: Paul - Self-Interview -->
+      <source src="video/Paul-SelfInterview.mp4" type="video/mp4">
+      <source src="video/Paul-SelfInterview.webm" type="video/webm">
     </video>
   </div>
 </section>
