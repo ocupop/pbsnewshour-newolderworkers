@@ -32,10 +32,14 @@ require_once('header.php');
           <clipPath id="circle_mask">
             <circle cx="50" cy="50" r="50" />
           </clipPath>
+          <clipPath id="pieChunk">
+            <rect x="50" y="0" width="50" height="50" />
+          </clipPath>
           <g clip-path="url(#circle_mask)">
             <rect x="0" y="0" width="100" height="100" fill="#383838"/>
-            <rect fill="#528f85" x="50" y="0" width="50" height="100"/>
-            <rect class="pie_slice" fill="#528f85" x="0" y="0" width="50" height="100"/>
+            <rect fill="#528f85" x="50" y="0" width="50" height="100" clip-path="url(#pieChunk)"/>
+            <rect class="pie_slice" fill="#528f85" x="50" y="0" width="50" height="100"/>
+            <rect fill="#383838" x="0" y="0" width="50" height="50" />
           </g>
         </svg>
         <!-- TODO: get image fallback from Abby  -->
@@ -50,10 +54,14 @@ require_once('header.php');
           <clipPath id="circle_mask">
             <circle cx="50" cy="50" r="50" />
           </clipPath>
+          <clipPath id="pieChunk">
+            <rect x="50" y="0" width="50" height="50" />
+          </clipPath>
           <g clip-path="url(#circle_mask)">
             <rect x="0" y="0" width="100" height="100" fill="#383838"/>
-            <rect fill="#528f85" x="50" y="0" width="50" height="100"/>
-            <rect class="pie_slice" fill="#528f85" x="0" y="0" width="50" height="100"/>
+            <rect fill="#528f85" x="50" y="0" width="50" height="100" clip-path="url(#pieChunk)"/>
+            <rect class="pie_slice" fill="#528f85" x="50" y="0" width="50" height="100"/>
+            <rect fill="#383838" x="0" y="0" width="50" height="50" />
           </g>
         </svg>
         <!-- TODO: get image fallback from Abby  -->
@@ -68,10 +76,14 @@ require_once('header.php');
           <clipPath id="circle_mask">
             <circle cx="50" cy="50" r="50" />
           </clipPath>
+          <clipPath id="pieChunk">
+            <rect x="50" y="0" width="50" height="50" />
+          </clipPath>
           <g clip-path="url(#circle_mask)">
             <rect x="0" y="0" width="100" height="100" fill="#383838"/>
-            <rect fill="#528f85" x="50" y="0" width="50" height="100"/>
-            <rect class="pie_slice" fill="#528f85" x="0" y="0" width="50" height="100"/>
+            <rect fill="#528f85" x="50" y="0" width="50" height="100" clip-path="url(#pieChunk)"/>
+            <rect class="pie_slice" fill="#528f85" x="50" y="0" width="50" height="100"/>
+            <rect fill="#383838" x="0" y="0" width="50" height="50" />
           </g>
         </svg>
         <!-- TODO: get image fallback from Abby  -->

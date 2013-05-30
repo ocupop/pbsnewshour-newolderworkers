@@ -152,12 +152,18 @@ $(document).ready ()->
   # Chapter 4: Working in "Retirement"
 
   if $('body').hasClass('chapter-4-working-in-retirement') then do ()->
+    $top_three_reasons = $('.top_three_reasons')
+    top_three_reasons_top = $top_three_reasons.offset().top
     $reasons_for_working_chart = $('.reasons_for_working-chart')
     reasons_for_working_chart_top = $reasons_for_working_chart.offset().top
     $reasons_for_working_chart_points = $('.data_point', $reasons_for_working_chart)
 
+    scroll_actions.animate_pies = ()->
+      $top_three_reasons.toggleClass "active", (pos > top_three_reasons_top - $window_height)
+
     scroll_actions.show_data_points = ()->
       $reasons_for_working_chart_points.toggleClass 'active', (pos + (2 * $window_height / 3) > reasons_for_working_chart_top)
+
 
   # Chapter 5: Moving Forward
 
