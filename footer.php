@@ -26,6 +26,7 @@
       </p>
 
       <p class="extra">
+        <a id="sources-open">Sources</a>
         <a id="credits-open">Credits</a>
       </p>
     </div>
@@ -73,6 +74,16 @@
         <li><strong>Chapter 5 (man standing)</strong> <a href="http://www.flickr.com/photos/lenscrack/6385997903">Raymond Larose</a>
       </ul>
     </div>
+  </div>
+</div>
+
+<div id="sources">
+  <div class="sources-content">
+    <a id="sources-close">&times;</a>
+
+    <h2>Sources</h2>
+
+    
   </div>
 </div>
 

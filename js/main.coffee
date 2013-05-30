@@ -174,6 +174,16 @@ $(document).ready ()->
   # if $('body').hasClass('chapter-5-moving-forward') then do ()->
 
 
+  # Sources
+
+  $('#sources-open').on "click", ()->
+    $('#sources').fadeIn()
+
+  $('#sources-close').on "click", (e)->
+    e.preventDefault()
+    $('#sources').fadeOut()
+
+
   # Credits
 
   $('#credits-open').on "click", ()->
