@@ -1932,8 +1932,8 @@ footer {
   /* line 68, sass/_chapter5.sass */
   .chapter-5-moving-forward article .share_options li:hover {
     color: #383838; }
-/* line 73, sass/_chapter5.sass */
-.chapter-5-moving-forward article .ask_details a,
+/* line 71, sass/_chapter5.sass */
+.chapter-5-moving-forward article .ask_details a.big,
 .chapter-5-moving-forward article .three_steps a {
   background: #548e85;
   color: white;
@@ -1944,7 +1944,7 @@ footer {
   padding: 0.5em 1em 0.4em 1em;
   text-decoration: none; }
   /* line 44, sass/_mixins.sass */
-  .chapter-5-moving-forward article .ask_details a:before,
+  .chapter-5-moving-forward article .ask_details a.big:before,
   .chapter-5-moving-forward article .three_steps a:before {
     content: "";
     position: absolute;
@@ -1955,12 +1955,12 @@ footer {
     border-bottom: 20px solid transparent;
     border-left: 20px solid #548e85;
     margin-right: -20px; }
-  /* line 84, sass/_chapter5.sass */
-  .chapter-5-moving-forward article .ask_details a:hover,
+  /* line 83, sass/_chapter5.sass */
+  .chapter-5-moving-forward article .ask_details a.big:hover,
   .chapter-5-moving-forward article .three_steps a:hover {
     background: #383838; }
     /* line 44, sass/_mixins.sass */
-    .chapter-5-moving-forward article .ask_details a:hover:before,
+    .chapter-5-moving-forward article .ask_details a.big:hover:before,
     .chapter-5-moving-forward article .three_steps a:hover:before {
       content: "";
       position: absolute;
@@ -1971,35 +1971,35 @@ footer {
       border-bottom: 20px solid transparent;
       border-left: 20px solid #383838;
       margin-right: -20px; }
-/* line 88, sass/_chapter5.sass */
+/* line 87, sass/_chapter5.sass */
 .chapter-5-moving-forward article .ask_details {
   padding: 0 1.5em; }
-  /* line 91, sass/_chapter5.sass */
+  /* line 90, sass/_chapter5.sass */
   .chapter-5-moving-forward article .ask_details p {
     font-family: "Proxima N W01 Smbd";
     font-size: 18px;
     float: left;
     width: 45%; }
-    /* line 97, sass/_chapter5.sass */
+    /* line 96, sass/_chapter5.sass */
     .chapter-5-moving-forward article .ask_details p.first {
       margin-right: 5%; }
-    /* line 100, sass/_chapter5.sass */
+    /* line 99, sass/_chapter5.sass */
     .chapter-5-moving-forward article .ask_details p.second {
       margin-left: 5%; }
-/* line 104, sass/_chapter5.sass */
+/* line 103, sass/_chapter5.sass */
 .chapter-5-moving-forward article .three_steps .first_step,
 .chapter-5-moving-forward article .three_steps .second_step,
 .chapter-5-moving-forward article .three_steps .third_step {
   margin-bottom: 5em;
   padding-left: 200px; }
-/* line 110, sass/_chapter5.sass */
+/* line 109, sass/_chapter5.sass */
 .chapter-5-moving-forward article .three_steps h3 {
   font-family: "Proxima N W01 Smbd";
   font-size: 22px;
   line-height: 1.3;
   margin-bottom: 1em;
   text-transform: uppercase; }
-/* line 117, sass/_chapter5.sass */
+/* line 116, sass/_chapter5.sass */
 .chapter-5-moving-forward article .three_steps p {
   font-size: 18px;
   margin: 0.5em 0 1.5em; }

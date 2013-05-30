@@ -76,12 +76,12 @@ require_once('header.php');
 
     <div class="ask_details">
       <p class="first">
-        Curious how to maximize your own Social Security benefits, future or current? Submit questions to our retirement financial planning guru Larry Kotlikoff here. Then, watch these pages to see if he answers your question.<br>
-        <a href="TODO">TODO</a>
+        Curious how to maximize your own Social Security benefits, future or current? Submit questions to our retirement financial planning guru Larry Kotlikoff here. (Use the red &lsquo;Ask Paul a Question&rsquo; box on the right!) Then, keep an eye on <a href="http://www.pbs.org/newshour/economy/makingsense/">The Business Desk</a> website to see if he answers your question.<br>
+        <a class="big" href="http://www.pbs.org/newshour/businessdesk/archives.html">Ask Larry Kotlikoff a Question</a>
       </p>
       <p class="second">
         If you&rsquo;re interested in job-hunting advice, whether you&rsquo;re a greenhorn or long in the tooth, submit your questions to &lsquo;Ask the Headhunter&rsquo; extraordinaire Nick Corcodilos. Watch these pages for advice and your questions answered.<br>
-        <a href="mailto:pbs@asktheheadhunter.com">Email Nick Corcodilos</a>
+        <a class="big" href="mailto:pbs@asktheheadhunter.com">Email Nick Corcodilos</a>
       </p>
     </div>
   </div>
