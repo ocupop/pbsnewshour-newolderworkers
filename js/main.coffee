@@ -138,10 +138,6 @@ $(document).ready ()->
       $financially_unprepared_chart_points.toggleClass 'active', (pos + (2 * $window_height / 3) > financially_unprepared_chart_top)
       $investor_underperforms_chart_points.toggleClass 'active', (pos + (2 * $window_height / 3) > investor_underperforms_chart_top)
 
-
-  # Chapter 4: Working in "Retirement"
-
-  if $('body').hasClass('chapter-4-working-in-retirement') then do ()->
     $user_age = $('.user_age')
     $how_long_work = $('.how_long_work')
 
@@ -152,6 +148,16 @@ $(document).ready ()->
 
     $user_age.on "keyup change", set_how_long_work
 
+
+  # Chapter 4: Working in "Retirement"
+
+  if $('body').hasClass('chapter-4-working-in-retirement') then do ()->
+    $reasons_for_working_chart = $('.reasons_for_working-chart')
+    reasons_for_working_chart_top = $reasons_for_working_chart.offset().top
+    $reasons_for_working_chart_points = $('.data_point', $reasons_for_working_chart)
+
+    scroll_actions.show_data_points = ()->
+      $reasons_for_working_chart_points.toggleClass 'active', (pos + (2 * $window_height / 3) > reasons_for_working_chart_top)
 
   # Chapter 5: Moving Forward
 

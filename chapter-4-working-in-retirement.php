@@ -22,7 +22,7 @@ require_once('header.php');
 <section class="intro">
   <div class="contents">
     <p class="intro"> 
-      The reasons to keep on working go beyond the pocketbook. The top three reasons folks over 65 say they work?
+      The reasons to keep on working go beyond the pocketbook. Here are the top three reasons folks over 65 say they work:
     </p>
 
     <div class="top_three_reasons">
@@ -41,7 +41,7 @@ require_once('header.php');
         <!-- TODO: get image fallback from Abby  -->
         <p>
           <strong>68%</strong>
-          To feel useful<br>and productive
+          Want to feel useful<br>and productive
         </p>
       </div>
 
@@ -59,7 +59,7 @@ require_once('header.php');
         <!-- TODO: get image fallback from Abby  -->
         <p>
           <strong>59%</strong>
-          To live<br>independently
+          Want to live<br>independently
         </p>
       </div>
 
@@ -77,7 +77,7 @@ require_once('header.php');
         <!-- TODO: get image fallback from Abby  -->
         <p>
           <strong>57%</strong>
-          To have<br>something to do
+          Want to have<br>something to do
         </p>
       </div>
     </div>
@@ -153,9 +153,28 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="data">
+<section class="reasons_for_working">
   <div class="contents">
-    <!-- TODO: reason for working, by age -->
+    <h2>
+      Reasons for Working by Age Group
+    </h2>
+
+    <div class="reasons_for_working-chart">
+      <div class="data_point bar old" id="reasons_for_working-chart-data_point-1"></div>
+      <div class="data_point bar young" id="reasons_for_working-chart-data_point-2"></div>
+      <div class="data_point bar old" id="reasons_for_working-chart-data_point-3"></div>
+      <div class="data_point bar young" id="reasons_for_working-chart-data_point-4"></div>
+      <div class="data_point bar old" id="reasons_for_working-chart-data_point-5"></div>
+      <div class="data_point bar young" id="reasons_for_working-chart-data_point-6"></div>
+      <div class="data_point bar old" id="reasons_for_working-chart-data_point-7"></div>
+      <div class="data_point bar young" id="reasons_for_working-chart-data_point-8"></div>
+      <div class="data_point bar old" id="reasons_for_working-chart-data_point-9"></div>
+      <div class="data_point bar young" id="reasons_for_working-chart-data_point-10"></div>
+      <div class="data_point bar old" id="reasons_for_working-chart-data_point-11"></div>
+      <div class="data_point bar young" id="reasons_for_working-chart-data_point-12"></div>
+      <div class="data_point bar old" id="reasons_for_working-chart-data_point-13"></div>
+      <div class="data_point bar young" id="reasons_for_working-chart-data_point-14"></div>
+    </div>
   </div>
 </section>
 
