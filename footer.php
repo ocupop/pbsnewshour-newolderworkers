@@ -20,6 +20,19 @@
   </div>
 </footer>
 
+<div class="credits">
+  <h2>Credits</h2>
+
+  <h3>Chapter Title Photos</h3>
+  <ul>
+    <li>Chapter 1, (park pathway): <a href="http://www.flickr.com/photos/paulmccoubrie/8676443510">Rum Bucolic Ape</a>
+    <li>Chapter 2, (fishing boat): <a href="http://www.flickr.com/photos/63207993@N06/7442303106">Bluedee2010</a>
+    <li>Chapter 3, (house): <a href="http://www.flickr.com/photos/reallyboring/6010493725">reallyboring</a>
+    <li>Chapter 4, (house): <a href="http://www.flickr.com/photos/artibop/7351457166">Artibop</a>
+    <li>Chapter 5, (man standing): <a href="http://www.flickr.com/photos/lenscrack/6385997903">Raymond Larose</a>
+  </ul>
+</div>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="js/vendor/raf-polyfill.js"></script>
@@ -32,6 +45,13 @@
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
 </script>
+
+<--
+
+# Photo credits:
+
+
+-->
 
 </body>
 

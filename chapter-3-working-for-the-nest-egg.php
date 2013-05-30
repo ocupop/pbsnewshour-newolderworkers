@@ -5,10 +5,24 @@ require_once('header.php');
 
 ?>
 
+<section class="chapter_title">
+  <div class="background_image"></div>
+
+  <div class="contents">
+    <p>
+      Chapter Three
+    </p>
+    <h2>
+      Working for<br>
+      the Nest Egg
+    </h2>
+  </div>
+</section>
+
 <section class="intro">
   <div class="contents">
     <p>
-      Americans are an estimated $6.6 trillion short of what we will need to maintain our current standard of living.
+      Americans are an estimated <strong>$6.6 trillion</strong> short of what we will need to maintain our current standard of living.
     </p>
   </div>
 </section>

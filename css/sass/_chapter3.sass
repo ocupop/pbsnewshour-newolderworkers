@@ -1,3 +1,32 @@
 .chapter-3-working-for-the-nest-egg article
+  .chapter_title
+    @extend .on_dark_background
+    padding: 5em 0 30em
 
-    //
+    .background_image
+      background-image: image-url('3/house-large.jpg')
+      background-position: center -200px
+
+    .contents
+      max-width: 900px
+
+    h2
+      font-family: $bodoni-poster-italic
+      font-size: 90px
+      text-indent: 4px
+
+      span
+        @include text-shadow(none)
+        background: #fff
+        color: $dark
+        display: block
+        font-family: $bodoni
+        font-size: 24px
+        margin: 0 auto
+        padding: .5em 0 .4em
+        text-indent: 0
+        width: 820px
+
+  .intro
+    p
+      @extend .major
