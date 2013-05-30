@@ -4,7 +4,7 @@
     padding: 5em 0 30em
 
     .background_image
-      background-image: image-url('3/house-large.jpg')
+      @include multi-background("3/house")
       background-position: center -200px
 
     .contents
@@ -63,7 +63,7 @@
           @include transition-delay(.2s)
 
           &.active
-            height: 133px            
+            height: 133px
 
         &#financially_unprepared-chart-data_point-2
           left: 372px
@@ -123,7 +123,7 @@
           @include transition-delay(.2s)
 
           &.active
-            height: 242px            
+            height: 242px
 
         &#investor_underperforms-chart-data_point-2
           left: 195px

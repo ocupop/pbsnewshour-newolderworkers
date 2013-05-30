@@ -2,7 +2,7 @@
 
   .chapter_title
     .background_image
-      background-image: image-url('2/fishing-large.jpg')
+      @include multi-background("2/fishing")
 
     .contents
       max-width: 900px
@@ -105,7 +105,7 @@
     @extend .spread
 
     .background_image
-      background-image: image-url('2/briefcases-large.jpg')
+      @include multi-background("2/briefcases")
 
     .contents div
       @include boxed(#fff, right, half, left)
@@ -168,20 +168,20 @@
         &.highly_urbanized .icon:after
           background-position: 0 0
 
-        &.less_urbanized .icon:after  
+        &.less_urbanized .icon:after
           background-position: -473px 0
 
-        &.rural_area .icon:after  
+        &.rural_area .icon:after
           background-position: -946px 0
 
-        &.very_rural_area .icon:after 
+        &.very_rural_area .icon:after
           background-position: -1420px 0
 
         &:hover
           color: $dark
 
           .icon:after
-            opacity: 1          
+            opacity: 1
 
   .joel_peters
     @extend .right
