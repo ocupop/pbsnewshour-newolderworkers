@@ -270,9 +270,31 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="data">
+<section class="labor_force">
   <div class="contents">
-    <h2>[Labor Force Participation Rates by Age Group, January 1993&ndash;January 2013 attachment. Most interesting: rate of change year over year for each age group. 75+ is dramatic]</h2>
+    <h2>
+      Labor Force Participation Rates by Age Group
+    </h2>
+  
+    <h3 class="first">
+      Total Percentage of Laborers Working Per Age Group Since 1993
+    </h3>
+
+    <h3 class="second">
+      Percentage Change Per Age Group Since 1993
+    </h3>
+
+    <div class="labor_force-chart">
+      <div class="data_point line" id="labor_force-chart-data_point-1"></div>
+      <div class="data_point line" id="labor_force-chart-data_point-2"></div>
+      <div class="data_point line" id="labor_force-chart-data_point-3"></div>
+      <div class="data_point line" id="labor_force-chart-data_point-4"></div>
+      <div class="data_point bar" id="labor_force-chart-data_point-5"></div>
+      <div class="data_point bar" id="labor_force-chart-data_point-6"></div>
+      <div class="data_point bar" id="labor_force-chart-data_point-7"></div>
+      <div class="data_point bar" id="labor_force-chart-data_point-8"></div>
+      <div class="data_point" id="labor_force-chart-data_point-9">58%</div>
+    </div>
   </div>
 </section>
 

@@ -50,7 +50,6 @@
     height: 100px
     margin: 0 auto
 
-    // leave image for polyfilling if necessary
     img
       display: none
 
@@ -165,9 +164,131 @@
   .working_about_the_right_amount
     @extend .left
 
-  .quotation.paul
-    //
+  .labor_force
+    @extend .blend-top
 
+    h3
+      color: $medium
+      float: left
+      font-family: $proxima-semibold
+      font-size: 20px
+      line-height: 1.3
+      margin: 0
+      text-align: center
+      text-transform: uppercase
+
+      &.first
+        width: 370px
+
+      &.second
+        width: 305px
+        margin-left: 120px 
+
+    .labor_force-chart
+      background: image-url('1/labor_force-chart.gif') left top no-repeat
+      margin: 6.25em 0 0 -42px
+      width: 882px
+      height: 347px
+      position: relative
+
+      .data_point
+        position: absolute
+        display: block
+
+      .data_point.line
+        background-position: left top
+        background-repeat: no-repeat
+        width: 0
+        height: 50px
+        left: 65px
+        @include transition(width .3s)
+
+        &.active
+          width: 341px
+
+        &#labor_force-chart-data_point-1
+          background-image: image-url('1/labor_force-chart-line-1.png')
+          top: 56px
+          @include transition-delay(.2s)
+
+        &#labor_force-chart-data_point-2
+          background-image: image-url('1/labor_force-chart-line-2.png')
+          top: 185px
+          @include transition-delay(.3s)
+
+        &#labor_force-chart-data_point-3
+          background-image: image-url('1/labor_force-chart-line-3.png')
+          top: 230px
+          @include transition-delay(.4s)
+
+        &#labor_force-chart-data_point-4
+          background-image: image-url('1/labor_force-chart-line-4.png')
+          top: 272px
+          @include transition-delay(.5s)
+
+      .data_point.bar
+        background: rgba(0, 0, 0, .8)
+        bottom: 35px
+        width: 40px
+        height: 0
+        overflow: hidden
+        @include transition(height .3s)
+
+      #labor_force-chart-data_point-5
+        left: 555px
+        @include transition-delay(.6s)
+
+        &.active
+          height: 58px
+
+      #labor_force-chart-data_point-6
+        left: 627px
+        @include transition-delay(.7s)
+
+        &.active
+          height: 145px
+
+      #labor_force-chart-data_point-7
+        left: 701px
+        @include transition-delay(.8s)
+
+        &.active
+          height: 182px
+
+      #labor_force-chart-data_point-8
+        background: $green
+        left: 774px
+        @include transition-delay(.9s)
+
+        &.active
+          height: 226px
+
+      #labor_force-chart-data_point-9
+        background: rgba(0, 0, 0, .8)
+        border-radius: 2px
+        color: #fff
+        display: inline-block
+        font-family: $bodoni-poster-italic
+        font-size: $font-size*1.5
+        padding: .5em .75em
+        text-align: center
+        margin-top: 10px
+        opacity: 0
+        overflow: inherit
+        position: absolute
+        left: 750px
+        top: 20px
+        @include triangle-bottom(4px, rgba(0, 0, 0, .8), down)
+        @include transition(opacity .3s, margin .3s)
+        @include transition-delay(1s)
+
+        span
+          font-family: $bodoni-poster
+          letter-spacing: 2px
+
+        &.active
+          margin-top: 0
+          opacity: 1
   .outro
     .second
       font-family: $caslon-bold

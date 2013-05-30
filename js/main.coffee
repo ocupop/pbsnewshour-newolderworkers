@@ -101,6 +101,9 @@ $(document).ready ()->
     $percentage_of_workers_chart = $('.percentage_of_workers-chart')
     percentage_of_workers_chart_top = $percentage_of_workers_chart.offset().top
     $percentage_of_workers_chart_points = $('.data_point', $percentage_of_workers_chart)
+    $labor_force_chart = $('.labor_force-chart')
+    labor_force_chart_top = $labor_force_chart.offset().top
+    $labor_force_chart_points = $('.data_point', $labor_force_chart)
 
     scroll_actions.fade_header = ()->
       factor = 0
@@ -117,6 +120,7 @@ $(document).ready ()->
 
     scroll_actions.show_data_points = ()->
       $percentage_of_workers_chart_points.toggleClass 'active', (pos + (2 * $window_height / 3) > percentage_of_workers_chart_top)  
+      $labor_force_chart_points.toggleClass 'active', (pos + (2 * $window_height / 3) > labor_force_chart_top)  
 
 
   # Chapter 2: A Snapshot
