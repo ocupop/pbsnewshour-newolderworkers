@@ -90,9 +90,16 @@
   .investor_underperforms
     @extend .blend-top
 
-    p
+    p.first
       @extend .major
-      font-size: 26px
+      font-size: 30px
+      margin-bottom: .2em
+
+    p.second
+      @extend .major-alt
+      color: $light
+      font-size: 21px
+      margin-top: 0
 
     .investor_underperforms-chart
       background: image-url('3/investor_underperforms-chart.gif') left top no-repeat
@@ -182,10 +189,14 @@
         overflow: inherit
         position: absolute
         left: 760px
-        top: 180px
+        top: 160px
         @include triangle-bottom(4px, rgba(0, 0, 0, .8), down)
         @include transition(opacity .3s, margin .3s)
         @include transition-delay(1s)
+
+        span
+          font-family: $bodoni-poster
+          letter-spacing: 2px
 
         &.active
           margin-top: 0

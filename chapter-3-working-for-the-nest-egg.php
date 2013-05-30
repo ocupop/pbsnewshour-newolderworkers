@@ -336,15 +336,19 @@ require_once('header.php');
     </blockquote>
 
     <p class="second">
-      Investment firm BlackRock has found that the average investor underperforms even during inflation. S/he knows she is supposed to buy low and sell high. But check out this rather sobering chart, which shows that in fact individual investors, on average, buy high&mdash;joining the crowd when stocks or bonds are rising in value&mdash;and sell low&mdash;stampeding to get out of investments once they have lost value.
+      Investment firm BlackRock has found that the average investor underperforms even inflation. S/he knows she is supposed to buy low and sell high. But check out this rather sobering chart, which shows that in fact individual investors, on average, buy high&mdash;joining the crowd when stocks or bonds are rising in value&mdash;and sell low&mdash;stampeding to get out of investments once they have lost value.
     </p>
   </div>
 </section>
 
 <section class="investor_underperforms">
   <div class="contents">
-    <p>
-      The average investor underperforms during inflation
+    <p class="first">
+      The average investor underperforms inflation
+    </p>
+
+    <p class="second">
+      20-year Annualized Returns by Type of Investment (from 1992&ndash;2011)
     </p>
 
     <div class="investor_underperforms-chart">
@@ -356,7 +360,7 @@ require_once('header.php');
       <div class="data_point bar" id="investor_underperforms-chart-data_point-6"></div>
       <div class="data_point bar" id="investor_underperforms-chart-data_point-7"></div>
       <div class="data_point bar" id="investor_underperforms-chart-data_point-8"></div>
-      <div class="data_point" id="investor_underperforms-chart-data_point-9">2.1%</div>
+      <div class="data_point" id="investor_underperforms-chart-data_point-9">2.1%<br><span>ROI</span></div>
     </div>
   </div>
 </section>
