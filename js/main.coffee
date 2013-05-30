@@ -142,8 +142,13 @@ $(document).ready ()->
   # Chapter 4: Working in "Retirement"
 
   if $('body').hasClass('chapter-4-working-in-retirement') then do ()->
+    $top_three_reasons = $('.top_three_reasons')
+    top_three_reasons_top = $top_three_reasons.offset().top
     $user_age = $('.user_age')
     $how_long_work = $('.how_long_work')
+
+    scroll_actions.animate_pies = ()->
+      $top_three_reasons.toggleClass "active", (pos > top_three_reasons_top - $window_height)
 
     # Toggle between "how long do you want to work" / are you retired already
     do set_how_long_work = ()->

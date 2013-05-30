@@ -1672,32 +1672,72 @@ footer {
       font-family: "BodoniW01-PosterItalic";
       font-size: 36px;
       margin-bottom: 0.5em; }
-/* line 58, sass/_chapter4.sass */
+/* line 55, sass/_chapter4.sass */
+.chapter-4-working-in-retirement article .pie_slice {
+  -webkit-transform-origin: 50px 50px;
+  -moz-transform-origin: 50px 50px;
+  -ms-transform-origin: 50px 50px;
+  -o-transform-origin: 50px 50px;
+  transform-origin: 50px 50px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s; }
+  /* line 61, sass/_chapter4.sass */
+  .chapter-4-working-in-retirement article .pie_slice img {
+    display: none; }
+/* line 65, sass/_chapter4.sass */
+.chapter-4-working-in-retirement article .active .percent_68 .pie_slice {
+  -webkit-transform: rotate(65deg);
+  -moz-transform: rotate(65deg);
+  -ms-transform: rotate(65deg);
+  -o-transform: rotate(65deg);
+  transform: rotate(65deg); }
+/* line 68, sass/_chapter4.sass */
+.chapter-4-working-in-retirement article .active .percent_59 .pie_slice {
+  -webkit-transform: rotate(32deg);
+  -moz-transform: rotate(32deg);
+  -ms-transform: rotate(32deg);
+  -o-transform: rotate(32deg);
+  transform: rotate(32deg); }
+/* line 71, sass/_chapter4.sass */
+.chapter-4-working-in-retirement article .active .percent_57 .pie_slice {
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  transform: rotate(30deg); }
+/* line 78, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .nancy_goldberg .contents {
   overflow: hidden;
   *zoom: 1; }
-/* line 66, sass/_chapter4.sass */
+/* line 86, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .working_longer h2 {
   font-size: 42px; }
-/* line 72, sass/_chapter4.sass */
+/* line 92, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .colleges_see_graying_workforce .contents {
   padding-top: 1em; }
-/* line 75, sass/_chapter4.sass */
+/* line 95, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .colleges_see_graying_workforce h2 {
   padding-top: 0; }
-/* line 78, sass/_chapter4.sass */
+/* line 98, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .they_want_to {
   margin-top: 3em; }
-/* line 89, sass/_chapter4.sass */
+/* line 109, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .marc_freedman .contents {
   background-position: left 130px !important; }
-/* line 96, sass/_chapter4.sass */
+/* line 116, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .boom_in_entrepreneurship h2 {
   margin-top: 0 !important; }
-/* line 102, sass/_chapter4.sass */
+/* line 122, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .vita_needle h2 {
   margin-top: -0.25em !important;
   padding-top: 0; }
-/* line 106, sass/_chapter4.sass */
+/* line 126, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .couldnt_be_happier {
   margin-top: 3em; }
