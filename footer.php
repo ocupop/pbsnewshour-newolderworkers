@@ -46,13 +46,6 @@
   s.parentNode.insertBefore(g,s)}(document,'script'));
 </script>
 
-<--
-
-# Photo credits:
-
-
--->
-
 </body>
 
 </html>

@@ -431,59 +431,55 @@ section {
       display: inline-block;
       margin: 0 0.5em; }
 
-/* line 332, sass/_base.sass */
-.credits {
-  display: none; }
-
 @-webkit-keyframes pulse-highlight {
-  /* line 339, sass/_base.sass */
+  /* line 333, sass/_base.sass */
   0% {
     opacity: 0.8; }
 
-  /* line 342, sass/_base.sass */
+  /* line 336, sass/_base.sass */
   50% {
     opacity: 1; }
 
-  /* line 345, sass/_base.sass */
+  /* line 339, sass/_base.sass */
   100% {
     opacity: 0.8; } }
 
 @-moz-keyframes pulse-highlight {
-  /* line 339, sass/_base.sass */
+  /* line 333, sass/_base.sass */
   0% {
     opacity: 0.8; }
 
-  /* line 342, sass/_base.sass */
+  /* line 336, sass/_base.sass */
   50% {
     opacity: 1; }
 
-  /* line 345, sass/_base.sass */
+  /* line 339, sass/_base.sass */
   100% {
     opacity: 0.8; } }
 
 @-o-keyframes pulse-highlight {
-  /* line 339, sass/_base.sass */
+  /* line 333, sass/_base.sass */
   0% {
     opacity: 0.8; }
 
-  /* line 342, sass/_base.sass */
+  /* line 336, sass/_base.sass */
   50% {
     opacity: 1; }
 
-  /* line 345, sass/_base.sass */
+  /* line 339, sass/_base.sass */
   100% {
     opacity: 0.8; } }
 
 @keyframes pulse-highlight {
-  /* line 339, sass/_base.sass */
+  /* line 333, sass/_base.sass */
   0% {
     opacity: 0.8; }
 
-  /* line 342, sass/_base.sass */
+  /* line 336, sass/_base.sass */
   50% {
     opacity: 1; }
 
-  /* line 345, sass/_base.sass */
+  /* line 339, sass/_base.sass */
   100% {
     opacity: 0.8; } }
 
@@ -750,6 +746,10 @@ footer {
   /* line 50, sass/_footer.sass */
   footer a {
     color: white; }
+
+/* line 53, sass/_footer.sass */
+.credits {
+  display: none; }
 
 /* line 3, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article header.story_header {

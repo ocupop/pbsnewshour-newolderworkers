@@ -25,13 +25,12 @@ require_once('header.php');
       <p>
         I am 77 and run an all-arts camp empowering women with my daughter, 47. I do the jobs that suit me: write letters, deal with prospective staff, help the younger women. The experiences I have gained I am passing on to the younger generation.
       </p>
+      <cite>
+        <strong>&mdash; Nancy Goldberg, 77</strong>
+      </cite>
     </blockquote>
-    <cite>
-      <strong>&mdash; Nancy Goldberg, 77</strong>
-    </cite>
   </div>
 </section>
-
 
 <section class="copy">
   <div class="contents">
@@ -169,11 +168,11 @@ require_once('header.php');
       <p>
         I think there&rsquo;s a kind of sweet spot that&rsquo;s emerging in life that&rsquo;s a function of the longevity revolution. So when you&rsquo;re 50 years old, you have the chance to have a whole new chapter and it&rsquo;s an extraordinary opportunity for individuals to have another chance to do something important.
       </p>
+      <cite>
+        <strong>&mdash; Marc Freedman</strong>
+        Founder, Encore.org
+      </cite>
     </blockquote>
-    <cite>
-      <strong>&mdash; Marc Freedman</strong>
-      Founder, Encore.org
-    </cite>
   </div>
 </section>
 

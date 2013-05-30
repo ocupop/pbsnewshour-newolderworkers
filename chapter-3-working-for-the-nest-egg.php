@@ -33,11 +33,11 @@ require_once('header.php');
       <p>
         If you look at the lowest income quartile of earners, 41% of them will run short of money within 10 years of retirement. I don&rsquo;t have a clue what will happen to them after that.
       </p>
-    <//blockquote>
-    <cite>
-      <strong>&mdash; Jack VanDerhei</strong>
-      Employee Benefit Research Institute
-    </cite>
+      <cite>
+        <strong>&mdash; Jack VanDerhei</strong>
+        Employee Benefit Research Institute
+      </cite>
+    </blockquote>
   </div>
 </section>
 
@@ -245,11 +245,11 @@ require_once('header.php');
       <p>
         So many people are clueless when it comes to investing.
       </p>
+      <cite>
+        <strong>&mdash; Sheryl Garrett</strong>
+        CFP&reg;, AIF&reg;, founder of The Garrett Planning Network, Inc.)
+      </cite>
     </blockquote>
-    <cite>
-      <strong>&mdash; Sheryl Garrett</strong>
-      CFP&reg;, AIF&reg;, founder of The Garrett Planning Network, Inc.)
-    </cite>
   </div>
 </section>
 
@@ -311,11 +311,11 @@ require_once('header.php');
       <p>
         A third of the baby boomers have no retirement savings.
       </p>
+      <cite>
+        <strong>&mdash; Diane Oakley</strong>
+        Executive Director of the National Institute on Retirement Security
+      </cite>
     </blockquote>
-    <cite>
-      <strong>&mdash; Diane Oakley</strong>
-      Executive Director of the National Institute on Retirement Security
-    </cite>
   </div>
 </section>
 
@@ -442,11 +442,11 @@ require_once('header.php');
       <p>
         About half of unemployed middle aged and older workers are still unemployed two years later. If you are near retirement and an employer wants to hire you, there’s fixed costs to hiring you. They have to train you. They have to invest in you and if their investment is only going to be spread over a few years then that might not be the best investment for them compared to a worker where that investment might be spread over many more years.
       </p>
+      <cite>
+        <strong>&mdash; Julie Zissimopoulos</strong>
+        Economist, University of Southern California
+      </cite>
     </blockquote>
-    <cite>
-      <strong>&mdash; Julie Zissimopoulos</strong>
-      Economist, University of Southern California
-    </cite>
   </div>
 </section>
 
