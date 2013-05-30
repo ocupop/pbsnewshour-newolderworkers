@@ -697,59 +697,192 @@ header.story_header {
 
 /* line 1, sass/_footer.sass */
 footer {
+  overflow: hidden;
+  *zoom: 1;
   background: #383838;
-  padding: 1.5em 0;
+  padding: 1.5em 0 0.5em;
   z-index: 2; }
-  /* line 7, sass/_footer.sass */
-  footer nav ul {
-    overflow: hidden; }
   /* line 10, sass/_footer.sass */
-  footer nav li {
+  footer .contents nav ul {
+    overflow: hidden; }
+  /* line 13, sass/_footer.sass */
+  footer .contents nav li {
     display: block;
     font-family: "Bodoni MT W01";
     text-align: center;
     text-transform: uppercase;
     width: 50%; }
-    /* line 17, sass/_footer.sass */
-    footer nav li.previous {
+    /* line 20, sass/_footer.sass */
+    footer .contents nav li.previous {
       background: url('../img/chapter-previous.svg?1369355902') left no-repeat;
       float: left; }
-    /* line 21, sass/_footer.sass */
-    footer nav li.next {
+    /* line 24, sass/_footer.sass */
+    footer .contents nav li.next {
       background: url('../img/chapter-next.svg?1369351919') right no-repeat;
       float: right; }
-    /* line 25, sass/_footer.sass */
-    footer nav li a {
+    /* line 28, sass/_footer.sass */
+    footer .contents nav li a {
       color: white;
       display: block;
       text-decoration: none; }
-      /* line 30, sass/_footer.sass */
-      footer nav li a .label {
+      /* line 33, sass/_footer.sass */
+      footer .contents nav li a .label {
         border-bottom: 2px solid #aaaaaa;
         color: #aaaaaa;
         display: inline-block;
         padding-bottom: 0;
         font-size: 19.2px; }
-      /* line 37, sass/_footer.sass */
-      footer nav li a .chapter_title {
+      /* line 40, sass/_footer.sass */
+      footer .contents nav li a .chapter_title {
         display: block;
         font-size: 30px;
         line-height: 1.1;
         margin: 0.5em auto 0 auto;
         width: 60%; }
-      /* line 44, sass/_footer.sass */
-      footer nav li a:hover {
+      /* line 47, sass/_footer.sass */
+      footer .contents nav li a:hover {
         color: #548e85; }
-        /* line 47, sass/_footer.sass */
-        footer nav li a:hover .label {
+        /* line 50, sass/_footer.sass */
+        footer .contents nav li a:hover .label {
           border-bottom-color: #548e85; }
-  /* line 50, sass/_footer.sass */
-  footer a {
+  /* line 53, sass/_footer.sass */
+  footer .contents a {
     color: white; }
+  /* line 56, sass/_footer.sass */
+  footer .contents div {
+    margin-top: 5em; }
+    /* line 59, sass/_footer.sass */
+    footer .contents div p {
+      color: white;
+      font-family: "Proxima N W01 Smbd";
+      line-height: 1;
+      margin: 0;
+      padding: 0;
+      opacity: 0.25;
+      -webkit-transition: opacity 0.1s;
+      -moz-transition: opacity 0.1s;
+      -o-transition: opacity 0.1s;
+      transition: opacity 0.1s; }
+      /* line 68, sass/_footer.sass */
+      footer .contents div p:hover {
+        opacity: 1; }
+      /* line 71, sass/_footer.sass */
+      footer .contents div p a:hover {
+        color: white; }
+      /* line 74, sass/_footer.sass */
+      footer .contents div p.pbs {
+        float: left; }
+        /* line 77, sass/_footer.sass */
+        footer .contents div p.pbs a {
+          text-decoration: none; }
+        /* line 80, sass/_footer.sass */
+        footer .contents div p.pbs img {
+          margin-right: 0.5em;
+          vertical-align: -6px;
+          width: 24px; }
+        /* line 85, sass/_footer.sass */
+        footer .contents div p.pbs span {
+          font-size: 20px; }
+      /* line 88, sass/_footer.sass */
+      footer .contents div p.extra {
+        float: right;
+        font-size: 18px;
+        margin-top: 0.35em; }
+        /* line 93, sass/_footer.sass */
+        footer .contents div p.extra #credits-open {
+          border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+          cursor: pointer;
+          margin-left: 1em;
+          text-transform: uppercase; }
 
-/* line 53, sass/_footer.sass */
-.credits {
-  display: none; }
+/* line 99, sass/_footer.sass */
+#credits {
+  display: none;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 98; }
+  /* line 109, sass/_footer.sass */
+  #credits .credits-content {
+    background: white;
+    border-radius: 6px;
+    margin-left: -300px;
+    padding: 20px;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    width: 600px;
+    z-index: 99;
+    overflow: auto;
+    -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 35px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.75); }
+    /* line 122, sass/_footer.sass */
+    #credits .credits-content h2 {
+      font-family: "BodoniW01-PosterItalic";
+      font-size: 32px;
+      margin: 0;
+      padding: 0;
+      text-align: left; }
+    /* line 129, sass/_footer.sass */
+    #credits .credits-content h3 {
+      font-family: "Proxima N W01 Bold";
+      font-size: 18px;
+      text-transform: uppercase; }
+      /* line 134, sass/_footer.sass */
+      #credits .credits-content h3 span {
+        color: #aaaaaa;
+        font-size: 85%;
+        margin-left: 0.5em;
+        text-transform: none; }
+    /* line 141, sass/_footer.sass */
+    #credits .credits-content ul li {
+      color: #aaaaaa;
+      font-family: "Proxima N W01 Smbd";
+      font-size: 14px; }
+      /* line 146, sass/_footer.sass */
+      #credits .credits-content ul li strong {
+        color: #383838;
+        font-family: "Proxima N W01 Bold";
+        font-size: 16px;
+        font-weight: normal;
+        margin-right: 0.5em; }
+    /* line 153, sass/_footer.sass */
+    #credits .credits-content a {
+      text-decoration: none; }
+    /* line 156, sass/_footer.sass */
+    #credits .credits-content .photo_credits {
+      opacity: 0.5; }
+      /* line 159, sass/_footer.sass */
+      #credits .credits-content .photo_credits h3 {
+        font-size: 16px;
+        margin-bottom: 0.5em;
+        text-transform: none; }
+      /* line 164, sass/_footer.sass */
+      #credits .credits-content .photo_credits ul li {
+        font-size: 13px; }
+        /* line 167, sass/_footer.sass */
+        #credits .credits-content .photo_credits ul li strong {
+          font-family: "Proxima N W01 Smbd";
+          font-size: 13px; }
+    /* line 171, sass/_footer.sass */
+    #credits .credits-content #credits-close {
+      color: #aaaaaa;
+      cursor: pointer;
+      display: block;
+      font-size: 48px;
+      font-weight: bold;
+      padding: 20px 20px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 10; }
+      /* line 183, sass/_footer.sass */
+      #credits .credits-content #credits-close:hover {
+        color: #383838; }
 
 /* line 3, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article header.story_header {

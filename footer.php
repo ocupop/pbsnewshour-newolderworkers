@@ -17,20 +17,57 @@
         ?>
       </ul>
     </nav>
+
+    <div>
+      <p class="pbs">
+        <a href="http://www.pbs.org/newshour/">
+          <img src="img/pbs-dark_background.svg">
+          <span>PBS NewsHour</span>
+        </a>
+      </p>
+
+      <p class="extra">
+        <a id="credits-open">Credits</a>
+      </p>
+    </div>
   </div>
 </footer>
 
-<div class="credits">
-  <h2>Credits</h2>
+<div id="credits">
+  <div class="credits-content">
+    <a id="credits-close">&times;</a>
 
-  <h3>Chapter Title Photos</h3>
-  <ul>
-    <li>Chapter 1, (park pathway): <a href="http://www.flickr.com/photos/paulmccoubrie/8676443510">Rum Bucolic Ape</a>
-    <li>Chapter 2, (fishing boat): <a href="http://www.flickr.com/photos/63207993@N06/7442303106">Bluedee2010</a>
-    <li>Chapter 3, (house): <a href="http://www.flickr.com/photos/reallyboring/6010493725">reallyboring</a>
-    <li>Chapter 4, (house): <a href="http://www.flickr.com/photos/artibop/7351457166">Artibop</a>
-    <li>Chapter 5, (man standing): <a href="http://www.flickr.com/photos/lenscrack/6385997903">Raymond Larose</a>
-  </ul>
+    <h2>Credits</h2>
+
+    <h3>PBS NewsHour</h3>
+    <ul>
+      <li><strong>Travis Daub</strong></li>
+      <li><strong>Vanessa Dennis</strong></li>
+      <li><strong>Elizabeth Shell</strong></li>
+      <li><strong>Paul Solman</strong></li>
+      <li><strong>TODO</strong></li>
+    </ul>
+
+    <h3>Ocupop</h3>
+    <ul>
+      <li><strong>Abby Lindstrom</strong> design and illustration</li>
+      <li><strong>Matthew McVickar</strong> art direction and development</li>
+      <li><strong>Justin Falcone</strong> development</li>
+      <li><strong>Nick Krusick</strong> video editing</li>
+      <li><strong>Michael Nieling</strong> art direction</li>
+    </ul>
+
+    <div class="photo_credits">
+      <h3>Chapter Title Photos <span>from Flickr users</span></h3>
+      <ul>
+        <li><strong>Chapter 1 (park pathway)</strong> <a href="http://www.flickr.com/photos/paulmccoubrie/8676443510">Rum Bucolic Ape</a>
+        <li><strong>Chapter 2 (fishing boat)</strong> <a href="http://www.flickr.com/photos/63207993@N06/7442303106">Bluedee2010</a>
+        <li><strong>Chapter 3 (house)</strong> <a href="http://www.flickr.com/photos/reallyboring/6010493725">reallyboring</a>
+        <li><strong>Chapter 4 (house)</strong> <a href="http://www.flickr.com/photos/artibop/7351457166">Artibop</a>
+        <li><strong>Chapter 5 (man standing)</strong> <a href="http://www.flickr.com/photos/lenscrack/6385997903">Raymond Larose</a>
+      </ul>
+    </div>
+  </div>
 </div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

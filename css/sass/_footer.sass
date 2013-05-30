@@ -1,54 +1,184 @@
 footer
+  @include clearfix
   background: $dark
-  padding: 1.5em 0
+  padding: 1.5em 0 .5em
   z-index: 2
 
-  nav
-    ul
-      overflow: hidden
+  .contents
 
-    li
-      display: block
-      font-family: 'Bodoni MT W01'
-      text-align: center
-      text-transform: uppercase
-      width: 50%
+    nav
+      ul
+        overflow: hidden
 
-      &.previous
-        background: image-url('chapter-previous.svg') left no-repeat
-        float: left
-
-      &.next
-        background: image-url('chapter-next.svg') right no-repeat
-        float: right
-
-      a
-        color: #fff
+      li
         display: block
-        text-decoration: none
+        font-family: 'Bodoni MT W01'
+        text-align: center
+        text-transform: uppercase
+        width: 50%
 
-        .label
-          border-bottom: 2px solid $light
-          color: $light
-          display: inline-block
-          padding-bottom: 0
-          font-size: $line*0.8
+        &.previous
+          background: image-url('chapter-previous.svg') left no-repeat
+          float: left
 
-        .chapter_title
+        &.next
+          background: image-url('chapter-next.svg') right no-repeat
+          float: right
+
+        a
+          color: #fff
           display: block
-          font-size: $line*1.25
-          line-height: 1.1
-          margin: .5em auto 0 auto
-          width: 60%
-
-        &:hover
-          color: $green
+          text-decoration: none
 
           .label
-            border-bottom-color: $green
+            border-bottom: 2px solid $light
+            color: $light
+            display: inline-block
+            padding-bottom: 0
+            font-size: $line*0.8
 
-  a
-    color: #fff
+          .chapter_title
+            display: block
+            font-size: $line*1.25
+            line-height: 1.1
+            margin: .5em auto 0 auto
+            width: 60%
 
-.credits
+          &:hover
+            color: $green
+
+            .label
+              border-bottom-color: $green
+
+    a
+      color: #fff
+
+    div
+      margin-top: 5em
+
+      p
+        color: #fff
+        font-family: $proxima-semibold
+        line-height: 1
+        margin: 0
+        padding: 0
+        opacity: .25
+        @include transition(opacity .1s)
+
+        &:hover
+          opacity: 1
+
+        a:hover
+          color: #fff
+
+        &.pbs
+          float: left
+
+          a
+            text-decoration: none
+
+          img
+            margin-right: .5em
+            vertical-align: -6px
+            width: 24px
+
+          span
+            font-size: 20px
+
+        &.extra
+          float: right
+          font-size: 18px
+          margin-top: .35em
+
+          #credits-open
+            border-bottom: 2px solid rgba(255, 255, 255, .5)
+            cursor: pointer
+            margin-left: 1em
+            text-transform: uppercase
+
+#credits
   display: none
+  background: rgba(0, 0, 0, .8)
+  position: fixed
+  top: 0
+  left: 0 
+  width: 100%
+  height: 100%
+  z-index: 98
+
+  .credits-content
+    background: #fff
+    border-radius: 6px
+    margin-left: -300px
+    padding: 20px
+    position: fixed
+    top: 10%
+    left: 50%
+    width: 600px
+    z-index: 99
+    overflow: auto
+    @include box-shadow(0 0 35px rgba(0, 0, 0, .75))
+
+    h2
+      font-family: $bodoni-poster-italic
+      font-size: 32px
+      margin: 0
+      padding: 0
+      text-align: left
+
+    h3
+      font-family: $proxima-bold
+      font-size: 18px
+      text-transform: uppercase
+
+      span
+        color: $light
+        font-size: 85%
+        margin-left: .5em
+        text-transform: none
+
+    ul
+      li
+        color: $light
+        font-family: $proxima-semibold
+        font-size: 14px
+
+        strong
+          color: $dark
+          font-family: $proxima-bold
+          font-size: 16px
+          font-weight: normal
+          margin-right: .5em
+
+    a
+      text-decoration: none
+
+    .photo_credits
+      opacity: .5
+
+      h3
+        font-size: 16px
+        margin-bottom: .5em
+        text-transform: none
+
+      ul li
+        font-size: 13px
+
+        strong
+          font-family: $proxima-semibold
+          font-size: 13px
+
+    #credits-close
+      color: $light
+      cursor: pointer
+      display: block
+      font-size: 48px
+      font-weight: bold
+      padding: 20px 20px
+      position: absolute
+      top: 0
+      right: 0
+      z-index: 10
+
+      &:hover
+        color: $dark

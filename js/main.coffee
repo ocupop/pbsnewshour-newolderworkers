@@ -131,3 +131,12 @@ $(document).ready ()->
       $how_long_work.toggleClass 'show_over_65', (age >= 65)
 
     $user_age.on "keyup change", set_how_long_work
+
+  # Credits
+
+  $('#credits-open').on "click", ()->
+    $('#credits').show()
+
+  $('#credits-close').on "click", (e)->
+    e.preventDefault()
+    $('#credits').hide()
