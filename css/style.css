@@ -389,7 +389,6 @@ section {
       margin: 0.75em 0; }
   /* line 287, sass/_base.sass */
   section.video video {
-    background: black;
     width: 500px;
     height: 280px; }
   /* line 293, sass/_base.sass */

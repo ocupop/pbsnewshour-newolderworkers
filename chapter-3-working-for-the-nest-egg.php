@@ -367,8 +367,9 @@ require_once('header.php');
 
 <section class="video babs_tatalias">
   <div class="contents">
-    <video>
-    <!-- TODO: Older Workers - Babs Tatalias -->
+    <video preload="auto">
+      <source src="video/OlderWorkers-BabsTatalias.mp4" type="video/mp4">
+      <source src="video/OlderWorkers-BabsTatalias.webm" type="video/webm">
     </video>
 
     <div class="caption">
@@ -400,9 +401,11 @@ require_once('header.php');
 
 <section class="video charles_smith">
   <div class="contents">
-    <video>
-    <!-- TODO: Older Workers - Charles Smith -->
+    <video preload="auto">
+      <source src="video/OlderWorkers-CharlesSmith.mp4" type="video/mp4">
+      <source src="video/OlderWorkers-CharlesSmith.webm" type="video/webm">
     </video>
+
 
     <div class="caption">
       <h2>
@@ -437,8 +440,9 @@ require_once('header.php');
 
 <section class="video mike_kemp">
   <div class="contents">
-    <video>
-    <!-- TODO: Older Workers - Mike Kemp-->
+    <video preload="auto">
+      <source src="video/OlderWorkers-MikeKemp.mp4" type="video/mp4">
+      <source src="video/OlderWorkers-MikeKemp.webm" type="video/webm">
     </video>
 
     <div class="caption">
@@ -509,11 +513,11 @@ require_once('header.php');
   </div>
 </section>
 
-
 <section class="video paul_transition">
   <div class="contents">
-    <video>
-    <!-- TODO: Paul - Transition -->
+    <video preload="auto">
+      <source src="video/Paul-Transition.mp4" type="video/mp4">
+      <source src="video/Paul-Transition.webm" type="video/webm"/>
     </video>
   </div>
 </section>

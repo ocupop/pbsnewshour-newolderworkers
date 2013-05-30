@@ -286,8 +286,9 @@ require_once('header.php');
 
 <section class="video joel_peters">
   <div class="contents">
-    <video>
-      <!-- Joel Peters -->
+    <video preload="auto">
+      <source src="video/OlderWorkers-JoelPeters.mp4" type="video/mp4">
+      <source src="video/OlderWorkers-JoelPeters.webm" type="video/webm">
     </video>
  
     <div class="caption">
