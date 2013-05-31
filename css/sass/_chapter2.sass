@@ -47,6 +47,9 @@
   .gender
     @extend .blend
 
+    .background_image
+      @include multi-background("2/man_woman")
+
     .contents
       max-width: 100%
 
@@ -62,14 +65,21 @@
           &.second
             text-align: right
 
+      section
+        background: rgba(255, 255, 255, .8)
+
+        &.copy p
+          margin: $line
+
   .gender_split
-    background: image-url('line-background.png') center top repeat-y
+    background: transparent image-url('line-background.png') center top repeat-y
     margin: 0 auto
     padding-bottom: 3em
     width: $desktop
     overflow: hidden
 
     section
+      background: transparent
       clear: both
       width: 40%
 
