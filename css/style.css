@@ -1,4 +1,4 @@
-/* line 17, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,38 +19,38 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
-/* line 22, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1; }
 
-/* line 24, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none; }
 
-/* line 26, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 28, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
-/* line 30, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none; }
-  /* line 103, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 103, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none; }
 
-/* line 32, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none; }
 
-/* line 116, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
@@ -323,7 +323,7 @@ section {
     background-position: left center; }
   /* line 230, sass/_base.sass */
   section.quotation.paul .contents {
-    background-image: url('../img/person-paul_solman.jpg?1369452927');
+    background-image: url('../img/person-paul_solman.jpg?1369914302');
     background-repeat: no-repeat;
     background-position: 0 8em; }
   /* line 235, sass/_base.sass */
@@ -343,37 +343,37 @@ section {
       margin-left: -24px; }
   /* line 240, sass/_base.sass */
   section.quotation.dante_chinni .contents {
-    background-image: url('../img/person-dante_chinni.jpg?1369899734'); }
+    background-image: url('../img/person-dante_chinni.jpg?1369914302'); }
   /* line 243, sass/_base.sass */
   section.quotation.jack_vanderhei .contents {
-    background-image: url('../img/person-jack_vanderhei.jpg?1369899768'); }
+    background-image: url('../img/person-jack_vanderhei.jpg?1369914302'); }
   /* line 246, sass/_base.sass */
   section.quotation.julie_zissimopoulos .contents {
-    background-image: url('../img/person-julie_zissimopoulos.jpg?1369899697'); }
+    background-image: url('../img/person-julie_zissimopoulos.jpg?1369914302'); }
   /* line 249, sass/_base.sass */
   section.quotation.marc_freedman .contents {
-    background-image: url('../img/person-marc_freedman.jpg?1369899655'); }
+    background-image: url('../img/person-marc_freedman.jpg?1369914302'); }
   /* line 252, sass/_base.sass */
   section.quotation.michael_davidson .contents {
-    background-image: url('../img/person-michael_davidson.jpg?1369956424'); }
+    background-image: url('../img/person-michael_davidson.jpg?1369957873'); }
   /* line 255, sass/_base.sass */
   section.quotation.diane_oakley .contents {
-    background-image: url('../img/person-diane_oakley.jpg?1369932616'); }
+    background-image: url('../img/person-diane_oakley.jpg?1369951132'); }
   /* line 258, sass/_base.sass */
   section.quotation.nancy_goldberg .contents {
-    background-image: url('../img/person-nancy_goldberg.jpg?1369932605'); }
+    background-image: url('../img/person-nancy_goldberg.jpg?1369951132'); }
   /* line 261, sass/_base.sass */
   section.quotation.paula_gjerstad .contents {
-    background-image: url('../img/person-paula_gjerstad.jpg?1369932594'); }
+    background-image: url('../img/person-paula_gjerstad.jpg?1369951132'); }
   /* line 264, sass/_base.sass */
   section.quotation.robert_martin .contents {
-    background-image: url('../img/person-robert_martin.jpg?1369932583'); }
+    background-image: url('../img/person-robert_martin.jpg?1369951132'); }
   /* line 267, sass/_base.sass */
   section.quotation.sheryl_garrett .contents {
-    background-image: url('../img/person-sheryl_garrett.jpg?1369932573'); }
+    background-image: url('../img/person-sheryl_garrett.jpg?1369951132'); }
   /* line 270, sass/_base.sass */
   section.quotation.traer_sunley .contents {
-    background-image: url('../img/person-traer_sunley.jpg?1369932549'); }
+    background-image: url('../img/person-traer_sunley.jpg?1369951132'); }
   /* line 274, sass/_base.sass */
   section.video .contents {
     overflow: hidden;
@@ -411,7 +411,7 @@ section {
   /* line 309, sass/_base.sass */
   section.video.right .replay, .chapter-2-a-snapshot article .gender_split section.video.quotation.female .replay, .chapter-2-a-snapshot article section.video.joel_peters .replay, .chapter-3-working-for-the-nest-egg article section.video.if_you_look_at .replay, .chapter-3-working-for-the-nest-egg article section.video.a_third_of_baby_boomers .replay, .chapter-3-working-for-the-nest-egg article section.video.the_great_recession .replay, .chapter-3-working-for-the-nest-egg article section.video.brutal_job_search .replay, .chapter-3-working-for-the-nest-egg article section.video.julie_zissimopoulos .replay, .chapter-4-working-in-retirement article section.video.nancy_goldberg .replay, .chapter-4-working-in-retirement article section.video.marc_freedman .replay, .chapter-4-working-in-retirement article section.video.vita_needle .replay {
     right: 0;
-    background-image: url('../img/play-small.png?1369940870'); }
+    background-image: url('../img/play-small.png?1369951132'); }
   /* line 314, sass/_base.sass */
   section.video.left video, .chapter-1-rethinking-retirement article section.video.working_about_the_right_amount video, .chapter-2-a-snapshot article .gender_split section.video.quotation.male video, .chapter-3-working-for-the-nest-egg article section.video.sheryl_garrett video, .chapter-3-working-for-the-nest-egg article section.video.babs_tatalias video, .chapter-3-working-for-the-nest-egg article section.video.charles_smith video, .chapter-3-working-for-the-nest-egg article section.video.mike_kemp video, .chapter-4-working-in-retirement article section.video.colleges_see_graying_workforce video, .chapter-4-working-in-retirement article section.video.boom_in_entrepreneurship video {
     float: left;
@@ -419,7 +419,7 @@ section {
   /* line 317, sass/_base.sass */
   section.video.left .replay, .chapter-1-rethinking-retirement article section.video.working_about_the_right_amount .replay, .chapter-2-a-snapshot article .gender_split section.video.quotation.male .replay, .chapter-3-working-for-the-nest-egg article section.video.sheryl_garrett .replay, .chapter-3-working-for-the-nest-egg article section.video.babs_tatalias .replay, .chapter-3-working-for-the-nest-egg article section.video.charles_smith .replay, .chapter-3-working-for-the-nest-egg article section.video.mike_kemp .replay, .chapter-4-working-in-retirement article section.video.colleges_see_graying_workforce .replay, .chapter-4-working-in-retirement article section.video.boom_in_entrepreneurship .replay {
     left: 0;
-    background-image: url('../img/play-small.png?1369940870'); }
+    background-image: url('../img/play-small.png?1369951132'); }
   /* line 322, sass/_base.sass */
   section.video.full video, .chapter-2-a-snapshot article section.dante_chinni video, .chapter-3-working-for-the-nest-egg article section.paul_transition video, .chapter-4-working-in-retirement article section.video.paul_interviews_paul video, section.video.full .replay, .chapter-2-a-snapshot article section.dante_chinni .replay, .chapter-3-working-for-the-nest-egg article section.paul_transition .replay, .chapter-4-working-in-retirement article section.video.paul_interviews_paul .replay {
     width: 800px;
@@ -427,7 +427,7 @@ section {
     margin-bottom: 1.5em; }
   /* line 326, sass/_base.sass */
   section.video.full .replay, .chapter-2-a-snapshot article section.dante_chinni .replay, .chapter-3-working-for-the-nest-egg article section.paul_transition .replay, .chapter-4-working-in-retirement article section.video.paul_interviews_paul .replay {
-    background-image: url('../img/play-large.png?1369940825'); }
+    background-image: url('../img/play-large.png?1369951132'); }
 
 /* line 329, sass/_base.sass */
 .major, .major-alt, .chapter-1-rethinking-retirement article .intro p.second, .chapter-3-working-for-the-nest-egg article .investor_underperforms p.second, .chapter-1-rethinking-retirement article .intro p.first,
@@ -482,7 +482,7 @@ section {
 
 /* line 371, sass/_base.sass */
 .form_fields {
-  background: url('../img/form-background.jpg?1369788223') center bottom repeat-x;
+  background: url('../img/form-background.jpg?1369914302') center bottom repeat-x;
   font-family: "Proxima N W01 Smbd";
   margin: 0 auto;
   overflow: hidden; }
@@ -581,7 +581,7 @@ header.site_header {
     max-width: 1000px; }
   /* line 29, sass/_header.sass */
   header.site_header a.pbs {
-    background: url('../img/pbs-light_background.svg?1369272538') no-repeat left top;
+    background: url('../img/pbs-light_background.svg?1369273560') no-repeat left top;
     background-size: contain;
     margin: 0.2em 1em 0 0;
     width: 38px;
@@ -742,11 +742,11 @@ footer {
     height: 145px; }
     /* line 23, sass/_footer.sass */
     footer .contents nav li.previous {
-      background: url('../img/chapter-previous.svg?1369355902') left no-repeat;
+      background: url('../img/chapter-previous.svg?1369358830') left no-repeat;
       float: left; }
     /* line 27, sass/_footer.sass */
     footer .contents nav li.next {
-      background: url('../img/chapter-next.svg?1369351919') right no-repeat;
+      background: url('../img/chapter-next.svg?1369358830') right no-repeat;
       float: right; }
     /* line 31, sass/_footer.sass */
     footer .contents nav li a {
@@ -943,7 +943,7 @@ footer {
   transition: opacity 1s; }
 /* line 10, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .company_photo .background_image {
-  background-image: url('../img/1/company_photo.jpg?1367950909');
+  background-image: url('../img/1/company_photo.jpg?1369273158');
   background-size: 100%; }
 /* line 14, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .intro {
@@ -958,19 +958,19 @@ footer {
   padding: 24em 0 2em 0; }
   /* line 34, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .chapter_title .background_image {
-    background-image: url('../img/1/park-giant.jpg?1369780295'); }
+    background-image: url('../img/1/park-giant.jpg?1369914302'); }
     @media screen and (max-height: 1080px) and (max-width: 1920px) {
       /* line 34, sass/_chapter1.sass */
       .chapter-1-rethinking-retirement article .chapter_title .background_image {
-        background-image: url('../img/1/park-large.jpg?1369780331'); } }
+        background-image: url('../img/1/park-large.jpg?1369914302'); } }
     @media screen and (max-height: 1024px) and (max-width: 1024px) {
       /* line 34, sass/_chapter1.sass */
       .chapter-1-rethinking-retirement article .chapter_title .background_image {
-        background-image: url('../img/1/park-medium.jpg?1369780357'); } }
+        background-image: url('../img/1/park-medium.jpg?1369914302'); } }
     @media screen and (max-height: 640px) and (max-width: 640px) {
       /* line 34, sass/_chapter1.sass */
       .chapter-1-rethinking-retirement article .chapter_title .background_image {
-        background-image: url('../img/1/park-small.jpg?1369780374'); } }
+        background-image: url('../img/1/park-small.jpg?1369914302'); } }
 /* line 42, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .pie_slice {
   -webkit-transform-origin: 50px 50px;
@@ -1013,7 +1013,7 @@ footer {
   transform: rotate(0deg); }
 /* line 63, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .percentage_of_workers-chart {
-  background: url('../img/1/percentage_of_workers-chart.gif?1369900647') left top no-repeat;
+  background: url('../img/1/percentage_of_workers-chart.gif?1369914302') left top no-repeat;
   margin: 5em 0 2em -40px;
   width: 860px;
   height: 280px;
@@ -1101,19 +1101,19 @@ footer {
         margin-bottom: -4px; }
 /* line 122, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .increase_of_workers .background_image {
-  background-image: url('../img/1/grump-giant.jpg?1369780681'); }
+  background-image: url('../img/1/grump-giant.jpg?1369914302'); }
   @media screen and (max-height: 1080px) and (max-width: 1920px) {
     /* line 122, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .increase_of_workers .background_image {
-      background-image: url('../img/1/grump-large.jpg?1369780716'); } }
+      background-image: url('../img/1/grump-large.jpg?1369914302'); } }
   @media screen and (max-height: 1024px) and (max-width: 1024px) {
     /* line 122, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .increase_of_workers .background_image {
-      background-image: url('../img/1/grump-medium.jpg?1369780798'); } }
+      background-image: url('../img/1/grump-medium.jpg?1369914302'); } }
   @media screen and (max-height: 640px) and (max-width: 640px) {
     /* line 122, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .increase_of_workers .background_image {
-      background-image: url('../img/1/grump-small.jpg?1369780828'); } }
+      background-image: url('../img/1/grump-small.jpg?1369914302'); } }
 /* line 125, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .increase_of_workers p {
   clear: left;
@@ -1148,19 +1148,19 @@ footer {
       margin: 0 0.1em; }
 /* line 145, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .one_in_four_workers .background_image {
-  background-image: url('../img/1/waitress-giant.jpg?1369956981'); }
+  background-image: url('../img/1/waitress-giant.jpg?1369957873'); }
   @media screen and (max-height: 1080px) and (max-width: 1920px) {
     /* line 145, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .one_in_four_workers .background_image {
-      background-image: url('../img/1/waitress-large.jpg?1369957024'); } }
+      background-image: url('../img/1/waitress-large.jpg?1369957873'); } }
   @media screen and (max-height: 1024px) and (max-width: 1024px) {
     /* line 145, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .one_in_four_workers .background_image {
-      background-image: url('../img/1/waitress-medium.jpg?1369957113'); } }
+      background-image: url('../img/1/waitress-medium.jpg?1369957873'); } }
   @media screen and (max-height: 640px) and (max-width: 640px) {
     /* line 145, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .one_in_four_workers .background_image {
-      background-image: url('../img/1/waitress-small.jpg?1369957142'); } }
+      background-image: url('../img/1/waitress-small.jpg?1369957873'); } }
 /* line 148, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .one_in_four_workers .contents div {
   clear: left;
@@ -1182,19 +1182,19 @@ footer {
     border-bottom: 2px solid #383838; }
 /* line 157, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .half_of_american_households .background_image {
-  background-image: url('../img/1/jars-giant.jpg?1369781099'); }
+  background-image: url('../img/1/jars-giant.jpg?1369914302'); }
   @media screen and (max-height: 1080px) and (max-width: 1920px) {
     /* line 157, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .half_of_american_households .background_image {
-      background-image: url('../img/1/jars-large.jpg?1369781132'); } }
+      background-image: url('../img/1/jars-large.jpg?1369914302'); } }
   @media screen and (max-height: 1024px) and (max-width: 1024px) {
     /* line 157, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .half_of_american_households .background_image {
-      background-image: url('../img/1/jars-medium.jpg?1369781160'); } }
+      background-image: url('../img/1/jars-medium.jpg?1369914302'); } }
   @media screen and (max-height: 640px) and (max-width: 640px) {
     /* line 157, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .half_of_american_households .background_image {
-      background-image: url('../img/1/jars-small.jpg?1369781186'); } }
+      background-image: url('../img/1/jars-small.jpg?1369914302'); } }
 /* line 160, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .half_of_american_households p {
   clear: left;
@@ -1231,7 +1231,7 @@ footer {
     margin-left: 120px; }
 /* line 187, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .labor_force .labor_force-chart {
-  background: url('../img/1/labor_force-chart.gif?1369945855') left top no-repeat;
+  background: url('../img/1/labor_force-chart.gif?1369951132') left top no-repeat;
   margin: 6.25em 0 0 -42px;
   width: 882px;
   height: 347px;
@@ -1256,7 +1256,7 @@ footer {
       width: 341px; }
     /* line 209, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .labor_force .labor_force-chart .data_point.line#labor_force-chart-data_point-1 {
-      background-image: url('../img/1/labor_force-chart-line-1.png?1369946313');
+      background-image: url('../img/1/labor_force-chart-line-1.png?1369951132');
       top: 56px;
       -webkit-transition-delay: 0.2s;
       -moz-transition-delay: 0.2s;
@@ -1264,7 +1264,7 @@ footer {
       transition-delay: 0.2s; }
     /* line 214, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .labor_force .labor_force-chart .data_point.line#labor_force-chart-data_point-2 {
-      background-image: url('../img/1/labor_force-chart-line-2.png?1369946456');
+      background-image: url('../img/1/labor_force-chart-line-2.png?1369951132');
       top: 185px;
       -webkit-transition-delay: 0.3s;
       -moz-transition-delay: 0.3s;
@@ -1272,7 +1272,7 @@ footer {
       transition-delay: 0.3s; }
     /* line 219, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .labor_force .labor_force-chart .data_point.line#labor_force-chart-data_point-3 {
-      background-image: url('../img/1/labor_force-chart-line-3.png?1369946499');
+      background-image: url('../img/1/labor_force-chart-line-3.png?1369951132');
       top: 230px;
       -webkit-transition-delay: 0.4s;
       -moz-transition-delay: 0.4s;
@@ -1280,7 +1280,7 @@ footer {
       transition-delay: 0.4s; }
     /* line 224, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .labor_force .labor_force-chart .data_point.line#labor_force-chart-data_point-4 {
-      background-image: url('../img/1/labor_force-chart-line-4.png?1369946540');
+      background-image: url('../img/1/labor_force-chart-line-4.png?1369951132');
       top: 272px;
       -webkit-transition-delay: 0.5s;
       -moz-transition-delay: 0.5s;
@@ -1385,19 +1385,19 @@ footer {
 
 /* line 4, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .chapter_title .background_image {
-  background-image: url('../img/2/fishing-giant.jpg?1369782012'); }
+  background-image: url('../img/2/fishing-giant.jpg?1369914302'); }
   @media screen and (max-height: 1080px) and (max-width: 1920px) {
     /* line 4, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .chapter_title .background_image {
-      background-image: url('../img/2/fishing-large.jpg?1369781987'); } }
+      background-image: url('../img/2/fishing-large.jpg?1369914302'); } }
   @media screen and (max-height: 1024px) and (max-width: 1024px) {
     /* line 4, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .chapter_title .background_image {
-      background-image: url('../img/2/fishing-medium.jpg?1369781958'); } }
+      background-image: url('../img/2/fishing-medium.jpg?1369914302'); } }
   @media screen and (max-height: 640px) and (max-width: 640px) {
     /* line 4, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .chapter_title .background_image {
-      background-image: url('../img/2/fishing-small.jpg?1369782035'); } }
+      background-image: url('../img/2/fishing-small.jpg?1369914302'); } }
 /* line 7, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .chapter_title .contents {
   max-width: 900px; }
@@ -1454,7 +1454,7 @@ footer {
         text-align: right; }
 /* line 65, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .gender_split {
-  background: url('../img/line-background.png?1369792536') center top repeat-y;
+  background: url('../img/line-background.png?1369914302') center top repeat-y;
   margin: 0 auto;
   padding-bottom: 3em;
   width: 800px;
@@ -1487,19 +1487,19 @@ footer {
         float: right; }
 /* line 107, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .men_and_women .background_image {
-  background-image: url('../img/2/briefcases-giant.jpg?1369782246'); }
+  background-image: url('../img/2/briefcases-giant.jpg?1369914302'); }
   @media screen and (max-height: 1080px) and (max-width: 1920px) {
     /* line 107, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .men_and_women .background_image {
-      background-image: url('../img/2/briefcases-large.jpg?1369782220'); } }
+      background-image: url('../img/2/briefcases-large.jpg?1369914302'); } }
   @media screen and (max-height: 1024px) and (max-width: 1024px) {
     /* line 107, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .men_and_women .background_image {
-      background-image: url('../img/2/briefcases-medium.jpg?1369782105'); } }
+      background-image: url('../img/2/briefcases-medium.jpg?1369914302'); } }
   @media screen and (max-height: 640px) and (max-width: 640px) {
     /* line 107, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .men_and_women .background_image {
-      background-image: url('../img/2/briefcases-small.jpg?1369782134'); } }
+      background-image: url('../img/2/briefcases-small.jpg?1369914302'); } }
 /* line 110, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .men_and_women .contents div {
   clear: left;
@@ -1562,7 +1562,7 @@ footer {
     /* line 156, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .question.community_size .form_fields label .icon:after {
       content: "";
-      background-image: url('../img/2/community-size.png?1369874575');
+      background-image: url('../img/2/community-size.png?1369914302');
       background-repeat: no-repeat;
       width: 81px;
       height: 81px;
@@ -1607,20 +1607,20 @@ footer {
   padding: 5em 0 30em; }
   /* line 6, sass/_chapter3.sass */
   .chapter-3-working-for-the-nest-egg article .chapter_title .background_image {
-    background-image: url('../img/3/house-giant.jpg?1369782835');
+    background-image: url('../img/3/house-giant.jpg?1369914302');
     background-position: center -200px; }
     @media screen and (max-height: 1080px) and (max-width: 1920px) {
       /* line 6, sass/_chapter3.sass */
       .chapter-3-working-for-the-nest-egg article .chapter_title .background_image {
-        background-image: url('../img/3/house-large.jpg?1369782868'); } }
+        background-image: url('../img/3/house-large.jpg?1369914302'); } }
     @media screen and (max-height: 1024px) and (max-width: 1024px) {
       /* line 6, sass/_chapter3.sass */
       .chapter-3-working-for-the-nest-egg article .chapter_title .background_image {
-        background-image: url('../img/3/house-medium.jpg?1369782886'); } }
+        background-image: url('../img/3/house-medium.jpg?1369914302'); } }
     @media screen and (max-height: 640px) and (max-width: 640px) {
       /* line 6, sass/_chapter3.sass */
       .chapter-3-working-for-the-nest-egg article .chapter_title .background_image {
-        background-image: url('../img/3/house-small.jpg?1369782904'); } }
+        background-image: url('../img/3/house-small.jpg?1369914302'); } }
   /* line 10, sass/_chapter3.sass */
   .chapter-3-working-for-the-nest-egg article .chapter_title .contents {
     max-width: 900px; }
@@ -1635,7 +1635,7 @@ footer {
   text-align: center; }
 /* line 34, sass/_chapter3.sass */
 .chapter-3-working-for-the-nest-egg article .financially_unprepared .financially_unprepared-chart {
-  background: url('../img/3/financially_unprepared-chart.gif?1369900894') left top no-repeat;
+  background: url('../img/3/financially_unprepared-chart.gif?1369914302') left top no-repeat;
   margin: 5em 0 2em -50px;
   width: 850px;
   height: 310px;
@@ -1708,7 +1708,7 @@ footer {
   margin-top: 0; }
 /* line 104, sass/_chapter3.sass */
 .chapter-3-working-for-the-nest-egg article .investor_underperforms .investor_underperforms-chart {
-  background: url('../img/3/investor_underperforms-chart.gif?1369903204') left top no-repeat;
+  background: url('../img/3/investor_underperforms-chart.gif?1369914302') left top no-repeat;
   margin: 0 0 0 -62px;
   width: 860px;
   height: 404px;
@@ -1871,20 +1871,20 @@ footer {
 
 /* line 4, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .chapter_title .background_image {
-  background-image: url('../img/4/barber-giant.jpg?1369910371');
+  background-image: url('../img/4/barber-giant.jpg?1369915105');
   background-position: center -200px; }
   @media screen and (max-height: 1080px) and (max-width: 1920px) {
     /* line 4, sass/_chapter4.sass */
     .chapter-4-working-in-retirement article .chapter_title .background_image {
-      background-image: url('../img/4/barber-large.jpg?1369910365'); } }
+      background-image: url('../img/4/barber-large.jpg?1369915105'); } }
   @media screen and (max-height: 1024px) and (max-width: 1024px) {
     /* line 4, sass/_chapter4.sass */
     .chapter-4-working-in-retirement article .chapter_title .background_image {
-      background-image: url('../img/4/barber-medium.jpg?1369910358'); } }
+      background-image: url('../img/4/barber-medium.jpg?1369915105'); } }
   @media screen and (max-height: 640px) and (max-width: 640px) {
     /* line 4, sass/_chapter4.sass */
     .chapter-4-working-in-retirement article .chapter_title .background_image {
-      background-image: url('../img/4/barber-small.jpg?1369910350'); } }
+      background-image: url('../img/4/barber-small.jpg?1369915105'); } }
 /* line 8, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .chapter_title .contents {
   max-width: 900px; }
@@ -1972,7 +1972,7 @@ footer {
   margin: 4em 0; }
   /* line 93, sass/_chapter4.sass */
   .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart {
-    background: url('../img/4/reasons_for_working-chart.gif?1369915955') left top no-repeat;
+    background: url('../img/4/reasons_for_working-chart.gif?1369951132') left top no-repeat;
     margin: 0 0 0 -37px;
     width: 837px;
     height: 365px;
@@ -2151,7 +2151,7 @@ footer {
   padding: 24em 0 10em; }
   /* line 6, sass/_chapter5.sass */
   .chapter-5-moving-forward article .chapter_title .background_image {
-    background-image: url('../img/5/man_standing-medium.jpg?1369783553'); }
+    background-image: url('../img/5/man_standing-medium.jpg?1369914302'); }
   /* line 9, sass/_chapter5.sass */
   .chapter-5-moving-forward article .chapter_title .contents {
     max-width: 900px; }
@@ -2167,7 +2167,7 @@ footer {
 .chapter-5-moving-forward article .ask_details {
   overflow: hidden;
   *zoom: 1;
-  background: url('../img/form-background.jpg?1369788223') center bottom repeat-x; }
+  background: url('../img/form-background.jpg?1369914302') center bottom repeat-x; }
 /* line 29, sass/_chapter5.sass */
 .chapter-5-moving-forward article .share_options ul {
   margin: 0;
@@ -2236,13 +2236,13 @@ footer {
         opacity: 1; }
       /* line 89, sass/_chapter5.sass */
       .chapter-5-moving-forward article .share_options li .services a.twitter, .chapter-5-moving-forward article .share_options li .services span.twitter {
-        background-image: url('../img/button-twitter.png?1369949801'); }
+        background-image: url('../img/button-twitter.png?1369951132'); }
       /* line 92, sass/_chapter5.sass */
       .chapter-5-moving-forward article .share_options li .services a.facebook, .chapter-5-moving-forward article .share_options li .services span.facebook {
-        background-image: url('../img/button-facebook.png?1369942741'); }
+        background-image: url('../img/button-facebook.png?1369951132'); }
       /* line 95, sass/_chapter5.sass */
       .chapter-5-moving-forward article .share_options li .services a.email, .chapter-5-moving-forward article .share_options li .services span.email {
-        background-image: url('../img/button-email.png?1369949779'); }
+        background-image: url('../img/button-email.png?1369951132'); }
   /* line 98, sass/_chapter5.sass */
   .chapter-5-moving-forward article .share_options li .icon {
     width: 160px;
@@ -2342,13 +2342,13 @@ footer {
   margin: 0.5em 0 1.5em; }
 /* line 163, sass/_chapter5.sass */
 .chapter-5-moving-forward article .three_steps .first_step {
-  background-image: url('../img/5/1.gif?1369937150');
+  background-image: url('../img/5/1.gif?1369951132');
   background-position: left 30px; }
 /* line 167, sass/_chapter5.sass */
 .chapter-5-moving-forward article .three_steps .second_step {
-  background-image: url('../img/5/2.gif?1369937161');
+  background-image: url('../img/5/2.gif?1369951132');
   background-position: left 12px; }
 /* line 171, sass/_chapter5.sass */
 .chapter-5-moving-forward article .three_steps .third_step {
-  background-image: url('../img/5/3.gif?1369937170');
+  background-image: url('../img/5/3.gif?1369951132');
   background-position: left 25px; }
