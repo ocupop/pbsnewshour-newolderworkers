@@ -1,3 +1,5 @@
+PRODUCTION_URL = "http://www.pbs.org/"
+
 $(document).ready ()->
   $window = $(window)
   $window_height = $window.height()
@@ -198,21 +200,44 @@ $(document).ready ()->
   # Chapter 5: Moving Forward
 
   if $('body').hasClass('chapter-5-moving-forward') then do ()->
-    PRODUCTION_URL = "http://www.pbs.org/"
     $share_options = $(".share_options")
+    title = encodeURI ("PBS NewsHour: The Retiring of Retirement")
     messages = {
-      half_of_american_households: "Half of American households have less than $10k in savings. PBS NewsHour: The Retiring of Retirement"
-      death_of_the_pension: "In 1975, 85% of private sector employees had pensions. In 2013, only 35% do. PBS NewsHour: The Retiring of Retirement"
-      average_investor: "The average investor underperforms during inflation. PBS NewsHour: The Retiring of Retirement"
-      no_retirement_savings: "A third of Baby Boomers have no retirement savings. PBS NewsHour: The Retiring of Retirement"
+      half_of_american_households: "Half of American households have less than $10k in savings."
+      death_of_the_pension: "In 1975, 85% of private sector employees had pensions. In 2013, only 35% do."
+      average_investor: "The average investor underperforms during inflation."
+      no_retirement_savings: "A third of Baby Boomers have no retirement savings."
     }
 
+    email_body = """
+      Hi,
 
-    href= "http://twitter.com/share?text=An%20Awesome%20Link&url=http://www.google.com"
+      I just finished reading this piece on PBS NewsHour called 'The Retiring of Retirement' about the retirement crisis. Did you know:
 
-    $('.twitter', $share_options).each ()->
-      parent_id = $(this).closest('li').attr('id')
-      $(this).attr('href', "http://twitter.com/share?text=#{encodeURI(messages[parent_id])}&url=#{PRODUCTION_URL}").attr("target", "_blank")
+      - Over half of today's households have less than $10k in savings--nowhere near enough money for retirement.
+      - The percentage of workers who expect to work past 65 has more than tripled in 30 years.
+      - In 1975, 85% of private sector employees had pensions. In 2013, only 35% do.
+      - A third of Baby Boomers have no retirement savings.
+
+      There's a lot more. I thought you might be interested. You can read the whole thing here:
+
+      #{PRODUCTION_URL}
+
+      Cheers!
+    """
+
+
+    $('a', $share_options).each ()->
+      $this = $(this)
+      parent_id = $this.closest('li').attr('id')
+      message = encodeURI(messages[parent_id])
+      $this.attr("target", "_blank")
+      if $this.hasClass("twitter")
+        $this.attr("href", "http://twitter.com/share?text=#{message}%20#{title}&url=#{PRODUCTION_URL}")
+      else if $this.hasClass("facebook")
+        $this.attr("href", "http://www.facebook.com/sharer.php?s=100&p[title]=#{title}&p[summary]=#{message}&p[url]=#{PRODUCTION_URL}" )
+      else
+        $this.attr("href", "mailto:?subject=#{title}&body=#{encodeURI(email_body)}")
 
   # Sources
 
