@@ -246,6 +246,9 @@ require_once('header.php');
         <td class="fourth">111</td>
       </tr>
     </table>
+    <p>
+      In just four years, older workers in urban counties declined, while older workers in rural communities flourished. Data from a study of US counties by Dante Chinni, other of <em>Our Patchwork Nation</em>.
+    </p>
   </div>
 </section>
 

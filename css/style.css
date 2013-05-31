@@ -1942,51 +1942,57 @@ footer {
 .chapter-2-a-snapshot article .community_data h2 {
   background: #666666;
   color: white;
-  font-size: 18px;
+  font-size: 19px;
   margin: 0;
-  padding: 1em 0 0.9em; }
+  padding: 1em 0.75em 0.9em; }
 /* line 211, sass/_chapter2.sass */
+.chapter-2-a-snapshot article .community_data p {
+  font-size: 18px;
+  line-height: 1.4;
+  text-align: center;
+  text-transform: none; }
+/* line 217, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .community_data table {
   border-collapse: collapse;
   margin-left: -60px;
   width: 860px; }
-  /* line 216, sass/_chapter2.sass */
+  /* line 222, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .community_data table th,
   .chapter-2-a-snapshot article .community_data table td {
     padding: 0.5em 0; }
-  /* line 220, sass/_chapter2.sass */
+  /* line 226, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .community_data table th {
     color: #666666;
     font-family: "BodoniW01-PosterItalic";
     font-size: 18px;
     width: 60px; }
-  /* line 226, sass/_chapter2.sass */
+  /* line 232, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .community_data table td {
     font-family: "Proxima N W01 Bold";
     font-size: 22px;
     text-align: center;
     width: 200px; }
-  /* line 232, sass/_chapter2.sass */
+  /* line 238, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .community_data table .twothousandtwelve td {
     background-color: #e4e4e4; }
-  /* line 235, sass/_chapter2.sass */
+  /* line 241, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .community_data table .twothousandeight td {
     background-color: #a4a4a4; }
-  /* line 238, sass/_chapter2.sass */
+  /* line 244, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .community_data table .twothousandtwelve td.second,
   .chapter-2-a-snapshot article .community_data table .twothousandtwelve td.fourth {
     background-color: #eeeeee; }
-  /* line 242, sass/_chapter2.sass */
+  /* line 248, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .community_data table .twothousandeight td.second,
   .chapter-2-a-snapshot article .community_data table .twothousandeight td.fourth {
     background-color: #aaaaaa; }
-/* line 254, sass/_chapter2.sass */
+/* line 260, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .dante_chinni .intro {
   font-size: 18px; }
-/* line 257, sass/_chapter2.sass */
+/* line 263, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .dante_chinni h2 {
   font-size: 63px; }
-/* line 260, sass/_chapter2.sass */
+/* line 266, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .dante_chinni .caption {
   font-size: 18px; }
 
