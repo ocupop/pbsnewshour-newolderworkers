@@ -1180,22 +1180,26 @@ footer {
     margin: 0.75em auto 0;
     width: 50px;
     border-bottom: 2px solid #383838; }
-/* line 157, sass/_chapter1.sass */
+/* line 156, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .age_and_retirement .form_fields label {
+  display: block;
+  text-transform: none; }
+/* line 163, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .half_of_american_households .background_image {
   background-image: url('../img/1/jars-giant.jpg?1369781099'); }
   @media screen and (max-height: 1080px) and (max-width: 1920px) {
-    /* line 157, sass/_chapter1.sass */
+    /* line 163, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .half_of_american_households .background_image {
       background-image: url('../img/1/jars-large.jpg?1369781132'); } }
   @media screen and (max-height: 1024px) and (max-width: 1024px) {
-    /* line 157, sass/_chapter1.sass */
+    /* line 163, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .half_of_american_households .background_image {
       background-image: url('../img/1/jars-medium.jpg?1369781160'); } }
   @media screen and (max-height: 640px) and (max-width: 640px) {
-    /* line 157, sass/_chapter1.sass */
+    /* line 163, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .half_of_american_households .background_image {
       background-image: url('../img/1/jars-small.jpg?1369781186'); } }
-/* line 160, sass/_chapter1.sass */
+/* line 166, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .half_of_american_households p {
   clear: left;
   background: white;
@@ -1212,7 +1216,7 @@ footer {
     margin: 0.75em auto 0;
     width: 50px;
     border-bottom: 2px solid #383838; }
-/* line 170, sass/_chapter1.sass */
+/* line 176, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .labor_force h3 {
   color: #666666;
   float: left;
@@ -1222,25 +1226,25 @@ footer {
   margin: 0;
   text-align: center;
   text-transform: uppercase; }
-  /* line 180, sass/_chapter1.sass */
+  /* line 186, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .labor_force h3.first {
     width: 370px; }
-  /* line 183, sass/_chapter1.sass */
+  /* line 189, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .labor_force h3.second {
     width: 305px;
     margin-left: 120px; }
-/* line 187, sass/_chapter1.sass */
+/* line 193, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .labor_force .labor_force-chart {
   background: url('../img/1/labor_force-chart.gif?1369945855') left top no-repeat;
   margin: 6.25em 0 0 -42px;
   width: 882px;
   height: 347px;
   position: relative; }
-  /* line 194, sass/_chapter1.sass */
+  /* line 200, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .labor_force .labor_force-chart .data_point {
     position: absolute;
     display: block; }
-  /* line 198, sass/_chapter1.sass */
+  /* line 204, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .labor_force .labor_force-chart .data_point.line {
     background-position: left top;
     background-repeat: no-repeat;
@@ -1251,10 +1255,10 @@ footer {
     -moz-transition: width 0.3s;
     -o-transition: width 0.3s;
     transition: width 0.3s; }
-    /* line 206, sass/_chapter1.sass */
+    /* line 212, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .labor_force .labor_force-chart .data_point.line.active {
       width: 341px; }
-    /* line 209, sass/_chapter1.sass */
+    /* line 215, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .labor_force .labor_force-chart .data_point.line#labor_force-chart-data_point-1 {
       background-image: url('../img/1/labor_force-chart-line-1.png?1369946313');
       top: 56px;
@@ -1262,7 +1266,7 @@ footer {
       -moz-transition-delay: 0.2s;
       -o-transition-delay: 0.2s;
       transition-delay: 0.2s; }
-    /* line 214, sass/_chapter1.sass */
+    /* line 220, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .labor_force .labor_force-chart .data_point.line#labor_force-chart-data_point-2 {
       background-image: url('../img/1/labor_force-chart-line-2.png?1369946456');
       top: 185px;
@@ -1270,7 +1274,7 @@ footer {
       -moz-transition-delay: 0.3s;
       -o-transition-delay: 0.3s;
       transition-delay: 0.3s; }
-    /* line 219, sass/_chapter1.sass */
+    /* line 225, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .labor_force .labor_force-chart .data_point.line#labor_force-chart-data_point-3 {
       background-image: url('../img/1/labor_force-chart-line-3.png?1369946499');
       top: 230px;
@@ -1278,7 +1282,7 @@ footer {
       -moz-transition-delay: 0.4s;
       -o-transition-delay: 0.4s;
       transition-delay: 0.4s; }
-    /* line 224, sass/_chapter1.sass */
+    /* line 230, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .labor_force .labor_force-chart .data_point.line#labor_force-chart-data_point-4 {
       background-image: url('../img/1/labor_force-chart-line-4.png?1369946540');
       top: 272px;
@@ -1286,7 +1290,7 @@ footer {
       -moz-transition-delay: 0.5s;
       -o-transition-delay: 0.5s;
       transition-delay: 0.5s; }
-  /* line 229, sass/_chapter1.sass */
+  /* line 235, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .labor_force .labor_force-chart .data_point.bar {
     background: rgba(0, 0, 0, 0.8);
     bottom: 35px;
@@ -1297,37 +1301,37 @@ footer {
     -moz-transition: height 0.3s;
     -o-transition: height 0.3s;
     transition: height 0.3s; }
-  /* line 237, sass/_chapter1.sass */
+  /* line 243, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .labor_force .labor_force-chart #labor_force-chart-data_point-5 {
     left: 555px;
     -webkit-transition-delay: 0.6s;
     -moz-transition-delay: 0.6s;
     -o-transition-delay: 0.6s;
     transition-delay: 0.6s; }
-    /* line 241, sass/_chapter1.sass */
+    /* line 247, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .labor_force .labor_force-chart #labor_force-chart-data_point-5.active {
       height: 58px; }
-  /* line 244, sass/_chapter1.sass */
+  /* line 250, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .labor_force .labor_force-chart #labor_force-chart-data_point-6 {
     left: 627px;
     -webkit-transition-delay: 0.7s;
     -moz-transition-delay: 0.7s;
     -o-transition-delay: 0.7s;
     transition-delay: 0.7s; }
-    /* line 248, sass/_chapter1.sass */
+    /* line 254, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .labor_force .labor_force-chart #labor_force-chart-data_point-6.active {
       height: 145px; }
-  /* line 251, sass/_chapter1.sass */
+  /* line 257, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .labor_force .labor_force-chart #labor_force-chart-data_point-7 {
     left: 701px;
     -webkit-transition-delay: 0.8s;
     -moz-transition-delay: 0.8s;
     -o-transition-delay: 0.8s;
     transition-delay: 0.8s; }
-    /* line 255, sass/_chapter1.sass */
+    /* line 261, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .labor_force .labor_force-chart #labor_force-chart-data_point-7.active {
       height: 182px; }
-  /* line 258, sass/_chapter1.sass */
+  /* line 264, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .labor_force .labor_force-chart #labor_force-chart-data_point-8 {
     background: #548e85;
     left: 774px;
@@ -1335,10 +1339,10 @@ footer {
     -moz-transition-delay: 0.9s;
     -o-transition-delay: 0.9s;
     transition-delay: 0.9s; }
-    /* line 263, sass/_chapter1.sass */
+    /* line 269, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .labor_force .labor_force-chart #labor_force-chart-data_point-8.active {
       height: 226px; }
-  /* line 266, sass/_chapter1.sass */
+  /* line 272, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .labor_force .labor_force-chart #labor_force-chart-data_point-9 {
     background: rgba(0, 0, 0, 0.8);
     border-radius: 2px;
@@ -1370,15 +1374,15 @@ footer {
       border-right: 4px solid transparent;
       border-top: 4px solid rgba(0, 0, 0, 0.8);
       margin-bottom: -4px; }
-    /* line 285, sass/_chapter1.sass */
+    /* line 291, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .labor_force .labor_force-chart #labor_force-chart-data_point-9 span {
       font-family: "Bodoni W01 Poster";
       letter-spacing: 2px; }
-    /* line 289, sass/_chapter1.sass */
+    /* line 295, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .labor_force .labor_force-chart #labor_force-chart-data_point-9.active {
       margin-top: 0;
       opacity: 1; }
-/* line 293, sass/_chapter1.sass */
+/* line 299, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .outro .second {
   font-family: "Adobe Caslon W01 Bd";
   font-size: 20.8px; }
