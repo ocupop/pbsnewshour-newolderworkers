@@ -197,8 +197,22 @@ $(document).ready ()->
 
   # Chapter 5: Moving Forward
 
-  # if $('body').hasClass('chapter-5-moving-forward') then do ()->
+  if $('body').hasClass('chapter-5-moving-forward') then do ()->
+    PRODUCTION_URL = "http://www.pbs.org/"
+    $share_options = $(".share_options")
+    messages = {
+      half_of_american_households: "Half of American households have less than $10k in savings. PBS NewsHour: The Retiring of Retirement"
+      death_of_the_pension: "In 1975, 85% of private sector employees had pensions. In 2013, only 35% do. PBS NewsHour: The Retiring of Retirement"
+      average_investor: "The average investor underperforms during inflation. PBS NewsHour: The Retiring of Retirement"
+      no_retirement_savings: "A third of Baby Boomers have no retirement savings. PBS NewsHour: The Retiring of Retirement"
+    }
 
+
+    href= "http://twitter.com/share?text=An%20Awesome%20Link&url=http://www.google.com"
+
+    $('.twitter', $share_options).each ()->
+      parent_id = $(this).closest('li').attr('id')
+      $(this).attr('href', "http://twitter.com/share?text=#{encodeURI(messages[parent_id])}&url=#{PRODUCTION_URL}").attr("target", "_blank")
 
   # Sources
 
