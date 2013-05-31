@@ -23,6 +23,10 @@ $current_chapter = $chapter_list[$chapter];
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta property="og:image" content="http://ocupopdev.com/pbsretirement/img/share-facebook-1.jpg" />
+  <meta property="og:image" content="http://ocupopdev.com/pbsretirement/img/share-facebook-2.jpg" />
+  <meta property="og:image" content="http://ocupopdev.com/pbsretirement/img/share-facebook-3.jpg" />
+  <meta property="og:image" content="http://ocupopdev.com/pbsretirement/img/share-facebook-4.jpg" />
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
   <title>PBS NewsHour: The Retiring of Retirement</title>
   <link rel="stylesheet" href="css/style.css">
