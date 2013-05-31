@@ -63,23 +63,47 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="copy">
+<section class="copy death_of_the_pension-intro">
   <div class="contents">
     <h2>Death of the Pension</h2>
 
-    <p>
-      1975: 85% of private sector employees had pensions
-    </p>
+    <div class="years">
+      <div class="first">
+        <h3>1975</h3>
+        <p>
+          85% of private sector<br>
+          employees had pensions
+        </p>
+      </div>
+      <div class="second">
+        <h3>2013</h3>
+        <p>
+          35% of private sector<br>
+          employees have pensions
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <p>
-      2013: 35% of private sector employees have pensions
-    </p>
+<section class="death_of_the_pension">
+  <div class="background_image"></div>
 
-    <p class="note">
+  <div class="contents">
+    <div class="percents">
+      <div class="eightyfivepercent">85%</div>
+      <div class="thirtyfivepercent">35%</div>
+    </div>
+  </div>
+</section>
+
+<section class="copy death_of_the_pension-outro">
+  <div class="contents">
+    <p class="first">
       In employer-maintained &ldquo;defined-benefit&rdquo; pensions you receive a fixed regular payout based on salary and how long you worked at the company.
     </p>
 
-    <p>
+    <p class="second">
       Company pensions have largely been replaced by retirement savings accounts like 401(k)s funded by employee (and often matching employer) contributions.
     </p>
   </div>

@@ -80,6 +80,86 @@
           &.active
             height: 239px
 
+  .death_of_the_pension-intro
+    @extend .blend-bottom
+
+    .contents
+      max-width: 100%
+
+    h2
+      @extend .border-top
+      @extend .border-bottom
+      font-size: 36px
+      margin-bottom: 0
+      padding-bottom: .6em
+
+    .years
+      @include clearfix
+      background: image-url('line-background.png') center top repeat-y
+      margin: 0 auto
+      width: $desktop
+
+      div
+        float: left
+        width: 50%
+
+        &.second
+          padding-left: 1.5em
+
+      h3
+        float: left
+        font-family: $bodoni-poster
+        font-size: 36px
+        margin: 1em 1em 0 0
+
+      p
+        float: left
+        font-size: 24px
+
+  .death_of_the_pension
+    @extend .border-top
+    @extend .border-bottom
+    height: 600px
+
+    .background_image
+      @include multi-background("3/pension")
+      background-position: 50.8% top
+
+    .contents
+      @include clearfix
+      @extend .border-top
+      @extend .border-bottom
+      background: rgba(255, 255, 255, .8) image-url('line-background.png') center top repeat-y
+      max-width: 100%
+      margin: 250px 0 0
+      padding: 3em 0
+
+      .percents
+        margin: 0 auto
+        width: $desktop
+
+        div
+          font-family: $bodoni-poster-italic
+          font-size: 48px
+          float: left
+          text-align: center
+          width: 50%
+
+  .death_of_the_pension-outro
+    @extend .border-bottom
+
+    .contents
+      @include clearfix
+      padding: 1em 0
+
+    p
+      float: left
+      font-size: 16px
+      width: 45%
+
+      &.first
+        margin-right: 10%
+
   .sheryl_garrett
     @extend .left
     @extend .blend-bottom
