@@ -2248,7 +2248,7 @@ footer {
     height: 160px;
     z-index: 2; }
     /* line 73, sass/_chapter5.sass */
-    .chapter-5-moving-forward article .share_options li .services span {
+    .chapter-5-moving-forward article .share_options li .services a, .chapter-5-moving-forward article .share_options li .services span {
       background-position: center center;
       background-repeat: no-repeat;
       cursor: pointer;
@@ -2261,16 +2261,16 @@ footer {
       height: 40px;
       z-index: 2; }
       /* line 86, sass/_chapter5.sass */
-      .chapter-5-moving-forward article .share_options li .services span:hover {
+      .chapter-5-moving-forward article .share_options li .services a:hover, .chapter-5-moving-forward article .share_options li .services span:hover {
         opacity: 1; }
       /* line 89, sass/_chapter5.sass */
-      .chapter-5-moving-forward article .share_options li .services span.twitter {
+      .chapter-5-moving-forward article .share_options li .services a.twitter, .chapter-5-moving-forward article .share_options li .services span.twitter {
         background-image: url('../img/button-twitter.png?1369951132'); }
       /* line 92, sass/_chapter5.sass */
-      .chapter-5-moving-forward article .share_options li .services span.facebook {
+      .chapter-5-moving-forward article .share_options li .services a.facebook, .chapter-5-moving-forward article .share_options li .services span.facebook {
         background-image: url('../img/button-facebook.png?1369951132'); }
       /* line 95, sass/_chapter5.sass */
-      .chapter-5-moving-forward article .share_options li .services span.email {
+      .chapter-5-moving-forward article .share_options li .services a.email, .chapter-5-moving-forward article .share_options li .services span.email {
         background-image: url('../img/button-email.png?1369951132'); }
   /* line 98, sass/_chapter5.sass */
   .chapter-5-moving-forward article .share_options li .icon {

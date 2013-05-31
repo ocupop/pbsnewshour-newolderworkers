@@ -27,38 +27,38 @@ require_once('header.php');
 
     <div class="share_options">
       <ul>
-        <li class="half_of_american_households">
+        <li id="half_of_american_households">
           <div class="services">
-            <span class="twitter">Twitter</span>
-            <span class="facebook">Facebook</span>
-            <span class="email">Email</span>
+            <a class="twitter">Twitter</a>
+            <a class="facebook">Facebook</a>
+            <a class="email">Email</a>
           </div>
           <img class="icon" src="img/5/share-1.jpg">
           <p>Half of American households have less than $10k in savings.</p>
         </li>
-        <li class="death_of_the_pension">
+        <li id="death_of_the_pension">
           <div class="services">
-            <span class="twitter">Twitter</span>
-            <span class="facebook">Facebook</span>
-            <span class="email">Email</span>
+            <a class="twitter">Twitter</a>
+            <a class="facebook">Facebook</a>
+            <a class="email">Email</a>
           </div>
           <img class="icon" src="img/5/share-2.jpg">
           <p>In 1975, 85% of private sector employees had pensions. In 2013, only 35% do.</p>
         </li>
-        <li class="death_of_the_pension">
+        <li id="average_investor">
           <div class="services">
-            <span class="twitter">Twitter</span>
-            <span class="facebook">Facebook</span>
-            <span class="email">Email</span>
+            <a class="twitter">Twitter</a>
+            <a class="facebook">Facebook</a>
+            <a class="email">Email</a>
           </div>
           <img class="icon" src="img/5/share-3.jpg">
           <p>The average investor underperforms during inflation.</p>
         </li>
-        <li class="death_of_the_pension">
+        <li id="no_retirement_savings">
           <div class="services">
-            <span class="twitter">Twitter</span>
-            <span class="facebook">Facebook</span>
-            <span class="email">Email</span>
+            <a class="twitter">Twitter</a>
+            <a class="facebook">Facebook</a>
+            <a class="email">Email</a>
           </div>
           <img class="icon" src="img/5/share-4.jpg">
           <p>A third of Baby Boomers have no retirement savings.</p>
