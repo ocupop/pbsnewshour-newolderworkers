@@ -93,27 +93,27 @@ require_once('header.php');
 
     <div class="form_fields">
       <label>
-        <input type="radio" name="xxxxx" id="_1">
+        <input type="radio" name="confidence" value="Very confident">
         <strong>Very confident</strong>
       </label>
 
       <label>
-        <input type="radio" name="xxxxx" id="_2">
+        <input type="radio" name="confidence" value="Somewhat confident">
         <strong>Somewhat confident</strong>
       </label>
 
       <label>
-        <input type="radio" name="xxxxx" id="_3">
+        <input type="radio" name="confidence" value="Not too confident">
         <strong>Not too confident</strong>
       </label>
 
       <label>
-        <input type="radio" name="xxxxx" id="_4">
+        <input type="radio" name="confidence" value="Not atall confident">
         <strong>Not at all confident</strong>
       </label>
 
       <label>
-        <input type="radio" name="xxxxx" id="_5">
+        <input type="radio" name="confidence" value="I don't know">
         <strong>Don&rsquo;t know</strong>
       </label>
     </div>

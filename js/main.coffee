@@ -56,60 +56,43 @@ $(document).ready ()->
 
   # form handlers
 
-  # autofill form with existing data
-  $('input').each ()->
-    $this = $(this)
-    data = $.cookie("retiring__#{$this.attr('name')}")
-    $this.val(data) if data
+  submit_user_data = null
+
+  do form_handlers = ()->
+    # autofill form with existing data
+    $('input').each ()->
+      $this = $(this)
+      data = $.cookie("retiring__#{$this.attr('name')}")
+      $this.val(data) if data
 
 
-  # cookie inputs in "retiring__" pseudo-namespace
-  # auto-expires in 1 day
-  $('input').on "keyup change", (e)->
-    $this = $(this)
-    $.cookie( "retiring__#{$this.attr('name')}", $this.val(), {expires: 1} )
+    # cookie inputs in "retiring__" pseudo-namespace
+    # auto-expires in 1 day
+    $('input').on "keyup change", (e)->
+      $this = $(this)
+      $.cookie( "retiring__#{$this.attr('name')}", $this.val(), {expires: 1} )
 
-  # PRODUCTION url
-  form_url = "https://docs.google.com/forms/d/18Sj-Hj1y3-n-4fBjxY_lu_sWjHvHGg9ZWzryNbZLiPQ/formResponse"
+    # PRODUCTION url
+    form_url = "https://docs.google.com/forms/d/18Sj-Hj1y3-n-4fBjxY_lu_sWjHvHGg9ZWzryNbZLiPQ/formResponse"
 
-  $('#the_form').submit (e)->
-    e.preventDefault()
+    submit_user_data = ()->
 
-    # disable form from submitting again
-    $(this).find('input')
-      .attr('disabled', 'disabled')
-      .val("Sending...")
+      # set generalized cookie values to form-specific ids
+      data = {
+        "entry.1280847796"  : $.cookie("retiring__age")
+        "entry.981715763"   : $.cookie("retiring__retiree")
+        "entry.1251379033"  : $.cookie("retiring__retire_before")
+        "entry.1192439293"  : $.cookie("retiring__satisfaction")
+        "entry.2021902959"  : $.cookie("retiring__gender")
+      }
 
-    # TODO: match fields with these
-    """
-    entry.1280847796 - age
-
-    entry.1251379033 - i want to retire before
-    entry.1251379033.other_option_response
-
-    entry.1192439293 - currently working, happiness
-    entry.1192439293.other_option_response
-
-    entry.1148862003 - confidence in savings
-
-    entry.2021902959 - gender
-
-    entry.349650717 - zip
-
-    entry.1488207989 - community size
-
-    """
-    # set generalized cookie values to form-specific ids
-    data = {
-      "entry.1728150349" : $.cookie("retiring__age")
-    }
-
-    $.post "ba-simple-proxy.php?url=#{form_url}", data, ()->
-      # remove old cookies
-      $.removeCookie("retiring__age")
-
-      console.log "Success!"
-
+      $.post "ba-simple-proxy.php?url=#{form_url}", data, ()->
+        # remove old cookies
+        $.removeCookie("retiring__age")
+        $.removeCookie("retiring__retiree")
+        $.removeCookie("retiring__retire_before")
+        $.removeCookie("retiring__satisfaction")
+        $.removeCookie("retiring__gender")
 
   # video play buttons
   $('video').each ()->
@@ -169,6 +152,16 @@ $(document).ready ()->
       $percentage_of_workers_chart_points.toggleClass 'active', (pos + (2 * $window_height / 3) > percentage_of_workers_chart_top)
       $labor_force_chart_points.toggleClass 'active', (pos + (2 * $window_height / 3) > labor_force_chart_top)
 
+    $user_age = $('.user_age')
+    $age_and_retirement = $('.age_and_retirement')
+
+    # Toggle between "how long do you want to work" / are you retired already
+    do set_how_long_work = ()->
+      age = $user_age.val()
+      $age_and_retirement.toggleClass 'show_over_65', (age >= 65)
+
+    $user_age.on "keyup change", set_how_long_work
+
 
   # Chapter 2: A Snapshot
 
@@ -189,20 +182,15 @@ $(document).ready ()->
       $financially_unprepared_chart_points.toggleClass 'active', (pos + (2 * $window_height / 3) > financially_unprepared_chart_top)
       $investor_underperforms_chart_points.toggleClass 'active', (pos + (2 * $window_height / 3) > investor_underperforms_chart_top)
 
-    $user_age = $('.user_age')
-    $how_long_work = $('.how_long_work')
-
-    # Toggle between "how long do you want to work" / are you retired already
-    do set_how_long_work = ()->
-      age = $user_age.val()
-      $how_long_work.toggleClass 'show_over_65', (age >= 65)
-
-    $user_age.on "keyup change", set_how_long_work
+    # submit form
+    $('.next', 'footer').on "click", ()->
+      submit_user_data()
 
 
   # Chapter 4: Working in "Retirement"
 
   if $('body').hasClass('chapter-4-working-in-retirement') then do ()->
+
     $top_three_reasons = $('.top_three_reasons')
     top_three_reasons_top = $top_three_reasons.offset().top
     $reasons_for_working_chart = $('.reasons_for_working-chart')
