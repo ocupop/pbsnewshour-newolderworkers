@@ -63,6 +63,7 @@
 
   .percentage_of_workers-chart
     background: image-url('1/percentage_of_workers-chart.gif') left top no-repeat
+    background-size: auto
     margin: 5em 0 2em -40px
     width: 860px
     height: 280px
@@ -96,24 +97,24 @@
         @include transition-delay(.2s)
 
       &#percentage_of_workers-chart-data_point-2
-        left: 319px
+        left: 305px
         top: 46px
         @include transition-delay(.4s)
 
       &#percentage_of_workers-chart-data_point-3
-        left: 475px
+        left: 450px
         top: 38px
         @include transition-delay(.6s)
 
       &#percentage_of_workers-chart-data_point-4
-        left: 642px
+        left: 603px
         top: 2px
         @include transition-delay(.8s)
 
       &#percentage_of_workers-chart-data_point-5
         background: $green
         @include triangle-bottom(4px, $green, down)
-        left: 804px
+        left: 757px
         top: -63px
         @include transition-delay(1s)
 
@@ -154,7 +155,7 @@
 
   .age_and_retirement
     @extend .blend-bottom
-    
+
     .first
       font-size: 18px
       margin-bottom: 3em
@@ -183,7 +184,7 @@
           line-height: 1
           padding-top: 5px
 
-  .retirement_expectations  
+  .retirement_expectations
     @extend .blend-top
     @extend .age-all
 
