@@ -129,8 +129,8 @@ require_once('header.php');
   <div class="contents">
     <div class="replay"></div>
     <video>
-      <source src="video/Broadcast-CollegesandUniversitiesSeeGrayingWorkforce.mp4" type="video/mp4">
-      <source src="video/Broadcast-CollegesandUniversitiesSeeGrayingWorkforce.webm" type="video/webm">
+      <source src="video/Broadcast-CollegesAndUniversities.mp4" type="video/mp4">
+      <source src="video/Broadcast-CollegesAndUniversities.webm" type="video/webm">
     </video>
 
     <div class="caption">
@@ -196,8 +196,8 @@ require_once('header.php');
   <div class="contents">
     <div class="replay"></div>
     <video>
-      <source src="video/Broadcast-ABoominEntrepreneurship.mp4" type="video/mp4">
-      <source src="video/Broadcast-ABoominEntrepreneurship.webm" type="video/webm">
+      <source src="video/Broadcast-ABoomInEntrepreneurship.mp4" type="video/mp4">
+      <source src="video/Broadcast-ABoomInEntrepreneurship.webm" type="video/webm">
     </video>
 
     <div class="caption">
@@ -249,8 +249,8 @@ require_once('header.php');
     </h2>
     <div class="replay"></div>
     <video>
-      <source src="video/Paul-SelfInterview.mp4" type="video/mp4">
-      <source src="video/Paul-SelfInterview.webm" type="video/webm">
+      <source src="video/Paul-Self-Interview.mp4" type="video/mp4">
+      <source src="video/Paul-Self-Interview.webm" type="video/webm">
     </video>
   </div>
 </section>
