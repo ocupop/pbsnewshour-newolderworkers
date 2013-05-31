@@ -55,7 +55,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block; }
 
 /* line 3, sass/_mixins.sass */
-.splitbars .splitbars-container div.first span:after, .splitbars .splitbars-container div.second span:before, .splitbars .splitbars-container div.third span:after, .splitbars .splitbars-container div.fourth span:before, .splitbars .splitbars-container div.fifth span:after, .splitbars .splitbars-container div.sixth span:before, header.site_header nav li:hover:after, header.site_header nav li.current_chapter:after, .chapter-1-rethinking-retirement article .percentage_of_workers-chart .data_point:after, .chapter-1-rethinking-retirement article .percentage_of_workers-chart .data_point#percentage_of_workers-chart-data_point-5:after, .chapter-1-rethinking-retirement article .labor_force .labor_force-chart #labor_force-chart-data_point-9:after, .chapter-3-working-for-the-nest-egg article .investor_underperforms .investor_underperforms-chart #investor_underperforms-chart-data_point-9:after {
+.splitbars .splitbars-container div.first span:after, .splitbars .splitbars-container div.second span:before, .splitbars .splitbars-container div.third span:after, .splitbars .splitbars-container div.fourth span:before, .splitbars .splitbars-container div.fifth span:after, header.site_header nav li:hover:after, header.site_header nav li.current_chapter:after, .chapter-1-rethinking-retirement article .percentage_of_workers-chart .data_point:after, .chapter-1-rethinking-retirement article .percentage_of_workers-chart .data_point#percentage_of_workers-chart-data_point-5:after, .chapter-1-rethinking-retirement article .labor_force .labor_force-chart #labor_force-chart-data_point-9:after, .chapter-3-working-for-the-nest-egg article .investor_underperforms .investor_underperforms-chart #investor_underperforms-chart-data_point-9:after {
   content: "";
   position: absolute;
   left: 50%; }
@@ -141,11 +141,11 @@ em {
   padding: 48px 0; }
 
 /* line 72, sass/_base.sass */
-.blend-top .contents, .chapter-1-rethinking-retirement article .retirement_expectations .contents, .chapter-1-rethinking-retirement article .labor_force .contents, .chapter-3-working-for-the-nest-egg article .investor_underperforms .contents {
+.blend-top .contents, .chapter-1-rethinking-retirement article .retirement_expectations .contents, .chapter-1-rethinking-retirement article .labor_force .contents, .chapter-3-working-for-the-nest-egg article .savings_confidence .contents, .chapter-3-working-for-the-nest-egg article .investor_underperforms .contents {
   padding-top: 0; }
 
 /* line 75, sass/_base.sass */
-.blend-bottom .contents, .chapter-1-rethinking-retirement article .age_and_retirement .contents, .chapter-3-working-for-the-nest-egg article .death_of_the_pension-intro .contents, .chapter-3-working-for-the-nest-egg article .sheryl_garrett .contents, .chapter-3-working-for-the-nest-egg article .unemployed_but_wanting_to_work .contents, .chapter-4-working-in-retirement article .working_longer .contents, .chapter-4-working-in-retirement article .marc_freedman .contents {
+.blend-bottom .contents, .chapter-1-rethinking-retirement article .age_and_retirement .contents, .chapter-3-working-for-the-nest-egg article .death_of_the_pension-intro .contents, .chapter-3-working-for-the-nest-egg article .confidence .contents, .chapter-3-working-for-the-nest-egg article .sheryl_garrett .contents, .chapter-3-working-for-the-nest-egg article .unemployed_but_wanting_to_work .contents, .chapter-4-working-in-retirement article .working_longer .contents, .chapter-4-working-in-retirement article .marc_freedman .contents {
   padding-bottom: 0; }
 
 /* line 78, sass/_base.sass */
@@ -579,11 +579,11 @@ input[type="radio"] {
       .splitbars .splitbars-container div.first span, .splitbars .splitbars-container div.third span, .splitbars .splitbars-container div.fifth span {
         left: 0;
         top: -40px; }
-      /* line 479, sass/_base.sass */
-      .splitbars .splitbars-container div.second span, .splitbars .splitbars-container div.fourth span, .splitbars .splitbars-container div.sixth span {
+      /* line 478, sass/_base.sass */
+      .splitbars .splitbars-container div.second span, .splitbars .splitbars-container div.fourth span {
         left: 0;
         bottom: -40px; }
-      /* line 490, sass/_base.sass */
+      /* line 488, sass/_base.sass */
       .splitbars .splitbars-container div.first, .splitbars .splitbars-container div.first span {
         background-color: #777777; }
       /* line 19, sass/_mixins.sass */
@@ -594,7 +594,7 @@ input[type="radio"] {
         border-right: 6px solid transparent;
         border-top: 6px solid #777777;
         margin-bottom: -6px; }
-      /* line 496, sass/_base.sass */
+      /* line 494, sass/_base.sass */
       .splitbars .splitbars-container div.second, .splitbars .splitbars-container div.second span {
         background-color: #999999; }
       /* line 9, sass/_mixins.sass */
@@ -605,7 +605,7 @@ input[type="radio"] {
         border-right: 6px solid transparent;
         border-bottom: 6px solid #999999;
         margin-top: -6px; }
-      /* line 502, sass/_base.sass */
+      /* line 500, sass/_base.sass */
       .splitbars .splitbars-container div.third, .splitbars .splitbars-container div.third span {
         background-color: #aaaaaa; }
       /* line 19, sass/_mixins.sass */
@@ -616,7 +616,7 @@ input[type="radio"] {
         border-right: 6px solid transparent;
         border-top: 6px solid #aaaaaa;
         margin-bottom: -6px; }
-      /* line 508, sass/_base.sass */
+      /* line 506, sass/_base.sass */
       .splitbars .splitbars-container div.fourth, .splitbars .splitbars-container div.fourth span {
         background-color: #cccccc; }
       /* line 9, sass/_mixins.sass */
@@ -627,7 +627,7 @@ input[type="radio"] {
         border-right: 6px solid transparent;
         border-bottom: 6px solid #cccccc;
         margin-top: -6px; }
-      /* line 514, sass/_base.sass */
+      /* line 512, sass/_base.sass */
       .splitbars .splitbars-container div.fifth, .splitbars .splitbars-container div.fifth span {
         background-color: #eeeeee; }
       /* line 19, sass/_mixins.sass */
@@ -638,67 +638,56 @@ input[type="radio"] {
         border-right: 6px solid transparent;
         border-top: 6px solid #eeeeee;
         margin-bottom: -6px; }
-      /* line 520, sass/_base.sass */
-      .splitbars .splitbars-container div.sixth, .splitbars .splitbars-container div.sixth span {
-        background-color: #dddddd; }
-      /* line 9, sass/_mixins.sass */
-      .splitbars .splitbars-container div.sixth span:before {
-        top: 0;
-        margin-left: -6px;
-        border-left: 6px solid transparent;
-        border-right: 6px solid transparent;
-        border-bottom: 6px solid #dddddd;
-        margin-top: -6px; }
 
 @-webkit-keyframes pulse-highlight {
-  /* line 530, sass/_base.sass */
+  /* line 522, sass/_base.sass */
   0% {
     opacity: 0.8; }
 
-  /* line 533, sass/_base.sass */
+  /* line 525, sass/_base.sass */
   50% {
     opacity: 1; }
 
-  /* line 536, sass/_base.sass */
+  /* line 528, sass/_base.sass */
   100% {
     opacity: 0.8; } }
 
 @-moz-keyframes pulse-highlight {
-  /* line 530, sass/_base.sass */
+  /* line 522, sass/_base.sass */
   0% {
     opacity: 0.8; }
 
-  /* line 533, sass/_base.sass */
+  /* line 525, sass/_base.sass */
   50% {
     opacity: 1; }
 
-  /* line 536, sass/_base.sass */
+  /* line 528, sass/_base.sass */
   100% {
     opacity: 0.8; } }
 
 @-o-keyframes pulse-highlight {
-  /* line 530, sass/_base.sass */
+  /* line 522, sass/_base.sass */
   0% {
     opacity: 0.8; }
 
-  /* line 533, sass/_base.sass */
+  /* line 525, sass/_base.sass */
   50% {
     opacity: 1; }
 
-  /* line 536, sass/_base.sass */
+  /* line 528, sass/_base.sass */
   100% {
     opacity: 0.8; } }
 
 @keyframes pulse-highlight {
-  /* line 530, sass/_base.sass */
+  /* line 522, sass/_base.sass */
   0% {
     opacity: 0.8; }
 
-  /* line 533, sass/_base.sass */
+  /* line 525, sass/_base.sass */
   50% {
     opacity: 1; }
 
-  /* line 536, sass/_base.sass */
+  /* line 528, sass/_base.sass */
   100% {
     opacity: 0.8; } }
 
@@ -2131,26 +2120,83 @@ footer {
   /* line 160, sass/_chapter3.sass */
   .chapter-3-working-for-the-nest-egg article .death_of_the_pension-outro p.first {
     margin-right: 10%; }
-/* line 167, sass/_chapter3.sass */
+/* line 166, sass/_chapter3.sass */
+.chapter-3-working-for-the-nest-egg article .confidence .form_question, .chapter-3-working-for-the-nest-egg .chapter-5-moving-forward article .confidence .share h2, .chapter-5-moving-forward .chapter-3-working-for-the-nest-egg article .confidence .share h2, .chapter-3-working-for-the-nest-egg .chapter-5-moving-forward article .share .confidence h2, .chapter-5-moving-forward .chapter-3-working-for-the-nest-egg article .share .confidence h2,
+.chapter-3-working-for-the-nest-egg .chapter-5-moving-forward article .confidence .ask h2,
+.chapter-5-moving-forward .chapter-3-working-for-the-nest-egg article .confidence .ask h2,
+.chapter-3-working-for-the-nest-egg .chapter-5-moving-forward article .ask .confidence h2,
+.chapter-5-moving-forward .chapter-3-working-for-the-nest-egg article .ask .confidence h2,
+.chapter-3-working-for-the-nest-egg .chapter-5-moving-forward article .confidence .act h2,
+.chapter-5-moving-forward .chapter-3-working-for-the-nest-egg article .confidence .act h2,
+.chapter-3-working-for-the-nest-egg .chapter-5-moving-forward article .act .confidence h2,
+.chapter-5-moving-forward .chapter-3-working-for-the-nest-egg article .act .confidence h2 {
+  font-size: 26px; }
+/* line 169, sass/_chapter3.sass */
+.chapter-3-working-for-the-nest-egg article .confidence .form_fields {
+  padding: 1em 0; }
+  /* line 172, sass/_chapter3.sass */
+  .chapter-3-working-for-the-nest-egg article .confidence .form_fields label {
+    float: left;
+    padding: 0 20px;
+    text-align: center;
+    width: 20%;
+    height: 95px; }
+    /* line 179, sass/_chapter3.sass */
+    .chapter-3-working-for-the-nest-egg article .confidence .form_fields label input,
+    .chapter-3-working-for-the-nest-egg article .confidence .form_fields label span {
+      display: block;
+      margin: 0 auto; }
+    /* line 184, sass/_chapter3.sass */
+    .chapter-3-working-for-the-nest-egg article .confidence .form_fields label span {
+      line-height: 1.3;
+      margin-top: 0.75em; }
+/* line 191, sass/_chapter3.sass */
+.chapter-3-working-for-the-nest-egg article .savings_confidence p {
+  font-size: 18px; }
+/* line 194, sass/_chapter3.sass */
+.chapter-3-working-for-the-nest-egg article .savings_confidence .nineteenninetyfive-very {
+  width: 21%; }
+/* line 196, sass/_chapter3.sass */
+.chapter-3-working-for-the-nest-egg article .savings_confidence .nineteenninetyfive-somewhat {
+  width: 51%; }
+/* line 198, sass/_chapter3.sass */
+.chapter-3-working-for-the-nest-egg article .savings_confidence .nineteenninetyfive-not_too {
+  width: 19%; }
+/* line 200, sass/_chapter3.sass */
+.chapter-3-working-for-the-nest-egg article .savings_confidence .nineteenninetyfive-not_at_all {
+  width: 9%; }
+/* line 202, sass/_chapter3.sass */
+.chapter-3-working-for-the-nest-egg article .savings_confidence .twothousandthirteen-very {
+  width: 13%; }
+/* line 204, sass/_chapter3.sass */
+.chapter-3-working-for-the-nest-egg article .savings_confidence .twothousandthirteen-somewhat {
+  width: 38%; }
+/* line 206, sass/_chapter3.sass */
+.chapter-3-working-for-the-nest-egg article .savings_confidence .twothousandthirteen-not_too {
+  width: 21%; }
+/* line 208, sass/_chapter3.sass */
+.chapter-3-working-for-the-nest-egg article .savings_confidence .twothousandthirteen-not_at_all {
+  width: 28%; }
+/* line 215, sass/_chapter3.sass */
 .chapter-3-working-for-the-nest-egg article .sheryl_garrett .contents {
   background-position: 92% 200px !important; }
-/* line 173, sass/_chapter3.sass */
+/* line 221, sass/_chapter3.sass */
 .chapter-3-working-for-the-nest-egg article .investor_underperforms p.first {
   font-size: 30px;
   margin-bottom: 0.2em; }
-/* line 178, sass/_chapter3.sass */
+/* line 226, sass/_chapter3.sass */
 .chapter-3-working-for-the-nest-egg article .investor_underperforms p.second {
   color: #aaaaaa;
   font-size: 21px;
   margin-top: 0; }
-/* line 184, sass/_chapter3.sass */
+/* line 232, sass/_chapter3.sass */
 .chapter-3-working-for-the-nest-egg article .investor_underperforms .investor_underperforms-chart {
   background: url('../img/3/investor_underperforms-chart.gif?1369903204') left top no-repeat;
   margin: 0 0 0 -62px;
   width: 860px;
   height: 404px;
   position: relative; }
-  /* line 191, sass/_chapter3.sass */
+  /* line 239, sass/_chapter3.sass */
   .chapter-3-working-for-the-nest-egg article .investor_underperforms .investor_underperforms-chart .data_point.bar {
     background: rgba(0, 0, 0, 0.8);
     display: block;
@@ -2163,77 +2209,77 @@ footer {
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s; }
-    /* line 201, sass/_chapter3.sass */
+    /* line 249, sass/_chapter3.sass */
     .chapter-3-working-for-the-nest-egg article .investor_underperforms .investor_underperforms-chart .data_point.bar#investor_underperforms-chart-data_point-1 {
       left: 97px;
       -webkit-transition-delay: 0.2s;
       -moz-transition-delay: 0.2s;
       -o-transition-delay: 0.2s;
       transition-delay: 0.2s; }
-      /* line 205, sass/_chapter3.sass */
+      /* line 253, sass/_chapter3.sass */
       .chapter-3-working-for-the-nest-egg article .investor_underperforms .investor_underperforms-chart .data_point.bar#investor_underperforms-chart-data_point-1.active {
         height: 242px; }
-    /* line 208, sass/_chapter3.sass */
+    /* line 256, sass/_chapter3.sass */
     .chapter-3-working-for-the-nest-egg article .investor_underperforms .investor_underperforms-chart .data_point.bar#investor_underperforms-chart-data_point-2 {
       left: 195px;
       -webkit-transition-delay: 0.3s;
       -moz-transition-delay: 0.3s;
       -o-transition-delay: 0.3s;
       transition-delay: 0.3s; }
-      /* line 212, sass/_chapter3.sass */
+      /* line 260, sass/_chapter3.sass */
       .chapter-3-working-for-the-nest-egg article .investor_underperforms .investor_underperforms-chart .data_point.bar#investor_underperforms-chart-data_point-2.active {
         height: 217px; }
-    /* line 215, sass/_chapter3.sass */
+    /* line 263, sass/_chapter3.sass */
     .chapter-3-working-for-the-nest-egg article .investor_underperforms .investor_underperforms-chart .data_point.bar#investor_underperforms-chart-data_point-3 {
       left: 295px;
       -webkit-transition-delay: 0.4s;
       -moz-transition-delay: 0.4s;
       -o-transition-delay: 0.4s;
       transition-delay: 0.4s; }
-      /* line 219, sass/_chapter3.sass */
+      /* line 267, sass/_chapter3.sass */
       .chapter-3-working-for-the-nest-egg article .investor_underperforms .investor_underperforms-chart .data_point.bar#investor_underperforms-chart-data_point-3.active {
         height: 217px; }
-    /* line 222, sass/_chapter3.sass */
+    /* line 270, sass/_chapter3.sass */
     .chapter-3-working-for-the-nest-egg article .investor_underperforms .investor_underperforms-chart .data_point.bar#investor_underperforms-chart-data_point-4 {
       left: 394px;
       -webkit-transition-delay: 0.5s;
       -moz-transition-delay: 0.5s;
       -o-transition-delay: 0.5s;
       transition-delay: 0.5s; }
-      /* line 226, sass/_chapter3.sass */
+      /* line 274, sass/_chapter3.sass */
       .chapter-3-working-for-the-nest-egg article .investor_underperforms .investor_underperforms-chart .data_point.bar#investor_underperforms-chart-data_point-4.active {
         height: 178px; }
-    /* line 229, sass/_chapter3.sass */
+    /* line 277, sass/_chapter3.sass */
     .chapter-3-working-for-the-nest-egg article .investor_underperforms .investor_underperforms-chart .data_point.bar#investor_underperforms-chart-data_point-5 {
       left: 493px;
       -webkit-transition-delay: 0.6s;
       -moz-transition-delay: 0.6s;
       -o-transition-delay: 0.6s;
       transition-delay: 0.6s; }
-      /* line 233, sass/_chapter3.sass */
+      /* line 281, sass/_chapter3.sass */
       .chapter-3-working-for-the-nest-egg article .investor_underperforms .investor_underperforms-chart .data_point.bar#investor_underperforms-chart-data_point-5.active {
         height: 128px; }
-    /* line 236, sass/_chapter3.sass */
+    /* line 284, sass/_chapter3.sass */
     .chapter-3-working-for-the-nest-egg article .investor_underperforms .investor_underperforms-chart .data_point.bar#investor_underperforms-chart-data_point-6 {
       left: 590px;
       -webkit-transition-delay: 0.7s;
       -moz-transition-delay: 0.7s;
       -o-transition-delay: 0.7s;
       transition-delay: 0.7s; }
-      /* line 240, sass/_chapter3.sass */
+      /* line 288, sass/_chapter3.sass */
       .chapter-3-working-for-the-nest-egg article .investor_underperforms .investor_underperforms-chart .data_point.bar#investor_underperforms-chart-data_point-6.active {
         height: 88px; }
-    /* line 243, sass/_chapter3.sass */
+    /* line 291, sass/_chapter3.sass */
     .chapter-3-working-for-the-nest-egg article .investor_underperforms .investor_underperforms-chart .data_point.bar#investor_underperforms-chart-data_point-7 {
       left: 690px;
       -webkit-transition-delay: 0.8s;
       -moz-transition-delay: 0.8s;
       -o-transition-delay: 0.8s;
       transition-delay: 0.8s; }
-      /* line 247, sass/_chapter3.sass */
+      /* line 295, sass/_chapter3.sass */
       .chapter-3-working-for-the-nest-egg article .investor_underperforms .investor_underperforms-chart .data_point.bar#investor_underperforms-chart-data_point-7.active {
         height: 62px; }
-    /* line 250, sass/_chapter3.sass */
+    /* line 298, sass/_chapter3.sass */
     .chapter-3-working-for-the-nest-egg article .investor_underperforms .investor_underperforms-chart .data_point.bar#investor_underperforms-chart-data_point-8 {
       background: #548e85;
       left: 788px;
@@ -2241,10 +2287,10 @@ footer {
       -moz-transition-delay: 0.9s;
       -o-transition-delay: 0.9s;
       transition-delay: 0.9s; }
-      /* line 255, sass/_chapter3.sass */
+      /* line 303, sass/_chapter3.sass */
       .chapter-3-working-for-the-nest-egg article .investor_underperforms .investor_underperforms-chart .data_point.bar#investor_underperforms-chart-data_point-8.active {
         height: 52px; }
-  /* line 258, sass/_chapter3.sass */
+  /* line 306, sass/_chapter3.sass */
   .chapter-3-working-for-the-nest-egg article .investor_underperforms .investor_underperforms-chart #investor_underperforms-chart-data_point-9 {
     background: rgba(0, 0, 0, 0.8);
     border-radius: 2px;
@@ -2276,33 +2322,33 @@ footer {
       border-right: 4px solid transparent;
       border-top: 4px solid rgba(0, 0, 0, 0.8);
       margin-bottom: -4px; }
-    /* line 277, sass/_chapter3.sass */
+    /* line 325, sass/_chapter3.sass */
     .chapter-3-working-for-the-nest-egg article .investor_underperforms .investor_underperforms-chart #investor_underperforms-chart-data_point-9 span {
       font-family: "Bodoni W01 Poster";
       letter-spacing: 2px; }
-    /* line 281, sass/_chapter3.sass */
+    /* line 329, sass/_chapter3.sass */
     .chapter-3-working-for-the-nest-egg article .investor_underperforms .investor_underperforms-chart #investor_underperforms-chart-data_point-9.active {
       margin-top: 0;
       opacity: 1; }
-/* line 297, sass/_chapter3.sass */
+/* line 345, sass/_chapter3.sass */
 .chapter-3-working-for-the-nest-egg article .the_great_recession .contents {
   background-position: left 65% !important;
   padding: 2em 0; }
-  /* line 301, sass/_chapter3.sass */
+  /* line 349, sass/_chapter3.sass */
   .chapter-3-working-for-the-nest-egg article .the_great_recession .contents p.intro {
     width: 100%; }
-/* line 307, sass/_chapter3.sass */
+/* line 355, sass/_chapter3.sass */
 .chapter-3-working-for-the-nest-egg article .mike_kemp h2 {
   margin-top: 0 !important;
   padding-top: 0; }
-/* line 314, sass/_chapter3.sass */
+/* line 362, sass/_chapter3.sass */
 .chapter-3-working-for-the-nest-egg article .unemployed_but_wanting_to_work h2 {
   font-size: 42px; }
-/* line 320, sass/_chapter3.sass */
+/* line 368, sass/_chapter3.sass */
 .chapter-3-working-for-the-nest-egg article .brutal_job_search h2 {
   margin-top: -0.25em !important;
   padding-top: 0; }
-/* line 331, sass/_chapter3.sass */
+/* line 379, sass/_chapter3.sass */
 .chapter-3-working-for-the-nest-egg article .paul_transition {
   margin-top: 5em; }
 

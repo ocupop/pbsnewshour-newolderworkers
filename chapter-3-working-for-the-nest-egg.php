@@ -109,60 +109,73 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="question F">
+<section class="question confidence">
   <div class="contents">
     <p class="form_question">
       Overall, how confident are you that you (or you and your spouse) will have enough money to live comfortably throughout your retirement years?
     </p>
 
     <div class="form_fields">
-      <label>
-        <input type="radio" name="confidence" value="Very confident">
-        <strong>Very confident</strong>
-      </label>
+      <div class="field radio_buttons">
+        <label>
+          <input type="radio" name="confidence" value="Very confident">
+          <span>Very confident</span>
+        </label>
 
-      <label>
-        <input type="radio" name="confidence" value="Somewhat confident">
-        <strong>Somewhat confident</strong>
-      </label>
+        <label>
+          <input type="radio" name="confidence" value="Somewhat confident">
+          <span>Somewhat confident</span>
+        </label>
 
-      <label>
-        <input type="radio" name="confidence" value="Not too confident">
-        <strong>Not too confident</strong>
-      </label>
+        <label>
+          <input type="radio" name="confidence" value="Not too confident">
+          <span>Not too confident</span>
+        </label>
 
-      <label>
-        <input type="radio" name="confidence" value="Not atall confident">
-        <strong>Not at all confident</strong>
-      </label>
+        <label>
+          <input type="radio" name="confidence" value="Not atall confident">
+          <span>Not at all confident</span>
+        </label>
 
-      <label>
-        <input type="radio" name="confidence" value="I don't know">
-        <strong>Don&rsquo;t know</strong>
-      </label>
+        <label>
+          <input type="radio" name="confidence" value="I don't know">
+          <span>Don&rsquo;t know</span>
+        </label>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="data">
+<section class="results savings_confidence">
   <div class="contents">
-    <!--
-    Based on answer above, show where they fall based on EBRI 2013 data for WORKERS or RETIREES. Compare 2013 to 1995. (also included 2001 and 2007 if you’d like to include)
+    <h2>
+      How does your confidence measure up?
+    </h2>
 
-    In dropbox as “Confidence-Survey.xlsx”
+    <p>
+      Approximately 1,250 individuals (1,003 workers and 251 retirees) aged 25 and older were asked this same question in 1995, 2001, 2007, and 2013 by the Employee Benefit Research Institute. See how their answers have changed in eighteen years.
+    </p>
 
-    http://www.ebri.org/surveys/rcs/
-
-    Responses are based on both workers 25+ and retirees. However, we don’t know the exact worker/retiree breakdown for this question set within EBRI’s data.
-
-    I could not locate 1995 data on the number and makeup of respondents. It may be reasonable to create a comparison of 1995 respondents using a similar percentage of 2013’s workers to retirees ratio. Here’s the explanation of the 2013 data:
-
-    1,254 individuals (1,003 workers and 251 retirees) age 25 and older
-    -->
+    <div class="splitbars nineteenninetyfive">
+      <h3>1995</h3>
+      <div class="nineteenninetyfive-chart splitbars-container">
+        <div class="first nineteenninetyfive-very"><span>somewhat</span></div>
+        <div class="second nineteenninetyfive-somewhat"><span>somewhat</span></div>
+        <div class="third nineteenninetyfive-not_too"><span>not too</span></div>
+        <div class="fourth nineteenninetyfive-not_at_all"><span>not at all</span></div>
+      </div>
+    </div>
+    <div class="splitbars twothousandthirteen">
+      <h3>2013</h3>
+      <div class="twothousandthirteen-chart splitbars-container">
+        <div class="first twothousandthirteen-very"><span>somewhat</span></div>
+        <div class="second twothousandthirteen-somewhat"><span>somewhat</span></div>
+        <div class="third twothousandthirteen-not_too"><span>not too</span></div>
+        <div class="fourth twothousandthirteen-not_at_all"><span>not at all</span></div>
+      </div>
+    </div>
   </div>
 </section>
-
-<!-- retirement calculator is NOT PART OF Google Form. these fields are not included. -->
 
 <section class="copy">
   <div class="contents">
@@ -172,9 +185,6 @@ require_once('header.php');
 
     <p>
       75% of folks nearing retirement in 2010 had less than $30,000 saved.
-      <cite>
-        <a href="http://www.economicpolicyresearch.org/guaranteeing-retirement-income/528-retirement-account-balances-by-income-even-the-highest-earners-dont-have-enough.html">source</a>
-      </cite>
     </p>
 
     <!--

@@ -474,8 +474,7 @@ input[type="radio"]
           top: -40px
 
       &.second,
-      &.fourth,
-      &.sixth
+      &.fourth
         span
           left: 0
           bottom: -40px
@@ -485,7 +484,6 @@ input[type="radio"]
       $background-color-3: #aaa
       $background-color-4: #ccc
       $background-color-5: #eee
-      $background-color-6: #ddd
 
       &.first,
       &.first span
@@ -516,12 +514,6 @@ input[type="radio"]
         background-color: $background-color-5
       &.fifth span
         @include triangle-bottom(6px, $background-color-5, down)
-
-      &.sixth,
-      &.sixth span
-        background-color: $background-color-6
-      &.sixth span
-        @include triangle-top(6px, $background-color-6)
 
 
 // Animations
