@@ -42,7 +42,7 @@ require_once('header.php');
         <input type="radio" name="entry.2021902959" id="entry.2021902959_1">
       </label>
 
-      <label class="second"> 
+      <label class="second">
         <input type="radio" name="entry.2021902959" id="entry.2021902959_2">
         <span>Female</span>
       </label>
@@ -135,7 +135,7 @@ require_once('header.php');
   <section class="copy female">
     <div class="contents">
       <p>
-        You&rsquo;re slightly more likely than a man to participate in a retirement plan, after controlling for work status and earnings. 
+        You&rsquo;re slightly more likely than a man to participate in a retirement plan, after controlling for work status and earnings.
       </p>
       <p>
         If you&rsquo;re a woman age 65 or older, you will likely be out of work for at least six months should you lose your job.
@@ -286,11 +286,12 @@ require_once('header.php');
 
 <section class="video joel_peters">
   <div class="contents">
-    <video controls preload="auto">
+    <div class="replay"></div>
+    <video controls preload="auto" class="semi-autoplay">
       <source src="video/OlderWorkers-JoelPeters.mp4" type="video/mp4">
       <source src="video/OlderWorkers-JoelPeters.webm" type="video/webm">
     </video>
- 
+
     <div class="caption">
       <h2>
         Joel Peters, Paramedic
@@ -313,6 +314,7 @@ require_once('header.php');
       The Urban/Rural Divide
     </h2>
 
+    <div class="replay"></div>
     <video controls preload="auto">
       <!-- TODO: Dante Chinni Video -->
     </video>

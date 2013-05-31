@@ -21,7 +21,7 @@ require_once('header.php');
 
 <section class="intro">
   <div class="contents">
-    <p class="intro"> 
+    <p class="intro">
       The reasons to keep on working go beyond the pocketbook. Here are the top three reasons folks over 65 say they work:
     </p>
 
@@ -127,6 +127,7 @@ require_once('header.php');
 
 <section class="video colleges_see_graying_workforce">
   <div class="contents">
+    <div class="replay"></div>
     <video>
       <source src="video/Broadcast-CollegesandUniversitiesSeeGrayingWorkforce.mp4" type="video/mp4">
       <source src="video/Broadcast-CollegesandUniversitiesSeeGrayingWorkforce.webm" type="video/webm">
@@ -193,6 +194,7 @@ require_once('header.php');
 
 <section class="video boom_in_entrepreneurship">
   <div class="contents">
+    <div class="replay"></div>
     <video>
       <source src="video/Broadcast-ABoominEntrepreneurship.mp4" type="video/mp4">
       <source src="video/Broadcast-ABoominEntrepreneurship.webm" type="video/webm">
@@ -212,7 +214,8 @@ require_once('header.php');
 
 <section class="video vita_needle">
   <div class="contents">
-    <video>
+    <div class="replay"></div>
+    <video controls preload="auto" class="semi-autoplay">
       <source src="video/Broadcast-ManufacturerVitaNeedleFinds.mp4" type="video/mp4">
       <source src="video/Broadcast-ManufacturerVitaNeedleFinds.webm" type="video/webm">
     </video>
@@ -244,7 +247,7 @@ require_once('header.php');
     <h2>
       Paul Interviews Paul on Being an Older Worker
     </h2>
-
+    <div class="replay"></div>
     <video>
       <source src="video/Paul-SelfInterview.mp4" type="video/mp4">
       <source src="video/Paul-SelfInterview.webm" type="video/webm">

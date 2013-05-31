@@ -90,6 +90,32 @@ $(document).ready ()->
       console.log "Success!"
 
 
+  # video play buttons
+  $('video').each ()->
+    $this = $(this)
+    $container = $this.closest('.video')
+
+    $container.find('.replay').on "click", ()->
+      $this[0].play()
+
+    $this.on "play", ()->
+      # pause all other videos
+      video.pause() for video in $('video') when (video isnt $this[0])
+      $container.addClass('playing')
+
+    $this.on "ended", ()->
+      $container.removeClass('playing')
+
+
+  # Autoplay some videos, if they havent autoplayed once already
+  $('.semi-autoplay').each (index)->
+    $this = $(this)
+    top = $this.offset().top
+
+    scroll_actions["video_#{index}"] = ()->
+      if !$this.hasClass('played') and  pos + $window_height/2 > top
+        $this.addClass('played')[0].play()
+
   # Chapter 1: Rethinking Retirement
 
   if $('body').hasClass('chapter-1-rethinking-retirement') then do ()->
@@ -119,8 +145,8 @@ $(document).ready ()->
       $intro.toggleClass "active", (pos > chapter_title_top - $window_height)
 
     scroll_actions.show_data_points = ()->
-      $percentage_of_workers_chart_points.toggleClass 'active', (pos + (2 * $window_height / 3) > percentage_of_workers_chart_top)  
-      $labor_force_chart_points.toggleClass 'active', (pos + (2 * $window_height / 3) > labor_force_chart_top)  
+      $percentage_of_workers_chart_points.toggleClass 'active', (pos + (2 * $window_height / 3) > percentage_of_workers_chart_top)
+      $labor_force_chart_points.toggleClass 'active', (pos + (2 * $window_height / 3) > labor_force_chart_top)
 
 
   # Chapter 2: A Snapshot

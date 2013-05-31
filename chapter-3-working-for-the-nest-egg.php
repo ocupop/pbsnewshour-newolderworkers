@@ -367,7 +367,8 @@ require_once('header.php');
 
 <section class="video babs_tatalias">
   <div class="contents">
-    <video controls preload="auto">
+    <div class="replay"></div>
+    <video controls preload="auto" class="semi-autoplay">
       <source src="video/OlderWorkers-BabsTatalias.mp4" type="video/mp4">
       <source src="video/OlderWorkers-BabsTatalias.webm" type="video/webm">
     </video>
@@ -401,7 +402,8 @@ require_once('header.php');
 
 <section class="video charles_smith">
   <div class="contents">
-    <video controls preload="auto">
+    <div class="replay"></div>
+    <video controls preload="auto" class="semi-autoplay">
       <source src="video/OlderWorkers-CharlesSmith.mp4" type="video/mp4">
       <source src="video/OlderWorkers-CharlesSmith.webm" type="video/webm">
     </video>
@@ -440,7 +442,8 @@ require_once('header.php');
 
 <section class="video mike_kemp">
   <div class="contents">
-    <video controls preload="auto">
+    <div class="replay"></div>
+    <video controls preload="auto" class="semi-autoplay">
       <source src="video/OlderWorkers-MikeKemp.mp4" type="video/mp4">
       <source src="video/OlderWorkers-MikeKemp.webm" type="video/webm">
     </video>
@@ -475,6 +478,7 @@ require_once('header.php');
 
 <section class="video brutal_job_search">
   <div class="contents">
+    <div class="replay"></div>
     <video controls preload="auto">
       <source src="video/Broadcast-BrutalJobSearch.mp4" type="video/mp4">
       <source src="video/Broadcast-BrutalJobSearch.webm" type="video/webm">
@@ -516,7 +520,8 @@ require_once('header.php');
 
 <section class="video paul_transition">
   <div class="contents">
-    <video controls preload="auto">
+    <div class="replay"></div>
+    <video controls preload="auto" class="semi-autoplay">
       <source src="video/Paul-Transition.mp4" type="video/mp4">
       <source src="video/Paul-Transition.webm" type="video/webm"/>
     </video>
