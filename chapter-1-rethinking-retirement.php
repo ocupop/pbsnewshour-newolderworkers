@@ -121,20 +121,23 @@ require_once('header.php');
 
 <section class="question age_and_retirement">
   <div class="contents">
+    <p class="first">Everyone now knows that the workplace is greying. For a variety of reasons, many of us plan to work longer and retire later than we would have just 10 years ago. But for <em>how much</em> longer? The answer has been changing rapidly.</p>
+
     <p class="form_question">
-      Everyone now knows that the workplace is greying. For a variety of reasons, many of us plan to work longer and retire later than we would have just 10 years ago. But for <em>how much</em> longer? The answer has been changing rapidly.
+      To help keep the answer up to date,<br>
+      we&rsquo;re asking you to weigh in.
     </p>
 
     <div class="form_fields">
       <!-- http://htmlpad.org/poll-results -->
 
       <div class="field age">
-        <label>How old are you?</label>
+        <label class="field_title">How old are you?</label>
         <input type="number" min="13" max="116" name="entry.1280847796" id="entry_1280847796">
       </div>
 
       <div class="field retiree">
-        <label>Are you a current retiree?</label>
+        <label class="field_title">Are you a current retiree?</label>
         <select name="entry.981715763" id="entry_981715763">
           <option value=""></option>
           <option value="Yes, I am a retiree.&nbsp;">Yes, I am a retiree.&nbsp;</option>
@@ -142,9 +145,10 @@ require_once('header.php');
         </select>
       </div>
 
-      <div class="field" id="under_65">
-        <p>
-          You are under 65 and not yet fully retired. So how long do you <strong>WANT</strong> to work?
+      <div class="field radio_buttons" id="under_65">
+        <p class="field_title">
+          <strong>You are under 65 and not yet fully retired.</strong><br>
+          So how long do you <strong>WANT</strong> to work?
         </p>
 
         <label>
@@ -178,9 +182,10 @@ require_once('header.php');
         </label>
       </div>
 
-      <div class="field" id="65_and_over">
-        <p>
-          You are 65 or older. Are you working or not, and are you satisfied with that?
+      <div class="field radio_buttons" id="65_and_over">
+        <p class="field_title">
+          <strong>You are 65 or older.</strong><br>
+          Are you working or not, and are you satisfied with that?
         </p>
 
         <label>
@@ -207,9 +212,9 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="data">
+<section class="results">
   <div class="contents">
-    <h2>TODO: RESULTS</h2>
+    <h2>Let&rsquo;s see if your retirement plans are realistic.</h2>
 
     <p>Based on both answers above, show visualized expected age of retirement, where they fit, and how that&rsquo;s changed over the last 10 years based on this data from EBRI (anyone younger than 25 should be put in with ALL WORKERS).</p>
   </div>

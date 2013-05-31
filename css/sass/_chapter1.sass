@@ -152,10 +152,33 @@
         @extend .major
 
   .age_and_retirement
+    .first
+      font-size: 18px
+      margin-bottom: 3em
+
     .form_fields
-      label
-        display: block
-        text-transform: none
+      @extend .padding
+
+      .field.age,
+      .field.retiree
+        height: 50px
+
+        label
+          float: left
+          padding-right: 10%
+          text-align: right
+          width: 50%
+
+        input
+          float: left
+
+      .field.age
+        input
+          font-family: $proxima-semibold
+          font-size: 22px
+          text-align: center
+          line-height: 1
+          padding-top: 5px
 
   .half_of_american_households
     @extend .spread
