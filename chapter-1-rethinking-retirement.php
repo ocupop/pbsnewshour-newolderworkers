@@ -134,16 +134,24 @@ require_once('header.php');
         <input type="number" min="13" max="116" name="age" class="user_age">
       </div>
 
-      <div class="field retiree">
-        <label class="field_title">Are you a current retiree?</label>
-        <input type="radio" name="retiree" value="Yes, I am a retiree.&nbsp;">Yes, I am a retiree.&nbsp;</option>
-        <input type="radio" name="retiree" value="No, I am not a retiree.&nbsp;">No, I am not a retiree.&nbsp;</option>
+      <div class="field radio_buttons">
+        <p class="field_title">
+          Are you a current retiree?
+        </p>
+        
+        <label>
+          <input type="radio" name="retiree" value="Yes, I am a retiree.&nbsp;">
+          <span>Yes, I am a retiree.</span>
+        </label>
+        <label>
+          <input type="radio" name="retiree" value="No, I am not a retiree.&nbsp;">
+          <span>No, I am not a retiree.</span>
+        </label>
       </div>
 
       <div class="field radio_buttons" id="under_65">
         <p class="field_title">
-          <strong>You are under 65 and not yet fully retired.</strong><br>
-          So how long do you <strong>WANT</strong> to work?
+          So you&rsquo;re under 65. How long do you <strong>WANT</strong> to work?
         </p>
 
         <label>
@@ -177,30 +185,29 @@ require_once('header.php');
         </label>
       </div>
 
-      <div class="field radio_buttons" id="65_and_over">
+      <div class="field radio_buttons" id="over_or_65">
         <p class="field_title">
-          <strong>You are 65 or older.</strong><br>
-          Are you working or not, and are you satisfied with that?
+          So you&rsquo;re 65 or older. Are you working, and are you satisfied?
         </p>
 
         <label>
           <input type="radio" name="satisfaction" value="I am currently working and am happy/OK with working.&nbsp;" >
-          I am currently working and am happy/OK with working.
+          <span>I am currently working and am happy/OK with working.</span>
         </label>
 
         <label>
           <input type="radio" name="satisfaction" value="I am currently working and am unhappy -- I would prefer to not be working.&nbsp;" >
-          I am currently working and am unhappy&mdash;I would prefer to not be working.
+          <span>I am currently working and am unhappy&mdash;I would prefer to not be working.</span>
         </label>
 
         <label>
           <input type="radio" name="satisfaction" value="I am currently NOT working and am happy / OK with not working. &nbsp;">
-          I am currently NOT working and am happy/OK with not working.
+          <span>I am currently NOT working and am happy/OK with not working.</span>
         </label>
 
         <label>
           <input type="radio" name="satisfaction" value="I am currently NOT working and am unhappy -- I would prefer to be working.&nbsp;">
-          I am currently NOT working and am unhappy&mdash;I would prefer to be working.
+          <span>I am currently NOT working and am unhappy&mdash;I would prefer to be working.</span>
         </label>
       </div>
     </div>
