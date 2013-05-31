@@ -187,6 +187,10 @@
 
   .savings_confidence
     @extend .blend-top
+    @extend .border-bottom
+
+    .contents
+      padding-bottom: 8em
 
     p
       font-size: 18px
@@ -208,12 +212,90 @@
     .twothousandthirteen-not_at_all
       width: 28%
 
+  .calculator
+    @extend .blend-bottom
+    margin-top: 3em
+
+    .form_fields
+      @extend .padding
+
+      p.intro
+        margin: 0 0 1.5em 0
+
+      .field.age
+        input
+          font-family: $proxima-semibold
+          font-size: 22px
+          text-align: center
+          line-height: 1
+          padding-top: 5px
+
+      .field.estimated_income
+        p.field_explanation
+          color: $medium
+          font-size: 14px
+          margin: 0
+
+        label
+          float: left
+          padding: 0 20px
+          text-align: center
+          width: 16.6%
+          height: 95px
+
+          input,
+          span
+            display: block
+            margin: 0 auto
+
+          span
+            line-height: 1.3
+            margin-top: .75em
+
+    .form_conclusion
+      @extend .form_question
+      position: relative
+      padding: 1.25em 0
+
+      p
+        margin: 0
+        position: absolute
+        left: 0
+        top: 18px
+        width: 100%
+
+      #calculator-placeholder
+        opacity: .25
+        @include transition(opacity .2s)
+
+      #calculator-result
+        opacity: 0
+        @include transition(opacity .2s)
+
+      &.show_result
+        #calculator-placeholder
+          opacity: 0
+
+        #calculator-result
+          opacity: 1
+
+  .disclaimer
+    @extend .blend
+
+    .contents p
+      color: $light
+      font-family: $proxima-semibold
+      font-size: 13px
+
+  .warning
+    @extend .blend
+
   .sheryl_garrett
     @extend .left
-    @extend .blend-bottom
+    @extend .blend
 
     .contents
-      background-position: 92% 200px !important
+      background-position: 92% 70px !important
 
   .investor_underperforms
     @extend .blend-top

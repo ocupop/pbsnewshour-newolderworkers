@@ -177,93 +177,90 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="copy">
+<section class="question calculator">
   <div class="contents">
-    <h2>
-      How much do you have saved for retirement, and how much do you need?
-    </h2>
-
-    <p>
-      75% of folks nearing retirement in 2010 had less than $30,000 saved.
+    <p class="form_question">
+      How much do you need for retirement?
     </p>
 
-    <!--
-    We need to stress this is a very simple, rough ballpark estimate and is meant to only give users a sense of how much they should be saving. It should not be used as a replacement for expert financial advice. Information from Sheryl Garrett, CFP, AIF. Adapted; used with permission from her book Personal Finance Workbook For Dummies® (Wiley 2007, 2012).
+    <div class="form_fields">
+      <p class="intro">
+        75% of folks nearing retirement in 2010 had less than $30,000 saved. How much income do you think you&rsquo;ll need per month? (Remember, a rule of thumb is 80% of your current income at a minimum. So, if you&rsquo;re making $1,250 per month, you&rsquo;d want to have at least $1,000 to maintain your current standard of living.)
+      </p>
 
-    http://garrettplanningnetwork.com/books-by-garrett/
-    -->
+      <div class="field age">
+        <label class="field_title">How old are you?</label>
+        <input type="number" min="13" max="116" name="age" class="user_age">
+      </div>
+
+      <div class="field estimated_income radio_buttons">
+        <p class="field_title">
+          How much income do you think you&rsquo;ll need per month?
+        </p>
+
+        <p class="field_explanation">
+          Remember: The rule of thumb is that you&rsquo;ll need 80% of your current income (at a minimum). So if you&rsquo;re making $1,250 per month, you&rsquo;d want to have at least $1,000 to maintain your current standard of living.
+        </p>
+
+        <label>
+          <input type="radio" name="estimated_income" value="1k">
+          <span>$1,000<br>per month</span>
+        </label>
+
+        <label>
+          <input type="radio" name="estimated_income" value="2k">
+          <span>$2,000<br>per month</span>
+        </label>
+
+        <label>
+          <input type="radio" name="estimated_income" value="3k">
+          <span>$3,000<br>per month</span>
+        </label>
+
+        <label>
+          <input type="radio" name="estimated_income" value="4k">
+          <span>$4,000<br>per month</span>
+        </label>
+
+        <label>
+          <input type="radio" name="estimated_income" value="5k">
+          <span>$5,000<br>per month</span>
+        </label>
+
+        <label>
+          <input type="radio" name="estimated_income" value="5-10k">
+          <span>$5&ndash;$10K<br>per month</span>
+        </label>
+      </div>
+    </div>
+
+    <div class="form_conclusion">
+      <p id="calculator-placeholder">(Choose an level of income you&rsquo;ll need.)</p>
+
+      <p id="calculator-result">
+        You should put away
+        <span></span>
+        per month.
+      </p>
+    </div>
   </div>
 </section>
 
-<section class="question age">
-  <div class="contents">
-    <!--
-    We'll need to ask them for their age if they haven't provided it, or just show them it if they already have.
-
-    ---
-
-    Current age -- take from answer above in DEMOGRAPHICS section.
-    round to age that best works with options provided for this calculation:
-    18, 25, 30, 35, 40 ,45, 50, 55, 60
-    -->
-  </div>
-</section>
-
-<section class="question how_much_income_for_retirement">
-  <div class="contents">
-    <p>How much income do you think you&rsquo;ll need per month? (Remember, a rule of thumb is 80% of your current income at a minimum. So, if you&rsquo;re making $1,250 per month, you&rsquo;d want to have at least $1,000 to maintain your current standard of living.)</p>
-
-    <label>
-      <input type="radio" name="xxxxxx" id="_1">
-      <strong>$1,000/month</strong>
-    </label>
-
-    <label>
-      <input type="radio" name="xxxxxx" id="_2">
-      <strong>$2,000/month</strong>
-    </label>
-
-    <label>
-      <input type="radio" name="xxxxxx" id="_3">
-      <strong>$3,000/month</strong>
-    </label>
-
-    <label>
-      <input type="radio" name="xxxxxx" id="_4">
-      <strong>$4,000/month</strong>
-    </label>
-
-    <label>
-      <input type="radio" name="xxxxxx" id="_5">
-      <strong>$5,000/month</strong>
-    </label>
-
-    <label>
-      <input type="radio" name="xxxxxx" id="_6">
-      <strong>$5,000&ndash;$10,000/month</strong>
-    </label>
-
-    <label>
-      <input type="radio" name="xxxxxx" id="_7">
-      <strong>More than $10,000/month</strong>
-    </label>
-  </div>
-</section>
-
-<section class="data">
-  <div class="contents">
-    <!--
-    Answers based on responses: (spreadsheet to be sent separately)
-
-    Note: these numbers are based on a single person and do not take into account Social Security, pensions, etc. They also assume starting with $0 savings, retiring at 65, getting a 7% return on your savings, and leaving nothing for heirs or charity. All figures in 2012 dollars.
-    -->
-  </div>
-</section>
-
-<section class="copy">
+<section class="copy disclaimer">
   <div class="contents">
     <p>
-      Warning: The 7% return presumes a portfolio mix of 60% stocks and 40% bonds, using actual historical returns for this mix of assets. But as Sheryl Garrett (CFP&reg;, AIF&reg;, founder of The Garrett Planning Network, Inc.), who provided the data, points out, timing can make all the difference. Volatility can change the outcome of a 7% average annual return dramatically. If markets nosedive in the first two or three years of your retirement, you will have far less money on which to earn a return than if they stayed level or soared. In other words, you could receive a 7% average annual return over 20 years, say, but if your nest egg shrank drastically in the first few years, you might have nothing to tide you over until markets rallied.
+      Please note that this calculator is a very simple, rough, ballpark estimate and is meant to only provide you a sense of how much you should be saving. It should not be used as a replacement for expert financial advice. (Information from Sheryl Garrett, CFP, AIF. Adapted and used with permission from her book <em>Personal Finance Workbook For Dummies</em>.)
+    </p>
+  </div>
+</section>
+
+<section class="copy warning">
+  <div class="contents">
+    <p>
+      The numbers above are based on a single person and do not take into account Social Security, pensions, etc. They also assume starting with $0 savings, retiring at 65, getting a 7% return on your savings, and leaving nothing for heirs or charity. All figures in 2012 dollars.
+    </p>
+    <p>
+      The 7% return on savings we mention above presumes a portfolio mix of 60% stocks and 40% bonds, using actual historical returns for this mix of assets. But as Sheryl Garrett (CFP&reg;, AIF&reg;, founder of The Garrett Planning Network, Inc.), who provided the data, points out, timing can make all the difference. Volatility can change the outcome of a 7% average annual return dramatically. If markets nosedive in the first two or three years of your retirement, you will have far less money on which to earn a return than if they stayed level or soared. In other words, you could receive a 7% average annual return over 20 years, say, but if your nest egg shrank drastically in the first few years, you might have nothing to tide you over until markets rallied.
     </p>
     <p>
       According to the Social Security Administration, for most of us, Social Security alone will not provide enough income for a comfortable living, even assuming the program experiences no benefit cuts in coming years.
@@ -460,7 +457,7 @@ require_once('header.php');
   <div class="contents">
     <blockquote>
       <p>
-        About half of unemployed middle aged and older workers are still unemployed two years later. If you are near retirement and an employer wants to hire you, there’s fixed costs to hiring you. They have to train you. They have to invest in you and if their investment is only going to be spread over a few years then that might not be the best investment for them compared to a worker where that investment might be spread over many more years.
+        About half of unemployed middle aged and older workers are still unemployed two years later. If you are near retirement and an employer wants to hire you, there&rsquo;s fixed costs to hiring you. They have to train you. They have to invest in you and if their investment is only going to be spread over a few years then that might not be the best investment for them compared to a worker where that investment might be spread over many more years.
       </p>
       <cite>
         <strong>&mdash; Julie Zissimopoulos</strong>
