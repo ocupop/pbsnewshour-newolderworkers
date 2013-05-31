@@ -525,7 +525,7 @@ section {
       font-weight: normal; }
 
 /* line 416, sass/_base.sass */
-input[type="radio"] {
+input[type=radio] {
   -webkit-appearance: none;
   -moz-appearance: none;
   display: inline-block;
@@ -535,10 +535,10 @@ input[type="radio"] {
   height: 25px;
   top: 8px; }
   /* line 426, sass/_base.sass */
-  input[type="radio"]:hover {
+  input[type=radio]:hover {
     background-image: url('../img/radio_button-hover.png?1369999370'); }
   /* line 429, sass/_base.sass */
-  input[type="radio"]:checked {
+  input[type=radio]:checked {
     background-image: url('../img/radio_button-filled.png?1369972236'); }
 
 /* line 435, sass/_base.sass */

@@ -58,7 +58,7 @@
         console.log($this.val());
         cookie_name = "retiring__" + ($this.attr('name'));
         data = $.cookie(cookie_name);
-        if ($this.attr('type', 'radio')) {
+        if ($this.attr('type') === "radio") {
           if ($this.val() === data) {
             $this.attr('checked', true);
           }
@@ -131,7 +131,7 @@
     });
     if ($('body').hasClass('chapter-1-rethinking-retirement')) {
       (function() {
-        var $age_and_retirement, $chapter_title, $intro, $labor_force_chart, $labor_force_chart_points, $percentage_of_workers_chart, $percentage_of_workers_chart_points, $site_header, $story_header, $user_age, chapter_title_top, labor_force_chart_top, percentage_of_workers_chart_top, set_how_long_work;
+        var $age_and_retirement, $chapter_title, $intro, $labor_force_chart, $labor_force_chart_points, $percentage_of_workers_chart, $percentage_of_workers_chart_points, $retirement_expectations, $site_header, $story_header, $user_age, chapter_title_top, labor_force_chart_top, percentage_of_workers_chart_top, set_how_long_work;
         $site_header = $('.site_header');
         $story_header = $('.story_header_wrapper');
         $chapter_title = $('.chapter_title');
@@ -145,6 +145,7 @@
         $labor_force_chart_points = $('.data_point', $labor_force_chart);
         $user_age = $('.user_age');
         $age_and_retirement = $('.age_and_retirement');
+        $retirement_expectations = $('.retirement_expectations');
         scroll_actions.fade_header = function() {
           var factor, offset;
           factor = 0;
@@ -168,9 +169,11 @@
           return $labor_force_chart_points.toggleClass('active', pos + (2 * $window_height / 3) > labor_force_chart_top);
         };
         (set_how_long_work = function() {
-          var age;
+          var age, expectations_class;
           age = $user_age.val();
-          return $age_and_retirement.toggleClass('show_over_65', age >= 65);
+          $age_and_retirement.toggleClass('show_over_65', age >= 65);
+          expectations_class = age < 25 ? "age-all" : age < 35 ? "age-25-34" : age < 45 ? "age-35-44" : age < 55 ? "age-45-54" : "age-55plus";
+          return $retirement_expectations.removeClass("age-all age-25-34 age-35-44 age-45-54 age-55plus").addClass(expectations_class);
         })();
         return $user_age.on("keyup change", set_how_long_work);
       })();

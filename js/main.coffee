@@ -68,7 +68,7 @@ $(document).ready ()->
       # set to previous value
       data = $.cookie(cookie_name)
 
-      if $this.attr('type','radio')
+      if $this.attr('type') is "radio"
         $this.attr('checked', true) if ($this.val() is data)
         $this.on "click", ()->
           console.log "set", $this.val(), cookie_name
@@ -146,6 +146,7 @@ $(document).ready ()->
     $labor_force_chart_points = $('.data_point', $labor_force_chart)
     $user_age = $('.user_age')
     $age_and_retirement = $('.age_and_retirement')
+    $retirement_expectations = $('.retirement_expectations')
 
 
     scroll_actions.fade_header = ()->
@@ -169,6 +170,19 @@ $(document).ready ()->
     do set_how_long_work = ()->
       age = $user_age.val()
       $age_and_retirement.toggleClass 'show_over_65', (age >= 65)
+
+      expectations_class = if age < 25
+        "age-all"
+      else if age < 35
+        "age-25-34"
+      else if age < 45
+        "age-35-44"
+      else if age < 55
+        "age-45-54"
+      else
+        "age-55plus"
+
+      $retirement_expectations.removeClass("age-all age-25-34 age-35-44 age-45-54 age-55plus").addClass(expectations_class)
 
     $user_age.on "keyup change", set_how_long_work
 
