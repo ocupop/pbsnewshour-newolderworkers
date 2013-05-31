@@ -85,122 +85,38 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="question is_retiree">
-  <div class="contents">
-    <p>Are you a retiree?</p>
-
-    <label>
-      <input type="radio" name="xxx" id="_1">
-      <strong>Yes</strong>
-    </label>
-
-    <label>
-      <input type="radio" name="xxx" id="_2">
-      <strong>No</strong>
-    </label>
-  </div>
-</section>
-
-<section class="question how_long_work">
-  <div class="contents">
-    <label>How old are you?</label>
-    <input type="number" min="13" max="116" name="entry.1280847796" id="entry_1280847796" class="user_age">
-
-    <div class="under_65">
-      <p>If you are under 65 and not yet fully retired, how long do you WANT to work?</p>
-      <label>
-        <input type="radio" name="entry.1251379033" id="entry.1251379033_1">
-        <strong>I want to retire before I reach age 65.</strong>
-      </label>
-      <label>
-        <input type="radio" name="entry.1251379033" id="entry.1251379033_2">
-        <strong>I want to work until I'm between 65 and 69.</strong>
-      </label>
-      <label>
-        <input type="radio" name="entry.1251379033" id="entry.1251379033_3">
-        <strong>I want to work until I'm between 70 and 74.</strong>
-      </label>
-      <label>
-        <input type="radio" name="entry.1251379033" id="entry.1251379033_4">
-        <strong>I want to work until I'm between 75 and 79.</strong>
-      </label>
-      <label>
-        <input type="radio" name="entry.1251379033" id="entry.1251379033_5">
-        <strong>I want to work past 80.</strong>
-      </label>
-      <label>
-        <input type="radio" name="entry.1251379033" id="entry.1251379033_6">
-        <strong>Forever.</strong>
-      </label>
-      <label>
-        <input type="radio" name="entry.1251379033" id="entry.1251379033_7">
-        <strong>Other:</strong>
-        <input type="text" name="entry.1251379033.other_option_response" id="entry_1251379033_other_option_response">
-      </label>
-    </div>
-
-    <div class="over_65">
-      <p>If you are 65 or older, tell us if you&rsquo;re working or not working and whether you are satisfied with that.</p>
-      <label>
-        <input type="radio" name="entry.1192439293" id="entry.1192439293_1">
-        <strong>I am currently working and am happy/OK with working.</strong>
-      </label>
-      <label>
-        <input type="radio" name="entry.1192439293" id="entry.1192439293_2">
-        <strong>I am currently working and am unhappy -- I would prefer to not be working.</strong>
-      </label>
-      <label>
-        <input type="radio" name="entry.1192439293" id="entry.1192439293_3">
-        <strong>I am currently <em>NOT</em> working and am happy / OK with not working.</strong>
-      </label>
-      <label>
-        <input type="radio" name="entry.1192439293" id="entry.1192439293-4">
-        <strong>I am currently <em>NOT</em> working and am unhappy -- I would prefer to be working.</strong>
-      </label>
-      <label>
-        <input type="radio" name="entry.1192439293" id="entry.1192439293_5">
-        <strong>Other:</strong>
-        <input type="text" name="entry.1192439293.other_option_response" id="entry_1192439293_other_option_response">
-      </label>
-    </div>
-
-    <!--
-    results pie chart:  http://htmlpad.org/poll-results
-
-    based on survey: http://www.pbs.org/newshour/businessdesk/2013/03/how-long-will-you-work.html -->
-  </div>
-</section>
-
 <section class="question F">
   <div class="contents">
-    <p>
+    <p class="form_question">
       Overall, how confident are you that you (or you and your spouse) will have enough money to live comfortably throughout your retirement years?
     </p>
 
-    <label>
-      <input type="radio" name="xxxxx" id="_1">
-      <strong>Very confident</strong>
-    </label>
+    <div class="form_fields">
+      <label>
+        <input type="radio" name="xxxxx" id="_1">
+        <strong>Very confident</strong>
+      </label>
 
-    <label>
-      <input type="radio" name="xxxxx" id="_2">
-      <strong>Somewhat confident</strong>
-    </label>
+      <label>
+        <input type="radio" name="xxxxx" id="_2">
+        <strong>Somewhat confident</strong>
+      </label>
 
-    <label>
-      <input type="radio" name="xxxxx" id="_3">
-      <strong>Not too confident</strong>
-    </label>
+      <label>
+        <input type="radio" name="xxxxx" id="_3">
+        <strong>Not too confident</strong>
+      </label>
 
-    <label>
-      <input type="radio" name="xxxxx" id="_4">
-      <strong>Not at all confident</strong>
-    </label>
+      <label>
+        <input type="radio" name="xxxxx" id="_4">
+        <strong>Not at all confident</strong>
+      </label>
 
-    <label>
-      <input type="radio" name="xxxxx" id="_5">
-      <strong>Don&rsquo;t know</strong>
-    </label>
+      <label>
+        <input type="radio" name="xxxxx" id="_5">
+        <strong>Don&rsquo;t know</strong>
+      </label>
+    </div>
   </div>
 </section>
 
@@ -221,6 +137,8 @@ require_once('header.php');
     -->
   </div>
 </section>
+
+<!-- retirement calculator is NOT PART OF Google Form. these fields are not included. -->
 
 <section class="copy">
   <div class="contents">

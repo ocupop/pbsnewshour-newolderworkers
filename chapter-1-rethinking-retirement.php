@@ -121,85 +121,88 @@ require_once('header.php');
 
 <section class="question age_and_retirement">
   <div class="contents">
-    <p>
+    <p class="form_question">
       Everyone now knows that the workplace is greying. For a variety of reasons, many of us plan to work longer and retire later than we would have just 10 years ago. But for <em>how much</em> longer? The answer has been changing rapidly.
     </p>
 
-    <!-- form questions from: http://www.pbs.org/newshour/businessdesk/2013/03/how-long-will-you-work.html -->
+    <div class="form_fields">
+      <!-- http://htmlpad.org/poll-results -->
 
-    <label>How old are you?</label>
-    <input type="number" min="13" max="116" name="entry.1280847796" id="entry_1280847796">
+      <div class="field age">
+        <label>How old are you?</label>
+        <input type="number" min="13" max="116" name="entry.1280847796" id="entry_1280847796">
+      </div>
 
-    <hr>
+      <div class="field retiree">
+        <label>Are you a current retiree?</label>
+        <select name="entry.981715763" id="entry_981715763">
+          <option value=""></option>
+          <option value="Yes, I am a retiree.&nbsp;">Yes, I am a retiree.&nbsp;</option>
+          <option value="No, I am not a retiree.&nbsp;">No, I am not a retiree.&nbsp;</option>
+        </select>
+      </div>
 
-    <label>Are you a current retiree?</label>
-    <select name="entry.981715763" id="entry_981715763">
-      <option value=""></option>
-      <option value="Yes, I am a retiree.&nbsp;">Yes, I am a retiree.&nbsp;</option>
-      <option value="No, I am not a retiree.&nbsp;">No, I am not a retiree.&nbsp;</option>
-    </select>
+      <div class="field" id="under_65">
+        <p>
+          You are under 65 and not yet fully retired. So how long do you <strong>WANT</strong> to work?
+        </p>
 
-    <hr>
+        <label>
+          <input type="radio" name="entry.1251379033" value="I want to retire before I reach age 65." id="group_1251379033_1">
+          <span>I want to retire before I reach age 65.</span>
+        </label>
 
-    <p>
-      If you are under 65 and not yet fully retired, how long do you WANT to work?
-    </p>
+        <label>
+          <input type="radio" name="entry.1251379033" value="I want to work until I'm between 65 and 69." id="group_1251379033_2">
+          <span>I want to work until I'm between 65 and 69.</span>
+        </label>
 
-    <label>
-      <input type="radio" name="entry.1251379033" value="I want to retire before I reach age 65." id="group_1251379033_1">
-      <span>I want to retire before I reach age 65.</span>
-    </label>
+        <label>
+          <input type="radio" name="entry.1251379033" value="I want to work until I'm between 70 and 74." id="group_1251379033_3">
+          <span>I want to work until I'm between 70 and 74.</span>
+        </label>
 
-    <label>
-      <input type="radio" name="entry.1251379033" value="I want to work until I'm between 65 and 69." id="group_1251379033_2">
-      <span>I want to work until I'm between 65 and 69.</span>
-    </label>
+        <label>
+          <input type="radio" name="entry.1251379033" value="I want to work until I'm between 75 and 79." id="group_1251379033_4">
+          <span>I want to work until I'm between 75 and 79.</span>
+        </label>
 
-    <label>
-      <input type="radio" name="entry.1251379033" value="I want to work until I'm between 70 and 74." id="group_1251379033_3">
-      <span>I want to work until I'm between 70 and 74.</span>
-    </label>
+        <label>
+          <input type="radio" name="entry.1251379033" value="I want to work past 80.&nbsp;" id="group_1251379033_5">
+          <span>I want to work past 80.</span>
+        </label>
 
-    <label>
-      <input type="radio" name="entry.1251379033" value="I want to work until I'm between 75 and 79." id="group_1251379033_4">
-      <span>I want to work until I'm between 75 and 79.</span>
-    </label>
+        <label>
+          <input type="radio" name="entry.1251379033" value="Forever." id="group_1251379033_6">
+          <span>Forever.</span>
+        </label>
+      </div>
 
-    <label>
-      <input type="radio" name="entry.1251379033" value="I want to work past 80.&nbsp;" id="group_1251379033_5">
-      <span>I want to work past 80.</span>
-    </label>
+      <div class="field" id="65_and_over">
+        <p>
+          You are 65 or older. Are you working or not, and are you satisfied with that?
+        </p>
 
-    <label>
-      <input type="radio" name="entry.1251379033" value="Forever." id="group_1251379033_6">
-      <span>Forever.</span>
-    </label>
+        <label>
+          <input type="radio" name="entry.1192439293" value="I am currently working and am happy/OK with working.&nbsp;" id="group_1192439293_1">
+          I am currently working and am happy/OK with working.
+        </label>
 
-    <hr>
+        <label>
+          <input type="radio" name="entry.1192439293" value="I am currently working and am unhappy -- I would prefer to not be working.&nbsp;" id="group_1192439293_2">
+          I am currently working and am unhappy&mdash;I would prefer to not be working.
+        </label>
 
-    <p>
-      If you are 65 or older, tell us if you&rsquo;re working or not working and whether you are satisfied with that.
-    </p>
+        <label>
+          <input type="radio" name="entry.1192439293" value="I am currently NOT working and am happy / OK with not working. &nbsp;" id="group_1192439293_3">
+          I am currently NOT working and am happy/OK with not working.
+        </label>
 
-    <label>
-      <input type="radio" name="entry.1192439293" value="I am currently working and am happy/OK with working.&nbsp;" id="group_1192439293_1">
-      I am currently working and am happy/OK with working.
-    </label>
-
-    <label>
-      <input type="radio" name="entry.1192439293" value="I am currently working and am unhappy -- I would prefer to not be working.&nbsp;" id="group_1192439293_2">
-      I am currently working and am unhappy&mdash;I would prefer to not be working.
-    </label>
-
-    <label>
-      <input type="radio" name="entry.1192439293" value="I am currently NOT working and am happy / OK with not working. &nbsp;" id="group_1192439293_3">
-      I am currently NOT working and am happy/OK with not working.
-    </label>
-
-    <label>
-      <input type="radio" name="entry.1192439293" value="I am currently NOT working and am unhappy -- I would prefer to be working.&nbsp;" id="group_1192439293_4">
-      I am currently NOT working and am unhappy&mdash;I would prefer to be working.
-    </label>
+        <label>
+          <input type="radio" name="entry.1192439293" value="I am currently NOT working and am unhappy -- I would prefer to be working.&nbsp;" id="group_1192439293_4">
+          I am currently NOT working and am unhappy&mdash;I would prefer to be working.
+        </label>
+      </div>
 
   </div>
 </section>
