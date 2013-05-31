@@ -859,12 +859,13 @@ footer {
   top: 10%;
   left: 50%;
   width: 600px;
+  height: 80%;
   z-index: 99;
   overflow: auto;
   -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0 0 35px rgba(0, 0, 0, 0.75);
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.75); }
-  /* line 137, sass/_footer.sass */
+  /* line 138, sass/_footer.sass */
   .credits-content h2,
   .sources-content h2 {
     font-family: "BodoniW01-PosterItalic";
@@ -872,59 +873,63 @@ footer {
     margin: 0;
     padding: 0;
     text-align: left; }
-  /* line 144, sass/_footer.sass */
+  /* line 145, sass/_footer.sass */
   .credits-content h3,
   .sources-content h3 {
     font-family: "Proxima N W01 Bold";
     font-size: 18px;
     text-transform: uppercase; }
 
-/* line 151, sass/_footer.sass */
+/* line 152, sass/_footer.sass */
 .credits-content h3 span {
   color: #aaaaaa;
   font-size: 85%;
   margin-left: 0.5em;
   text-transform: none; }
-/* line 158, sass/_footer.sass */
+/* line 159, sass/_footer.sass */
 .credits-content ul li {
   color: #aaaaaa;
   font-family: "Proxima N W01 Smbd";
   font-size: 14px; }
-  /* line 163, sass/_footer.sass */
+  /* line 164, sass/_footer.sass */
   .credits-content ul li strong {
     color: #383838;
     font-family: "Proxima N W01 Bold";
     font-size: 16px;
     font-weight: normal;
     margin-right: 0.5em; }
-/* line 170, sass/_footer.sass */
+/* line 171, sass/_footer.sass */
 .credits-content a {
   text-decoration: none; }
-/* line 173, sass/_footer.sass */
+/* line 174, sass/_footer.sass */
 .credits-content .photo_credits {
   opacity: 0.5; }
-  /* line 176, sass/_footer.sass */
+  /* line 177, sass/_footer.sass */
   .credits-content .photo_credits h3 {
     font-size: 16px;
     margin-bottom: 0.5em;
     text-transform: none; }
-  /* line 181, sass/_footer.sass */
+  /* line 182, sass/_footer.sass */
   .credits-content .photo_credits ul li {
     font-size: 13px; }
-    /* line 184, sass/_footer.sass */
+    /* line 185, sass/_footer.sass */
     .credits-content .photo_credits ul li strong {
       font-family: "Proxima N W01 Smbd";
       font-size: 13px; }
 
 /* line 190, sass/_footer.sass */
-.sources-content ul li {
-  font-family: "Proxima N W01 Smbd";
-  font-size: 14px; }
-  /* line 194, sass/_footer.sass */
-  .sources-content ul li strong {
-    font-family: "Proxima N W01 Bold";
-    font-size: 16px;
-    font-weight: normal; }
+.sources-content ul {
+  margin-left: 1.25em; }
+  /* line 193, sass/_footer.sass */
+  .sources-content ul li {
+    font-family: "Proxima N W01 Smbd";
+    font-size: 14px;
+    list-style: square; }
+    /* line 198, sass/_footer.sass */
+    .sources-content ul li strong {
+      font-family: "Proxima N W01 Bold";
+      font-size: 16px;
+      font-weight: normal; }
 
 /* line 3, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article header.story_header {
