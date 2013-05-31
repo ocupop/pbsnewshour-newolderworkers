@@ -55,7 +55,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block; }
 
 /* line 3, sass/_mixins.sass */
-header.site_header nav li:hover:after, header.site_header nav li.current_chapter:after, .chapter-1-rethinking-retirement article .percentage_of_workers-chart .data_point:after, .chapter-1-rethinking-retirement article .percentage_of_workers-chart .data_point#percentage_of_workers-chart-data_point-5:after, .chapter-1-rethinking-retirement article .labor_force .labor_force-chart #labor_force-chart-data_point-9:after, .chapter-3-working-for-the-nest-egg article .investor_underperforms .investor_underperforms-chart #investor_underperforms-chart-data_point-9:after {
+.splitbars .splitbars-container div.first span:after, .splitbars .splitbars-container div.second span:before, .splitbars .splitbars-container div.third span:after, .splitbars .splitbars-container div.fourth span:before, .splitbars .splitbars-container div.fifth span:after, .splitbars .splitbars-container div.sixth span:before, header.site_header nav li:hover:after, header.site_header nav li.current_chapter:after, .chapter-1-rethinking-retirement article .percentage_of_workers-chart .data_point:after, .chapter-1-rethinking-retirement article .percentage_of_workers-chart .data_point#percentage_of_workers-chart-data_point-5:after, .chapter-1-rethinking-retirement article .labor_force .labor_force-chart #labor_force-chart-data_point-9:after, .chapter-3-working-for-the-nest-egg article .investor_underperforms .investor_underperforms-chart #investor_underperforms-chart-data_point-9:after {
   content: "";
   position: absolute;
   left: 50%; }
@@ -515,55 +515,164 @@ section {
       font-family: "Proxima N W01 Bold";
       font-weight: normal; }
 
-@-webkit-keyframes pulse-highlight {
+/* line 410, sass/_base.sass */
+.splitbars {
+  height: 180px; }
   /* line 413, sass/_base.sass */
+  .splitbars h3 {
+    color: #548e85;
+    font-family: "BodoniW01-PosterItalic";
+    font-size: 32px;
+    float: left;
+    width: 8%;
+    margin: 2.8em 5% 0 0; }
+  /* line 421, sass/_base.sass */
+  .splitbars .splitbars-container {
+    float: left;
+    margin: 4em 0;
+    width: 87%;
+    height: 80px; }
+    /* line 427, sass/_base.sass */
+    .splitbars .splitbars-container div {
+      float: left;
+      display: block;
+      height: 80px;
+      position: relative; }
+      /* line 433, sass/_base.sass */
+      .splitbars .splitbars-container div span {
+        background: rgba(0, 0, 0, 0.4);
+        color: white;
+        display: block;
+        font-family: "Proxima N W01 Smbd";
+        font-size: 12px;
+        padding: 0.25em 0.5em;
+        position: absolute;
+        text-transform: uppercase;
+        white-space: nowrap; }
+      /* line 447, sass/_base.sass */
+      .splitbars .splitbars-container div.first span, .splitbars .splitbars-container div.third span, .splitbars .splitbars-container div.fifth span {
+        left: 0;
+        top: -40px; }
+      /* line 454, sass/_base.sass */
+      .splitbars .splitbars-container div.second span, .splitbars .splitbars-container div.fourth span, .splitbars .splitbars-container div.sixth span {
+        left: 0;
+        bottom: -40px; }
+      /* line 465, sass/_base.sass */
+      .splitbars .splitbars-container div.first, .splitbars .splitbars-container div.first span {
+        background-color: #777777; }
+      /* line 19, sass/_mixins.sass */
+      .splitbars .splitbars-container div.first span:after {
+        bottom: 0;
+        margin-left: -6px;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 6px solid #777777;
+        margin-bottom: -6px; }
+      /* line 471, sass/_base.sass */
+      .splitbars .splitbars-container div.second, .splitbars .splitbars-container div.second span {
+        background-color: #999999; }
+      /* line 9, sass/_mixins.sass */
+      .splitbars .splitbars-container div.second span:before {
+        top: 0;
+        margin-left: -6px;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-bottom: 6px solid #999999;
+        margin-top: -6px; }
+      /* line 477, sass/_base.sass */
+      .splitbars .splitbars-container div.third, .splitbars .splitbars-container div.third span {
+        background-color: #aaaaaa; }
+      /* line 19, sass/_mixins.sass */
+      .splitbars .splitbars-container div.third span:after {
+        bottom: 0;
+        margin-left: -6px;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 6px solid #aaaaaa;
+        margin-bottom: -6px; }
+      /* line 483, sass/_base.sass */
+      .splitbars .splitbars-container div.fourth, .splitbars .splitbars-container div.fourth span {
+        background-color: #cccccc; }
+      /* line 9, sass/_mixins.sass */
+      .splitbars .splitbars-container div.fourth span:before {
+        top: 0;
+        margin-left: -6px;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-bottom: 6px solid #cccccc;
+        margin-top: -6px; }
+      /* line 489, sass/_base.sass */
+      .splitbars .splitbars-container div.fifth, .splitbars .splitbars-container div.fifth span {
+        background-color: #eeeeee; }
+      /* line 19, sass/_mixins.sass */
+      .splitbars .splitbars-container div.fifth span:after {
+        bottom: 0;
+        margin-left: -6px;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 6px solid #eeeeee;
+        margin-bottom: -6px; }
+      /* line 495, sass/_base.sass */
+      .splitbars .splitbars-container div.sixth, .splitbars .splitbars-container div.sixth span {
+        background-color: #dddddd; }
+      /* line 9, sass/_mixins.sass */
+      .splitbars .splitbars-container div.sixth span:before {
+        top: 0;
+        margin-left: -6px;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-bottom: 6px solid #dddddd;
+        margin-top: -6px; }
+
+@-webkit-keyframes pulse-highlight {
+  /* line 505, sass/_base.sass */
   0% {
     opacity: 0.8; }
 
-  /* line 416, sass/_base.sass */
+  /* line 508, sass/_base.sass */
   50% {
     opacity: 1; }
 
-  /* line 419, sass/_base.sass */
+  /* line 511, sass/_base.sass */
   100% {
     opacity: 0.8; } }
 
 @-moz-keyframes pulse-highlight {
-  /* line 413, sass/_base.sass */
+  /* line 505, sass/_base.sass */
   0% {
     opacity: 0.8; }
 
-  /* line 416, sass/_base.sass */
+  /* line 508, sass/_base.sass */
   50% {
     opacity: 1; }
 
-  /* line 419, sass/_base.sass */
+  /* line 511, sass/_base.sass */
   100% {
     opacity: 0.8; } }
 
 @-o-keyframes pulse-highlight {
-  /* line 413, sass/_base.sass */
+  /* line 505, sass/_base.sass */
   0% {
     opacity: 0.8; }
 
-  /* line 416, sass/_base.sass */
+  /* line 508, sass/_base.sass */
   50% {
     opacity: 1; }
 
-  /* line 419, sass/_base.sass */
+  /* line 511, sass/_base.sass */
   100% {
     opacity: 0.8; } }
 
 @keyframes pulse-highlight {
-  /* line 413, sass/_base.sass */
+  /* line 505, sass/_base.sass */
   0% {
     opacity: 0.8; }
 
-  /* line 416, sass/_base.sass */
+  /* line 508, sass/_base.sass */
   50% {
     opacity: 1; }
 
-  /* line 419, sass/_base.sass */
+  /* line 511, sass/_base.sass */
   100% {
     opacity: 0.8; } }
 
@@ -1212,36 +1321,166 @@ footer {
   .chapter-1-rethinking-retirement article .age_and_retirement .form_fields .field.age label,
   .chapter-1-rethinking-retirement article .age_and_retirement .form_fields .field.retiree label {
     float: left;
-    padding-right: 10%;
-    text-align: right;
-    width: 50%; }
-  /* line 172, sass/_chapter1.sass */
+    width: 45%; }
+  /* line 170, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .age_and_retirement .form_fields .field.age input,
   .chapter-1-rethinking-retirement article .age_and_retirement .form_fields .field.retiree input {
     float: left; }
-/* line 176, sass/_chapter1.sass */
+/* line 174, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .age_and_retirement .form_fields .field.age input {
   font-family: "Proxima N W01 Smbd";
   font-size: 22px;
   text-align: center;
   line-height: 1;
   padding-top: 5px; }
-/* line 186, sass/_chapter1.sass */
+/* line 184, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations p {
+  font-size: 19px; }
+/* line 187, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations .contents {
+  margin-bottom: 5em; }
+/* line 190, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations .splitbars .splitbars-container div.third span {
+  left: -15px; }
+/* line 193, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations .splitbars .splitbars-container div.fourth span {
+  left: -20px; }
+/* line 197, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-all .twothousandthree-pre65, .chapter-1-rethinking-retirement article .retirement_expectations .twothousandthree-pre65 {
+  width: 37%; }
+/* line 200, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-all .twothousandthree-65older, .chapter-1-rethinking-retirement article .retirement_expectations .twothousandthree-65older {
+  width: 49%; }
+/* line 203, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-all .twothousandthree-never, .chapter-1-rethinking-retirement article .retirement_expectations .twothousandthree-never {
+  width: 6%; }
+/* line 206, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-all .twothousandthree-dunno, .chapter-1-rethinking-retirement article .retirement_expectations .twothousandthree-dunno {
+  width: 8%; }
+/* line 209, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-all .twothousandthirteen-pre65, .chapter-1-rethinking-retirement article .retirement_expectations .twothousandthirteen-pre65 {
+  width: 23%; }
+/* line 212, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-all .twothousandthirteen-65older, .chapter-1-rethinking-retirement article .retirement_expectations .twothousandthirteen-65older {
+  width: 61%; }
+/* line 215, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-all .twothousandthirteen-never, .chapter-1-rethinking-retirement article .retirement_expectations .twothousandthirteen-never {
+  width: 8%; }
+/* line 218, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-all .twothousandthirteen-dunno, .chapter-1-rethinking-retirement article .retirement_expectations .twothousandthirteen-dunno {
+  width: 8%; }
+/* line 222, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-25-34 .twothousandthree-pre65 {
+  width: 37%; }
+/* line 225, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-25-34 .twothousandthree-65older {
+  width: 55%; }
+/* line 228, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-25-34 .twothousandthree-never {
+  width: 4%; }
+/* line 231, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-25-34 .twothousandthree-dunno {
+  width: 4%; }
+/* line 234, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-25-34 .twothousandthirteen-pre65 {
+  width: 29%; }
+/* line 237, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-25-34 .twothousandthirteen-65older {
+  width: 60%; }
+/* line 240, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-25-34 .twothousandthirteen-never {
+  width: 3%; }
+/* line 243, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-25-34 .twothousandthirteen-dunno {
+  width: 8%; }
+/* line 247, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-35-44 .twothousandthree-pre65 {
+  width: 41%; }
+/* line 250, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-35-44 .twothousandthree-65older {
+  width: 46%; }
+/* line 253, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-35-44 .twothousandthree-never {
+  width: 5%; }
+/* line 256, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-35-44 .twothousandthree-dunno {
+  width: 8%; }
+/* line 259, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-35-44 .twothousandthirteen-pre65 {
+  width: 21%; }
+/* line 262, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-35-44 .twothousandthirteen-65older {
+  width: 62%; }
+/* line 265, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-35-44 .twothousandthirteen-never {
+  width: 9%; }
+/* line 268, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-35-44 .twothousandthirteen-dunno {
+  width: 8%; }
+/* line 272, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-44-54 .twothousandthree-pre65 {
+  width: 37%; }
+/* line 275, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-44-54 .twothousandthree-65older {
+  width: 45%; }
+/* line 278, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-44-54 .twothousandthree-never {
+  width: 8%; }
+/* line 281, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-44-54 .twothousandthree-dunno {
+  width: 10%; }
+/* line 284, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-44-54 .twothousandthirteen-pre65 {
+  width: 24%; }
+/* line 287, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-44-54 .twothousandthirteen-65older {
+  width: 61%; }
+/* line 290, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-44-54 .twothousandthirteen-never {
+  width: 7%; }
+/* line 293, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-44-54 .twothousandthirteen-dunno {
+  width: 8%; }
+/* line 297, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-55plus .twothousandthree-pre65 {
+  width: 25%; }
+/* line 300, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-55plus .twothousandthree-65older {
+  width: 49%; }
+/* line 303, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-55plus .twothousandthree-never {
+  width: 8%; }
+/* line 306, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-55plus .twothousandthree-dunno {
+  width: 18%; }
+/* line 309, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-55plus .twothousandthirteen-pre65 {
+  width: 18%; }
+/* line 312, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-55plus .twothousandthirteen-65older {
+  width: 61%; }
+/* line 315, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-55plus .twothousandthirteen-never {
+  width: 11%; }
+/* line 318, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations.age-55plus .twothousandthirteen-dunno {
+  width: 10%; }
+/* line 324, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .half_of_american_households .background_image {
   background-image: url('../img/1/jars-giant.jpg?1369781099'); }
   @media screen and (max-height: 1080px) and (max-width: 1920px) {
-    /* line 186, sass/_chapter1.sass */
+    /* line 324, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .half_of_american_households .background_image {
       background-image: url('../img/1/jars-large.jpg?1369781132'); } }
   @media screen and (max-height: 1024px) and (max-width: 1024px) {
-    /* line 186, sass/_chapter1.sass */
+    /* line 324, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .half_of_american_households .background_image {
       background-image: url('../img/1/jars-medium.jpg?1369781160'); } }
   @media screen and (max-height: 640px) and (max-width: 640px) {
-    /* line 186, sass/_chapter1.sass */
+    /* line 324, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .half_of_american_households .background_image {
       background-image: url('../img/1/jars-small.jpg?1369781186'); } }
-/* line 189, sass/_chapter1.sass */
+/* line 327, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .half_of_american_households p {
   clear: left;
   background: white;
@@ -1258,7 +1497,7 @@ footer {
     margin: 0.75em auto 0;
     width: 50px;
     border-bottom: 2px solid #383838; }
-/* line 199, sass/_chapter1.sass */
+/* line 337, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .labor_force h3 {
   color: #666666;
   float: left;
@@ -1268,25 +1507,25 @@ footer {
   margin: 0;
   text-align: center;
   text-transform: uppercase; }
-  /* line 209, sass/_chapter1.sass */
+  /* line 347, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .labor_force h3.first {
     width: 370px; }
-  /* line 212, sass/_chapter1.sass */
+  /* line 350, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .labor_force h3.second {
     width: 305px;
     margin-left: 120px; }
-/* line 216, sass/_chapter1.sass */
+/* line 354, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .labor_force .labor_force-chart {
   background: url('../img/1/labor_force-chart.gif?1369945855') left top no-repeat;
   margin: 6.25em 0 0 -42px;
   width: 882px;
   height: 347px;
   position: relative; }
-  /* line 223, sass/_chapter1.sass */
+  /* line 361, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .labor_force .labor_force-chart .data_point {
     position: absolute;
     display: block; }
-  /* line 227, sass/_chapter1.sass */
+  /* line 365, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .labor_force .labor_force-chart .data_point.line {
     background-position: left top;
     background-repeat: no-repeat;
@@ -1297,10 +1536,10 @@ footer {
     -moz-transition: width 0.3s;
     -o-transition: width 0.3s;
     transition: width 0.3s; }
-    /* line 235, sass/_chapter1.sass */
+    /* line 373, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .labor_force .labor_force-chart .data_point.line.active {
       width: 341px; }
-    /* line 238, sass/_chapter1.sass */
+    /* line 376, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .labor_force .labor_force-chart .data_point.line#labor_force-chart-data_point-1 {
       background-image: url('../img/1/labor_force-chart-line-1.png?1369946313');
       top: 56px;
@@ -1308,7 +1547,7 @@ footer {
       -moz-transition-delay: 0.2s;
       -o-transition-delay: 0.2s;
       transition-delay: 0.2s; }
-    /* line 243, sass/_chapter1.sass */
+    /* line 381, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .labor_force .labor_force-chart .data_point.line#labor_force-chart-data_point-2 {
       background-image: url('../img/1/labor_force-chart-line-2.png?1369946456');
       top: 185px;
@@ -1316,7 +1555,7 @@ footer {
       -moz-transition-delay: 0.3s;
       -o-transition-delay: 0.3s;
       transition-delay: 0.3s; }
-    /* line 248, sass/_chapter1.sass */
+    /* line 386, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .labor_force .labor_force-chart .data_point.line#labor_force-chart-data_point-3 {
       background-image: url('../img/1/labor_force-chart-line-3.png?1369946499');
       top: 230px;
@@ -1324,7 +1563,7 @@ footer {
       -moz-transition-delay: 0.4s;
       -o-transition-delay: 0.4s;
       transition-delay: 0.4s; }
-    /* line 253, sass/_chapter1.sass */
+    /* line 391, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .labor_force .labor_force-chart .data_point.line#labor_force-chart-data_point-4 {
       background-image: url('../img/1/labor_force-chart-line-4.png?1369946540');
       top: 272px;
@@ -1332,7 +1571,7 @@ footer {
       -moz-transition-delay: 0.5s;
       -o-transition-delay: 0.5s;
       transition-delay: 0.5s; }
-  /* line 258, sass/_chapter1.sass */
+  /* line 396, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .labor_force .labor_force-chart .data_point.bar {
     background: rgba(0, 0, 0, 0.8);
     bottom: 35px;
@@ -1343,37 +1582,37 @@ footer {
     -moz-transition: height 0.3s;
     -o-transition: height 0.3s;
     transition: height 0.3s; }
-  /* line 266, sass/_chapter1.sass */
+  /* line 404, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .labor_force .labor_force-chart #labor_force-chart-data_point-5 {
     left: 555px;
     -webkit-transition-delay: 0.6s;
     -moz-transition-delay: 0.6s;
     -o-transition-delay: 0.6s;
     transition-delay: 0.6s; }
-    /* line 270, sass/_chapter1.sass */
+    /* line 408, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .labor_force .labor_force-chart #labor_force-chart-data_point-5.active {
       height: 58px; }
-  /* line 273, sass/_chapter1.sass */
+  /* line 411, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .labor_force .labor_force-chart #labor_force-chart-data_point-6 {
     left: 627px;
     -webkit-transition-delay: 0.7s;
     -moz-transition-delay: 0.7s;
     -o-transition-delay: 0.7s;
     transition-delay: 0.7s; }
-    /* line 277, sass/_chapter1.sass */
+    /* line 415, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .labor_force .labor_force-chart #labor_force-chart-data_point-6.active {
       height: 145px; }
-  /* line 280, sass/_chapter1.sass */
+  /* line 418, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .labor_force .labor_force-chart #labor_force-chart-data_point-7 {
     left: 701px;
     -webkit-transition-delay: 0.8s;
     -moz-transition-delay: 0.8s;
     -o-transition-delay: 0.8s;
     transition-delay: 0.8s; }
-    /* line 284, sass/_chapter1.sass */
+    /* line 422, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .labor_force .labor_force-chart #labor_force-chart-data_point-7.active {
       height: 182px; }
-  /* line 287, sass/_chapter1.sass */
+  /* line 425, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .labor_force .labor_force-chart #labor_force-chart-data_point-8 {
     background: #548e85;
     left: 774px;
@@ -1381,10 +1620,10 @@ footer {
     -moz-transition-delay: 0.9s;
     -o-transition-delay: 0.9s;
     transition-delay: 0.9s; }
-    /* line 292, sass/_chapter1.sass */
+    /* line 430, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .labor_force .labor_force-chart #labor_force-chart-data_point-8.active {
       height: 226px; }
-  /* line 295, sass/_chapter1.sass */
+  /* line 433, sass/_chapter1.sass */
   .chapter-1-rethinking-retirement article .labor_force .labor_force-chart #labor_force-chart-data_point-9 {
     background: rgba(0, 0, 0, 0.8);
     border-radius: 2px;
@@ -1416,15 +1655,15 @@ footer {
       border-right: 4px solid transparent;
       border-top: 4px solid rgba(0, 0, 0, 0.8);
       margin-bottom: -4px; }
-    /* line 314, sass/_chapter1.sass */
+    /* line 452, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .labor_force .labor_force-chart #labor_force-chart-data_point-9 span {
       font-family: "Bodoni W01 Poster";
       letter-spacing: 2px; }
-    /* line 318, sass/_chapter1.sass */
+    /* line 456, sass/_chapter1.sass */
     .chapter-1-rethinking-retirement article .labor_force .labor_force-chart #labor_force-chart-data_point-9.active {
       margin-top: 0;
       opacity: 1; }
-/* line 322, sass/_chapter1.sass */
+/* line 460, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .outro .second {
   font-family: "Adobe Caslon W01 Bd";
   font-size: 20.8px; }

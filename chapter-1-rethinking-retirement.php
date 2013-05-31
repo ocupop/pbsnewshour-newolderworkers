@@ -129,8 +129,6 @@ require_once('header.php');
     </p>
 
     <div class="form_fields">
-      <!-- http://htmlpad.org/poll-results -->
-
       <div class="field age">
         <label class="field_title">How old are you?</label>
         <input type="number" min="13" max="116" name="entry.1280847796" id="entry_1280847796">
@@ -208,15 +206,38 @@ require_once('header.php');
           I am currently NOT working and am unhappy&mdash;I would prefer to be working.
         </label>
       </div>
-
+    </div>
   </div>
 </section>
 
-<section class="results">
+<section class="results retirement_expectations">
   <div class="contents">
-    <h2>Let&rsquo;s see if your retirement plans are realistic.</h2>
+    <h2>
+      Let&rsquo;s see if your retirement plans are realistic.
+    </h2>
 
-    <p>Based on both answers above, show visualized expected age of retirement, where they fit, and how that&rsquo;s changed over the last 10 years based on this data from EBRI (anyone younger than 25 should be put in with ALL WORKERS).</p>
+    <p>
+      Age-of-retirement expectations for your age group have changed over the years. When asked &ldquo;When do you expect to retire?&rdquo; here&rsquo;s how people your age group answered 10 years ago and today. Notice how few answered &ldquo;before age 65&rdquo; in 2013 versus ten years earlier?
+    </p>
+
+    <div class="splitbars twothousandthree">
+      <h3>2003</h3>
+      <div class="twothousandthree-chart splitbars-container">
+        <div class="first twothousandthree-pre65"><span>before age 65</span></div>
+        <div class="second twothousandthree-65older"><span>after age 65</span></div>
+        <div class="third twothousandthree-never"><span>never</span></div>
+        <div class="fourth twothousandthree-dunno"><span>don&rsquo;t know</span></div>
+      </div>
+    </div>
+    <div class="splitbars twothousandthirteen">
+      <h3>2013</h3>
+      <div class="twothousandthirteen-chart splitbars-container">
+        <div class="first twothousandthirteen-pre65"><span>before age 65</span></div>
+        <div class="second twothousandthirteen-65older"><span>after age 65</span></div>
+        <div class="third twothousandthirteen-never"><span>never</span></div>
+        <div class="fourth twothousandthirteen-dunno"><span>don&rsquo;t know</span></div>
+      </div>
+    </div>
   </div>
 </section>
 

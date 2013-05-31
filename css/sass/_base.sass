@@ -405,6 +405,98 @@ section
       font-weight: normal
 
 
+// Charts
+
+.splitbars
+  height: 180px
+
+  h3
+    color: $green
+    font-family: $bodoni-poster-italic
+    font-size: 32px
+    float: left
+    width: 8%
+    margin: 2.8em 5% 0 0
+
+  .splitbars-container
+    float: left
+    margin: 4em 0
+    width: 87%
+    height: 80px
+
+    div
+      float: left
+      display: block
+      height: 80px
+      position: relative
+
+      span
+        background: rgba(0, 0, 0, .4)
+        color: #fff
+        display: block
+        font-family: $proxima-semibold
+        font-size: 12px
+        padding: .25em .5em
+        position: absolute
+        text-transform: uppercase
+        white-space: nowrap
+
+      &.first,
+      &.third,
+      &.fifth
+        span
+          left: 0
+          top: -40px
+
+      &.second,
+      &.fourth,
+      &.sixth
+        span
+          left: 0
+          bottom: -40px
+
+      $background-color-1: #777
+      $background-color-2: #999
+      $background-color-3: #aaa
+      $background-color-4: #ccc
+      $background-color-5: #eee
+      $background-color-6: #ddd
+
+      &.first,
+      &.first span
+        background-color: $background-color-1
+      &.first span
+        @include triangle-bottom(6px, $background-color-1, down)
+
+      &.second,
+      &.second span
+        background-color: $background-color-2
+      &.second span
+        @include triangle-top(6px, $background-color-2)
+
+      &.third,
+      &.third span
+        background-color: $background-color-3
+      &.third span
+        @include triangle-bottom(6px, $background-color-3, down)
+
+      &.fourth,
+      &.fourth span
+        background-color: $background-color-4
+      &.fourth span
+        @include triangle-top(6px, $background-color-4)
+
+      &.fifth,
+      &.fifth span
+        background-color: $background-color-5
+      &.fifth span
+        @include triangle-bottom(6px, $background-color-5, down)
+
+      &.sixth,
+      &.sixth span
+        background-color: $background-color-6
+      &.sixth span
+        @include triangle-top(6px, $background-color-6)
 
 
 // Animations
