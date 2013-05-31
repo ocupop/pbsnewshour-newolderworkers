@@ -36,7 +36,7 @@
       })();
     };
     $('.background_image', 'section').each(function() {
-      return $(this).parallax(-0.3);
+      return $(this).parallax($(this).data('plax') || -0.3);
     });
     $('.background_image', '.company_photo').parallax(0.3);
     scroll_actions = {};
@@ -53,19 +53,28 @@
     (form_handlers = function() {
       var form_url;
       $('input').each(function() {
-        var $this, data;
+        var $this, cookie_name, data;
         $this = $(this);
-        data = $.cookie("retiring__" + ($this.attr('name')));
-        if (data) {
-          return $this.val(data);
+        console.log($this.val());
+        cookie_name = "retiring__" + ($this.attr('name'));
+        data = $.cookie(cookie_name);
+        if ($this.attr('type', 'radio')) {
+          if ($this.val() === data) {
+            $this.attr('checked', true);
+          }
+          return $this.on("click", function() {
+            console.log("set", $this.val(), cookie_name);
+            return $.cookie(cookie_name, $this.val());
+          });
+        } else {
+          if (data) {
+            $this.val(data);
+          }
+          return $this.on("keyup change", function(e) {
+            console.log("set", $this.val(), cookie_name);
+            return $.cookie(cookie_name, $this.val());
+          });
         }
-      });
-      $('input').on("keyup change", function(e) {
-        var $this;
-        $this = $(this);
-        return $.cookie("retiring__" + ($this.attr('name')), $this.val(), {
-          expires: 1
-        });
       });
       form_url = "https://docs.google.com/forms/d/18Sj-Hj1y3-n-4fBjxY_lu_sWjHvHGg9ZWzryNbZLiPQ/formResponse";
       return submit_user_data = function() {
@@ -75,14 +84,16 @@
           "entry.981715763": $.cookie("retiring__retiree"),
           "entry.1251379033": $.cookie("retiring__retire_before"),
           "entry.1192439293": $.cookie("retiring__satisfaction"),
-          "entry.2021902959": $.cookie("retiring__gender")
+          "entry.2021902959": $.cookie("retiring__gender"),
+          "entry.1488207989": $.cookie("retiring__community_size")
         };
         return $.post("ba-simple-proxy.php?url=" + form_url, data, function() {
           $.removeCookie("retiring__age");
           $.removeCookie("retiring__retiree");
           $.removeCookie("retiring__retire_before");
           $.removeCookie("retiring__satisfaction");
-          return $.removeCookie("retiring__gender");
+          $.removeCookie("retiring__gender");
+          return $.removeCookie("retiring__community_size");
         });
       };
     })();
@@ -162,6 +173,18 @@
           return $age_and_retirement.toggleClass('show_over_65', age >= 65);
         })();
         return $user_age.on("keyup change", set_how_long_work);
+      })();
+    }
+    if ($('body').hasClass('chapter-2-a-snapshot')) {
+      (function() {
+        var $gender_container, $gender_selector, container_bottom, container_top;
+        $gender_selector = $("#gender_selector");
+        $gender_container = $("#gender_container");
+        container_top = $gender_selector.offset().top;
+        container_bottom = $gender_container.offset().top + $gender_container.height();
+        return scroll_actions.sticky_gender_selector = function() {
+          return $gender_selector.toggleClass('sticky', ((container_top - 60) < pos && pos < (container_bottom - 240)));
+        };
       })();
     }
     if ($('body').hasClass('chapter-3-working-for-the-nest-egg')) {

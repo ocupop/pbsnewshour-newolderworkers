@@ -692,10 +692,10 @@ input[type="radio"] {
     opacity: 0.8; } }
 
 /* line 534, sass/_base.sass */
-.no-csstransforms3d .percent_50 svg, .no-csstransforms3d .percent_92 svg, .no-csstransforms3d .percent_68 svg, .no-csstransforms3d .percent_59 svg, .no-csstransforms3d .percent_57 svg {
+.no-csstransforms3d .percent_50 svg, .no-csstransforms3d .percent_92 svg, .no-csstransforms3d .percent_68 svg, .no-csstransforms3d .percent_59 svg, .no-csstransforms3d .percent_57 svg, .no-inlinesvg .percent_50 svg, .no-inlinesvg .percent_92 svg, .no-inlinesvg .percent_68 svg, .no-inlinesvg .percent_59 svg, .no-inlinesvg .percent_57 svg {
   display: none; }
 /* line 536, sass/_base.sass */
-.no-csstransforms3d .percent_50 img, .no-csstransforms3d .percent_92 img, .no-csstransforms3d .percent_68 img, .no-csstransforms3d .percent_59 img, .no-csstransforms3d .percent_57 img {
+.no-csstransforms3d .percent_50 img, .no-csstransforms3d .percent_92 img, .no-csstransforms3d .percent_68 img, .no-csstransforms3d .percent_59 img, .no-csstransforms3d .percent_57 img, .no-inlinesvg .percent_50 img, .no-inlinesvg .percent_92 img, .no-inlinesvg .percent_68 img, .no-inlinesvg .percent_59 img, .no-inlinesvg .percent_57 img {
   display: block !important; }
 
 /* line 1, sass/_header.sass */
@@ -1788,71 +1788,87 @@ footer {
   /* line 57, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .gender .contents .form_fields {
     padding: 1em 1.5em;
-    width: 500px; }
-    /* line 61, sass/_chapter2.sass */
+    width: 500px;
+    z-index: 10;
+    -webkit-transition: -webkit-transform 1s;
+    -moz-transition: -moz-transform 1s;
+    -o-transition: -o-transform 1s;
+    transition: transform 1s; }
+    /* line 63, sass/_chapter2.sass */
+    .chapter-2-a-snapshot article .gender .contents .form_fields.sticky {
+      position: fixed;
+      top: 0;
+      left: 50%;
+      margin-left: -250px;
+      -webkit-transform: translate3d(0, 60px, 0);
+      -moz-transform: translate3d(0, 60px, 0);
+      -ms-transform: translate3d(0, 60px, 0);
+      -o-transform: translate3d(0, 60px, 0);
+      transform: translate3d(0, 60px, 0); }
+    /* line 70, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .gender .contents .form_fields label {
       display: block;
       float: left;
       width: 50%; }
-      /* line 66, sass/_chapter2.sass */
+      /* line 75, sass/_chapter2.sass */
       .chapter-2-a-snapshot article .gender .contents .form_fields label.second {
         text-align: right; }
-  /* line 69, sass/_chapter2.sass */
+  /* line 78, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .gender .contents section {
     background: rgba(255, 255, 255, 0.8); }
-    /* line 72, sass/_chapter2.sass */
+    /* line 81, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .gender .contents section.copy p {
       margin: 24px; }
-/* line 75, sass/_chapter2.sass */
+/* line 84, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .gender_split {
   background: transparent url('../img/line-background.png?1369914302') center top repeat-y;
   margin: 0 auto;
   padding-bottom: 3em;
   width: 800px;
   overflow: hidden; }
-  /* line 82, sass/_chapter2.sass */
+  /* line 91, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .gender_split section {
     background: transparent;
     clear: both;
     width: 40%; }
-    /* line 87, sass/_chapter2.sass */
+    /* line 96, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .gender_split section .contents {
       padding: 24px 0; }
-    /* line 90, sass/_chapter2.sass */
+    /* line 99, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .gender_split section.female {
       float: right; }
-    /* line 93, sass/_chapter2.sass */
+    /* line 102, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .gender_split section.male {
       float: left; }
-    /* line 96, sass/_chapter2.sass */
+    /* line 105, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .gender_split section.quotation {
       background: transparent;
       width: 100%; }
-      /* line 100, sass/_chapter2.sass */
+      /* line 109, sass/_chapter2.sass */
       .chapter-2-a-snapshot article .gender_split section.quotation .contents {
         min-height: 300px; }
-      /* line 103, sass/_chapter2.sass */
+      /* line 112, sass/_chapter2.sass */
       .chapter-2-a-snapshot article .gender_split section.quotation blockquote {
         width: 330px; }
-      /* line 112, sass/_chapter2.sass */
+      /* line 121, sass/_chapter2.sass */
       .chapter-2-a-snapshot article .gender_split section.quotation.female blockquote {
         float: right; }
-/* line 118, sass/_chapter2.sass */
+/* line 127, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .men_and_women .background_image {
   background-image: url('../img/2/briefcases-giant.jpg?1369914302'); }
   @media screen and (max-height: 1080px) and (max-width: 1920px) {
-    /* line 118, sass/_chapter2.sass */
+    /* line 127, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .men_and_women .background_image {
       background-image: url('../img/2/briefcases-large.jpg?1369914302'); } }
   @media screen and (max-height: 1024px) and (max-width: 1024px) {
-    /* line 118, sass/_chapter2.sass */
+    /* line 127, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .men_and_women .background_image {
       background-image: url('../img/2/briefcases-medium.jpg?1369914302'); } }
   @media screen and (max-height: 640px) and (max-width: 640px) {
-    /* line 118, sass/_chapter2.sass */
+    /* line 127, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .men_and_women .background_image {
       background-image: url('../img/2/briefcases-small.jpg?1369914302'); } }
-/* line 121, sass/_chapter2.sass */
+/* line 130, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .men_and_women .contents div {
   clear: left;
   background: white;
@@ -1868,22 +1884,22 @@ footer {
     margin: 0.75em auto 0;
     width: 50px;
     border-bottom: 2px solid #383838; }
-  /* line 124, sass/_chapter2.sass */
+  /* line 133, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .men_and_women .contents div p {
     margin-top: 0; }
-  /* line 128, sass/_chapter2.sass */
+  /* line 137, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .men_and_women .contents div ul {
     margin-left: 1.5em;
     margin-bottom: 0; }
-    /* line 132, sass/_chapter2.sass */
+    /* line 141, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .men_and_women .contents div ul li {
       font-size: 18px;
       list-style: square;
       margin: 1em 0; }
-      /* line 137, sass/_chapter2.sass */
+      /* line 146, sass/_chapter2.sass */
       .chapter-2-a-snapshot article .men_and_women .contents div ul li:last-child {
         margin-bottom: 0; }
-/* line 144, sass/_chapter2.sass */
+/* line 153, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .question.community_size .form_fields label {
   color: #666666;
   float: left;
@@ -1895,26 +1911,26 @@ footer {
   -moz-transition: color 0.2s;
   -o-transition: color 0.2s;
   transition: color 0.2s; }
-  /* line 153, sass/_chapter2.sass */
+  /* line 162, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label input,
   .chapter-2-a-snapshot article .question.community_size .form_fields label strong,
   .chapter-2-a-snapshot article .question.community_size .form_fields label span {
     display: block;
     margin: 0 auto; }
-  /* line 159, sass/_chapter2.sass */
+  /* line 168, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label input + strong {
     margin-top: 1em;
     font-family: "Proxima N W01 Bold";
     font-size: 22px;
     text-transform: uppercase; }
-  /* line 165, sass/_chapter2.sass */
+  /* line 174, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label .icon {
     width: 81px;
     height: 81px;
     display: block;
     margin: 1em auto;
     position: relative; }
-    /* line 172, sass/_chapter2.sass */
+    /* line 181, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .question.community_size .form_fields label .icon:after {
       content: "";
       background-image: url('../img/2/community-size.png?1369914302');
@@ -1929,79 +1945,79 @@ footer {
       -moz-transition: opacity 0.2s;
       -o-transition: opacity 0.2s;
       transition: opacity 0.2s; }
-  /* line 184, sass/_chapter2.sass */
+  /* line 193, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label.highly_urbanized .icon:after {
     background-position: 0 0; }
-  /* line 187, sass/_chapter2.sass */
+  /* line 196, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label.less_urbanized .icon:after {
     background-position: -473px 0; }
-  /* line 190, sass/_chapter2.sass */
+  /* line 199, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label.rural_area .icon:after {
     background-position: -946px 0; }
-  /* line 193, sass/_chapter2.sass */
+  /* line 202, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label.very_rural_area .icon:after {
     background-position: -1420px 0; }
-  /* line 196, sass/_chapter2.sass */
+  /* line 205, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label:hover {
     color: #383838; }
-    /* line 199, sass/_chapter2.sass */
+    /* line 208, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .question.community_size .form_fields label:hover .icon:after {
       opacity: 1; }
-/* line 205, sass/_chapter2.sass */
+/* line 214, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .community_data h2 {
   background: #666666;
   color: white;
   font-size: 19px;
   margin: 0;
   padding: 1em 0.75em 0.9em; }
-/* line 212, sass/_chapter2.sass */
+/* line 221, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .community_data p {
   font-size: 18px;
   line-height: 1.4;
   text-align: center;
   text-transform: none; }
-/* line 218, sass/_chapter2.sass */
+/* line 227, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .community_data table {
   border-collapse: collapse;
   margin-left: -60px;
   width: 860px; }
-  /* line 223, sass/_chapter2.sass */
+  /* line 232, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .community_data table th,
   .chapter-2-a-snapshot article .community_data table td {
     padding: 0.5em 0; }
-  /* line 227, sass/_chapter2.sass */
+  /* line 236, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .community_data table th {
     color: #666666;
     font-family: "BodoniW01-PosterItalic";
     font-size: 18px;
     width: 60px; }
-  /* line 233, sass/_chapter2.sass */
+  /* line 242, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .community_data table td {
     font-family: "Proxima N W01 Bold";
     font-size: 22px;
     text-align: center;
     width: 200px; }
-  /* line 239, sass/_chapter2.sass */
+  /* line 248, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .community_data table .twothousandtwelve td {
     background-color: #e4e4e4; }
-  /* line 242, sass/_chapter2.sass */
+  /* line 251, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .community_data table .twothousandeight td {
     background-color: #a4a4a4; }
-  /* line 245, sass/_chapter2.sass */
+  /* line 254, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .community_data table .twothousandtwelve td.second,
   .chapter-2-a-snapshot article .community_data table .twothousandtwelve td.fourth {
     background-color: #eeeeee; }
-  /* line 249, sass/_chapter2.sass */
+  /* line 258, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .community_data table .twothousandeight td.second,
   .chapter-2-a-snapshot article .community_data table .twothousandeight td.fourth {
     background-color: #aaaaaa; }
-/* line 261, sass/_chapter2.sass */
+/* line 270, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .dante_chinni .intro {
   font-size: 18px; }
-/* line 264, sass/_chapter2.sass */
+/* line 273, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .dante_chinni h2 {
   font-size: 63px; }
-/* line 267, sass/_chapter2.sass */
+/* line 276, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .dante_chinni .caption {
   font-size: 18px; }
 

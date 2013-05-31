@@ -36,7 +36,7 @@ $(document).ready ()->
 
   # apply parallax to all background image containers
   $('.background_image', 'section').each ()->
-    $(this).parallax(-0.3)
+    $(this).parallax( $(this).data('plax') || -0.3)
 
   # and to the intro photo
   $('.background_image', '.company_photo').parallax(0.3)
@@ -61,15 +61,24 @@ $(document).ready ()->
     # autofill form with existing data
     $('input').each ()->
       $this = $(this)
-      data = $.cookie("retiring__#{$this.attr('name')}")
-      $this.val(data) if data
+      console.log $this.val()
+      # store cookies in "retiring__" pseudo-namespace
+      cookie_name = "retiring__#{$this.attr('name')}"
 
+      # set to previous value
+      data = $.cookie(cookie_name)
 
-    # cookie inputs in "retiring__" pseudo-namespace
-    # auto-expires in 1 day
-    $('input').on "keyup change", (e)->
-      $this = $(this)
-      $.cookie( "retiring__#{$this.attr('name')}", $this.val(), {expires: 1} )
+      if $this.attr('type','radio')
+        $this.attr('checked', true) if ($this.val() is data)
+        $this.on "click", ()->
+          console.log "set", $this.val(), cookie_name
+          $.cookie(cookie_name, $this.val())
+      else
+        $this.val(data) if data
+
+        $this.on "keyup change", (e)->
+          console.log "set", $this.val(), cookie_name
+          $.cookie(cookie_name, $this.val())
 
     # PRODUCTION url
     form_url = "https://docs.google.com/forms/d/18Sj-Hj1y3-n-4fBjxY_lu_sWjHvHGg9ZWzryNbZLiPQ/formResponse"
@@ -83,6 +92,7 @@ $(document).ready ()->
         "entry.1251379033"  : $.cookie("retiring__retire_before")
         "entry.1192439293"  : $.cookie("retiring__satisfaction")
         "entry.2021902959"  : $.cookie("retiring__gender")
+        "entry.1488207989"  : $.cookie("retiring__community_size")
       }
 
       $.post "ba-simple-proxy.php?url=#{form_url}", data, ()->
@@ -92,6 +102,7 @@ $(document).ready ()->
         $.removeCookie("retiring__retire_before")
         $.removeCookie("retiring__satisfaction")
         $.removeCookie("retiring__gender")
+        $.removeCookie("retiring__community_size")
 
   # video play buttons
   $('video').each ()->
@@ -164,8 +175,14 @@ $(document).ready ()->
 
   # Chapter 2: A Snapshot
 
-  # if $('body').hasClass('chapter-2-a-snapshot') then do ()->
+  if $('body').hasClass('chapter-2-a-snapshot') then do ()->
+    $gender_selector = $("#gender_selector")
+    $gender_container = $("#gender_container")
+    container_top = $gender_selector.offset().top
+    container_bottom = $gender_container.offset().top + $gender_container.height()
 
+    scroll_actions.sticky_gender_selector = ()->
+      $gender_selector.toggleClass 'sticky', (container_top - 60) < pos < (container_bottom - 240)
 
   # Chapter 3: Working for the Nest Egg
 

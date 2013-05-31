@@ -57,6 +57,15 @@
       .form_fields
         padding: 1em 1.5em
         width: 500px
+        z-index: 10
+        @include transition(transform 1s)
+
+        &.sticky
+          position: fixed
+          top: 0
+          left: 50%
+          margin-left: -250px
+          @include translate3d(0, 60px,0)
 
         label
           display: block
