@@ -221,7 +221,13 @@ require_once('header.php');
     </h2>
 
     <p>
-      Age-of-retirement expectations for your age group have changed over the years. When asked &ldquo;When do you expect to retire?&rdquo; here&rsquo;s how people your age group answered 10 years ago and today. Notice how few answered &ldquo;before age 65&rdquo; in 2013 versus ten years earlier.
+      Age-of-retirement expectations for workers 
+      <span class="age_group age-all">of all ages</span> 
+      <span class="age_group age-25-34">aged 25&ndhas;34</span> 
+      <span class="age_group age-35-44">aged 35&ndhas;44</span> 
+      <span class="age_group age-44-54">aged 44&ndhas;54</span> 
+      <span class="age_group age-55plus">aged 55 and older</span> 
+      have changed over the years. When asked &ldquo;When do you expect to retire?&rdquo; here&rsquo;s how that age group answered&mdash;10 years ago and today. Notice how few answered &ldquo;before age 65&rdquo; in 2013 versus ten years earlier.
     </p>
 
     <div class="splitbars twothousandthree">

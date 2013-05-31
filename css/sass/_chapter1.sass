@@ -152,8 +152,6 @@
         @extend .major
 
   .age_and_retirement
-    @extend .blend-bottom
-
     .first
       font-size: 18px
       margin-bottom: 3em
@@ -183,11 +181,21 @@
           padding-top: 5px
 
   .retirement_expectations
-    @extend .blend-top
     @extend .age-all
+
+    &.age-all,
+    &.age-25-34,
+    &.age-35-44,
+    &.age-45-54,
+    &.age-55plus
+      display: block
 
     p
       font-size: 19px
+
+      .age_group
+        display: none
+        font-family: $caslon-bold
 
     .contents
       margin-bottom: 5em
@@ -199,6 +207,9 @@
       left: -20px
 
     &.age-all
+      .age_group.age-all
+        display: inline
+
       .twothousandthree-pre65
         width: 37%
 
@@ -224,6 +235,9 @@
         width: 8%
 
     &.age-25-34
+      .age_group.age-25-34
+        display: inline
+
       .twothousandthree-pre65
         width: 37%
 
@@ -249,6 +263,9 @@
         width: 8%
 
     &.age-35-44
+      .age_group.age-35-44
+        display: inline
+
       .twothousandthree-pre65
         width: 41%
 
@@ -273,7 +290,10 @@
       .twothousandthirteen-dunno
         width: 8%
 
-    &.age-44-54
+    &.age-45-54
+      .age_group.age-45-54
+        display: inline
+
       .twothousandthree-pre65
         width: 37%
 
@@ -299,6 +319,9 @@
         width: 8%
 
     &.age-55plus
+      .age_group.age-55plus
+        display: inline
+
       .twothousandthree-pre65
         width: 25%
 
