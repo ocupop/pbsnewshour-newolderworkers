@@ -225,60 +225,27 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="data">
+<section class="community_data">
   <div class="contents">
-    <h2>TODO: RESULTS</h2>
-
-    <!--
-    The most important message is to show the difference
-    between communities: The percentage of older Americans
-    employed full- or part-time actually declined in the
-    most urban, densely populated counties. In smaller
-    rural counties, however, the number of older Americans
-    in the workforce rose sharply.
-
-    I'd go with this list, from important at the top to less necessary at the end:
-
-      Employment
-        EMPLOYED FULL TIME (30+ HOURS)
-        EMPLOYED PART TIME (<30 HOURS)
-        EMPLOYED FULL OR PART TIME
-        NOT EMPLOYED (ANY)
-        etc
-
-      Employment sector
-        YOUR EMPLOYMENT: AGRICULTURE/FORESTRY/FISHING/HUNTING
-        YOUR EMPLOYMENT: MINING/CONSTRUCTION
-        etc
-
-      Income
-        INDIVIDUAL EMPLOYMENT INCOME: <$12,500
-        INDIVIDUAL EMPLOYMENT INCOME: $12,500 - $24,999
-        INDIVIDUAL EMPLOYMENT INCOME: $25,000 - $49,999
-        INDIVIDUAL EMPLOYMENT INCOME: $50,000 - $74,999
-        INDIVIDUAL EMPLOYMENT INCOME: $75,000 - $99,999
-        INDIVIDUAL EMPLOYMENT INCOME: $100,000 - $149,999
-        INDIVIDUAL EMPLOYMENT INCOME: $150,000+
-
-
-    ---
-
-
-    BASED ON DEFINITIONS OF A, B, C AND D COUNTIES, via Dante:
-    "A" -- Highly urbanized areas. Combined, A counties comprise 40% of households.
-    "B" – Less populated than A,  but have more than 85,000 households. They make up 30% of households.
-    "C" – Rural areas that are less populated than B, but have at least 20,000 households. They contain about 15% of households.
-    "D" – Very rural and sparsely populated. They contain 15% of households.
-
-    COUNTY TYPE (A, B, C OR D) DATA
-    NOTE: Can be compared 2008–2012
-    NOTE: breakout by 55+, 60+, 65+, 70+
-    employment status
-    top occupations
-    hours worked weekly
-    employed by others vs self-employedfuture work plans if unemployed
-    individual employment income
-    -->
+    <h2>
+      Part- and full-time workers aged 65 years or more, per community size.
+    </h2>
+    <table>
+      <tr class="twothousandeight">
+        <th>2008</th>
+        <td class="first">793</td>
+        <td class="second">291</td>
+        <td class="third">107</td>
+        <td class="fourth">164</td>
+      </tr>
+      <tr class="twothousandtwelve">
+        <th>2012</th>
+        <td class="first">930</td>
+        <td class="second">220</td>
+        <td class="third">114</td>
+        <td class="fourth">111</td>
+      </tr>
+    </table>
   </div>
 </section>
 

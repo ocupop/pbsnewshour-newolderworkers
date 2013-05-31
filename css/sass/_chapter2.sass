@@ -137,6 +137,8 @@
             margin-bottom: 0
 
   .question.community_size
+    @extend .blend-bottom
+
     .form_fields
       label
         color: $medium
@@ -154,7 +156,10 @@
           margin: 0 auto
 
         input + strong
-          margin-top: .75em
+          margin-top: 1em
+          font-family: $proxima-bold
+          font-size: 22px
+          text-transform: uppercase
 
         .icon
           width: 81px
@@ -192,6 +197,51 @@
 
           .icon:after
             opacity: 1
+
+  .community_data
+    @extend .blend-top
+
+    h2
+      background: $medium
+      color: #fff
+      font-size: 18px
+      margin: 0
+      padding: 1em 0 .9em
+
+    table
+      border-collapse: collapse
+      margin-left: -60px
+      width: 860px
+
+      th,
+      td
+        padding: .5em 0
+
+      th
+        color: $medium
+        font-family: $bodoni-poster-italic
+        font-size: 18px
+        width: 60px
+
+      td
+        font-family: $proxima-bold
+        font-size: 22px
+        text-align: center
+        width: 200px
+
+      .twothousandtwelve td
+        background-color: #e4e4e4
+
+      .twothousandeight td
+        background-color: #a4a4a4
+
+      .twothousandtwelve td.second,
+      .twothousandtwelve td.fourth
+        background-color: #eee
+
+      .twothousandeight td.second,
+      .twothousandeight td.fourth
+        background-color: #aaa
 
   .joel_peters
     @extend .right

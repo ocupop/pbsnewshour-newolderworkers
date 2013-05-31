@@ -239,7 +239,7 @@ require_once('header.php');
 
       <p id="calculator-result">
         You should put away
-        <span></span>
+        <span id="calculator-result-value"></span>
         per month.
       </p>
     </div>

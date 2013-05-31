@@ -141,11 +141,11 @@ em {
   padding: 48px 0; }
 
 /* line 72, sass/_base.sass */
-.blend-top .contents, .chapter-1-rethinking-retirement article .retirement_expectations .contents, .chapter-1-rethinking-retirement article .labor_force .contents, .chapter-3-working-for-the-nest-egg article .savings_confidence .contents, .chapter-3-working-for-the-nest-egg article .investor_underperforms .contents {
+.blend-top .contents, .chapter-1-rethinking-retirement article .retirement_expectations .contents, .chapter-1-rethinking-retirement article .labor_force .contents, .chapter-2-a-snapshot article .community_data .contents, .chapter-3-working-for-the-nest-egg article .savings_confidence .contents, .chapter-3-working-for-the-nest-egg article .investor_underperforms .contents {
   padding-top: 0; }
 
 /* line 75, sass/_base.sass */
-.blend-bottom .contents, .chapter-1-rethinking-retirement article .age_and_retirement .contents, .chapter-3-working-for-the-nest-egg article .death_of_the_pension-intro .contents, .chapter-3-working-for-the-nest-egg article .confidence .contents, .chapter-3-working-for-the-nest-egg article .calculator .contents, .chapter-3-working-for-the-nest-egg article .unemployed_but_wanting_to_work .contents, .chapter-4-working-in-retirement article .working_longer .contents, .chapter-4-working-in-retirement article .marc_freedman .contents {
+.blend-bottom .contents, .chapter-1-rethinking-retirement article .age_and_retirement .contents, .chapter-2-a-snapshot article .question.community_size .contents, .chapter-3-working-for-the-nest-egg article .death_of_the_pension-intro .contents, .chapter-3-working-for-the-nest-egg article .confidence .contents, .chapter-3-working-for-the-nest-egg article .calculator .contents, .chapter-3-working-for-the-nest-egg article .unemployed_but_wanting_to_work .contents, .chapter-4-working-in-retirement article .working_longer .contents, .chapter-4-working-in-retirement article .marc_freedman .contents {
   padding-bottom: 0; }
 
 /* line 78, sass/_base.sass */
@@ -1874,7 +1874,7 @@ footer {
       /* line 136, sass/_chapter2.sass */
       .chapter-2-a-snapshot article .men_and_women .contents div ul li:last-child {
         margin-bottom: 0; }
-/* line 141, sass/_chapter2.sass */
+/* line 143, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .question.community_size .form_fields label {
   color: #666666;
   float: left;
@@ -1886,23 +1886,26 @@ footer {
   -moz-transition: color 0.2s;
   -o-transition: color 0.2s;
   transition: color 0.2s; }
-  /* line 150, sass/_chapter2.sass */
+  /* line 152, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label input,
   .chapter-2-a-snapshot article .question.community_size .form_fields label strong,
   .chapter-2-a-snapshot article .question.community_size .form_fields label span {
     display: block;
     margin: 0 auto; }
-  /* line 156, sass/_chapter2.sass */
+  /* line 158, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label input + strong {
-    margin-top: 0.75em; }
-  /* line 159, sass/_chapter2.sass */
+    margin-top: 1em;
+    font-family: "Proxima N W01 Bold";
+    font-size: 22px;
+    text-transform: uppercase; }
+  /* line 164, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label .icon {
     width: 81px;
     height: 81px;
     display: block;
     margin: 1em auto;
     position: relative; }
-    /* line 166, sass/_chapter2.sass */
+    /* line 171, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .question.community_size .form_fields label .icon:after {
       content: "";
       background-image: url('../img/2/community-size.png?1369874575');
@@ -1917,31 +1920,73 @@ footer {
       -moz-transition: opacity 0.2s;
       -o-transition: opacity 0.2s;
       transition: opacity 0.2s; }
-  /* line 178, sass/_chapter2.sass */
+  /* line 183, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label.highly_urbanized .icon:after {
     background-position: 0 0; }
-  /* line 181, sass/_chapter2.sass */
+  /* line 186, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label.less_urbanized .icon:after {
     background-position: -473px 0; }
-  /* line 184, sass/_chapter2.sass */
+  /* line 189, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label.rural_area .icon:after {
     background-position: -946px 0; }
-  /* line 187, sass/_chapter2.sass */
+  /* line 192, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label.very_rural_area .icon:after {
     background-position: -1420px 0; }
-  /* line 190, sass/_chapter2.sass */
+  /* line 195, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label:hover {
     color: #383838; }
-    /* line 193, sass/_chapter2.sass */
+    /* line 198, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .question.community_size .form_fields label:hover .icon:after {
       opacity: 1; }
 /* line 204, sass/_chapter2.sass */
+.chapter-2-a-snapshot article .community_data h2 {
+  background: #666666;
+  color: white;
+  font-size: 18px;
+  margin: 0;
+  padding: 1em 0 0.9em; }
+/* line 211, sass/_chapter2.sass */
+.chapter-2-a-snapshot article .community_data table {
+  border-collapse: collapse;
+  margin-left: -60px;
+  width: 860px; }
+  /* line 216, sass/_chapter2.sass */
+  .chapter-2-a-snapshot article .community_data table th,
+  .chapter-2-a-snapshot article .community_data table td {
+    padding: 0.5em 0; }
+  /* line 220, sass/_chapter2.sass */
+  .chapter-2-a-snapshot article .community_data table th {
+    color: #666666;
+    font-family: "BodoniW01-PosterItalic";
+    font-size: 18px;
+    width: 60px; }
+  /* line 226, sass/_chapter2.sass */
+  .chapter-2-a-snapshot article .community_data table td {
+    font-family: "Proxima N W01 Bold";
+    font-size: 22px;
+    text-align: center;
+    width: 200px; }
+  /* line 232, sass/_chapter2.sass */
+  .chapter-2-a-snapshot article .community_data table .twothousandtwelve td {
+    background-color: #e4e4e4; }
+  /* line 235, sass/_chapter2.sass */
+  .chapter-2-a-snapshot article .community_data table .twothousandeight td {
+    background-color: #a4a4a4; }
+  /* line 238, sass/_chapter2.sass */
+  .chapter-2-a-snapshot article .community_data table .twothousandtwelve td.second,
+  .chapter-2-a-snapshot article .community_data table .twothousandtwelve td.fourth {
+    background-color: #eeeeee; }
+  /* line 242, sass/_chapter2.sass */
+  .chapter-2-a-snapshot article .community_data table .twothousandeight td.second,
+  .chapter-2-a-snapshot article .community_data table .twothousandeight td.fourth {
+    background-color: #aaaaaa; }
+/* line 254, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .dante_chinni .intro {
   font-size: 18px; }
-/* line 207, sass/_chapter2.sass */
+/* line 257, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .dante_chinni h2 {
   font-size: 63px; }
-/* line 210, sass/_chapter2.sass */
+/* line 260, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .dante_chinni .caption {
   font-size: 18px; }
 
