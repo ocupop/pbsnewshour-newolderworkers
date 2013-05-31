@@ -547,6 +547,20 @@ section {
   100% {
     opacity: 0.8; } }
 
+/* line 398, sass/_base.sass */
+input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  display: inline-block;
+  background-image: url('../img/radio_button-open.png?1369972236');
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  top: 8px; }
+  /* line 407, sass/_base.sass */
+  input[type="radio"]:checked {
+    background-image: url('../img/radio_button-filled.png?1369972236'); }
+
 /* line 1, sass/_header.sass */
 header.site_header,
 header.story_header {

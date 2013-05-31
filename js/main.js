@@ -132,6 +132,8 @@
         $labor_force_chart = $('.labor_force-chart');
         labor_force_chart_top = $labor_force_chart.offset().top;
         $labor_force_chart_points = $('.data_point', $labor_force_chart);
+        $user_age = $('.user_age');
+        $age_and_retirement = $('.age_and_retirement');
         scroll_actions.fade_header = function() {
           var factor, offset;
           factor = 0;
@@ -154,8 +156,6 @@
           $percentage_of_workers_chart_points.toggleClass('active', pos + (2 * $window_height / 3) > percentage_of_workers_chart_top);
           return $labor_force_chart_points.toggleClass('active', pos + (2 * $window_height / 3) > labor_force_chart_top);
         };
-        $user_age = $('.user_age');
-        $age_and_retirement = $('.age_and_retirement');
         (set_how_long_work = function() {
           var age;
           age = $user_age.val();

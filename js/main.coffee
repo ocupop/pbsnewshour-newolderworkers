@@ -41,7 +41,6 @@ $(document).ready ()->
   # and to the intro photo
   $('.background_image', '.company_photo').parallax(0.3)
 
-
   # container for scroll actions
   scroll_actions = {}
 
@@ -134,6 +133,9 @@ $(document).ready ()->
     $labor_force_chart = $('.labor_force-chart')
     labor_force_chart_top = $labor_force_chart.offset().top
     $labor_force_chart_points = $('.data_point', $labor_force_chart)
+    $user_age = $('.user_age')
+    $age_and_retirement = $('.age_and_retirement')
+
 
     scroll_actions.fade_header = ()->
       factor = 0
@@ -151,9 +153,6 @@ $(document).ready ()->
     scroll_actions.show_data_points = ()->
       $percentage_of_workers_chart_points.toggleClass 'active', (pos + (2 * $window_height / 3) > percentage_of_workers_chart_top)
       $labor_force_chart_points.toggleClass 'active', (pos + (2 * $window_height / 3) > labor_force_chart_top)
-
-    $user_age = $('.user_age')
-    $age_and_retirement = $('.age_and_retirement')
 
     # Toggle between "how long do you want to work" / are you retired already
     do set_how_long_work = ()->
