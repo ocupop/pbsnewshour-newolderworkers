@@ -39,11 +39,11 @@ require_once('header.php');
     <div class="form_fields">
       <label class="first">
         <span>Male</span>
-        <input type="radio" name="entry.2021902959" id="entry.2021902959_1">
+        <input type="radio" name="gender" value="Male">
       </label>
 
       <label class="second">
-        <input type="radio" name="entry.2021902959" id="entry.2021902959_2">
+        <input type="radio" name="gender" value="Female">
         <span>Female</span>
       </label>
     </div>
@@ -197,28 +197,28 @@ require_once('header.php');
 
     <div class="form_fields">
       <label class="highly_urbanized">
-        <input type="radio" name="xxx" id="xxx_1">
+        <input type="radio" name="entry.1488207989" value="Major City (more than 900,000 households)">
         <strong>Largest<br>U.S. Cities</strong>
         <div class="icon"></div>
         <span>More than <strong>9000,000</strong> households</span>
       </label>
 
       <label class="less_urbanized">
-        <input type="radio" name="xxx" id="xxx_2">
+        <input type="radio" name="entry.1488207989" value="Less Urbanized (more than 85,000 households)">
         <strong>Less<br>Urbanized</strong>
         <div class="icon"></div>
         <span>More than <strong>85,000</strong> households</span>
       </label>
 
       <label class="rural_area">
-        <input type="radio" name="xxx" id="xxx_3">
+        <input type="radio" name="entry.1488207989" value="Rural Area (more than 20,000 households)">
         <strong>Rural<br>Area</strong>
         <div class="icon"></div>
         <span>More than <strong>20,000</strong> households</span>
       </label>
 
       <label class="very_rural_area">
-        <input type="radio" name="xxx" id="xxx_4">
+        <input type="radio" name="entry.1488207989" value="Very Rural Area (less than 20,000 households)">
         <strong>Very<br>Rural Area</strong>
         <div class="icon"></div>
         <span>Less than <strong>20,000</strong> households</span>

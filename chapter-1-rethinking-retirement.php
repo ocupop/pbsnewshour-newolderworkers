@@ -131,16 +131,13 @@ require_once('header.php');
     <div class="form_fields">
       <div class="field age">
         <label class="field_title">How old are you?</label>
-        <input type="number" min="13" max="116" name="entry.1280847796" id="entry_1280847796">
+        <input type="number" min="13" max="116" name="age" class="user_age">
       </div>
 
       <div class="field retiree">
         <label class="field_title">Are you a current retiree?</label>
-        <select name="entry.981715763" id="entry_981715763">
-          <option value=""></option>
-          <option value="Yes, I am a retiree.&nbsp;">Yes, I am a retiree.&nbsp;</option>
-          <option value="No, I am not a retiree.&nbsp;">No, I am not a retiree.&nbsp;</option>
-        </select>
+        <input type="radio" name="retiree" value="Yes, I am a retiree.&nbsp;">Yes, I am a retiree.&nbsp;</option>
+        <input type="radio" name="retiree" value="No, I am not a retiree.&nbsp;">No, I am not a retiree.&nbsp;</option>
       </div>
 
       <div class="field radio_buttons" id="under_65">
@@ -150,32 +147,32 @@ require_once('header.php');
         </p>
 
         <label>
-          <input type="radio" name="entry.1251379033" value="I want to retire before I reach age 65." id="group_1251379033_1">
+          <input type="radio" name="retire_before" value="I want to retire before I reach age 65." id="group_1251379033_1">
           <span>I want to retire before I reach age 65.</span>
         </label>
 
         <label>
-          <input type="radio" name="entry.1251379033" value="I want to work until I'm between 65 and 69." id="group_1251379033_2">
+          <input type="radio" name="retire_before" value="I want to work until I'm between 65 and 69." id="group_1251379033_2">
           <span>I want to work until I'm between 65 and 69.</span>
         </label>
 
         <label>
-          <input type="radio" name="entry.1251379033" value="I want to work until I'm between 70 and 74." id="group_1251379033_3">
+          <input type="radio" name="retire_before" value="I want to work until I'm between 70 and 74." id="group_1251379033_3">
           <span>I want to work until I'm between 70 and 74.</span>
         </label>
 
         <label>
-          <input type="radio" name="entry.1251379033" value="I want to work until I'm between 75 and 79." id="group_1251379033_4">
+          <input type="radio" name="retire_before" value="I want to work until I'm between 75 and 79." id="group_1251379033_4">
           <span>I want to work until I'm between 75 and 79.</span>
         </label>
 
         <label>
-          <input type="radio" name="entry.1251379033" value="I want to work past 80.&nbsp;" id="group_1251379033_5">
+          <input type="radio" name="retire_before" value="I want to work past 80.&nbsp;" id="group_1251379033_5">
           <span>I want to work past 80.</span>
         </label>
 
         <label>
-          <input type="radio" name="entry.1251379033" value="Forever." id="group_1251379033_6">
+          <input type="radio" name="retire_before" value="Forever." id="group_1251379033_6">
           <span>Forever.</span>
         </label>
       </div>
@@ -187,22 +184,22 @@ require_once('header.php');
         </p>
 
         <label>
-          <input type="radio" name="entry.1192439293" value="I am currently working and am happy/OK with working.&nbsp;" id="group_1192439293_1">
+          <input type="radio" name="satisfaction" value="I am currently working and am happy/OK with working.&nbsp;" >
           I am currently working and am happy/OK with working.
         </label>
 
         <label>
-          <input type="radio" name="entry.1192439293" value="I am currently working and am unhappy -- I would prefer to not be working.&nbsp;" id="group_1192439293_2">
+          <input type="radio" name="satisfaction" value="I am currently working and am unhappy -- I would prefer to not be working.&nbsp;" >
           I am currently working and am unhappy&mdash;I would prefer to not be working.
         </label>
 
         <label>
-          <input type="radio" name="entry.1192439293" value="I am currently NOT working and am happy / OK with not working. &nbsp;" id="group_1192439293_3">
+          <input type="radio" name="satisfaction" value="I am currently NOT working and am happy / OK with not working. &nbsp;">
           I am currently NOT working and am happy/OK with not working.
         </label>
 
         <label>
-          <input type="radio" name="entry.1192439293" value="I am currently NOT working and am unhappy -- I would prefer to be working.&nbsp;" id="group_1192439293_4">
+          <input type="radio" name="satisfaction" value="I am currently NOT working and am unhappy -- I would prefer to be working.&nbsp;">
           I am currently NOT working and am unhappy&mdash;I would prefer to be working.
         </label>
       </div>
@@ -304,7 +301,7 @@ require_once('header.php');
     <h2>
       Labor Force Participation Rates by Age Group
     </h2>
-  
+
     <h3 class="first">
       Total Percentage of Laborers Working Per Age Group Since 1993
     </h3>
