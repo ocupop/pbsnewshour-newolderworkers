@@ -8,25 +8,6 @@ header.story_header
   p
     margin: 0
 
-  nav li
-    display: inline-block
-
-    &:first-child
-      margin-left: 0
-
-      a
-        padding-left: 0
-
-    &:last-child
-      margin-right: 0
-
-      a
-        padding-right: 0
-
-    a
-      text-decoration: none
-
-
 header.site_header
   background: $dark
   height: 60px
@@ -85,13 +66,15 @@ header.site_header
     margin-top: .25em
 
     li
+      display: inline-block
       margin: 0 0.6em
       padding-bottom: 5px
       @include transition(all .2s)
 
       a
         color: $light
-        padding: 0 0.3em
+        padding: .75em 1em
+        text-decoration: none
         @include transition(all .2s)
 
       &:hover,
@@ -160,18 +143,6 @@ header.story_header
       padding: 0 $line/10
       text-transform: lowercase
       vertical-align: $line/3
-
-  nav
-    @extend .container
-    @include clearfix
-    border-top: 1px solid #888
-    border-bottom: 1px solid #888
-    line-height: 1
-    padding: $line/2 0 $line/2.5
-
-    li
-      letter-spacing: -1px
-      margin: 0 .9em
 
   &.bordered
     hr
