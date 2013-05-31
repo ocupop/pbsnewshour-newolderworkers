@@ -221,7 +221,7 @@ require_once('header.php');
     </h2>
 
     <p>
-      Age-of-retirement expectations for your age group have changed over the years. When asked &ldquo;When do you expect to retire?&rdquo; here&rsquo;s how people your age group answered 10 years ago and today. Notice how few answered &ldquo;before age 65&rdquo; in 2013 versus ten years earlier?
+      Age-of-retirement expectations for your age group have changed over the years. When asked &ldquo;When do you expect to retire?&rdquo; here&rsquo;s how people your age group answered 10 years ago and today. Notice how few answered &ldquo;before age 65&rdquo; in 2013 versus ten years earlier.
     </p>
 
     <div class="splitbars twothousandthree">
