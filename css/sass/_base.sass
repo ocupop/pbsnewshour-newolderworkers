@@ -527,3 +527,11 @@ input[type="radio"]
 
   100%
     opacity: .8
+
+// substitute PNG on pie charts if rotation cannot be done
+.no-csstransforms3d
+  .percent_50, .percent_92, .percent_68, .percent_59, .percent_57
+    svg
+      display: none
+    img
+      display: block !important
