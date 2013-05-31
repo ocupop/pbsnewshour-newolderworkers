@@ -69,8 +69,8 @@ $(document).ready ()->
     $this = $(this)
     $.cookie( "retiring__#{$this.attr('name')}", $this.val(), {expires: 1} )
 
-  # TEST url
-  form_url = "https://docs.google.com/forms/d/1cujY_8JrgdzcwsScxv47lF_BY-g9Oz6u0vlrDNjZxGY/formResponse"
+  # PRODUCTION url
+  form_url = "https://docs.google.com/forms/d/18Sj-Hj1y3-n-4fBjxY_lu_sWjHvHGg9ZWzryNbZLiPQ/formResponse"
 
   $('#the_form').submit (e)->
     e.preventDefault()
@@ -80,6 +80,25 @@ $(document).ready ()->
       .attr('disabled', 'disabled')
       .val("Sending...")
 
+    # TODO: match fields with these
+    """
+    entry.1280847796 - age
+
+    entry.1251379033 - i want to retire before
+    entry.1251379033.other_option_response
+
+    entry.1192439293 - currently working, happiness
+    entry.1192439293.other_option_response
+
+    entry.1148862003 - confidence in savings
+
+    entry.2021902959 - gender
+
+    entry.349650717 - zip
+
+    entry.1488207989 - community size
+
+    """
     # set generalized cookie values to form-specific ids
     data = {
       "entry.1728150349" : $.cookie("retiring__age")
