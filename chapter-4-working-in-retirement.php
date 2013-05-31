@@ -237,8 +237,6 @@ require_once('header.php');
     <p class="first">
       Most 65-plus workers say they couldn&rsquo;t be happier with their job. (Less than a third of 16 to 64-year-olds say the same thing.) A little over a quarter say their motivation for working is a combination of wanting to and needing to.
     </p>
-
-    <!-- http://www.pewresearch.org/2009/09/03/recession-turns-a-graying-office-grayer/ -->
   </div>
 </section>
 
