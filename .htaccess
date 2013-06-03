@@ -1,9 +1,13 @@
-# Options FollowSymLinks MultiViews
+# Pretty URLs
 
-# <IfModule mod_rewrite.c>
-# RewriteEngine On
-# RewriteRule ^chapter-([0-9A-Za-z\-]+)/?$ chapter-$1.php [L]
-# </IfModule>
+Options FollowSymLinks MultiViews
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^chapter-([0-9A-Za-z\-]+)/?$ chapter-$1.php [L]
+</IfModule>
+
+# Fix file/MIME type warnings in Chrome.
 
 AddType application/vnd.ms-fontobject .eot
 AddType font/ttf .ttf

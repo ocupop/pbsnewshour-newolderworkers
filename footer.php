@@ -10,10 +10,10 @@
           $next_chapter = $chapter_list[$chapter + 1];
 
           if ($chapter > 1)
-            echo '<li class="previous"><a href="' . $previous_chapter['slug'] . '.php"><span class="label">Previous</span><span class="chapter_title">' . $previous_chapter['title'] . '</span></a></li>';
+            echo '<li class="previous"><a href="' . $previous_chapter['slug'] . '"><span class="label">Previous</span><span class="chapter_title">' . $previous_chapter['title'] . '</span></a></li>';
 
           if ($chapter < 5)
-            echo '<li class="next"><a href="' . $next_chapter['slug']. '.php"><span class="label">Next</span><span class="chapter_title">' . $next_chapter['title'] . '</span></a></li>';
+            echo '<li class="next"><a href="' . $next_chapter['slug']. '"><span class="label">Next</span><span class="chapter_title">' . $next_chapter['title'] . '</span></a></li>';
           ?>
         </ul>
       </nav>
