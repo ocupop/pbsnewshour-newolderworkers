@@ -284,7 +284,8 @@ require_once('header.php');
 
     <div class="replay"></div>
     <video controls preload="auto">
-      <!-- TODO: Dante Chinni Video -->
+      <source src="video/DanteChinni-TheRuralUrbanDivide.mp4" type="video/mp4">
+      <source src="video/DanteChinni-TheRuralUrbanDivide.webm" type="video/webm">
     </video>
 
     <div class="caption">
