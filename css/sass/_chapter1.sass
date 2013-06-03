@@ -8,9 +8,10 @@
     @include transition(opacity 1s)
 
   .company_photo .background_image
-    background-image: image-url("1/company_photo.jpg")
-    background-size: 100%
-
+    @include multi-background("1/CompanyPortrait")
+    background-position: center 0
+    @media (min-width:1024px)
+      background-position: center -100%
   .intro
     margin-top: 80%
     text-align: center
