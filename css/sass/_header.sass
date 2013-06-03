@@ -27,7 +27,7 @@ header.site_header
     max-width: 1000px
 
   a.pbs
-    background: image-url('pbs-light_background.svg') no-repeat left top
+    background: image-url('pbs-logo-dark.png') no-repeat left top
     background-size: contain
     margin: .2em 1em 0 0
     width: 38px
@@ -108,10 +108,15 @@ header.story_header
     z-index: 3
 
   p
-    background: image-url('pbs-logo.png') top no-repeat
-    font-family: 'Bodoni MT W01'
+    background: image-url('pbs-logo-dark.png') top no-repeat
+    color: #fff
     margin-bottom: $line*1.25
     padding-top: 55px
+
+    span
+      font-family: $proxima-bold
+      padding: .25em .5em
+      @include text-shadow(#000 0 0 10px)
 
   hr
     display: none
