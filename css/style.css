@@ -732,7 +732,7 @@ header.site_header {
     max-width: 1000px; }
   /* line 29, sass/_header.sass */
   header.site_header a.pbs {
-    background: url('../img/pbs-light_background.svg?1369272538') no-repeat left top;
+    background: url('../img/pbs-light_background.svg') no-repeat left top;
     background-size: contain;
     margin: 0.2em 1em 0 0;
     width: 38px;
@@ -826,33 +826,28 @@ header.story_header {
     z-index: 3; }
   /* line 110, sass/_header.sass */
   header.story_header p {
+    background: url('../img/pbs-logo.png?1370293618') top no-repeat;
     font-family: "Bodoni MT W01";
-    margin-bottom: 30px; }
-    /* line 114, sass/_header.sass */
-    header.story_header p:before, header.story_header p:after {
-      color: #548e85;
-      content: "★";
-      font-size: 9.6px;
-      padding: 0 6px;
-      vertical-align: 4.8px; }
-  /* line 122, sass/_header.sass */
+    margin-bottom: 30px;
+    padding-top: 55px; }
+  /* line 116, sass/_header.sass */
   header.story_header hr {
     display: none; }
-  /* line 125, sass/_header.sass */
+  /* line 119, sass/_header.sass */
   header.story_header h1 {
     text-shadow: #383838 0 0 25px;
     color: white;
     font-size: 57.6px;
     margin: 4em 0 6px;
     word-spacing: -12px; }
-    /* line 132, sass/_header.sass */
+    /* line 126, sass/_header.sass */
     header.story_header h1 em {
       font-family: "BodoniW01-PosterItalic", serif;
       font-size: 104px;
       font-style: normal;
       margin: 0;
       padding: 0 3px; }
-    /* line 139, sass/_header.sass */
+    /* line 133, sass/_header.sass */
     header.story_header h1 small {
       font-family: "Adobe Caslon W01 Bd It", serif;
       font-size: 36.8px;
@@ -860,13 +855,13 @@ header.story_header {
       padding: 0 2.4px;
       text-transform: lowercase;
       vertical-align: 8px; }
-  /* line 148, sass/_header.sass */
+  /* line 142, sass/_header.sass */
   header.story_header.bordered hr, .chapter-4-working-in-retirement article header.story_header.they_want_to hr, .chapter-4-working-in-retirement article header.story_header.couldnt_be_happier hr {
     display: block; }
-  /* line 151, sass/_header.sass */
+  /* line 145, sass/_header.sass */
   header.story_header.bordered h1, .chapter-4-working-in-retirement article header.story_header.they_want_to h1, .chapter-4-working-in-retirement article header.story_header.couldnt_be_happier h1 {
     margin-top: -43.2px; }
-    /* line 154, sass/_header.sass */
+    /* line 148, sass/_header.sass */
     header.story_header.bordered h1 em, .chapter-4-working-in-retirement article header.story_header.they_want_to h1 em, .chapter-4-working-in-retirement article header.story_header.couldnt_be_happier h1 em {
       background: white; }
 
@@ -875,101 +870,103 @@ footer {
   overflow: hidden;
   *zoom: 1;
   background: #383838;
-  padding: 1.5em 0 0.5em;
+  padding: 0;
   z-index: 2; }
   /* line 8, sass/_footer.sass */
-  footer .contents a {
+  footer .navigation .contents {
+    padding-bottom: 2.4em; }
+  /* line 11, sass/_footer.sass */
+  footer .navigation a {
     color: white; }
-  /* line 12, sass/_footer.sass */
-  footer .contents nav ul {
-    overflow: hidden; }
   /* line 15, sass/_footer.sass */
-  footer .contents nav li {
+  footer .navigation nav ul {
+    overflow: hidden; }
+  /* line 18, sass/_footer.sass */
+  footer .navigation nav li {
     display: block;
     font-family: "Bodoni MT W01";
     text-align: center;
     text-transform: uppercase;
     width: 50%;
     height: 145px; }
-    /* line 23, sass/_footer.sass */
-    footer .contents nav li.previous {
+    /* line 26, sass/_footer.sass */
+    footer .navigation nav li.previous {
       background: url('../img/chapter-previous.svg?1369355902') left no-repeat;
       float: left; }
-    /* line 27, sass/_footer.sass */
-    footer .contents nav li.next {
+    /* line 30, sass/_footer.sass */
+    footer .navigation nav li.next {
       background: url('../img/chapter-next.svg?1369351919') right no-repeat;
       float: right; }
-    /* line 31, sass/_footer.sass */
-    footer .contents nav li a {
+    /* line 34, sass/_footer.sass */
+    footer .navigation nav li a {
       display: block;
       text-decoration: none; }
-      /* line 35, sass/_footer.sass */
-      footer .contents nav li a .label {
+      /* line 38, sass/_footer.sass */
+      footer .navigation nav li a .label {
         border-bottom: 2px solid #aaaaaa;
         color: #aaaaaa;
         display: inline-block;
         padding-bottom: 0;
         font-size: 19.2px; }
-      /* line 42, sass/_footer.sass */
-      footer .contents nav li a .chapter_title {
+      /* line 45, sass/_footer.sass */
+      footer .navigation nav li a .chapter_title {
         display: block;
         font-size: 30px;
         line-height: 1.1;
         margin: 0.5em auto 0 auto;
         width: 60%; }
-      /* line 49, sass/_footer.sass */
-      footer .contents nav li a:hover {
+      /* line 52, sass/_footer.sass */
+      footer .navigation nav li a:hover {
         color: #548e85; }
-  /* line 52, sass/_footer.sass */
-  footer .contents div {
-    margin-top: 3em; }
-    /* line 55, sass/_footer.sass */
-    footer .contents div p {
+  /* line 55, sass/_footer.sass */
+  footer .links {
+    background: #aaaaaa; }
+    /* line 58, sass/_footer.sass */
+    footer .links .contents {
+      overflow: hidden;
+      *zoom: 1;
+      padding: 1.5em 0; }
+    /* line 62, sass/_footer.sass */
+    footer .links p {
       color: white;
       font-family: "Proxima N W01 Smbd";
       line-height: 1;
       margin: 0;
       padding: 0; }
-      /* line 62, sass/_footer.sass */
-      footer .contents div p a {
-        opacity: 0.25;
-        -webkit-transition: opacity 0.1s;
-        -moz-transition: opacity 0.1s;
-        -o-transition: opacity 0.1s;
-        transition: opacity 0.1s; }
-        /* line 66, sass/_footer.sass */
-        footer .contents div p a:hover {
-          color: white;
-          opacity: 1; }
-      /* line 70, sass/_footer.sass */
-      footer .contents div p.pbs {
+      /* line 69, sass/_footer.sass */
+      footer .links p.pbs {
         float: left; }
-        /* line 73, sass/_footer.sass */
-        footer .contents div p.pbs a {
+        /* line 72, sass/_footer.sass */
+        footer .links p.pbs a {
           text-decoration: none; }
-        /* line 76, sass/_footer.sass */
-        footer .contents div p.pbs img {
+        /* line 75, sass/_footer.sass */
+        footer .links p.pbs img {
           margin-right: 0.5em;
           vertical-align: -6px;
-          width: 24px; }
-        /* line 81, sass/_footer.sass */
-        footer .contents div p.pbs span {
-          font-size: 20px; }
-      /* line 84, sass/_footer.sass */
-      footer .contents div p.extra {
+          width: 224px;
+          height: 32px; }
+      /* line 81, sass/_footer.sass */
+      footer .links p.extra {
         float: right;
         font-size: 18px;
-        margin-top: 0.35em; }
+        margin-top: 0.5em; }
+        /* line 86, sass/_footer.sass */
+        footer .links p.extra a {
+          color: #dddddd;
+          border-bottom: 2px solid #dddddd; }
+          /* line 90, sass/_footer.sass */
+          footer .links p.extra a:hover {
+            color: white;
+            border-bottom: 2px solid white; }
 
-/* line 89, sass/_footer.sass */
+/* line 94, sass/_footer.sass */
 #sources-open,
 #credits-open {
-  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
   cursor: pointer;
   margin-left: 1em;
   text-transform: uppercase; }
 
-/* line 96, sass/_footer.sass */
+/* line 100, sass/_footer.sass */
 #credits-close,
 #sources-close {
   color: #aaaaaa;
@@ -982,12 +979,12 @@ footer {
   top: 0;
   right: 0;
   z-index: 10; }
-  /* line 109, sass/_footer.sass */
+  /* line 113, sass/_footer.sass */
   #credits-close:hover,
   #sources-close:hover {
     color: #383838; }
 
-/* line 112, sass/_footer.sass */
+/* line 116, sass/_footer.sass */
 #credits,
 #sources {
   display: none;
@@ -999,7 +996,7 @@ footer {
   height: 100%;
   z-index: 98; }
 
-/* line 123, sass/_footer.sass */
+/* line 127, sass/_footer.sass */
 .credits-content,
 .sources-content {
   background: white;
@@ -1016,7 +1013,7 @@ footer {
   -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0 0 35px rgba(0, 0, 0, 0.75);
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.75); }
-  /* line 138, sass/_footer.sass */
+  /* line 142, sass/_footer.sass */
   .credits-content h2,
   .sources-content h2 {
     font-family: "BodoniW01-PosterItalic";
@@ -1024,59 +1021,59 @@ footer {
     margin: 0;
     padding: 0;
     text-align: left; }
-  /* line 145, sass/_footer.sass */
+  /* line 149, sass/_footer.sass */
   .credits-content h3,
   .sources-content h3 {
     font-family: "Proxima N W01 Bold";
     font-size: 18px;
     text-transform: uppercase; }
 
-/* line 152, sass/_footer.sass */
+/* line 156, sass/_footer.sass */
 .credits-content h3 span {
   color: #aaaaaa;
   font-size: 85%;
   margin-left: 0.5em;
   text-transform: none; }
-/* line 159, sass/_footer.sass */
+/* line 163, sass/_footer.sass */
 .credits-content ul li {
   color: #aaaaaa;
   font-family: "Proxima N W01 Smbd";
   font-size: 14px; }
-  /* line 164, sass/_footer.sass */
+  /* line 168, sass/_footer.sass */
   .credits-content ul li strong {
     color: #383838;
     font-family: "Proxima N W01 Bold";
     font-size: 16px;
     font-weight: normal;
     margin-right: 0.5em; }
-/* line 171, sass/_footer.sass */
+/* line 175, sass/_footer.sass */
 .credits-content a {
   text-decoration: none; }
-/* line 174, sass/_footer.sass */
+/* line 178, sass/_footer.sass */
 .credits-content .photo_credits {
   opacity: 0.5; }
-  /* line 177, sass/_footer.sass */
+  /* line 181, sass/_footer.sass */
   .credits-content .photo_credits h3 {
     font-size: 16px;
     margin-bottom: 0.5em;
     text-transform: none; }
-  /* line 182, sass/_footer.sass */
+  /* line 186, sass/_footer.sass */
   .credits-content .photo_credits ul li {
     font-size: 13px; }
-    /* line 185, sass/_footer.sass */
+    /* line 189, sass/_footer.sass */
     .credits-content .photo_credits ul li strong {
       font-family: "Proxima N W01 Smbd";
       font-size: 13px; }
 
-/* line 190, sass/_footer.sass */
+/* line 194, sass/_footer.sass */
 .sources-content ul {
   margin-left: 1.25em; }
-  /* line 193, sass/_footer.sass */
+  /* line 197, sass/_footer.sass */
   .sources-content ul li {
     font-family: "Proxima N W01 Smbd";
     font-size: 14px;
     list-style: square; }
-    /* line 198, sass/_footer.sass */
+    /* line 202, sass/_footer.sass */
     .sources-content ul li strong {
       font-family: "Proxima N W01 Bold";
       font-size: 16px;

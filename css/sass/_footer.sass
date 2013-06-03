@@ -1,10 +1,13 @@
 footer
   @include clearfix
   background: $dark
-  padding: 1.5em 0 .5em
+  padding: 0
   z-index: 2
 
-  .contents
+  .navigation
+    .contents
+      padding-bottom: 2.4em
+
     a
       color: #fff
 
@@ -49,46 +52,47 @@ footer
           &:hover
             color: $green
 
-    div
-      margin-top: 3em
+  .links
+    background: $light
 
-      p
-        color: #fff
-        font-family: $proxima-semibold
-        line-height: 1
-        margin: 0
-        padding: 0
+    .contents
+      @include clearfix
+      padding: 1.5em 0
+
+    p
+      color: #fff
+      font-family: $proxima-semibold
+      line-height: 1
+      margin: 0
+      padding: 0
+
+      &.pbs
+        float: left
 
         a
-          opacity: .25
-          @include transition(opacity .1s)
+          text-decoration: none
+
+        img
+          margin-right: .5em
+          vertical-align: -6px
+          width: 224px
+          height: 32px
+
+      &.extra
+        float: right
+        font-size: 18px
+        margin-top: .5em
+
+        a
+          color: #ddd
+          border-bottom: 2px solid #ddd
 
           &:hover
             color: #fff
-            opacity: 1
-
-        &.pbs
-          float: left
-
-          a
-            text-decoration: none
-
-          img
-            margin-right: .5em
-            vertical-align: -6px
-            width: 24px
-
-          span
-            font-size: 20px
-
-        &.extra
-          float: right
-          font-size: 18px
-          margin-top: .35em
+            border-bottom: 2px solid #fff
 
 #sources-open,
 #credits-open
-  border-bottom: 2px solid rgba(255, 255, 255, .5)
   cursor: pointer
   margin-left: 1em
   text-transform: uppercase

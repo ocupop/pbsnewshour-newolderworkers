@@ -1,27 +1,30 @@
 </article>
 
 <footer>
-  <div class="contents">
-    <nav>
-      <ul>
-        <?php
-        $previous_chapter = $chapter_list[$chapter - 1];
-        $next_chapter = $chapter_list[$chapter + 1];
+  <div class="navigation">
+    <div class="contents">
+      <nav>
+        <ul>
+          <?php
+          $previous_chapter = $chapter_list[$chapter - 1];
+          $next_chapter = $chapter_list[$chapter + 1];
 
-        if ($chapter > 1)
-          echo '<li class="previous"><a href="' . $previous_chapter['slug'] . '.php"><span class="label">Previous</span><span class="chapter_title">' . $previous_chapter['title'] . '</span></a></li>';
+          if ($chapter > 1)
+            echo '<li class="previous"><a href="' . $previous_chapter['slug'] . '.php"><span class="label">Previous</span><span class="chapter_title">' . $previous_chapter['title'] . '</span></a></li>';
 
-        if ($chapter < 5)
-          echo '<li class="next"><a href="' . $next_chapter['slug']. '.php"><span class="label">Next</span><span class="chapter_title">' . $next_chapter['title'] . '</span></a></li>';
-        ?>
-      </ul>
-    </nav>
+          if ($chapter < 5)
+            echo '<li class="next"><a href="' . $next_chapter['slug']. '.php"><span class="label">Next</span><span class="chapter_title">' . $next_chapter['title'] . '</span></a></li>';
+          ?>
+        </ul>
+      </nav>
+    </div>
+  </div>
 
-    <div>
+  <div class="links">
+    <div class="contents"> 
       <p class="pbs">
         <a href="http://www.pbs.org/newshour/">
-          <img src="img/pbs-dark_background.svg">
-          <span>PBS NewsHour</span>
+          <img src="img/pbs-logotype.png">
         </a>
       </p>
 
