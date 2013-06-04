@@ -1,7 +1,5 @@
 # Pretty URLs
 
-Options FollowSymLinks MultiViews
-
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule ^chapter-([0-9A-Za-z\-]+)/?$ chapter-$1.php [L]
