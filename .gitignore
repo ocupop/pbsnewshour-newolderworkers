@@ -11,3 +11,6 @@ Thumbs.db
 # Workflow files.
 .sass-cache/
 build/
+
+# Project files.
+video/
