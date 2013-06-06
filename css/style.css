@@ -141,15 +141,15 @@ em {
   padding: 48px 0; }
 
 /* line 72, sass/_base.sass */
-.blend-top .contents, .chapter-1-rethinking-retirement article .retirement_expectations .contents, .chapter-1-rethinking-retirement article .labor_force .contents, .chapter-2-a-snapshot article .community_data .contents, .chapter-3-working-for-the-nest-egg article .savings_confidence .contents, .chapter-3-working-for-the-nest-egg article .investor_underperforms .contents {
+.blend-top .contents, .chapter-1-rethinking-retirement article .retirement_expectations .contents, .chapter-2-a-snapshot article .community_data .contents, .chapter-3-working-for-the-nest-egg article .savings_confidence .contents, .chapter-3-working-for-the-nest-egg article .warning .contents, .chapter-3-working-for-the-nest-egg article .investor_underperforms .contents {
   padding-top: 0; }
 
 /* line 75, sass/_base.sass */
-.blend-bottom .contents, .chapter-1-rethinking-retirement article .age_and_retirement .contents, .chapter-2-a-snapshot article .question.community_size .contents, .chapter-3-working-for-the-nest-egg article .death_of_the_pension-intro .contents, .chapter-3-working-for-the-nest-egg article .confidence .contents, .chapter-3-working-for-the-nest-egg article .calculator .contents, .chapter-3-working-for-the-nest-egg article .unemployed_but_wanting_to_work .contents, .chapter-4-working-in-retirement article .working_longer .contents, .chapter-4-working-in-retirement article .marc_freedman .contents {
+.blend-bottom .contents, .chapter-1-rethinking-retirement article .age_and_retirement .contents, .chapter-1-rethinking-retirement article .labor_force .contents, .chapter-1-rethinking-retirement article .quotation.paul .contents, .chapter-2-a-snapshot article .question.community_size .contents, .chapter-3-working-for-the-nest-egg article .death_of_the_pension-intro .contents, .chapter-3-working-for-the-nest-egg article .confidence .contents, .chapter-3-working-for-the-nest-egg article .calculator .contents, .chapter-3-working-for-the-nest-egg article .unemployed_but_wanting_to_work .contents, .chapter-4-working-in-retirement article .working_longer .contents, .chapter-4-working-in-retirement article .marc_freedman .contents {
   padding-bottom: 0; }
 
 /* line 78, sass/_base.sass */
-.blend .contents, .chapter-2-a-snapshot article .gender .contents, .chapter-2-a-snapshot article .quotation.dante_chinni .contents, .chapter-3-working-for-the-nest-egg article .disclaimer .contents, .chapter-3-working-for-the-nest-egg article .warning .contents, .chapter-3-working-for-the-nest-egg article .sheryl_garrett .contents, .chapter-3-working-for-the-nest-egg article .why_is_it_harder .contents, .chapter-3-working-for-the-nest-egg article .julie_zissimopoulos .contents {
+.blend .contents, .chapter-2-a-snapshot article .gender .contents, .chapter-2-a-snapshot article .quotation.dante_chinni .contents, .chapter-3-working-for-the-nest-egg article .disclaimer .contents, .chapter-3-working-for-the-nest-egg article .sheryl_garrett .contents, .chapter-3-working-for-the-nest-egg article .why_is_it_harder .contents, .chapter-3-working-for-the-nest-egg article .julie_zissimopoulos .contents {
   padding-top: 0;
   padding-bottom: 0; }
 
@@ -905,73 +905,74 @@ footer {
     /* line 34, sass/_footer.sass */
     footer .navigation nav li a {
       display: block;
+      height: 145px;
       text-decoration: none; }
-      /* line 38, sass/_footer.sass */
+      /* line 39, sass/_footer.sass */
       footer .navigation nav li a .label {
         border-bottom: 2px solid #aaaaaa;
         color: #aaaaaa;
         display: inline-block;
         padding-bottom: 0;
         font-size: 19.2px; }
-      /* line 45, sass/_footer.sass */
+      /* line 46, sass/_footer.sass */
       footer .navigation nav li a .chapter_title {
         display: block;
         font-size: 30px;
         line-height: 1.1;
         margin: 0.5em auto 0 auto;
         width: 60%; }
-      /* line 52, sass/_footer.sass */
+      /* line 53, sass/_footer.sass */
       footer .navigation nav li a:hover {
         color: #548e85; }
-  /* line 55, sass/_footer.sass */
+  /* line 56, sass/_footer.sass */
   footer .links {
     background: #aaaaaa; }
-    /* line 58, sass/_footer.sass */
+    /* line 59, sass/_footer.sass */
     footer .links .contents {
       overflow: hidden;
       *zoom: 1;
       padding: 1.5em 0; }
-    /* line 62, sass/_footer.sass */
+    /* line 63, sass/_footer.sass */
     footer .links p {
       color: white;
       font-family: "Proxima N W01 Smbd";
       line-height: 1;
       margin: 0;
       padding: 0; }
-      /* line 69, sass/_footer.sass */
+      /* line 70, sass/_footer.sass */
       footer .links p.pbs {
         float: left; }
-        /* line 72, sass/_footer.sass */
+        /* line 73, sass/_footer.sass */
         footer .links p.pbs a {
           text-decoration: none; }
-        /* line 75, sass/_footer.sass */
+        /* line 76, sass/_footer.sass */
         footer .links p.pbs img {
           margin-right: 0.5em;
           vertical-align: -6px;
           width: 224px;
           height: 32px; }
-      /* line 81, sass/_footer.sass */
+      /* line 82, sass/_footer.sass */
       footer .links p.extra {
         float: right;
         font-size: 18px;
         margin-top: 0.5em; }
-        /* line 86, sass/_footer.sass */
+        /* line 87, sass/_footer.sass */
         footer .links p.extra a {
           color: #dddddd;
           border-bottom: 2px solid #dddddd; }
-          /* line 90, sass/_footer.sass */
+          /* line 91, sass/_footer.sass */
           footer .links p.extra a:hover {
             color: white;
             border-bottom: 2px solid white; }
 
-/* line 94, sass/_footer.sass */
+/* line 95, sass/_footer.sass */
 #sources-open,
 #credits-open {
   cursor: pointer;
   margin-left: 1em;
   text-transform: uppercase; }
 
-/* line 100, sass/_footer.sass */
+/* line 101, sass/_footer.sass */
 #credits-close,
 #sources-close {
   color: #aaaaaa;
@@ -984,12 +985,12 @@ footer {
   top: 0;
   right: 0;
   z-index: 10; }
-  /* line 113, sass/_footer.sass */
+  /* line 114, sass/_footer.sass */
   #credits-close:hover,
   #sources-close:hover {
     color: #383838; }
 
-/* line 116, sass/_footer.sass */
+/* line 117, sass/_footer.sass */
 #credits,
 #sources {
   display: none;
@@ -1001,7 +1002,7 @@ footer {
   height: 100%;
   z-index: 98; }
 
-/* line 127, sass/_footer.sass */
+/* line 128, sass/_footer.sass */
 .credits-content,
 .sources-content {
   background: white;
@@ -1018,7 +1019,7 @@ footer {
   -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0 0 35px rgba(0, 0, 0, 0.75);
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.75); }
-  /* line 142, sass/_footer.sass */
+  /* line 143, sass/_footer.sass */
   .credits-content h2,
   .sources-content h2 {
     font-family: "BodoniW01-PosterItalic";
@@ -1026,59 +1027,59 @@ footer {
     margin: 0;
     padding: 0;
     text-align: left; }
-  /* line 149, sass/_footer.sass */
+  /* line 150, sass/_footer.sass */
   .credits-content h3,
   .sources-content h3 {
     font-family: "Proxima N W01 Bold";
     font-size: 18px;
     text-transform: uppercase; }
 
-/* line 156, sass/_footer.sass */
+/* line 157, sass/_footer.sass */
 .credits-content h3 span {
   color: #aaaaaa;
   font-size: 85%;
   margin-left: 0.5em;
   text-transform: none; }
-/* line 163, sass/_footer.sass */
+/* line 164, sass/_footer.sass */
 .credits-content ul li {
   color: #aaaaaa;
   font-family: "Proxima N W01 Smbd";
   font-size: 14px; }
-  /* line 168, sass/_footer.sass */
+  /* line 169, sass/_footer.sass */
   .credits-content ul li strong {
     color: #383838;
     font-family: "Proxima N W01 Bold";
     font-size: 16px;
     font-weight: normal;
     margin-right: 0.5em; }
-/* line 175, sass/_footer.sass */
+/* line 176, sass/_footer.sass */
 .credits-content a {
   text-decoration: none; }
-/* line 178, sass/_footer.sass */
+/* line 179, sass/_footer.sass */
 .credits-content .photo_credits {
   opacity: 0.5; }
-  /* line 181, sass/_footer.sass */
+  /* line 182, sass/_footer.sass */
   .credits-content .photo_credits h3 {
     font-size: 16px;
     margin-bottom: 0.5em;
     text-transform: none; }
-  /* line 186, sass/_footer.sass */
+  /* line 187, sass/_footer.sass */
   .credits-content .photo_credits ul li {
     font-size: 13px; }
-    /* line 189, sass/_footer.sass */
+    /* line 190, sass/_footer.sass */
     .credits-content .photo_credits ul li strong {
       font-family: "Proxima N W01 Smbd";
       font-size: 13px; }
 
-/* line 194, sass/_footer.sass */
+/* line 195, sass/_footer.sass */
 .sources-content ul {
   margin-left: 1.25em; }
-  /* line 197, sass/_footer.sass */
+  /* line 198, sass/_footer.sass */
   .sources-content ul li {
     font-family: "Proxima N W01 Smbd";
     font-size: 14px;
     list-style: square; }
-    /* line 202, sass/_footer.sass */
+    /* line 203, sass/_footer.sass */
     .sources-content ul li strong {
       font-family: "Proxima N W01 Bold";
       font-size: 16px;
@@ -1726,7 +1727,7 @@ footer {
     .chapter-1-rethinking-retirement article .labor_force .labor_force-chart #labor_force-chart-data_point-9.active {
       margin-top: 0;
       opacity: 1; }
-/* line 454, sass/_chapter1.sass */
+/* line 458, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .outro .second {
   font-family: "Adobe Caslon W01 Bd";
   font-size: 20.8px; }
@@ -2354,7 +2355,7 @@ footer {
   font-size: 13px; }
 /* line 297, sass/_chapter3.sass */
 .chapter-3-working-for-the-nest-egg article .sheryl_garrett .contents {
-  background-position: 92% 70px !important; }
+  background-position: 92% 0 !important; }
 /* line 303, sass/_chapter3.sass */
 .chapter-3-working-for-the-nest-egg article .investor_underperforms p.first {
   font-size: 30px;
