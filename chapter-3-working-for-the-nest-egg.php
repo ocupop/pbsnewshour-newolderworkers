@@ -246,16 +246,13 @@ require_once('header.php');
   <div class="contents">
     <p>
       <sup>*</sup>
-      Please don&rsquo;t base your entire financial well being on an interactive bubble. Note that this calculator is a very simple, rough, ballpark estimate and is meant to only provide you a sense of how much you should be saving. It should not be used as a replacement for expert financial advice. (Information from Sheryl Garrett, CFP, AIF. Adapted and used with permission from her book <em>Personal Finance Workbook For Dummies</em>.)
+      Please don&rsquo;t base your entire financial well being on an interactive bubble. Note that this calculator is a very simple, rough, ballpark estimate and is meant to only provide you a sense of how much you should be saving. It should not be used as a replacement for expert financial advice. (Information from Sheryl Garrett, CFP, AIF. Adapted and used with permission from her book <em>Personal Finance Workbook For Dummies</em>.) The numbers above are based on a single person and do not take into account Social Security, pensions, etc. They also assume starting with $0 savings, retiring at 65, getting a 7% return on your savings, and leaving nothing for heirs or charity. All figures in 2012 dollars.
     </p>
   </div>
 </section>
 
 <section class="copy warning">
   <div class="contents">
-    <p>
-      The numbers above are based on a single person and do not take into account Social Security, pensions, etc. They also assume starting with $0 savings, retiring at 65, getting a 7% return on your savings, and leaving nothing for heirs or charity. All figures in 2012 dollars.
-    </p>
     <p>
       The 7% return on savings we mention above presumes a portfolio mix of 60% stocks and 40% bonds, using actual historical returns for this mix of assets. But as Sheryl Garrett (CFP&reg;, AIF&reg;, founder of The Garrett Planning Network, Inc.), who provided the data, points out, timing can make all the difference. Volatility can change the outcome of a 7% average annual return dramatically. According to the Social Security Administration, for most of us, Social Security alone will not provide enough income for a comfortable living, even assuming the program experiences no benefit cuts in coming years.
     </p>
