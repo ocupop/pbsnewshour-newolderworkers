@@ -128,10 +128,7 @@ require_once('header.php');
 <section class="video colleges_see_graying_workforce">
   <div class="contents">
     <div class="replay"></div>
-    <video>
-      <source src="video/Broadcast-CollegesAndUniversities.mp4" type="video/mp4">
-      <source src="video/Broadcast-CollegesAndUniversities.webm" type="video/webm">
-    </video>
+    <!-- Youtube video: http://youtu.be/2LGLY0yPjgE -->
 
     <div class="caption">
       <h2>
@@ -203,10 +200,7 @@ require_once('header.php');
 <section class="video boom_in_entrepreneurship">
   <div class="contents">
     <div class="replay"></div>
-    <video>
-      <source src="video/Broadcast-ABoomInEntrepreneurship.mp4" type="video/mp4">
-      <source src="video/Broadcast-ABoomInEntrepreneurship.webm" type="video/webm">
-    </video>
+    <!-- Youtube video: http://youtu.be/wdJq3Z7vyfM -->
 
     <div class="caption">
       <h2>
@@ -223,10 +217,7 @@ require_once('header.php');
 <section class="video vita_needle">
   <div class="contents">
     <div class="replay"></div>
-    <video controls preload="auto" class="semi-autoplay">
-      <source src="video/Broadcast-ManufacturerVitaNeedleFinds.mp4" type="video/mp4">
-      <source src="video/Broadcast-ManufacturerVitaNeedleFinds.webm" type="video/webm">
-    </video>
+    <!-- Youtube video: http://youtu.be/NujnD1tykkY -->
 
     <div class="caption">
       <h2>
@@ -246,10 +237,7 @@ require_once('header.php');
       The Paul Solman Interview
     </h2>
     <div class="replay"></div>
-    <video>
-      <source src="video/Paul-Self-Interview.mp4" type="video/mp4">
-      <source src="video/Paul-Self-Interview.webm" type="video/webm">
-    </video>
+    <!-- Youtube video: http://youtu.be/XXotwQ0T-W8 -->
   </div>
 </section>
 

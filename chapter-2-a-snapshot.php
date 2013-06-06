@@ -260,10 +260,7 @@ require_once('header.php');
 <section class="video joel_peters">
   <div class="contents">
     <div class="replay"></div>
-    <video controls preload="auto" class="semi-autoplay">
-      <source src="video/OlderWorkers-JoelPeters.mp4" type="video/mp4">
-      <source src="video/OlderWorkers-JoelPeters.webm" type="video/webm">
-    </video>
+    <!-- Youtube video: http://www.youtu.be/h6xb4F7X3w8  -->
 
     <div class="caption">
       <h2>
@@ -306,10 +303,7 @@ require_once('header.php');
     </h2>
 
     <div class="replay"></div>
-    <video controls preload="auto">
-      <source src="video/DanteChinni-TheRuralUrbanDivide.mp4" type="video/mp4">
-      <source src="video/DanteChinni-TheRuralUrbanDivide.webm" type="video/webm">
-    </video>
+    <!-- YouTube video: http://youtu.be/Z6XIsQCKcRE -->
 
     <div class="caption">
       <p>
