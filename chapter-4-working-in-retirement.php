@@ -174,20 +174,20 @@ require_once('header.php');
     </h2>
 
     <div class="reasons_for_working-chart">
-      <div class="data_point bar old" id="reasons_for_working-chart-data_point-1"></div>
       <div class="data_point bar young" id="reasons_for_working-chart-data_point-2"></div>
-      <div class="data_point bar old" id="reasons_for_working-chart-data_point-3"></div>
+      <div class="data_point bar old" id="reasons_for_working-chart-data_point-1"></div>
       <div class="data_point bar young" id="reasons_for_working-chart-data_point-4"></div>
-      <div class="data_point bar old" id="reasons_for_working-chart-data_point-5"></div>
+      <div class="data_point bar old" id="reasons_for_working-chart-data_point-3"></div>
       <div class="data_point bar young" id="reasons_for_working-chart-data_point-6"></div>
-      <div class="data_point bar old" id="reasons_for_working-chart-data_point-7"></div>
+      <div class="data_point bar old" id="reasons_for_working-chart-data_point-5"></div>
       <div class="data_point bar young" id="reasons_for_working-chart-data_point-8"></div>
-      <div class="data_point bar old" id="reasons_for_working-chart-data_point-9"></div>
+      <div class="data_point bar old" id="reasons_for_working-chart-data_point-7"></div>
       <div class="data_point bar young" id="reasons_for_working-chart-data_point-10"></div>
-      <div class="data_point bar old" id="reasons_for_working-chart-data_point-11"></div>
+      <div class="data_point bar old" id="reasons_for_working-chart-data_point-9"></div>
       <div class="data_point bar young" id="reasons_for_working-chart-data_point-12"></div>
-      <div class="data_point bar old" id="reasons_for_working-chart-data_point-13"></div>
+      <div class="data_point bar old" id="reasons_for_working-chart-data_point-11"></div>
       <div class="data_point bar young" id="reasons_for_working-chart-data_point-14"></div>
+      <div class="data_point bar old" id="reasons_for_working-chart-data_point-13"></div>
     </div>
   </div>
 </section>

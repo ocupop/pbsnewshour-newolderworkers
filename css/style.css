@@ -2514,9 +2514,8 @@ footer {
   font-size: 42px; }
 /* line 450, sass/_chapter3.sass */
 .chapter-3-working-for-the-nest-egg article .brutal_job_search h2 {
-  margin-top: -0.25em !important;
   padding-top: 0; }
-/* line 461, sass/_chapter3.sass */
+/* line 460, sass/_chapter3.sass */
 .chapter-3-working-for-the-nest-egg article .paul_transition {
   margin-top: 5em; }
 
@@ -2623,7 +2622,7 @@ footer {
   margin: 4em 0; }
   /* line 93, sass/_chapter4.sass */
   .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart {
-    background: url('../img/4/reasons_for_working-chart.gif?1369915955') left top no-repeat;
+    background: url('../img/4/reasons_for_working-chart.gif?1370480788') left top no-repeat;
     margin: 0 0 0 -37px;
     width: 837px;
     height: 365px;
@@ -2641,11 +2640,11 @@ footer {
       -o-transition: all 0.3s;
       transition: all 0.3s; }
       /* line 109, sass/_chapter4.sass */
-      .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar.old {
-        background: rgba(0, 0, 0, 0.8); }
-      /* line 112, sass/_chapter4.sass */
       .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar.young {
         background: rgba(84, 142, 133, 0.8); }
+      /* line 112, sass/_chapter4.sass */
+      .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar.old {
+        background: rgba(0, 0, 0, 0.8); }
       /* line 117, sass/_chapter4.sass */
       .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart .data_point.bar#reasons_for_working-chart-data_point-1 {
         left: 70px;
@@ -2791,9 +2790,8 @@ footer {
   margin-top: 0 !important; }
 /* line 224, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .vita_needle h2 {
-  margin-top: -0.25em !important;
   padding-top: 0; }
-/* line 228, sass/_chapter4.sass */
+/* line 227, sass/_chapter4.sass */
 .chapter-4-working-in-retirement article .couldnt_be_happier {
   margin-top: 3em; }
 
