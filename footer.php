@@ -44,18 +44,23 @@
 
     <h3>PBS NewsHour: Content and Editorial</h3>
     <ul>
-      <li><strong>Paul Solman</strong></li>
-      <li><strong>Patti Parson</strong></li>
-      <li><strong>Elizabeth Shell</strong></li>
-      <li><strong>Vanessa Dennis</strong></li>
-      <li><strong>Travis Daub</strong></li>
-      <li><strong>Diane Lincoln Estes</strong></li>
-      <li><strong>Dante Chinni</strong></li>
-      <li><strong>David Pelcyger</strong></li>
-      <li><strong>Justin Scullietti</strong></li>
-      <li><strong>Mike Fritz</strong></li>
-      <li><strong>Bob Burns</strong></li>
-      <li><strong>Joshua Barajas</strong></li>
+      <li><strong>Paul Solman</strong> Economics Correspondent</li>
+      <li><strong>Elizabeth Shell</strong> principal editor, writer, researcher</li>
+      <li><strong>Vanessa Dennis</strong> principal editor, director</li>
+      <li><strong>Patti Parson</strong> editorial oversight</li>
+      <li><strong>Diane Lincoln Estes</strong> editorial oversight</li>
+      <li><strong>Travis Daub</strong> creative director</li>
+      <li><strong>Tom Kennedy</strong> editorial oversight</li>
+      <li><strong>Margaret Myers</strong> editorial oversight</li>
+      <li><strong>Dante Chinni</strong> Director of the American Communities Project at American University</li>
+      <li><strong>David Pelcyger</strong> video reporter</li>
+      <li><strong>Justin Scuiletti</strong> videographer, video quality control editor</li>
+      <li><strong>Mike Fritz</strong> videographer</li>
+      <li><strong>Bob Burns</strong> videographer</li>
+      <li><strong>Joshua Barajas</strong> videographer</li>
+      <li><strong>Colleen Shalby</strong> social media editor</li>
+      <li><strong>Mallory Sofastaii</strong> fact checker</li>
+      <li><strong>Elise Garofalo</strong> fact checker</li>
     </ul>
 
     <h3>Design and Development: Ocupop</h3>
@@ -63,8 +68,8 @@
       <li><strong>Abby Lindstrom</strong> design and illustration</li>
       <li><strong>Matthew McVickar</strong> art direction and development</li>
       <li><strong>Justin Falcone</strong> development</li>
-      <li><strong>Nick Krusick</strong> video editing</li>
       <li><strong>Michael Nieling</strong> art direction</li>
+      <li><strong>Nick Krusick</strong> video editing and design</li>
     </ul>
 
     <div class="photo_credits">
