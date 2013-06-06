@@ -22,7 +22,7 @@ require_once('header.php');
 <section class="intro">
   <div class="contents">
     <p>
-      Americans are an estimated <strong>$6.6 trillion</strong> short of what we will need to maintain our current standard of living.
+      Americans are about <strong>$6.6 trillion</strong> short of what we will need to maintain our current standard of living in retirement.
     </p>
   </div>
 </section>
@@ -45,13 +45,8 @@ require_once('header.php');
   <div class="contents">
     <p class="first">
       53% of American workers 30 and older are<br>
-      on a path that will leave them financially unprepared for retirement if they expect<br>
-      to maintain a constant living standard.
-    </p>
+      on a path that will leave them financially unprepared for retirement.
     <p class="second">
-      In 2001, only 38% of Americans were at risk of declining living standards in old age.
-    </p>
-    <p class="third">
       In 1989, just 30% faced the same risk.
     </p>
 
@@ -112,7 +107,7 @@ require_once('header.php');
 <section class="question confidence">
   <div class="contents">
     <p class="form_question">
-      Overall, how confident are you that you (or you and your spouse) will have enough money to live comfortably throughout your retirement years?
+      How confident are you that you&rsquo;ll have enough money to live comfortably through retirement?
     </p>
 
     <div class="form_fields">
@@ -153,18 +148,10 @@ require_once('header.php');
     </h2>
 
     <p>
-      Approximately 1,250 individuals (1,003 workers and 251 retirees) aged 25 and older were asked this same question in 1995, 2001, 2007, and 2013 by the Employee Benefit Research Institute. See how their answers have changed in eighteen years.
+      The Employee Benefit Research Institute has polled  Americans since 1995 for their thoughts about and confidence in retirement. See how their answers have changed in eighteen years.
     </p>
 
-    <div class="splitbars nineteenninetyfive">
-      <h3>1995</h3>
-      <div class="nineteenninetyfive-chart splitbars-container">
-        <div class="first nineteenninetyfive-very"><span>somewhat</span></div>
-        <div class="second nineteenninetyfive-somewhat"><span>somewhat</span></div>
-        <div class="third nineteenninetyfive-not_too"><span>not too</span></div>
-        <div class="fourth nineteenninetyfive-not_at_all"><span>not at all</span></div>
-      </div>
-    </div>
+    
     <div class="splitbars twothousandthirteen">
       <h3>2013</h3>
       <div class="twothousandthirteen-chart splitbars-container">
@@ -172,6 +159,15 @@ require_once('header.php');
         <div class="second twothousandthirteen-somewhat"><span>somewhat</span></div>
         <div class="third twothousandthirteen-not_too"><span>not too</span></div>
         <div class="fourth twothousandthirteen-not_at_all"><span>not at all</span></div>
+      </div>
+    </div>
+    <div class="splitbars nineteenninetyfive">
+      <h3>1995</h3>
+      <div class="nineteenninetyfive-chart splitbars-container">
+        <div class="first nineteenninetyfive-very"><span>somewhat</span></div>
+        <div class="second nineteenninetyfive-somewhat"><span>somewhat</span></div>
+        <div class="third nineteenninetyfive-not_too"><span>not too</span></div>
+        <div class="fourth nineteenninetyfive-not_at_all"><span>not at all</span></div>
       </div>
     </div>
   </div>
@@ -235,12 +231,12 @@ require_once('header.php');
     </div>
 
     <div class="form_conclusion">
-      <p id="calculator-placeholder">(Choose an level of income you&rsquo;ll need.)</p>
+      <p id="calculator-placeholder">(Choose a level of income you&rsquo;ll need.)</p>
 
       <p id="calculator-result">
         You should put away
         <span id="calculator-result-value"></span>
-        per month.
+        per month.<sup>*</sup>
       </p>
     </div>
   </div>
@@ -249,7 +245,8 @@ require_once('header.php');
 <section class="copy disclaimer">
   <div class="contents">
     <p>
-      Please note that this calculator is a very simple, rough, ballpark estimate and is meant to only provide you a sense of how much you should be saving. It should not be used as a replacement for expert financial advice. (Information from Sheryl Garrett, CFP, AIF. Adapted and used with permission from her book <em>Personal Finance Workbook For Dummies</em>.)
+      <sup>*</sup>
+      Please don&rsquo;t base your entire financial well being on an interactive bubble. Note that this calculator is a very simple, rough, ballpark estimate and is meant to only provide you a sense of how much you should be saving. It should not be used as a replacement for expert financial advice. (Information from Sheryl Garrett, CFP, AIF. Adapted and used with permission from her book <em>Personal Finance Workbook For Dummies</em>.)
     </p>
   </div>
 </section>
@@ -260,20 +257,13 @@ require_once('header.php');
       The numbers above are based on a single person and do not take into account Social Security, pensions, etc. They also assume starting with $0 savings, retiring at 65, getting a 7% return on your savings, and leaving nothing for heirs or charity. All figures in 2012 dollars.
     </p>
     <p>
-      The 7% return on savings we mention above presumes a portfolio mix of 60% stocks and 40% bonds, using actual historical returns for this mix of assets. But as Sheryl Garrett (CFP&reg;, AIF&reg;, founder of The Garrett Planning Network, Inc.), who provided the data, points out, timing can make all the difference. Volatility can change the outcome of a 7% average annual return dramatically. If markets nosedive in the first two or three years of your retirement, you will have far less money on which to earn a return than if they stayed level or soared. In other words, you could receive a 7% average annual return over 20 years, say, but if your nest egg shrank drastically in the first few years, you might have nothing to tide you over until markets rallied.
-    </p>
-    <p>
-      According to the Social Security Administration, for most of us, Social Security alone will not provide enough income for a comfortable living, even assuming the program experiences no benefit cuts in coming years.
+      The 7% return on savings we mention above presumes a portfolio mix of 60% stocks and 40% bonds, using actual historical returns for this mix of assets. But as Sheryl Garrett (CFP&reg;, AIF&reg;, founder of The Garrett Planning Network, Inc.), who provided the data, points out, timing can make all the difference. Volatility can change the outcome of a 7% average annual return dramatically. According to the Social Security Administration, for most of us, Social Security alone will not provide enough income for a comfortable living, even assuming the program experiences no benefit cuts in coming years.
     </p>
   </div>
 </section>
 
 <section class="quotation sheryl_garrett">
   <div class="contents">
-    <p class="first">
-      The decline in pensions has meant that most people are now responsible for their own retirement investments.
-    </p>
-
     <blockquote>
       <p>
         So many people are clueless when it comes to investing.
@@ -373,7 +363,7 @@ require_once('header.php');
 <section class="quotation dante_chinni the_great_recession">
   <div class="contents">
     <p class="intro">
-      The Great Recession swept away about 40% of Americans&rsquo; wealth, forcing many workers to stay on the job to try to recoup some of their savings losses. Some permanently left the stock market. Others were relying on the equity tied to their home values, which are still far below their peak. Again, we turn to Dante Chinni for insight about what&rsquo;s going on.
+      The financial crash of 2008 swept away about 40% of Americans&rsquo; wealth, forcing many workers to stay on the job to try to recoup some of their savings losses. Some permanently left the stock market. Others were relying on the equity tied to their home values, which are still far below their peak. Again, we turn to Dante Chinni for insight about what&rsquo;s going on.
     </p>
 
     <blockquote>

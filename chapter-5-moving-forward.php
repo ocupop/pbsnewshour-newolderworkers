@@ -52,7 +52,7 @@ require_once('header.php');
             <a class="email">Email</a>
           </div>
           <img class="icon" src="img/5/share-3.jpg">
-          <p>The average investor underperforms during inflation.</p>
+          <p>The average investor underperforms inflation.</p>
         </li>
         <li id="no_retirement_savings">
           <div class="services">
@@ -149,13 +149,19 @@ require_once('header.php');
           <li>
             <a href="http://www.encore.org/">Encore.org</a>
             <p>
-              It is an easy-to-use, two-page worksheet that helps you quickly identify approximately how much you need to save to fund a comfortable retirement.
+              A site with information that helps &ldquo;make it easier for millions of people to pursue second acts for the greater good. We call them &quot;encore careers&quot;&mdash;jobs that combine personal meaning, continued income and social impact &ndash; in the second half of life.&rdquo;
             </p>
           </li>
           <li>
             <a href="http://www.aarp.org/work/working-after-retirement">AARP&rsquo;s &lsquo;Recareering&rsquo; Site</a>
             <p>
-              It is an easy-to-use, two-page worksheet that helps you quickly identify approximately how much you need to save to fund a comfortable retirement.
+              An easy-to-use, two-page worksheet that helps you quickly identify approximately how much you need to save to fund a comfortable retirement.
+            </p>
+          </li>
+          <li>
+            <a href="http://nextavenue.org">Next Avenue</a>
+            <p>
+              A PBS site &ldquo;where grown-ups keep growing&rdquo; that addresses a wide range of second career, financial, caregiving, health and lifestyle topics.
             </p>
           </li>
         </ul>

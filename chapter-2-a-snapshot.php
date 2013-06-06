@@ -25,7 +25,7 @@ require_once('header.php');
       Location. Gender.
     </p>
     <p class="second">
-      Factors for what your later years may cost. Let&rsquo;s take them one at a time.
+      Factors that determine what your later years may cost. Let&rsquo;s take them one at a time.
     </p>
   </div>
 </section>
@@ -53,9 +53,11 @@ require_once('header.php');
     <div class="gender_split">
       <section class="copy female">
         <div class="contents">
+          <h3>Longevity</h3>
           <p>
             You are likely to live longer and thus have higher health care expenses than men.
           </p>
+          <h3>401(k)-less</h3>
           <p>
             You are more likely to work in part-time jobs that don&rsquo;t qualify for a retirement plan.
           </p>
@@ -98,7 +100,7 @@ require_once('header.php');
           </p>
 
           <p>
-            You make 77 cents for every dollar a man makes, as an average across all occupations. So again, your Social Security benefits, should you qualify, will be a bit lower. Our Social Security guru, Larry Kotlikoff (more on him later) ran a simulation for a woman earning $77,000 a year and a man earning $100,000 a year for the same job. Assuming they both begin working at 30, retire at 65 and start taking benefits at 67, the man will receive an annual benefit of $39,020. The woman, $34,688&mdash;about 88% of the man’s benefit. So while women are still getting less than their higher-paid male counterparts, a bit of the difference is made up in annual SS benefits.
+            You make 77 cents for every dollar a man makes, as an average across all occupations. So again, your Social Security benefits, should you qualify, will be a bit lower.
           </p>
 
           <p>
@@ -131,9 +133,6 @@ require_once('header.php');
 
       <section class="copy female">
         <div class="contents">
-          <p>
-            You&rsquo;re slightly more likely than a man to participate in a retirement plan, after controlling for work status and earnings.
-          </p>
           <p>
             If you&rsquo;re a woman age 65 or older, you will likely be out of work for at least six months should you lose your job.
           </p>
@@ -177,11 +176,11 @@ require_once('header.php');
         Men and women are equally likely to:
       </p>
       <ul>
-        <li>Say they and/or their spouse have saved at least something for retirement (but a third aren&rsquo;t saving at all).</li>
-        <li>Calculate how much will be needed to live comfortably in retirement (though over half of us who are working still haven&rsquo;t done this.</li>
+        <li>Say they have saved at least something for retirement (but a third aren&rsquo;t saving anything at all).</li>
+        <li>Calculate how much they need to live comfortably in retirement (though over half of us who are working still haven&rsquo;t done this).</li>
         <li>Think less than $250,000 will be sufficient for retirement. (Teaser: it&rsquo;s not!)</li>
         <li>Have a median expected retirement age of 65.</li>
-        <li>Work than not&mdash;about 62% of men and 59% of women work.</li>
+        <li>Work&mdash;about 62% of men and 59% of women work.</li>
       </ul>
     </div>
   </div>
@@ -198,7 +197,7 @@ require_once('header.php');
         <input type="radio" name="community_size" value="Major City (more than 900,000 households)">
         <strong>Largest<br>U.S. Cities</strong>
         <div class="icon"></div>
-        <span>More than <strong>9000,000</strong> households</span>
+        <span>More than <strong>900,000</strong> households</span>
       </label>
 
       <label class="less_urbanized">
@@ -247,7 +246,7 @@ require_once('header.php');
       </tr>
     </table>
     <p>
-      In just four years, older workers in urban counties declined, while older workers in rural communities flourished. Data from a study of US counties by Dante Chinni, other of <em>Our Patchwork Nation</em>.
+      In just four years, the number of older workers in urban counties declined, while older workers in rural communities grew. Data from a study of U.S. counties by Experian and via Dante Chinni, author of <em>Our Patchwork Nation</em>.
     </p>
   </div>
 </section>
@@ -266,7 +265,7 @@ require_once('header.php');
       </h2>
 
       <p>
-      Joel Peters is a 61-year-old paramedic who works 12-hour shifts. He does not know if he&rsquo;ll be able to retire or what his financial future will hold, but he is sure that he will not be moving from his rural home near Taos, NM.
+        Joel Peters is a 61-year-old paramedic who works 12-hour shifts. He does not know if he&rsquo;ll be able to retire or what his financial future will hold, but he is sure that he will not be moving from his rural home near Taos, NM.
       </p>
     </div>
   </div>
@@ -290,7 +289,7 @@ require_once('header.php');
 
     <div class="caption">
       <p>
-        When you look at a geographic breakdown of older workers, a few points jump out. While the Great Recession took a toll on everyone, when looking at older workers, there was a distinct difference between rural and urban America. The percentage of older Americans employed full- or part-time actually declined in the most urban, densely populated counties. In smaller rural counties, however, the number of older Americans in the workforce rose sharply.
+        While the Great Recession took a toll on everyone, there was a distinct difference between rural and urban America. The percentage of older Americans employed full- or part-time actually declined in the most urban, densely populated counties. In smaller rural counties, however, the number of older Americans in the workforce rose sharply.
       </p>
       <p>
         Does that mean rural America is actually better for older workers&mdash;a haven for those working for enjoyment or personal fulfillment? <strong><a href="chapter-3-working-for-the-nest-egg.php">Read on.</a></strong>

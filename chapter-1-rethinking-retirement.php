@@ -230,15 +230,7 @@ require_once('header.php');
       have changed over the years. When asked &ldquo;When do you expect to retire?&rdquo; here&rsquo;s how that age group answered&mdash;10 years ago and today. Notice how few answered &ldquo;before age 65&rdquo; in 2013 versus ten years earlier.
     </p>
 
-    <div class="splitbars twothousandthree">
-      <h3>2003</h3>
-      <div class="twothousandthree-chart splitbars-container">
-        <div class="first twothousandthree-pre65"><span>before age 65</span></div>
-        <div class="second twothousandthree-65older"><span>after age 65</span></div>
-        <div class="third twothousandthree-never"><span>never</span></div>
-        <div class="fourth twothousandthree-dunno"><span>don&rsquo;t know</span></div>
-      </div>
-    </div>
+    
     <div class="splitbars twothousandthirteen">
       <h3>2013</h3>
       <div class="twothousandthirteen-chart splitbars-container">
@@ -246,6 +238,15 @@ require_once('header.php');
         <div class="second twothousandthirteen-65older"><span>after age 65</span></div>
         <div class="third twothousandthirteen-never"><span>never</span></div>
         <div class="fourth twothousandthirteen-dunno"><span>don&rsquo;t know</span></div>
+      </div>
+    </div>
+    <div class="splitbars twothousandthree">
+      <h3>2003</h3>
+      <div class="twothousandthree-chart splitbars-container">
+        <div class="first twothousandthree-pre65"><span>before age 65</span></div>
+        <div class="second twothousandthree-65older"><span>after age 65</span></div>
+        <div class="third twothousandthree-never"><span>never</span></div>
+        <div class="fourth twothousandthree-dunno"><span>don&rsquo;t know</span></div>
       </div>
     </div>
   </div>
@@ -289,30 +290,10 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="quotation paul">
-  <div class="contents">
-    <blockquote>
-      <p>
-        At 68, I have now worked in journalism for 50 years (counting college). I have five grandchildren who demand, deserve and bounteously repay my attention. What hair I still have has been gray for years, and I feel the need to touch up my mustache with mascara. My fastball would be lucky to break 40 mph, but a cranky shoulder prevents me from even trying. And yet, I work two jobs&mdash;teaching my brand of real-world economics on the NewsHour (though technically, I&rsquo;m the show&rsquo;s economics reporter) and to college students, mainly at Yale but, occasionally, elsewhere.
-      </p>
-      <p>
-        I consider the jobs a privilege, regardless of age, consider myself &ldquo;absurdly fortunate&rdquo; (as my father once said in discussing my NewsHour job). So I intend to keep working as long as I possibly can.
-      </p>
-      <p>
-        As I pretty much knew, and have confirmed in the course of reporting for this older workers series, my situation is hardly typical of aging workers in America these days. And yet more Americans than ever, including more and more of my junior colleagues in the baby boom, are staying on the job past what was long considered retirement age. In twenty years workers 65&ndash;69 have doubled in their share of the labor force, and now almost a third of folks in that age range are working, up from one in five twenty years ago. What&rsquo;s more, the portion of people working past 75 has almost tripled since 1993.
-      </p>
-      <cite>
-        <strong>&mdash; Paul Solman</strong>
-        PBS Journalist, 68
-      </cite>
-    </blockquote>
-  </div>
-</section>
-
 <section class="labor_force">
   <div class="contents">
     <h2>
-      Labor Force Participation Rates by Age Group
+      An Aging Workforce
     </h2>
 
     <h3 class="first">
@@ -334,6 +315,26 @@ require_once('header.php');
       <div class="data_point bar" id="labor_force-chart-data_point-8"></div>
       <div class="data_point" id="labor_force-chart-data_point-9">58%</div>
     </div>
+  </div>
+</section>
+
+<section class="quotation paul">
+  <div class="contents">
+    <blockquote>
+      <p>
+        Hello, I&rsquo;m Paul Solman&mdash;PBS NewsHour&rsquo;s business and economics correspondent. I consider it to be a privilege to have been/worked as a journalist for over fifty years. I have no plans to stop doing the jobs I love (I also teach at Yale) any time soon&mdash;I intend to keep working as long as I possibly can.  
+      </p>
+      <p>
+        As I pretty much knew, and have confirmed in the course of reporting for this older workers series, my situation is hardly typical of aging workers in America these days. And yet more Americans more of us than ever, including more and more of my junior colleagues in the baby boom, are staying on the job past what was long considered retirement age. 
+      </p>
+      <p>
+        The numbers above are indeed shocking, and we included them to help outline the dramatic change America&rsquo;s workforce is going through. In twenty years workers 65&ndash;69 have doubled in their share of the labor force, and now almost a third of folks in that age range are working, up from one in five twenty years ago. What&rsquo;s more, the portion of people working past 75 has almost tripled changed dramatically since 1993, as you saw above.
+      </p>
+      <cite>
+        <strong>&mdash; Paul Solman</strong>
+        Business and Economics Correspondent, The PBS NewsHour, 68
+      </cite>
+    </blockquote>
   </div>
 </section>
 
