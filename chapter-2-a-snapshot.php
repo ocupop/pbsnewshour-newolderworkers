@@ -118,7 +118,7 @@ require_once('header.php');
         <div class="contents">
           <h3>401(k)</h3>
           <p>
-            You&rsquo;re slightly less likely than a woman to participate in a retirement plan, when controlling for work status or earnings.
+            You&rsquo;re slightly less likely than a woman to participate in a retirement plan, when controlling for work status or earnings. If you&rsquo;re a woman age 65 or older, you will likely be out of work for at least six months should you lose your job.
           </p>
         </div>
       </section>

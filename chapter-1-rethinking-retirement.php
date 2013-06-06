@@ -124,8 +124,7 @@ require_once('header.php');
     <p class="first">Everyone now knows that the workplace is greying. For a variety of reasons, many of us plan to work longer and retire later than we would have just 10 years ago. But for <em>how much</em> longer? The answer has been changing rapidly.</p>
 
     <p class="form_question">
-      To help keep the answer up to date,<br>
-      we&rsquo;re asking you to weigh in.
+      We&rsquo;re asking you to weigh in.
     </p>
 
     <div class="form_fields">
@@ -217,7 +216,7 @@ require_once('header.php');
 <section class="results retirement_expectations">
   <div class="contents">
     <h2>
-      Let&rsquo;s see if your retirement plans are realistic.
+      Let&rsquo;s see if your expectations are realistic.
     </h2>
 
     <p>
