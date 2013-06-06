@@ -217,7 +217,12 @@ require_once('header.php');
 <section class="video vita_needle">
   <div class="contents">
     <div class="replay"></div>
-    <!-- Youtube video: http://youtu.be/NujnD1tykkY -->
+    <!--
+    Youtube video: http://youtu.be/NujnD1tykkY
+    04:29-04:40 
+    IN: "My friends are all in the ground..."
+    OUT: "...I don't want to be like that."
+    -->
 
     <div class="caption">
       <h2>

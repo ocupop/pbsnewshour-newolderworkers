@@ -260,7 +260,10 @@ require_once('header.php');
 <section class="video joel_peters">
   <div class="contents">
     <div class="replay"></div>
-    <!-- Youtube video: http://www.youtu.be/h6xb4F7X3w8  -->
+    <!--
+    Youtube video: http://www.youtu.be/h6xb4F7X3w8
+    02:10-02:22
+    -->
 
     <div class="caption">
       <h2>
