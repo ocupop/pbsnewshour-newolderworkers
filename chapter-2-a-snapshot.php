@@ -66,6 +66,7 @@ require_once('header.php');
 
       <section class="copy male">
         <div class="contents">
+          <h3>Rx</h3>
           <p>
             You are likely to have fewer health care expenses than women because on average men don&rsquo;t live as long as women.
           </p>
@@ -87,6 +88,7 @@ require_once('header.php');
 
       <section class="copy male">
         <div class="contents">
+          <h3>Chutzpah</h3>
           <p>
             You are significantly more likely than a woman to feel very confident about having enough money for medical expenses and that you will live comfortably in retirement.
           </p>
@@ -95,14 +97,17 @@ require_once('header.php');
 
       <section class="copy female">
         <div class="contents">
+          <h3>Family Matters</h3>
           <p>
             In addition, working women are more likely than men to interrupt their careers to take care of family members, which means lower lifetime income, lower contributions to Social Security and thus lower Social Security benefits upon retirement.
           </p>
 
+          <h3>Income</h3>
           <p>
             You make 77 cents for every dollar a man makes, as an average across all occupations. So again, your Social Security benefits, should you qualify, will be a bit lower.
           </p>
 
+          <h3>Mind the Gap</h3>
           <p>
             On average, your retirement account is worth 38.25% <strong>less</strong> than a man&rsquo;s. (However, that gap is slowly closing.)
           </p>
@@ -111,6 +116,7 @@ require_once('header.php');
 
       <section class="copy male">
         <div class="contents">
+          <h3>401(k)</h3>
           <p>
             You&rsquo;re slightly less likely than a woman to participate in a retirement plan, when controlling for work status or earnings.
           </p>
