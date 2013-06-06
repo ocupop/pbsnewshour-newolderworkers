@@ -271,12 +271,30 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="video dante_chinni">
+<section class="copy dante_chinni-intro">
   <div class="contents">
     <p class="intro">
       So what&rsquo;s geography got to do with it? We turned to Dante Chinni, author of <em>Our Patchwork Nation</em>, to explain:
     </p>
+  </div>
+</section>
 
+<section class="quotation dante_chinni">
+  <div class="contents">
+    <blockquote>
+      <p>
+        While the Great Recession took a toll on everyone, there was a distinct difference between rural and urban America. The percentage of older Americans employed full- or part-time actually declined in the most urban, densely populated counties. In smaller rural counties, however, the number of older Americans in the workforce rose sharply.
+      </p>
+      <cite>
+        <strong>&mdash; Dante Chinni</strong>
+        Author of <em>Our Patchwork Nation</em>
+      </cite>
+    </blockquote>
+  </div>
+</section>
+
+<section class="video dante_chinni">
+  <div class="contents">
     <h2>
       The Urban/Rural Divide
     </h2>
@@ -288,9 +306,6 @@ require_once('header.php');
     </video>
 
     <div class="caption">
-      <p>
-        While the Great Recession took a toll on everyone, there was a distinct difference between rural and urban America. The percentage of older Americans employed full- or part-time actually declined in the most urban, densely populated counties. In smaller rural counties, however, the number of older Americans in the workforce rose sharply.
-      </p>
       <p>
         Does that mean rural America is actually better for older workers&mdash;a haven for those working for enjoyment or personal fulfillment? <strong><a href="chapter-3-working-for-the-nest-egg.php">Read on.</a></strong>
       </p>

@@ -149,7 +149,7 @@ em {
   padding-bottom: 0; }
 
 /* line 78, sass/_base.sass */
-.blend .contents, .chapter-2-a-snapshot article .gender .contents, .chapter-3-working-for-the-nest-egg article .disclaimer .contents, .chapter-3-working-for-the-nest-egg article .warning .contents, .chapter-3-working-for-the-nest-egg article .sheryl_garrett .contents, .chapter-3-working-for-the-nest-egg article .why_is_it_harder .contents, .chapter-3-working-for-the-nest-egg article .julie_zissimopoulos .contents {
+.blend .contents, .chapter-2-a-snapshot article .gender .contents, .chapter-2-a-snapshot article .quotation.dante_chinni .contents, .chapter-3-working-for-the-nest-egg article .disclaimer .contents, .chapter-3-working-for-the-nest-egg article .warning .contents, .chapter-3-working-for-the-nest-egg article .sheryl_garrett .contents, .chapter-3-working-for-the-nest-egg article .why_is_it_harder .contents, .chapter-3-working-for-the-nest-egg article .julie_zissimopoulos .contents {
   padding-top: 0;
   padding-bottom: 0; }
 
@@ -305,10 +305,10 @@ section {
   section.quotation.left .contents, .chapter-1-rethinking-retirement article section.quotation.working_about_the_right_amount .contents, .chapter-2-a-snapshot article .gender_split section.quotation.male .contents, .chapter-3-working-for-the-nest-egg article section.quotation.sheryl_garrett .contents, .chapter-3-working-for-the-nest-egg article section.quotation.babs_tatalias .contents, .chapter-3-working-for-the-nest-egg article section.quotation.charles_smith .contents, .chapter-3-working-for-the-nest-egg article section.quotation.mike_kemp .contents, .chapter-4-working-in-retirement article section.quotation.colleges_see_graying_workforce .contents, .chapter-4-working-in-retirement article section.quotation.boom_in_entrepreneurship .contents {
     background-position: 92% center; }
   /* line 222, sass/_base.sass */
-  section.quotation.right blockquote, .chapter-2-a-snapshot article .gender_split section.quotation.female blockquote, .chapter-2-a-snapshot article section.quotation.joel_peters blockquote, .chapter-3-working-for-the-nest-egg article section.quotation.if_you_look_at blockquote, .chapter-3-working-for-the-nest-egg article section.quotation.a_third_of_baby_boomers blockquote, .chapter-3-working-for-the-nest-egg article section.quotation.the_great_recession blockquote, .chapter-3-working-for-the-nest-egg article section.quotation.brutal_job_search blockquote, .chapter-3-working-for-the-nest-egg article section.quotation.julie_zissimopoulos blockquote, .chapter-4-working-in-retirement article section.quotation.nancy_goldberg blockquote, .chapter-4-working-in-retirement article section.quotation.marc_freedman blockquote, .chapter-4-working-in-retirement article section.quotation.vita_needle blockquote {
+  section.quotation.right blockquote, .chapter-2-a-snapshot article .gender_split section.quotation.female blockquote, .chapter-2-a-snapshot article section.quotation.joel_peters blockquote, .chapter-2-a-snapshot article section.quotation.dante_chinni blockquote, .chapter-3-working-for-the-nest-egg article section.quotation.if_you_look_at blockquote, .chapter-3-working-for-the-nest-egg article section.quotation.a_third_of_baby_boomers blockquote, .chapter-3-working-for-the-nest-egg article section.quotation.the_great_recession blockquote, .chapter-3-working-for-the-nest-egg article section.quotation.brutal_job_search blockquote, .chapter-3-working-for-the-nest-egg article section.quotation.julie_zissimopoulos blockquote, .chapter-4-working-in-retirement article section.quotation.nancy_goldberg blockquote, .chapter-4-working-in-retirement article section.quotation.marc_freedman blockquote, .chapter-4-working-in-retirement article section.quotation.vita_needle blockquote {
     float: right; }
     /* line 32, sass/_mixins.sass */
-    section.quotation.right blockquote:before, .chapter-2-a-snapshot article .gender_split section.quotation.female blockquote:before, .chapter-2-a-snapshot article section.quotation.joel_peters blockquote:before, .chapter-3-working-for-the-nest-egg article section.quotation.if_you_look_at blockquote:before, .chapter-3-working-for-the-nest-egg article section.quotation.a_third_of_baby_boomers blockquote:before, .chapter-3-working-for-the-nest-egg article section.quotation.the_great_recession blockquote:before, .chapter-3-working-for-the-nest-egg article section.quotation.brutal_job_search blockquote:before, .chapter-3-working-for-the-nest-egg article section.quotation.julie_zissimopoulos blockquote:before, .chapter-4-working-in-retirement article section.quotation.nancy_goldberg blockquote:before, .chapter-4-working-in-retirement article section.quotation.marc_freedman blockquote:before, .chapter-4-working-in-retirement article section.quotation.vita_needle blockquote:before {
+    section.quotation.right blockquote:before, .chapter-2-a-snapshot article .gender_split section.quotation.female blockquote:before, .chapter-2-a-snapshot article section.quotation.joel_peters blockquote:before, .chapter-2-a-snapshot article section.quotation.dante_chinni blockquote:before, .chapter-3-working-for-the-nest-egg article section.quotation.if_you_look_at blockquote:before, .chapter-3-working-for-the-nest-egg article section.quotation.a_third_of_baby_boomers blockquote:before, .chapter-3-working-for-the-nest-egg article section.quotation.the_great_recession blockquote:before, .chapter-3-working-for-the-nest-egg article section.quotation.brutal_job_search blockquote:before, .chapter-3-working-for-the-nest-egg article section.quotation.julie_zissimopoulos blockquote:before, .chapter-4-working-in-retirement article section.quotation.nancy_goldberg blockquote:before, .chapter-4-working-in-retirement article section.quotation.marc_freedman blockquote:before, .chapter-4-working-in-retirement article section.quotation.vita_needle blockquote:before {
       content: "";
       position: absolute;
       top: 50%;
@@ -319,7 +319,7 @@ section {
       border-right: 25px solid #548e85;
       margin-left: -24px; }
   /* line 226, sass/_base.sass */
-  section.quotation.right .contents, .chapter-2-a-snapshot article .gender_split section.quotation.female .contents, .chapter-2-a-snapshot article section.quotation.joel_peters .contents, .chapter-3-working-for-the-nest-egg article section.quotation.if_you_look_at .contents, .chapter-3-working-for-the-nest-egg article section.quotation.a_third_of_baby_boomers .contents, .chapter-3-working-for-the-nest-egg article section.quotation.the_great_recession .contents, .chapter-3-working-for-the-nest-egg article section.quotation.brutal_job_search .contents, .chapter-3-working-for-the-nest-egg article section.quotation.julie_zissimopoulos .contents, .chapter-4-working-in-retirement article section.quotation.nancy_goldberg .contents, .chapter-4-working-in-retirement article section.quotation.marc_freedman .contents, .chapter-4-working-in-retirement article section.quotation.vita_needle .contents {
+  section.quotation.right .contents, .chapter-2-a-snapshot article .gender_split section.quotation.female .contents, .chapter-2-a-snapshot article section.quotation.joel_peters .contents, .chapter-2-a-snapshot article section.quotation.dante_chinni .contents, .chapter-3-working-for-the-nest-egg article section.quotation.if_you_look_at .contents, .chapter-3-working-for-the-nest-egg article section.quotation.a_third_of_baby_boomers .contents, .chapter-3-working-for-the-nest-egg article section.quotation.the_great_recession .contents, .chapter-3-working-for-the-nest-egg article section.quotation.brutal_job_search .contents, .chapter-3-working-for-the-nest-egg article section.quotation.julie_zissimopoulos .contents, .chapter-4-working-in-retirement article section.quotation.nancy_goldberg .contents, .chapter-4-working-in-retirement article section.quotation.marc_freedman .contents, .chapter-4-working-in-retirement article section.quotation.vita_needle .contents {
     background-position: left center; }
   /* line 230, sass/_base.sass */
   section.quotation.paul .contents {
@@ -405,11 +405,11 @@ section {
   section.video.playing .replay {
     display: none; }
   /* line 306, sass/_base.sass */
-  section.video.right video, .chapter-2-a-snapshot article .gender_split section.video.quotation.female video, .chapter-2-a-snapshot article section.video.joel_peters video, .chapter-3-working-for-the-nest-egg article section.video.if_you_look_at video, .chapter-3-working-for-the-nest-egg article section.video.a_third_of_baby_boomers video, .chapter-3-working-for-the-nest-egg article section.video.the_great_recession video, .chapter-3-working-for-the-nest-egg article section.video.brutal_job_search video, .chapter-3-working-for-the-nest-egg article section.video.julie_zissimopoulos video, .chapter-4-working-in-retirement article section.video.nancy_goldberg video, .chapter-4-working-in-retirement article section.video.marc_freedman video, .chapter-4-working-in-retirement article section.video.vita_needle video {
+  section.video.right video, .chapter-2-a-snapshot article .gender_split section.video.quotation.female video, .chapter-2-a-snapshot article section.video.joel_peters video, .chapter-2-a-snapshot article section.video.quotation.dante_chinni video, .chapter-3-working-for-the-nest-egg article section.video.if_you_look_at video, .chapter-3-working-for-the-nest-egg article section.video.a_third_of_baby_boomers video, .chapter-3-working-for-the-nest-egg article section.video.the_great_recession video, .chapter-3-working-for-the-nest-egg article section.video.brutal_job_search video, .chapter-3-working-for-the-nest-egg article section.video.julie_zissimopoulos video, .chapter-4-working-in-retirement article section.video.nancy_goldberg video, .chapter-4-working-in-retirement article section.video.marc_freedman video, .chapter-4-working-in-retirement article section.video.vita_needle video {
     float: right;
     margin-left: 2em; }
   /* line 309, sass/_base.sass */
-  section.video.right .replay, .chapter-2-a-snapshot article .gender_split section.video.quotation.female .replay, .chapter-2-a-snapshot article section.video.joel_peters .replay, .chapter-3-working-for-the-nest-egg article section.video.if_you_look_at .replay, .chapter-3-working-for-the-nest-egg article section.video.a_third_of_baby_boomers .replay, .chapter-3-working-for-the-nest-egg article section.video.the_great_recession .replay, .chapter-3-working-for-the-nest-egg article section.video.brutal_job_search .replay, .chapter-3-working-for-the-nest-egg article section.video.julie_zissimopoulos .replay, .chapter-4-working-in-retirement article section.video.nancy_goldberg .replay, .chapter-4-working-in-retirement article section.video.marc_freedman .replay, .chapter-4-working-in-retirement article section.video.vita_needle .replay {
+  section.video.right .replay, .chapter-2-a-snapshot article .gender_split section.video.quotation.female .replay, .chapter-2-a-snapshot article section.video.joel_peters .replay, .chapter-2-a-snapshot article section.video.quotation.dante_chinni .replay, .chapter-3-working-for-the-nest-egg article section.video.if_you_look_at .replay, .chapter-3-working-for-the-nest-egg article section.video.a_third_of_baby_boomers .replay, .chapter-3-working-for-the-nest-egg article section.video.the_great_recession .replay, .chapter-3-working-for-the-nest-egg article section.video.brutal_job_search .replay, .chapter-3-working-for-the-nest-egg article section.video.julie_zissimopoulos .replay, .chapter-4-working-in-retirement article section.video.nancy_goldberg .replay, .chapter-4-working-in-retirement article section.video.marc_freedman .replay, .chapter-4-working-in-retirement article section.video.vita_needle .replay {
     right: 0;
     background-image: url('../img/play-small.png?1369940870'); }
   /* line 314, sass/_base.sass */
@@ -421,12 +421,12 @@ section {
     left: 0;
     background-image: url('../img/play-small.png?1369940870'); }
   /* line 322, sass/_base.sass */
-  section.video.full video, .chapter-2-a-snapshot article section.dante_chinni video, .chapter-3-working-for-the-nest-egg article section.paul_transition video, .chapter-4-working-in-retirement article section.video.paul_interviews_paul video, section.video.full .replay, .chapter-2-a-snapshot article section.dante_chinni .replay, .chapter-3-working-for-the-nest-egg article section.paul_transition .replay, .chapter-4-working-in-retirement article section.video.paul_interviews_paul .replay {
+  section.video.full video, .chapter-2-a-snapshot article section.video.dante_chinni video, .chapter-3-working-for-the-nest-egg article section.paul_transition video, .chapter-4-working-in-retirement article section.video.paul_interviews_paul video, section.video.full .replay, .chapter-2-a-snapshot article section.video.dante_chinni .replay, .chapter-3-working-for-the-nest-egg article section.paul_transition .replay, .chapter-4-working-in-retirement article section.video.paul_interviews_paul .replay {
     width: 800px;
     height: 450px;
     margin-bottom: 1.5em; }
   /* line 326, sass/_base.sass */
-  section.video.full .replay, .chapter-2-a-snapshot article section.dante_chinni .replay, .chapter-3-working-for-the-nest-egg article section.paul_transition .replay, .chapter-4-working-in-retirement article section.video.paul_interviews_paul .replay {
+  section.video.full .replay, .chapter-2-a-snapshot article section.video.dante_chinni .replay, .chapter-3-working-for-the-nest-egg article section.paul_transition .replay, .chapter-4-working-in-retirement article section.video.paul_interviews_paul .replay {
     background-image: url('../img/play-large.png?1369940825'); }
 
 /* line 329, sass/_base.sass */
@@ -2030,14 +2030,14 @@ footer {
   .chapter-2-a-snapshot article .community_data table .twothousandeight td.second,
   .chapter-2-a-snapshot article .community_data table .twothousandeight td.fourth {
     background-color: #aaaaaa; }
-/* line 270, sass/_chapter2.sass */
-.chapter-2-a-snapshot article .dante_chinni .intro {
+/* line 274, sass/_chapter2.sass */
+.chapter-2-a-snapshot article .video.dante_chinni .intro {
   font-size: 18px; }
-/* line 273, sass/_chapter2.sass */
-.chapter-2-a-snapshot article .dante_chinni h2 {
+/* line 277, sass/_chapter2.sass */
+.chapter-2-a-snapshot article .video.dante_chinni h2 {
   font-size: 63px; }
-/* line 276, sass/_chapter2.sass */
-.chapter-2-a-snapshot article .dante_chinni .caption {
+/* line 280, sass/_chapter2.sass */
+.chapter-2-a-snapshot article .video.dante_chinni .caption {
   font-size: 18px; }
 
 /* line 3, sass/_chapter3.sass */
@@ -2622,7 +2622,7 @@ footer {
   margin: 4em 0; }
   /* line 93, sass/_chapter4.sass */
   .chapter-4-working-in-retirement article .reasons_for_working .reasons_for_working-chart {
-    background: url('../img/4/reasons_for_working-chart.gif?1370480788') left top no-repeat;
+    background: url('../img/4/reasons_for_working-chart.gif?1370481165') left top no-repeat;
     margin: 0 0 0 -37px;
     width: 837px;
     height: 365px;
