@@ -160,6 +160,7 @@
     .form_fields
       label
         color: $medium
+        cursor: pointer
         float: left
         text-align: center
         margin: 0 2.5%
@@ -223,6 +224,7 @@
       background: $medium
       color: #fff
       font-size: 19px
+      line-height: 1.4
       margin: 0
       padding: 1em .75em .9em
 
@@ -232,40 +234,79 @@
       text-align: center
       text-transform: none
 
-    table
-      border-collapse: collapse
-      margin-left: -60px
-      width: 860px
+    .community_changes
+      background: url('../img/form-background.jpg')
+      height: 200px
 
-      th,
-      td
-        padding: .5em 0
+      .positive,
+      .negative
+        @include clearfix
+        height: 100px
 
-      th
-        color: $medium
-        font-family: $bodoni-poster-italic
-        font-size: 18px
-        width: 60px
+        div
+          position: absolute
+          width: 200px
 
-      td
-        font-family: $proxima-bold
-        font-size: 22px
-        text-align: center
-        width: 200px
+          span
+            display: block
+            margin: 0 auto
+            width: 50%
+            height: 100%
 
-      .twothousandtwelve td
-        background-color: #e4e4e4
+            strong
+              color: #fff
+              display: block
+              font-family: $proxima-bold
+              font-size: 20px
+              font-weight: normal
+              text-align: center
+              text-transform: uppercase
+              position: absolute
+              top: .2em
+              left: 35%
 
-      .twothousandeight td
-        background-color: #a4a4a4
+          &.a
+            left: 0
+            top: 0
+            height: 30%
 
-      .twothousandtwelve td.second,
-      .twothousandtwelve td.fourth
-        background-color: #eee
+          &.b
+            left: 25%
+            bottom: 0
+            height: 20%
 
-      .twothousandeight td.second,
-      .twothousandeight td.fourth
-        background-color: #aaa
+            span
+              background: transparent
+
+            strong
+              color: $light
+              font-family: $proxima-semibold
+              font-size: 14px
+              position: static
+    
+          &.c
+            left: 50%
+            bottom: 0
+            height: 70%
+
+            span strong
+              font-size: 28px
+              padding-top: .3em
+
+          &.d
+            left: 75%
+            top: 0
+            height: 30%
+
+      .positive
+        border-bottom: 2px solid $medium
+
+        div span
+          background: $green
+
+      .negative
+        div span
+          background: $light
 
   .joel_peters
     @extend .right

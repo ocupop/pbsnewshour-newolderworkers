@@ -2020,6 +2020,7 @@ footer {
 /* line 161, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .question.community_size .form_fields label {
   color: #666666;
+  cursor: pointer;
   float: left;
   text-align: center;
   margin: 0 2.5%;
@@ -2029,26 +2030,26 @@ footer {
   -moz-transition: color 0.2s;
   -o-transition: color 0.2s;
   transition: color 0.2s; }
-  /* line 170, sass/_chapter2.sass */
+  /* line 171, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label input,
   .chapter-2-a-snapshot article .question.community_size .form_fields label strong,
   .chapter-2-a-snapshot article .question.community_size .form_fields label span {
     display: block;
     margin: 0 auto; }
-  /* line 176, sass/_chapter2.sass */
+  /* line 177, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label input + strong {
     margin-top: 1em;
     font-family: "Proxima N W01 Bold";
     font-size: 22px;
     text-transform: uppercase; }
-  /* line 182, sass/_chapter2.sass */
+  /* line 183, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label .icon {
     width: 81px;
     height: 81px;
     display: block;
     margin: 1em auto;
     position: relative; }
-    /* line 189, sass/_chapter2.sass */
+    /* line 190, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .question.community_size .form_fields label .icon:after {
       content: "";
       background-image: url('../img/2/community-size.png?1369874575');
@@ -2063,79 +2064,129 @@ footer {
       -moz-transition: opacity 0.2s;
       -o-transition: opacity 0.2s;
       transition: opacity 0.2s; }
-  /* line 201, sass/_chapter2.sass */
+  /* line 202, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label.highly_urbanized .icon:after {
     background-position: 0 0; }
-  /* line 204, sass/_chapter2.sass */
+  /* line 205, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label.less_urbanized .icon:after {
     background-position: -473px 0; }
-  /* line 207, sass/_chapter2.sass */
+  /* line 208, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label.rural_area .icon:after {
     background-position: -946px 0; }
-  /* line 210, sass/_chapter2.sass */
+  /* line 211, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label.very_rural_area .icon:after {
     background-position: -1420px 0; }
-  /* line 213, sass/_chapter2.sass */
+  /* line 214, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .question.community_size .form_fields label:hover {
     color: #383838; }
-    /* line 216, sass/_chapter2.sass */
+    /* line 217, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .question.community_size .form_fields label:hover .icon:after {
       opacity: 1; }
-/* line 222, sass/_chapter2.sass */
+/* line 223, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .community_data h2 {
   background: #666666;
   color: white;
   font-size: 19px;
+  line-height: 1.4;
   margin: 0;
   padding: 1em 0.75em 0.9em; }
-/* line 229, sass/_chapter2.sass */
+/* line 231, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .community_data p {
   font-size: 18px;
   line-height: 1.4;
   text-align: center;
   text-transform: none; }
-/* line 235, sass/_chapter2.sass */
-.chapter-2-a-snapshot article .community_data table {
-  border-collapse: collapse;
-  margin-left: -60px;
-  width: 860px; }
-  /* line 240, sass/_chapter2.sass */
-  .chapter-2-a-snapshot article .community_data table th,
-  .chapter-2-a-snapshot article .community_data table td {
-    padding: 0.5em 0; }
-  /* line 244, sass/_chapter2.sass */
-  .chapter-2-a-snapshot article .community_data table th {
-    color: #666666;
-    font-family: "BodoniW01-PosterItalic";
-    font-size: 18px;
-    width: 60px; }
-  /* line 250, sass/_chapter2.sass */
-  .chapter-2-a-snapshot article .community_data table td {
-    font-family: "Proxima N W01 Bold";
-    font-size: 22px;
-    text-align: center;
-    width: 200px; }
-  /* line 256, sass/_chapter2.sass */
-  .chapter-2-a-snapshot article .community_data table .twothousandtwelve td {
-    background-color: #e4e4e4; }
-  /* line 259, sass/_chapter2.sass */
-  .chapter-2-a-snapshot article .community_data table .twothousandeight td {
-    background-color: #a4a4a4; }
-  /* line 262, sass/_chapter2.sass */
-  .chapter-2-a-snapshot article .community_data table .twothousandtwelve td.second,
-  .chapter-2-a-snapshot article .community_data table .twothousandtwelve td.fourth {
-    background-color: #eeeeee; }
-  /* line 266, sass/_chapter2.sass */
-  .chapter-2-a-snapshot article .community_data table .twothousandeight td.second,
-  .chapter-2-a-snapshot article .community_data table .twothousandeight td.fourth {
-    background-color: #aaaaaa; }
-/* line 282, sass/_chapter2.sass */
+/* line 237, sass/_chapter2.sass */
+.chapter-2-a-snapshot article .community_data .community_changes {
+  background: url("../img/form-background.jpg");
+  height: 200px; }
+  /* line 241, sass/_chapter2.sass */
+  .chapter-2-a-snapshot article .community_data .community_changes .positive,
+  .chapter-2-a-snapshot article .community_data .community_changes .negative {
+    overflow: hidden;
+    *zoom: 1;
+    height: 100px; }
+    /* line 246, sass/_chapter2.sass */
+    .chapter-2-a-snapshot article .community_data .community_changes .positive div,
+    .chapter-2-a-snapshot article .community_data .community_changes .negative div {
+      position: absolute;
+      width: 200px; }
+      /* line 250, sass/_chapter2.sass */
+      .chapter-2-a-snapshot article .community_data .community_changes .positive div span,
+      .chapter-2-a-snapshot article .community_data .community_changes .negative div span {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        height: 100%; }
+        /* line 256, sass/_chapter2.sass */
+        .chapter-2-a-snapshot article .community_data .community_changes .positive div span strong,
+        .chapter-2-a-snapshot article .community_data .community_changes .negative div span strong {
+          color: white;
+          display: block;
+          font-family: "Proxima N W01 Bold";
+          font-size: 20px;
+          font-weight: normal;
+          text-align: center;
+          text-transform: uppercase;
+          position: absolute;
+          top: 0.2em;
+          left: 35%; }
+      /* line 268, sass/_chapter2.sass */
+      .chapter-2-a-snapshot article .community_data .community_changes .positive div.a,
+      .chapter-2-a-snapshot article .community_data .community_changes .negative div.a {
+        left: 0;
+        top: 0;
+        height: 30%; }
+      /* line 273, sass/_chapter2.sass */
+      .chapter-2-a-snapshot article .community_data .community_changes .positive div.b,
+      .chapter-2-a-snapshot article .community_data .community_changes .negative div.b {
+        left: 25%;
+        bottom: 0;
+        height: 20%; }
+        /* line 278, sass/_chapter2.sass */
+        .chapter-2-a-snapshot article .community_data .community_changes .positive div.b span,
+        .chapter-2-a-snapshot article .community_data .community_changes .negative div.b span {
+          background: transparent; }
+        /* line 281, sass/_chapter2.sass */
+        .chapter-2-a-snapshot article .community_data .community_changes .positive div.b strong,
+        .chapter-2-a-snapshot article .community_data .community_changes .negative div.b strong {
+          color: #aaaaaa;
+          font-family: "Proxima N W01 Smbd";
+          font-size: 14px;
+          position: static; }
+      /* line 287, sass/_chapter2.sass */
+      .chapter-2-a-snapshot article .community_data .community_changes .positive div.c,
+      .chapter-2-a-snapshot article .community_data .community_changes .negative div.c {
+        left: 50%;
+        bottom: 0;
+        height: 70%; }
+        /* line 292, sass/_chapter2.sass */
+        .chapter-2-a-snapshot article .community_data .community_changes .positive div.c span strong,
+        .chapter-2-a-snapshot article .community_data .community_changes .negative div.c span strong {
+          font-size: 28px;
+          padding-top: 0.3em; }
+      /* line 296, sass/_chapter2.sass */
+      .chapter-2-a-snapshot article .community_data .community_changes .positive div.d,
+      .chapter-2-a-snapshot article .community_data .community_changes .negative div.d {
+        left: 75%;
+        top: 0;
+        height: 30%; }
+  /* line 301, sass/_chapter2.sass */
+  .chapter-2-a-snapshot article .community_data .community_changes .positive {
+    border-bottom: 2px solid #666666; }
+    /* line 304, sass/_chapter2.sass */
+    .chapter-2-a-snapshot article .community_data .community_changes .positive div span {
+      background: #548e85; }
+  /* line 308, sass/_chapter2.sass */
+  .chapter-2-a-snapshot article .community_data .community_changes .negative div span {
+    background: #aaaaaa; }
+/* line 323, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .video.dante_chinni .intro {
   font-size: 18px; }
-/* line 285, sass/_chapter2.sass */
+/* line 326, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .video.dante_chinni h2 {
   font-size: 63px; }
-/* line 288, sass/_chapter2.sass */
+/* line 329, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .video.dante_chinni .caption {
   font-size: 18px; }
 

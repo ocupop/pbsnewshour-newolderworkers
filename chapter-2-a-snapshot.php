@@ -233,24 +233,22 @@ require_once('header.php');
 <section class="community_data">
   <div class="contents">
     <h2>
-      Part- and full-time workers aged 65 years or more, per community size.
+      Here&rsquo;s how these communities experienced change<br>from 2008&ndash;2012 for workers employed full- or part-time.
     </h2>
-    <table>
-      <tr class="twothousandeight">
-        <th>2008</th>
-        <td class="first">793</td>
-        <td class="second">291</td>
-        <td class="third">107</td>
-        <td class="fourth">164</td>
-      </tr>
-      <tr class="twothousandtwelve">
-        <th>2012</th>
-        <td class="first">930</td>
-        <td class="second">220</td>
-        <td class="third">114</td>
-        <td class="fourth">111</td>
-      </tr>
-    </table>
+    <div class="community_changes">
+      <div class="positive">
+        <div class="a">&nbsp;</div>
+        <div class="b"><span><strong>no change</strong></span></div>
+        <div class="c"><span><strong>7%</strong></span></div>
+        <div class="d">&nbsp;</div>
+      </div>
+      <div class="negative">
+        <div class="a"><span><strong>-3%</strong></span></div>
+        <div class="b">&nbsp;</div>
+        <div class="c">&nbsp;</div>
+        <div class="d"><span><strong>-3%</strong></span></div>
+      </div>
+    </div>
     <p>
       In just four years, the number of older workers in urban counties declined, while older workers in rural communities grew. Data from a study of U.S. counties by Experian and via Dante Chinni, author of <em>Our Patchwork Nation</em>.
     </p>
