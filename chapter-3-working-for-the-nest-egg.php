@@ -304,12 +304,14 @@ require_once('header.php');
 <section class="video babs_tatalias">
   <div class="contents">
     <div class="replay"></div>
-    <!--
-    Youtube video: http://youtu.be/GBTnbbQyub0
-    00:21-00:37
-    IN: "Because I didn't want to touch my nest egg..."
-    OUT: "...And that’s why I went back to work."
-    -->
+    <div class="video-container">
+      <!--
+      Youtube video: http://youtu.be/GBTnbbQyub0
+      00:21-00:37
+      IN: "Because I didn't want to touch my nest egg..."
+      OUT: "...And that’s why I went back to work."
+      -->
+    </div>
 
     <div class="caption">
       <h2>
@@ -341,12 +343,14 @@ require_once('header.php');
 <section class="video charles_smith">
   <div class="contents">
     <div class="replay"></div>
-    <!--
-    Youtube video: http://youtu.be/RO5NM1uZLQo
-    01:19-01:33
-    IN: "It's discouraging..."
-    OUT: "Where are all the jobs? North Dakota, right?"
-    -->
+    <div class="video-container">
+      <!--
+      Youtube video: http://youtu.be/RO5NM1uZLQo
+      01:19-01:33
+      IN: "It's discouraging..."
+      OUT: "Where are all the jobs? North Dakota, right?"
+      -->
+    </div>
 
     <div class="caption">
       <h2>
@@ -382,12 +386,14 @@ require_once('header.php');
 <section class="video mike_kemp">
   <div class="contents">
     <div class="replay"></div>
-    <!--
-    Youtube video: http://youtu.be/u2wbxSrWB7k
-    00:34-00:48 
-    IN: "I've always been reasonably good..."
-    OUT: "...When I looked at the business, I could do this."
-    -->
+    <div class="video-container">
+      <!--
+      Youtube video: http://youtu.be/u2wbxSrWB7k
+      00:34-00:48 
+      IN: "I've always been reasonably good..."
+      OUT: "...When I looked at the business, I could do this."
+      -->
+    </div>
 
     <div class="caption">
       <h2>
@@ -420,12 +426,14 @@ require_once('header.php');
 <section class="video brutal_job_search">
   <div class="contents">
     <div class="replay"></div>
-    <!--
-    Youtube video: http://www.youtu.be/MWMzgU_QfHU
-    08:41-09:22 
-    IN: "I've gone through..."
-    OUT: "...after the unemployment runs out, probably."
-    -->
+    <div class="video-container">
+      <!--
+      Youtube video: http://www.youtu.be/MWMzgU_QfHU
+      08:41-09:22 
+      IN: "I've gone through..."
+      OUT: "...after the unemployment runs out, probably."
+      -->
+    </div>
 
     <div class="caption">
       <h2>
@@ -464,7 +472,9 @@ require_once('header.php');
 <section class="video paul_transition">
   <div class="contents">
     <div class="replay"></div>
-    <!-- Youtube video: TODO -->
+    <div class="video-container">
+      <!-- Youtube video: TODO -->
+    </div>
   </div>
 </section>
 

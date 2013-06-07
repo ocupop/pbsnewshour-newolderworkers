@@ -258,10 +258,12 @@ require_once('header.php');
 <section class="video joel_peters">
   <div class="contents">
     <div class="replay"></div>
-    <!--
-    Youtube video: http://www.youtu.be/h6xb4F7X3w8
-    02:10-02:22
-    -->
+    <div class="video-container">
+      <!--
+      Youtube video: http://www.youtu.be/h6xb4F7X3w8
+      02:10-02:22
+      -->
+    </div>
 
     <div class="caption">
       <h2>
@@ -304,7 +306,9 @@ require_once('header.php');
     </h2>
 
     <div class="replay"></div>
-    <!-- YouTube video: http://youtu.be/Z6XIsQCKcRE -->
+    <div class="video-container">
+      <!-- YouTube video: http://youtu.be/Z6XIsQCKcRE -->
+    </div>
 
     <div class="caption">
       <p>

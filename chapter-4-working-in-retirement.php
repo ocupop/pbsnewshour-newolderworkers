@@ -128,11 +128,13 @@ require_once('header.php');
 <section class="video colleges_see_graying_workforce">
   <div class="contents">
     <div class="replay"></div>
-    <!--
-    Youtube video: http://youtu.be/2LGLY0yPjgE
-    IN: 01:31 "Most of us believe that we should be able ..."
-    OUT: 02:22 "...the chance to have full-time work, to develop themselves, so that older people can hang on to keep everything we love?"
-    -->
+    <div class="video-container">
+      <!--
+      Youtube video: http://youtu.be/2LGLY0yPjgE
+      IN: 01:31 "Most of us believe that we should be able ..."
+      OUT: 02:22 "...the chance to have full-time work, to develop themselves, so that older people can hang on to keep everything we love?"
+      -->
+    </div>
 
     <div class="caption">
       <h2>
@@ -204,11 +206,13 @@ require_once('header.php');
 <section class="video boom_in_entrepreneurship">
   <div class="contents">
     <div class="replay"></div>
-    <!--
-    Youtube video: http://youtu.be/wdJq3Z7vyfM
-    IN: 00:14 "Look at this nice tight stomach with the abs that you could grate cheese on..."
-    OUT: 00:35 "...says Townsend, she started Mannequin Madness."
-    -->
+    <div class="video-container">
+      <!--
+      Youtube video: http://youtu.be/wdJq3Z7vyfM
+      IN: 00:14 "Look at this nice tight stomach with the abs that you could grate cheese on..."
+      OUT: 00:35 "...says Townsend, she started Mannequin Madness."
+      -->
+    </div>
 
     <div class="caption">
       <h2>
@@ -225,12 +229,14 @@ require_once('header.php');
 <section class="video vita_needle">
   <div class="contents">
     <div class="replay"></div>
-    <!--
-    Youtube video: http://youtu.be/NujnD1tykkY
-    04:29-04:40 
-    IN: "My friends are all in the ground..."
-    OUT: "...I don't want to be like that."
-    -->
+    <div class="video-container">
+      <!--
+      Youtube video: http://youtu.be/NujnD1tykkY
+      04:29-04:40 
+      IN: "My friends are all in the ground..."
+      OUT: "...I don't want to be like that."
+      -->
+    </div>
 
     <div class="caption">
       <h2>
@@ -250,7 +256,9 @@ require_once('header.php');
       The Paul Solman Interview
     </h2>
     <div class="replay"></div>
-    <!-- Youtube video: http://youtu.be/XXotwQ0T-W8 -->
+    <div class="video-container">
+      <!-- Youtube video: http://youtu.be/XXotwQ0T-W8 -->
+    </div>
   </div>
 </section>
 

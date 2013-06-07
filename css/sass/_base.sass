@@ -288,7 +288,7 @@ section
           line-height: 1.4
           margin: .75em 0
 
-    video,
+    .video-container,
     .replay
       width: 500px
       height: 280px
@@ -304,7 +304,7 @@ section
       display: none
 
     &.right
-      video
+      .video-container
         float: right
         margin-left: 2em
       .replay
@@ -312,7 +312,7 @@ section
         background-image: image-url("play-small.png")
 
     &.left
-      video
+      .video-container
         float: left
         margin-right: 2em
       .replay
@@ -320,7 +320,7 @@ section
         background-image: image-url("play-small.png")
 
     &.full
-      video, .replay
+      .video-container, .replay
         width: 800px
         height: 450px
         margin-bottom: 1.5em
