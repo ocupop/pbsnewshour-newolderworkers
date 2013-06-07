@@ -146,6 +146,7 @@ $(document).ready ()->
     $retirement_expectations = $('.retirement_expectations')
 
 
+
     scroll_actions.fade_header = ()->
       factor = 0
       offset = 0
@@ -182,6 +183,16 @@ $(document).ready ()->
       $retirement_expectations.removeClass("age-all age-25-34 age-35-44 age-45-54 age-55plus").addClass(expectations_class)
 
     $user_age.on "keyup change", set_how_long_work
+
+    do set_splitbars = ()->
+      if $user_age.val() < 65
+        slug = $("[name='retire_before']:checked").data('slug')
+        $(".splitbar-item").removeClass('your_answer').filter(".#{slug}").addClass('your_answer')
+      else
+        $(".splitbar-item").removeClass('your_answer')
+
+    $user_age.on "keyup change", set_splitbars
+    $("[name='retire_before']").on "click", set_splitbars
 
 
   # Chapter 2: A Snapshot

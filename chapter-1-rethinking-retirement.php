@@ -154,32 +154,37 @@ require_once('header.php');
         </p>
 
         <label>
-          <input type="radio" name="retire_before" value="I want to retire before I reach age 65." id="group_1251379033_1">
+          <input type="radio" name="retire_before" value="I want to retire before I reach age 65."
+            id="group_1251379033_1" data-slug="pre65">
           <span>I want to retire before I reach age 65.</span>
         </label>
 
         <label>
-          <input type="radio" name="retire_before" value="I want to work until I'm between 65 and 69." id="group_1251379033_2">
+          <input type="radio" name="retire_before" value="I want to work until I'm between 65 and 69."
+            id="group_1251379033_2" data-slug="gte65">
           <span>I want to work until I'm between 65 and 69.</span>
         </label>
 
         <label>
-          <input type="radio" name="retire_before" value="I want to work until I'm between 70 and 74." id="group_1251379033_3">
+          <input type="radio" name="retire_before" value="I want to work until I'm between 70 and 74."
+            id="group_1251379033_3" data-slug="gte65">
           <span>I want to work until I'm between 70 and 74.</span>
         </label>
 
         <label>
-          <input type="radio" name="retire_before" value="I want to work until I'm between 75 and 79." id="group_1251379033_4">
+          <input type="radio" name="retire_before" value="I want to work until I'm between 75 and 79."
+            id="group_1251379033_4" data-slug="gte65">
           <span>I want to work until I'm between 75 and 79.</span>
         </label>
 
         <label>
-          <input type="radio" name="retire_before" value="I want to work past 80.&nbsp;" id="group_1251379033_5">
+          <input type="radio" name="retire_before" value="I want to work past 80.&nbsp;"
+            id="group_1251379033_5" data-slug="gte65">
           <span>I want to work past 80.</span>
         </label>
 
         <label>
-          <input type="radio" name="retire_before" value="Forever." id="group_1251379033_6">
+          <input type="radio" name="retire_before" value="Forever." id="group_1251379033_6" data-slug="never">
           <span>Forever.</span>
         </label>
       </div>
@@ -229,23 +234,23 @@ require_once('header.php');
       have changed over the years. When asked &ldquo;When do you expect to retire?&rdquo; here&rsquo;s how that age group answered&mdash;10 years ago and today. Notice how few answered &ldquo;before age 65&rdquo; in 2013 versus ten years earlier.
     </p>
 
-    
+
     <div class="splitbars twothousandthirteen">
       <h3>2013</h3>
       <div class="twothousandthirteen-chart splitbars-container">
-        <div class="first pre65"><span><strong>your answer:</strong> before age 65</span></div>
-        <div class="second gte65"><span><strong>your answer:</strong> after age 65</span></div>
-        <div class="third never"><span><strong>your answer:</strong> never</span></div>
-        <div class="fourth dunno"><span><strong>your answer:</strong> don&rsquo;t know</span></div>
+        <div class="splitbar-item first pre65"><span><strong>your answer:</strong> before age 65</span></div>
+        <div class="splitbar-item second gte65"><span><strong>your answer:</strong> after age 65</span></div>
+        <div class="splitbar-item third never"><span><strong>your answer:</strong> never</span></div>
+        <div class="splitbar-item fourth dunno"><span><strong>your answer:</strong> don&rsquo;t know</span></div>
       </div>
     </div>
     <div class="splitbars twothousandthree">
       <h3>2003</h3>
       <div class="twothousandthree-chart splitbars-container">
-        <div class="first pre65"><span><strong>your answer:</strong> before age 65</span></div>
-        <div class="second gte65"><span><strong>your answer:</strong> after age 65</span></div>
-        <div class="third never"><span><strong>your answer:</strong> never</span></div>
-        <div class="fourth dunno"><span><strong>your answer:</strong> don&rsquo;t know</span></div>
+        <div class="splitbar-item first pre65"><span><strong>your answer:</strong> before age 65</span></div>
+        <div class="splitbar-item second gte65"><span><strong>your answer:</strong> after age 65</span></div>
+        <div class="splitbar-item third never"><span><strong>your answer:</strong> never</span></div>
+        <div class="splitbar-item fourth dunno"><span><strong>your answer:</strong> don&rsquo;t know</span></div>
       </div>
     </div>
   </div>
@@ -321,10 +326,10 @@ require_once('header.php');
   <div class="contents">
     <blockquote>
       <p>
-        Hello, I&rsquo;m Paul Solman&mdash;PBS NewsHour&rsquo;s business and economics correspondent. I consider it to be a privilege to have been/worked as a journalist for over fifty years. I have no plans to stop doing the jobs I love (I also teach at Yale) any time soon&mdash;I intend to keep working as long as I possibly can.  
+        Hello, I&rsquo;m Paul Solman&mdash;PBS NewsHour&rsquo;s business and economics correspondent. I consider it to be a privilege to have been/worked as a journalist for over fifty years. I have no plans to stop doing the jobs I love (I also teach at Yale) any time soon&mdash;I intend to keep working as long as I possibly can.
       </p>
       <p>
-        As I pretty much knew, and have confirmed in the course of reporting for this older workers series, my situation is hardly typical of aging workers in America these days. And yet more Americans more of us than ever, including more and more of my junior colleagues in the baby boom, are staying on the job past what was long considered retirement age. 
+        As I pretty much knew, and have confirmed in the course of reporting for this older workers series, my situation is hardly typical of aging workers in America these days. And yet more Americans more of us than ever, including more and more of my junior colleagues in the baby boom, are staying on the job past what was long considered retirement age.
       </p>
       <p>
         The numbers above are indeed shocking, and we included them to help outline the dramatic change America&rsquo;s workforce is going through. In twenty years workers 65&ndash;69 have doubled in their share of the labor force, and now almost a third of folks in that age range are working, up from one in five twenty years ago. What&rsquo;s more, the portion of people working past 75 has almost tripled changed dramatically since 1993, as you saw above.
