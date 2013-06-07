@@ -170,7 +170,7 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="reasons_for_working">
+<section class="reasons_for_working" id="reasons-for-working">
   <div class="contents">
     <h2>
       Reasons for Working by Age Group

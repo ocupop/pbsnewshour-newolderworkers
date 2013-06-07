@@ -192,7 +192,7 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="question community_size">
+<section class="question community_size" id="community-size">
   <div class="contents">
     <p class="form_question">
       What&rsquo;s your community size?

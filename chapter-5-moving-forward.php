@@ -68,7 +68,7 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="ask">
+<section class="ask" id="ask-the-experts">
   <div class="contents">
     <h2>
       Ask the Right Experts Questions
