@@ -233,19 +233,19 @@ require_once('header.php');
     <div class="splitbars twothousandthirteen">
       <h3>2013</h3>
       <div class="twothousandthirteen-chart splitbars-container">
-        <div class="first twothousandthirteen-pre65"><span>before age 65</span></div>
-        <div class="second twothousandthirteen-65older"><span>after age 65</span></div>
-        <div class="third twothousandthirteen-never"><span>never</span></div>
-        <div class="fourth twothousandthirteen-dunno"><span>don&rsquo;t know</span></div>
+        <div class="first pre65"><span><strong>your answer:</strong> before age 65</span></div>
+        <div class="second gte65"><span><strong>your answer:</strong> after age 65</span></div>
+        <div class="third never"><span><strong>your answer:</strong> never</span></div>
+        <div class="fourth dunno"><span><strong>your answer:</strong> don&rsquo;t know</span></div>
       </div>
     </div>
     <div class="splitbars twothousandthree">
       <h3>2003</h3>
       <div class="twothousandthree-chart splitbars-container">
-        <div class="first twothousandthree-pre65"><span>before age 65</span></div>
-        <div class="second twothousandthree-65older"><span>after age 65</span></div>
-        <div class="third twothousandthree-never"><span>never</span></div>
-        <div class="fourth twothousandthree-dunno"><span>don&rsquo;t know</span></div>
+        <div class="first pre65"><span><strong>your answer:</strong> before age 65</span></div>
+        <div class="second gte65"><span><strong>your answer:</strong> after age 65</span></div>
+        <div class="third never"><span><strong>your answer:</strong> never</span></div>
+        <div class="fourth dunno"><span><strong>your answer:</strong> don&rsquo;t know</span></div>
       </div>
     </div>
   </div>

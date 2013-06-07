@@ -466,6 +466,12 @@ input[type=radio]
         text-transform: uppercase
         white-space: nowrap
 
+        strong
+          display: none
+
+      &.your_answer span strong
+        display: inline
+
       &.first,
       &.third,
       &.fifth
@@ -490,30 +496,44 @@ input[type=radio]
         background-color: $background-color-1
       &.first span
         @include triangle-bottom(6px, $background-color-1, down)
+      &.first.your_answer span
+        @include triangle-bottom(6px, $green, down)
 
       &.second,
       &.second span
         background-color: $background-color-2
       &.second span
         @include triangle-top(6px, $background-color-2)
+      &.second.your_answer span
+        @include triangle-top(6px, $green)
 
       &.third,
       &.third span
         background-color: $background-color-3
       &.third span
         @include triangle-bottom(6px, $background-color-3, down)
+      &.third.your_answer span
+        @include triangle-bottom(6px, $green, down)
 
       &.fourth,
       &.fourth span
         background-color: $background-color-4
       &.fourth span
         @include triangle-top(6px, $background-color-4)
+      &.fourth.your_answer span
+        @include triangle-top(6px, $green)
 
       &.fifth,
       &.fifth span
         background-color: $background-color-5
       &.fifth span
         @include triangle-bottom(6px, $background-color-5, down)
+      &.fifth.your_answer span
+        @include triangle-bottom(6px, $green, down)
+
+      &.your_answer,
+      &.your_answer span
+        background-color: $green
 
 
 // Animations

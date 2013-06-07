@@ -195,22 +195,41 @@
     p
       font-size: 18px
 
-    .nineteenninetyfive-very
-      width: 21%
-    .nineteenninetyfive-somewhat
-      width: 51%
-    .nineteenninetyfive-not_too
-      width: 19%
-    .nineteenninetyfive-not_at_all
-      width: 9%
-    .twothousandthirteen-very
-      width: 13%
-    .twothousandthirteen-somewhat
-      width: 38%
-    .twothousandthirteen-not_too
-      width: 21%
-    .twothousandthirteen-not_at_all
-      width: 28%
+    .first span
+      left: -30px
+      &.your_answer span
+        left: -80px
+    .second span
+      left: -30px
+      &.your_answer span
+        left: -80px
+    .third span
+      left: -25px
+      &.your_answer span
+        left: -75px
+    .fourth span
+      left: -30px
+      &.your_answer span
+        left: -80px
+
+    .nineteenninetyfive-chart
+      .very
+        width: 21%
+      .somewhat
+        width: 51%
+      .not_too
+        width: 19%
+      .not_at_all
+        width: 9%
+    .twothousandthirteen-chart
+      .very
+        width: 13%
+      .somewhat
+        width: 38%
+      .not_too
+        width: 21%
+      .not_at_all
+        width: 28%
 
   .calculator
     @extend .blend-bottom

@@ -155,19 +155,19 @@ require_once('header.php');
     <div class="splitbars twothousandthirteen">
       <h3>2013</h3>
       <div class="twothousandthirteen-chart splitbars-container">
-        <div class="first twothousandthirteen-very"><span>somewhat</span></div>
-        <div class="second twothousandthirteen-somewhat"><span>somewhat</span></div>
-        <div class="third twothousandthirteen-not_too"><span>not too</span></div>
-        <div class="fourth twothousandthirteen-not_at_all"><span>not at all</span></div>
+        <div class="first very"><span><strong>your answer:</strong> somewhat</span></div>
+        <div class="second somewhat"><span><strong>your answer:</strong> somewhat</span></div>
+        <div class="third not_too"><span><strong>your answer:</strong> not too</span></div>
+        <div class="fourth not_at_all"><span><strong>your answer:</strong> not at all</span></div>
       </div>
     </div>
     <div class="splitbars nineteenninetyfive">
       <h3>1995</h3>
       <div class="nineteenninetyfive-chart splitbars-container">
-        <div class="first nineteenninetyfive-very"><span>somewhat</span></div>
-        <div class="second nineteenninetyfive-somewhat"><span>somewhat</span></div>
-        <div class="third nineteenninetyfive-not_too"><span>not too</span></div>
-        <div class="fourth nineteenninetyfive-not_at_all"><span>not at all</span></div>
+        <div class="first very"><span><strong>your answer:</strong> somewhat</span></div>
+        <div class="second somewhat"><span><strong>your answer:</strong> somewhat</span></div>
+        <div class="third not_too"><span><strong>your answer:</strong> not too</span></div>
+        <div class="fourth not_at_all"><span><strong>your answer:</strong> not at all</span></div>
       </div>
     </div>
   </div>
