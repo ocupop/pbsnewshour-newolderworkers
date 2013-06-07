@@ -113,22 +113,22 @@ require_once('header.php');
     <div class="form_fields">
       <div class="field radio_buttons">
         <label>
-          <input type="radio" name="confidence" value="Very confident">
+          <input type="radio" name="confidence" value="Very confident" data-slug="very">
           <span>Very confident</span>
         </label>
 
         <label>
-          <input type="radio" name="confidence" value="Somewhat confident">
+          <input type="radio" name="confidence" value="Somewhat confident" data-slug="somewhat">
           <span>Somewhat confident</span>
         </label>
 
         <label>
-          <input type="radio" name="confidence" value="Not too confident">
+          <input type="radio" name="confidence" value="Not too confident" data-slug="not_too">
           <span>Not too confident</span>
         </label>
 
         <label>
-          <input type="radio" name="confidence" value="Not atall confident">
+          <input type="radio" name="confidence" value="Not at all confident" data-slug="not_at_all">
           <span>Not at all confident</span>
         </label>
 
@@ -151,23 +151,23 @@ require_once('header.php');
       The Employee Benefit Research Institute has polled  Americans since 1995 for their thoughts about and confidence in retirement. See how their answers have changed in eighteen years.
     </p>
 
-    
+
     <div class="splitbars twothousandthirteen">
       <h3>2013</h3>
       <div class="twothousandthirteen-chart splitbars-container">
-        <div class="first very"><span><strong>your answer:</strong> somewhat</span></div>
-        <div class="second somewhat"><span><strong>your answer:</strong> somewhat</span></div>
-        <div class="third not_too"><span><strong>your answer:</strong> not too</span></div>
-        <div class="fourth not_at_all"><span><strong>your answer:</strong> not at all</span></div>
+        <div class="splitbar-item first very"><span><strong>your answer:</strong> very</span></div>
+        <div class="splitbar-item second somewhat"><span><strong>your answer:</strong> somewhat</span></div>
+        <div class="splitbar-item third not_too"><span><strong>your answer:</strong> not too</span></div>
+        <div class="splitbar-item fourth not_at_all"><span><strong>your answer:</strong> not at all</span></div>
       </div>
     </div>
     <div class="splitbars nineteenninetyfive">
       <h3>1995</h3>
       <div class="nineteenninetyfive-chart splitbars-container">
-        <div class="first very"><span><strong>your answer:</strong> somewhat</span></div>
-        <div class="second somewhat"><span><strong>your answer:</strong> somewhat</span></div>
-        <div class="third not_too"><span><strong>your answer:</strong> not too</span></div>
-        <div class="fourth not_at_all"><span><strong>your answer:</strong> not at all</span></div>
+        <div class="splitbar-item first very"><span><strong>your answer:</strong> very</span></div>
+        <div class="splitbar-item second somewhat"><span><strong>your answer:</strong> somewhat</span></div>
+        <div class="splitbar-item third not_too"><span><strong>your answer:</strong> not too</span></div>
+        <div class="splitbar-item fourth not_at_all"><span><strong>your answer:</strong> not at all</span></div>
       </div>
     </div>
   </div>
@@ -389,7 +389,7 @@ require_once('header.php');
     <div class="video-container">
       <!--
       Youtube video: http://youtu.be/u2wbxSrWB7k
-      00:34-00:48 
+      00:34-00:48
       IN: "I've always been reasonably good..."
       OUT: "...When I looked at the business, I could do this."
       -->
@@ -429,7 +429,7 @@ require_once('header.php');
     <div class="video-container">
       <!--
       Youtube video: http://www.youtu.be/MWMzgU_QfHU
-      08:41-09:22 
+      08:41-09:22
       IN: "I've gone through..."
       OUT: "...after the unemployment runs out, probably."
       -->

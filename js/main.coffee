@@ -253,6 +253,13 @@ $(document).ready ()->
       $financially_unprepared_chart_points.toggleClass 'active', (pos + (2 * $window_height / 3) > financially_unprepared_chart_top)
       $investor_underperforms_chart_points.toggleClass 'active', (pos + (2 * $window_height / 3) > investor_underperforms_chart_top)
 
+    do set_splitbars = ()->
+      slug = $("[name='confidence']:checked").data('slug')
+      $(".splitbar-item").removeClass('your_answer').filter(".#{slug}").addClass('your_answer')
+
+    $("[name='confidence']").on "click", set_splitbars
+
+
     # submit form
     $('.next', 'footer').on "click", ()->
       submit_user_data()
