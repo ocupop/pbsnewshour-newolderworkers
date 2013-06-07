@@ -326,13 +326,13 @@ require_once('header.php');
   <div class="contents">
     <blockquote>
       <p>
-        Hello, I&rsquo;m Paul Solman&mdash;PBS NewsHour&rsquo;s business and economics correspondent. I consider it to be a privilege to have been/worked as a journalist for over fifty years. I have no plans to stop doing the jobs I love (I also teach at Yale) any time soon&mdash;I intend to keep working as long as I possibly can.
+        Hello, I&rsquo;m Paul Solman&mdash;PBS NewsHour&rsquo;s business and economics correspondent. I consider it to be a privilege to have been working as a journalist for fifty years. I have no plans to stop doing the jobs I love (I also teach at Yale) any time soon and intend to keep working as long as I possibly can.
       </p>
       <p>
-        As I pretty much knew, and have confirmed in the course of reporting for this older workers series, my situation is hardly typical of aging workers in America these days. And yet more Americans more of us than ever, including more and more of my junior colleagues in the baby boom, are staying on the job past what was long considered retirement age.
+        As I pretty much knew, and have confirmed in the course of reporting for this older workers series, my situation is hardly typical of aging workers in America these days. And yet more of us than ever, including more and more of my junior colleagues in the baby boom, are staying on the job past what was long considered retirement age.
       </p>
       <p>
-        The numbers above are indeed shocking, and we included them to help outline the dramatic change America&rsquo;s workforce is going through. In twenty years workers 65&ndash;69 have doubled in their share of the labor force, and now almost a third of folks in that age range are working, up from one in five twenty years ago. What&rsquo;s more, the portion of people working past 75 has almost tripled changed dramatically since 1993, as you saw above.
+        The numbers above are indeed shocking, and we included them to help outline the dramatic change America&rsquo;s workforce is going through. In twenty years workers 65&ndash;69 have doubled in their share of the labor force, and now almost a third of folks in that age range are working, up from one in five twenty years ago. What&rsquo;s more, the portion of people working past 75 has changed dramatically since 1993, as you saw above.
       </p>
       <cite>
         <strong>&mdash; Paul Solman</strong>
