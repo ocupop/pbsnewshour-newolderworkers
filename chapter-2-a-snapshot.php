@@ -233,7 +233,7 @@ require_once('header.php');
 <section class="community_data">
   <div class="contents">
     <h2>
-      Here&rsquo;s how these communities experienced change<br>from 2008&ndash;2012 for workers employed full- or part-time.
+      Here&rsquo;s how these communities experienced change from<br>2008&ndash;2012 for workers aged 65 or older employed full- or part-time.
     </h2>
     <div class="community_changes">
       <div class="positive">
