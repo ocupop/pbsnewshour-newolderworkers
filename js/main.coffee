@@ -18,7 +18,7 @@ $(document).ready ()->
   # parallax effect
   $.fn.parallax = (rate)->
     $this = $(this)
-    return if $this.length is 0
+    # return if $this.length is 0
     top = $this.offset().top
     prefix = Modernizr.prefixed('transform')
 
@@ -28,18 +28,16 @@ $(document).ready ()->
     do update = ()->
       window.requestAnimationFrame update
 
-      next_css = if Modernizr.csstransforms3d
-        "translate3d(0, #{Math.floor((top - pos) * rate)}px, 0)"
-      else
-        "translateY(#{(top - pos ) * rate}px)"
-      $this.css(prefix, next_css)
+      # translate3d makes other backgrounds sad :(
+      $this.css(prefix, "translateY(#{(top - pos ) * rate}px)")
 
-  # apply parallax to all background image containers
-  $('.background_image', 'section').each ()->
-    $(this).parallax( $(this).data('plax') || -0.3)
+  # # apply parallax to all background image containers
+  # $('.background_image', 'section').each ()->
+  #   $(this).parallax( $(this).data('plax') || -0.3)
 
   # and to the intro photo
-  $('.background_image', '.company_photo').parallax(0.3)
+  $('.parallax').each ()->
+    $(this).parallax( $(this).data('plax') || -0.3)
 
   # container for scroll actions
   scroll_actions = {}

@@ -48,24 +48,29 @@
   .gender
     @extend .blend
 
-    .background_image
-      @include multi-background("2/man_woman")
+    @include multi-background("2/man_woman")
+    background-attachment: fixed
+
 
     .contents
       max-width: 100%
 
       .form_fields
+        position: absolute
+        left: 50%
+        // top: 0
+        margin-left: -250px
         padding: 1em 1.5em
         width: 500px
         z-index: 10
-        @include transition(transform 1s)
+        @include transition(transform .6s)
 
         &.sticky
           position: fixed
           top: 0
           left: 50%
           margin-left: -250px
-          @include translate3d(0, 60px,0)
+          @include translateY(60px)
 
         label
           display: block
@@ -92,7 +97,7 @@
   .gender_split
     background: transparent image-url('line-background.png') center top repeat-y
     margin: 0 auto
-    padding-bottom: 3em
+    padding: 3em 0
     width: $desktop
     overflow: hidden
 
@@ -132,8 +137,8 @@
   .men_and_women
     @extend .spread
 
-    .background_image
-      @include multi-background("2/briefcases")
+    @include multi-background("2/briefcases")
+    // background-attachment: fixed
 
     .contents div
       @include boxed(#fff, right, half, left)
@@ -283,7 +288,7 @@
               font-family: $proxima-semibold
               font-size: 14px
               position: static
-    
+
           &.c
             left: 50%
             bottom: 0
