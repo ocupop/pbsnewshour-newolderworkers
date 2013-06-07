@@ -32,9 +32,8 @@
     @extend .on_dark_background
     padding: 24em 0 2em 0
 
-    .background_image
-      @include multi-background("1/park")
-      background-position: center 150%
+    @include multi-background("1/park")
+    background-attachment: fixed
 
   .percentage_of_workers
     p
@@ -122,8 +121,8 @@
   .increase_of_workers
     @extend .spread
 
-    .background_image
-      @include multi-background("1/grump")
+    @include multi-background("1/grump")
+    background-attachment: fixed
 
     p
       @include boxed(#fff, left, third, centered)
@@ -145,8 +144,8 @@
   .one_in_four_workers
     @extend .spread
 
-    .background_image
-      @include multi-background("1/waitress")
+    @include multi-background("1/waitress")
+    background-attachment: fixed
 
     .contents div
       @include boxed(#fff, right, half, centered)
@@ -222,7 +221,7 @@
       left: -35px
     .fourth.your_answer span
       left: -85px
-        
+
     &.age-25-34,
     &.age-35-44,
     &.age-45-54,
@@ -343,8 +342,8 @@
   .half_of_american_households
     @extend .spread
 
-    .background_image
-      @include multi-background("1/jars")
+    @include multi-background("1/jars")
+    background-attachment: fixed
 
     p
       @extend .major

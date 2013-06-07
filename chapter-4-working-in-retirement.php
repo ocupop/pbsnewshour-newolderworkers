@@ -6,7 +6,7 @@ require_once('header.php');
 ?>
 
 <section class="chapter_title">
-  <div class="background_image"></div>
+  <div class="background_image parallax"></div>
 
   <div class="contents">
     <p>
@@ -232,7 +232,7 @@ require_once('header.php');
     <div class="video-container">
       <!--
       Youtube video: http://youtu.be/NujnD1tykkY
-      04:29-04:40 
+      04:29-04:40
       IN: "My friends are all in the ground..."
       OUT: "...I don't want to be like that."
       -->

@@ -12,7 +12,7 @@ require_once('header.php');
   </header>
 
   <div class="bleed fixed company_photo">
-    <div class="background_image"></div>
+    <div class="background_image parallax" data-plax="0.1"></div>
   </div>
 
 </div>
@@ -66,8 +66,6 @@ require_once('header.php');
 </section>
 
 <section class="chapter_title">
-  <div class="background_image"></div>
-
   <div class="contents">
     <p>
       Chapter One
@@ -97,7 +95,6 @@ require_once('header.php');
 </section>
 
 <section class="copy increase_of_workers">
-  <div class="background_image"></div>
   <div class="contents">
     <p class="first">
       The increase of workers
@@ -257,7 +254,6 @@ require_once('header.php');
 </section>
 
 <section class="copy one_in_four_workers">
-  <div class="background_image"></div>
   <div class="contents">
     <div>
       <p class="first">
@@ -286,7 +282,6 @@ require_once('header.php');
 </section>
 
 <section class="copy half_of_american_households">
-  <div class="background_image"></div>
   <div class="contents">
     <p>
       Half of American households have less than $10,000 in savings.
