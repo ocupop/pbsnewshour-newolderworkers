@@ -952,27 +952,34 @@ footer {
           width: 224px;
           height: 32px; }
       /* line 82, sass/_footer.sass */
+      footer .links p.sloan_foundation {
+        float: left;
+        margin-left: 3em; }
+        /* line 86, sass/_footer.sass */
+        footer .links p.sloan_foundation img {
+          height: 32px; }
+      /* line 89, sass/_footer.sass */
       footer .links p.extra {
         float: right;
         font-size: 18px;
         margin-top: 0.5em; }
-        /* line 87, sass/_footer.sass */
+        /* line 94, sass/_footer.sass */
         footer .links p.extra a {
           color: #dddddd;
           border-bottom: 2px solid #dddddd; }
-          /* line 91, sass/_footer.sass */
+          /* line 98, sass/_footer.sass */
           footer .links p.extra a:hover {
             color: white;
             border-bottom: 2px solid white; }
 
-/* line 95, sass/_footer.sass */
+/* line 102, sass/_footer.sass */
 #sources-open,
 #credits-open {
   cursor: pointer;
   margin-left: 1em;
   text-transform: uppercase; }
 
-/* line 101, sass/_footer.sass */
+/* line 108, sass/_footer.sass */
 #credits-close,
 #sources-close {
   color: #aaaaaa;
@@ -985,12 +992,12 @@ footer {
   top: 0;
   right: 0;
   z-index: 10; }
-  /* line 114, sass/_footer.sass */
+  /* line 121, sass/_footer.sass */
   #credits-close:hover,
   #sources-close:hover {
     color: #383838; }
 
-/* line 117, sass/_footer.sass */
+/* line 124, sass/_footer.sass */
 #credits,
 #sources {
   display: none;
@@ -1002,7 +1009,7 @@ footer {
   height: 100%;
   z-index: 98; }
 
-/* line 128, sass/_footer.sass */
+/* line 135, sass/_footer.sass */
 .credits-content,
 .sources-content {
   background: white;
@@ -1019,7 +1026,7 @@ footer {
   -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0 0 35px rgba(0, 0, 0, 0.75);
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.75); }
-  /* line 143, sass/_footer.sass */
+  /* line 150, sass/_footer.sass */
   .credits-content h2,
   .sources-content h2 {
     font-family: "BodoniW01-PosterItalic";
@@ -1027,59 +1034,59 @@ footer {
     margin: 0;
     padding: 0;
     text-align: left; }
-  /* line 150, sass/_footer.sass */
+  /* line 157, sass/_footer.sass */
   .credits-content h3,
   .sources-content h3 {
     font-family: "Proxima N W01 Bold";
     font-size: 18px;
     text-transform: uppercase; }
 
-/* line 157, sass/_footer.sass */
+/* line 164, sass/_footer.sass */
 .credits-content h3 span {
   color: #aaaaaa;
   font-size: 85%;
   margin-left: 0.5em;
   text-transform: none; }
-/* line 164, sass/_footer.sass */
+/* line 171, sass/_footer.sass */
 .credits-content ul li {
   color: #aaaaaa;
   font-family: "Proxima N W01 Smbd";
   font-size: 14px; }
-  /* line 169, sass/_footer.sass */
+  /* line 176, sass/_footer.sass */
   .credits-content ul li strong {
     color: #383838;
     font-family: "Proxima N W01 Bold";
     font-size: 16px;
     font-weight: normal;
     margin-right: 0.5em; }
-/* line 176, sass/_footer.sass */
+/* line 183, sass/_footer.sass */
 .credits-content a {
   text-decoration: none; }
-/* line 179, sass/_footer.sass */
+/* line 186, sass/_footer.sass */
 .credits-content .photo_credits {
   opacity: 0.5; }
-  /* line 182, sass/_footer.sass */
+  /* line 189, sass/_footer.sass */
   .credits-content .photo_credits h3 {
     font-size: 16px;
     margin-bottom: 0.5em;
     text-transform: none; }
-  /* line 187, sass/_footer.sass */
+  /* line 194, sass/_footer.sass */
   .credits-content .photo_credits ul li {
     font-size: 13px; }
-    /* line 190, sass/_footer.sass */
+    /* line 197, sass/_footer.sass */
     .credits-content .photo_credits ul li strong {
       font-family: "Proxima N W01 Smbd";
       font-size: 13px; }
 
-/* line 195, sass/_footer.sass */
+/* line 202, sass/_footer.sass */
 .sources-content ul {
   margin-left: 1.25em; }
-  /* line 198, sass/_footer.sass */
+  /* line 205, sass/_footer.sass */
   .sources-content ul li {
     font-family: "Proxima N W01 Smbd";
     font-size: 14px;
     list-style: square; }
-    /* line 203, sass/_footer.sass */
+    /* line 210, sass/_footer.sass */
     .sources-content ul li strong {
       font-family: "Proxima N W01 Bold";
       font-size: 16px;

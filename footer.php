@@ -28,6 +28,12 @@
         </a>
       </p>
 
+      <p class="sloan_foundation">
+        <a href="http://www.sloan.org/">
+          <img src="img/sloan_foundation.png">
+        </a>
+      </p>
+
       <p class="extra">
         <a id="sources-open">Sources</a>
         <a id="credits-open">Credits</a>
