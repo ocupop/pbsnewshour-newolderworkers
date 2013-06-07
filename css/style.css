@@ -1461,27 +1461,27 @@ footer {
 /* line 209, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .retirement_expectations .first span {
   left: -40px; }
-  /* line 211, sass/_chapter1.sass */
-  .chapter-1-rethinking-retirement article .retirement_expectations .first span.your_answer span {
-    left: -90px; }
+/* line 211, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations .first.your_answer span {
+  left: -90px; }
 /* line 213, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .retirement_expectations .second span {
   left: -40px; }
-  /* line 215, sass/_chapter1.sass */
-  .chapter-1-rethinking-retirement article .retirement_expectations .second span.your_answer span {
-    left: -90px; }
+/* line 215, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations .second.your_answer span {
+  left: -90px; }
 /* line 217, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .retirement_expectations .third span {
   left: -17px; }
-  /* line 219, sass/_chapter1.sass */
-  .chapter-1-rethinking-retirement article .retirement_expectations .third span.your_answer span {
-    left: -67px; }
+/* line 219, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations .third.your_answer span {
+  left: -67px; }
 /* line 221, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .retirement_expectations .fourth span {
   left: -35px; }
-  /* line 223, sass/_chapter1.sass */
-  .chapter-1-rethinking-retirement article .retirement_expectations .fourth span.your_answer span {
-    left: -85px; }
+/* line 223, sass/_chapter1.sass */
+.chapter-1-rethinking-retirement article .retirement_expectations .fourth.your_answer span {
+  left: -85px; }
 /* line 230, sass/_chapter1.sass */
 .chapter-1-rethinking-retirement article .retirement_expectations.age-25-34 .age_group.age-all, .chapter-1-rethinking-retirement article .retirement_expectations.age-25-34 .age_group.retirement_expectations, .chapter-1-rethinking-retirement article .retirement_expectations.age-35-44 .age_group.age-all, .chapter-1-rethinking-retirement article .retirement_expectations.age-35-44 .age_group.retirement_expectations, .chapter-1-rethinking-retirement article .retirement_expectations.age-45-54 .age_group.age-all, .chapter-1-rethinking-retirement article .retirement_expectations.age-45-54 .age_group.retirement_expectations, .chapter-1-rethinking-retirement article .retirement_expectations.age-55plus .age_group.age-all, .chapter-1-rethinking-retirement article .retirement_expectations.age-55plus .age_group.retirement_expectations {
   display: none; }
@@ -2404,27 +2404,27 @@ footer {
 /* line 198, sass/_chapter3.sass */
 .chapter-3-working-for-the-nest-egg article .savings_confidence .first span {
   left: -30px; }
-  /* line 200, sass/_chapter3.sass */
-  .chapter-3-working-for-the-nest-egg article .savings_confidence .first span.your_answer span {
-    left: -80px; }
+/* line 200, sass/_chapter3.sass */
+.chapter-3-working-for-the-nest-egg article .savings_confidence .first.your_answer span {
+  left: -80px; }
 /* line 202, sass/_chapter3.sass */
 .chapter-3-working-for-the-nest-egg article .savings_confidence .second span {
   left: -30px; }
-  /* line 204, sass/_chapter3.sass */
-  .chapter-3-working-for-the-nest-egg article .savings_confidence .second span.your_answer span {
-    left: -80px; }
+/* line 204, sass/_chapter3.sass */
+.chapter-3-working-for-the-nest-egg article .savings_confidence .second.your_answer span {
+  left: -80px; }
 /* line 206, sass/_chapter3.sass */
 .chapter-3-working-for-the-nest-egg article .savings_confidence .third span {
   left: -25px; }
-  /* line 208, sass/_chapter3.sass */
-  .chapter-3-working-for-the-nest-egg article .savings_confidence .third span.your_answer span {
-    left: -75px; }
+/* line 208, sass/_chapter3.sass */
+.chapter-3-working-for-the-nest-egg article .savings_confidence .third.your_answer span {
+  left: -75px; }
 /* line 210, sass/_chapter3.sass */
 .chapter-3-working-for-the-nest-egg article .savings_confidence .fourth span {
   left: -30px; }
-  /* line 212, sass/_chapter3.sass */
-  .chapter-3-working-for-the-nest-egg article .savings_confidence .fourth span.your_answer span {
-    left: -80px; }
+/* line 212, sass/_chapter3.sass */
+.chapter-3-working-for-the-nest-egg article .savings_confidence .fourth.your_answer span {
+  left: -80px; }
 /* line 216, sass/_chapter3.sass */
 .chapter-3-working-for-the-nest-egg article .savings_confidence .nineteenninetyfive-chart .very {
   width: 21%; }
