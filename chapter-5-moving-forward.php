@@ -76,11 +76,11 @@ require_once('header.php');
 
     <div class="ask_details">
       <p class="first">
-        Curious how to maximize your own Social Security benefits, future or current? Submit questions to our retirement financial planning guru Larry Kotlikoff here. (Use the red &lsquo;Ask Paul a Question&rsquo; box on the right!) Then, keep an eye on <a href="http://www.pbs.org/newshour/economy/makingsense/">The Business Desk</a> website to see if he answers your question.<br>
+        Curious how to maximize your own Social Security benefits, future or current? Submit questions to our retirement financial planning guru Larry Kotlikoff on <a href="http://www.pbs.org/newshour/economy/makingsense/">The Making Sen$e Business Desk</a>. (Use the red &lsquo;Ask Paul a Question&rsquo; box on the right!) Then, check back to see if he answers your question.<br>
         <a class="big" href="http://www.pbs.org/newshour/businessdesk/archives.html">Ask Larry Kotlikoff a Question</a>
       </p>
       <p class="second">
-        If you&rsquo;re interested in job-hunting advice, whether you&rsquo;re a greenhorn or long in the tooth, submit your questions to &lsquo;Ask the Headhunter&rsquo; extraordinaire Nick Corcodilos. Watch these pages for advice and your questions answered.<br>
+        If you&rsquo;re interested in job-hunting advice, whether you&rsquo;re a greenhorn or long in the tooth, submit your questions to &lsquo;Ask the Headhunter&rsquo; extraordinaire Nick Corcodilos. Then, go to our <a href="http://www.pbs.org/newshour/economy/makingsense/">Making Sen$e Business Desk</a> for advice and to see your questions answered.<br>
         <a class="big" href="mailto:pbs@asktheheadhunter.com">Email Nick Corcodilos</a>
       </p>
     </div>
@@ -90,20 +90,20 @@ require_once('header.php');
 <section class="act">
   <div class="contents">
     <h2>
-      Act on These Three Steps Now
-      <span>Bootstrap Your Future</span>
+      Three Steps to Act on Now
+      <span>To Help Bootstrap Your Future</span>
     </h2>
 
     <div class="three_steps">
       <div class="first_step">
         <h3>
-          Don&rsquo;t forget to &ldquo;expect the unexpected&rdquo; and not underestimate your needs. These sites will help you get your finances in order.
+          Don&rsquo;t underestimate your needs or forget to &ldquo;expect the unexpected.&rdquo; These sites may help you get your finances in order.
         </h3>
         <ul>
           <li>
             <a href="http://www.choosetosave.org/ballpark/">Ballpark E$timate</a>
             <p>
-              It is an easy-to-use, two-page worksheet that helps you quickly identify approximately how much you need to save to fund a comfortable retirement.
+              An easy-to-use, two-page worksheet that helps you quickly identify approximately how much you need to save to fund a comfortable retirement.
             </p>
           </li>
           <li>
@@ -115,18 +115,18 @@ require_once('header.php');
           <li>
             <a href="http://www.aarp.org/work/social-security/social-security-benefits-calculator/?intcmp=SKYBOX2ENG">Social Security Calculator</a>
             <p>
-              Find out when you should claim your benefits.
+              AARP&rsquo;s free software to help you decide when to claim your benefits. (More elaborate software is also available, including at Larry Kotlikoff&rsquo;s <a href="http://maximizemysocialsecurity.com">maximizemysocialsecurity.com</a>, but it comes at a cost.)
             </p>
           </li>
         </ul>
       </div>
       <div class="second_step">
         <h3>
-          See a financial advisor and arm yourself with these tips and information:
+          A Financial Advisor Can Help
         </h3>
         <ul>
           <li>
-            <a href="http://www.pbs.org/wgbh/pages/frontline/business-economy-financial-crisis/retirement-gamble/how-do-you-know-which-financial-adviser-to-trust/">How Do You Know Which Financial Adviser to Trust?</a>
+            <a href="http://www.pbs.org/newshour/businessdesk/2013/02/how-to-find-a-financial-adviso.html">How to Find a Financial Advisor, Step by Step</a>
           </li>
           <li>
             <a href="http://www.pbs.org/wgbh/pages/frontline/business-economy-financial-crisis/retirement-gamble/what-to-ask-about-your-retirement/">What to Ask About Your Retirement</a>
@@ -138,7 +138,7 @@ require_once('header.php');
       </div>
       <div class="third_step">
         <h3>
-          Perhaps a second career is in your future, or working longer than the &ldquo;traditional&rdquo; retirement age?
+          Perhaps a second career is in your future, or maybe you&rsquo;re working longer than the &ldquo;traditional&rdquo; retirement age?
         </h3>
 
         <p>
@@ -155,7 +155,7 @@ require_once('header.php');
           <li>
             <a href="http://www.aarp.org/work/working-after-retirement">AARP&rsquo;s &lsquo;Recareering&rsquo; Site</a>
             <p>
-              An easy-to-use, two-page worksheet that helps you quickly identify approximately how much you need to save to fund a comfortable retirement.
+              Articles and resources on switching careers after age 50.
             </p>
           </li>
           <li>

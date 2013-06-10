@@ -118,7 +118,7 @@ require_once('header.php');
         <div class="contents">
           <h3>401(k)</h3>
           <p>
-            You&rsquo;re slightly less likely than a woman to participate in a retirement plan, when controlling for work status or earnings. If you&rsquo;re a woman age 65 or older, you will likely be out of work for at least six months should you lose your job.
+            You&rsquo;re slightly less likely than a woman to participate in a retirement plan, when controlling for work status or earnings.
           </p>
         </div>
       </section>
@@ -183,7 +183,7 @@ require_once('header.php');
       </p>
       <ul>
         <li>Say they have saved at least something for retirement (but a third aren&rsquo;t saving anything at all).</li>
-        <li>Calculate how much they need to live comfortably in retirement (though over half of us who are working still haven&rsquo;t done this).</li>
+        <li>Calculate how much they need to live comfortably in retirement (though over half who are working still haven&rsquo;t done this).</li>
         <li>Think less than $250,000 will be sufficient for retirement. (Teaser: it&rsquo;s not!)</li>
         <li>Have a median expected retirement age of 65.</li>
         <li>Work&mdash;about 62% of men and 59% of women work.</li>

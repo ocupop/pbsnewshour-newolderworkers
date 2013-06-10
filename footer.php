@@ -80,6 +80,10 @@
     </ul>
 
     <div class="photo_credits">
+      <h3>Photos</h3>
+      <ul>
+        <li>Chapter 1: The Staff of Vita Needle &mdash; average age: 74</li>
+      </ul>
       <h3>Chapter Title Photos <span>from Flickr users</span></h3>
       <ul>
         <li><strong>Chapter 1 (park pathway)</strong> <a href="http://www.flickr.com/photos/paulmccoubrie/8676443510">Rum Bucolic Ape</a>

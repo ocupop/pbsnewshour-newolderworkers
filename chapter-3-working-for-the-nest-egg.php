@@ -148,7 +148,7 @@ require_once('header.php');
     </h2>
 
     <p>
-      The Employee Benefit Research Institute has polled  Americans since 1995 for their thoughts about and confidence in retirement. See how their answers have changed in eighteen years.
+      The Employee Benefit Research Institute has polled  Americans since 1995 about their thoughts about and confidence in retirement. See how their answers have changed in eighteen years.
     </p>
 
 
@@ -181,7 +181,7 @@ require_once('header.php');
 
     <div class="form_fields">
       <p class="intro">
-        75% of folks nearing retirement in 2010 had less than $30,000 saved. How much income do you think you&rsquo;ll need per month? (Remember, a rule of thumb is 80% of your current income at a minimum. So, if you&rsquo;re making $1,250 per month, you&rsquo;d want to have at least $1,000 to maintain your current standard of living.)
+        75% of folks nearing retirement in 2010 had less than $30,000 saved.
       </p>
 
       <div class="field age">
@@ -246,7 +246,7 @@ require_once('header.php');
   <div class="contents">
     <p>
       <sup>*</sup>
-      Please don&rsquo;t base your entire financial well being on an interactive bubble. Note that this calculator is a very simple, rough, ballpark estimate and is meant to only provide you a sense of how much you should be saving. It should not be used as a replacement for expert financial advice. (Information from Sheryl Garrett, CFP, AIF. Adapted and used with permission from her book <em>Personal Finance Workbook For Dummies</em>.) The numbers above are based on a single person and do not take into account Social Security, pensions, etc. They also assume starting with $0 savings, retiring at 65, getting a 7% return on your savings, and leaving nothing for heirs or charity. All figures in 2012 dollars.
+      Please don&rsquo;t base your entire financial well-being on an interactive bubble. Note that this calculator is a very simple, rough, ballpark estimate and is meant to only provide you a sense of how much you should be saving. It should not be used as a replacement for expert financial advice. (Information from Sheryl Garrett, CFP, AIF. Adapted and used with permission from her book <em>Personal Finance Workbook For Dummies</em>.) The numbers above are based on a single person and do not take into account Social Security, pensions, etc. They also assume starting with $0 savings, retiring at 65, getting a 7% return on your savings, and leaving nothing for heirs or charity. All figures in 2012 dollars.
     </p>
   </div>
 </section>
@@ -254,7 +254,7 @@ require_once('header.php');
 <section class="copy warning">
   <div class="contents">
     <p>
-      The 7% return on savings we mention above presumes a portfolio mix of 60% stocks and 40% bonds, using actual historical returns for this mix of assets. But as Sheryl Garrett (CFP&reg;, AIF&reg;, founder of The Garrett Planning Network, Inc.), who provided the data, points out, timing can make all the difference. Volatility can change the outcome of a 7% average annual return dramatically. According to the Social Security Administration, for most of us, Social Security alone will not provide enough income for a comfortable living, even assuming the program experiences no benefit cuts in coming years.
+      The 7% return on savings we mention above presumes a portfolio mix of 60% stocks and 40% bonds, using actual historical returns for this mix of assets. But as Sheryl Garrett (CFP&reg;, AIF&reg;, founder of The Garrett Planning Network, Inc.), who provided the data, points out, timing can make all the difference. Volatility can change the average annual return dramatically. According to the Social Security Administration, for most of us, Social Security alone will not provide enough income for a comfortable living, even assuming the program experiences no benefit cuts in coming years.
     </p>
   </div>
 </section>
@@ -418,7 +418,7 @@ require_once('header.php');
     </h2>
 
     <p>
-      Older workers who lose their jobs have a harder time finding employment than their younger peers. In a survey after the onset of the recession, almost twice as many younger workers had found a full-time job than those who are 55 or older. And of the older workers who did find jobs, half were forced to take a pay cut.
+      Older workers who lose their jobs have a harder time finding employment than their younger peers. In a survey after the onset of the recession, almost twice as many younger workers had found a full-time job than those who were 55 or older. And of the older workers who did find jobs, half were forced to take a pay cut.
     </p>
   </div>
 </section>
@@ -441,7 +441,7 @@ require_once('header.php');
       </h2>
 
       <p>
-        Despite a rosier jobs picture in April 2013, the prospect of finding work is greatly limited for Americans ages 55 or older who have been unemployed long-term. We explore why older workers face joblessness and considerable financial strain.
+        Despite an improving jobs picture in April 2013, the prospect of finding work is greatly limited for Americans ages 55 or older who have been unemployed long-term. We explore why older workers face joblessness and considerable financial strain.
       </p>
     </div>
   </div>

@@ -44,7 +44,7 @@ require_once('header.php');
     </p>
 
     <p class="third">
-      Over <strong>half</strong> of today&rsquo;s households<br>
+      More than <strong>half</strong> of today&rsquo;s households<br>
       won&rsquo;t have enough money for retirement.
     </p>
 
@@ -118,7 +118,7 @@ require_once('header.php');
 
 <section class="question age_and_retirement" id="weigh-in">
   <div class="contents">
-    <p class="first">Everyone now knows that the workplace is greying. For a variety of reasons, many of us plan to work longer and retire later than we would have just 10 years ago. But for <em>how much</em> longer? The answer has been changing rapidly.</p>
+    <p class="first">Everyone now knows that the workplace is graying. For a variety of reasons, many of us plan to work longer and retire later than we would have just 10 years ago. But for <em>how much</em> longer? The answer has been changing rapidly.</p>
 
     <p class="form_question">
       We&rsquo;re asking you to weigh in.
