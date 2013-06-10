@@ -51,7 +51,7 @@
 
     <h3>PBS NewsHour: Content and Editorial</h3>
     <ul>
-      <li><strong>Paul Solman</strong> Economics Correspondent</li>
+      <li><strong>Paul Solman</strong> economics correspondent</li>
       <li><strong>Elizabeth Shell</strong> principal editor, writer, researcher</li>
       <li><strong>Vanessa Dennis</strong> principal editor, director</li>
       <li><strong>Patti Parson</strong> editorial oversight</li>
@@ -59,7 +59,7 @@
       <li><strong>Travis Daub</strong> creative director</li>
       <li><strong>Tom Kennedy</strong> editorial oversight</li>
       <li><strong>Margaret Myers</strong> editorial oversight</li>
-      <li><strong>Dante Chinni</strong> Director of the American Communities Project at American University</li>
+      <li><strong>Dante Chinni</strong> director of the American Communities Project at American University</li>
       <li><strong>David Pelcyger</strong> video reporter</li>
       <li><strong>Justin Scuiletti</strong> videographer, video quality control editor</li>
       <li><strong>Mike Fritz</strong> videographer</li>

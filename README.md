@@ -6,7 +6,7 @@ Research and story by PBS NewsHour. Website developed by Ocupop.
 ## Credits
 
 ### PBS NewsHour: Content and Editorial
-- **Paul Solman**, Economics Correspondent
+- **Paul Solman**, economics correspondent
 - **Elizabeth Shell**, principal editor, writer, researcher 
 - **Vanessa Dennis**, principal editor, director 
 - **Patti Parson**, editorial oversight 
@@ -14,7 +14,7 @@ Research and story by PBS NewsHour. Website developed by Ocupop.
 - **Travis Daub**, creative director 
 - **Tom Kennedy**, editorial oversight 
 - **Margaret Myers**, editorial oversight
-- **Dante Chinni**, Director of the American Communities Project at American University
+- **Dante Chinni**, director of the American Communities Project at American University
 - **David Pelcyger**, video reporter 
 - **Justin Scuiletti**, videographer, video quality control editor
 - **Mike Fritz**, videographer 
