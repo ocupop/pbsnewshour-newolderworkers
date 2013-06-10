@@ -129,9 +129,6 @@ require_once('header.php');
             <a href="http://www.pbs.org/newshour/businessdesk/2013/02/how-to-find-a-financial-adviso.html">How to Find a Financial Advisor, Step by Step</a>
           </li>
           <li>
-            <a href="http://www.pbs.org/wgbh/pages/frontline/business-economy-financial-crisis/retirement-gamble/what-to-ask-about-your-retirement/">What to Ask About Your Retirement</a>
-          </li>
-          <li>
             <a href="http://www.pbs.org/wgbh/pages/frontline/business-economy-financial-crisis/retirement-gamble/how-retirement-fees-cost-you/">How Retirement Fees Cost You</a>
           </li>
         </ul>
