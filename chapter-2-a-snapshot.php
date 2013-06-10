@@ -192,7 +192,18 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="question community_size" id="community-size">
+<section class="community_size-intro" id="community-size">
+  <div class="contents">
+    <p class="first">
+      In just four years, the number of older workers in urban counties declined,<br>while older workers in rural communities grew.
+    </p>
+    <p class="second">
+      Data from a study of U.S. counties by Experian and via Dante Chinni, author of <em>Our Patchwork Nation</em>.
+    </p>
+  </div>
+</section>
+
+<section class="question community_size">
   <div class="contents">
     <p class="form_question">
       What&rsquo;s your community size?
@@ -233,7 +244,8 @@ require_once('header.php');
 <section class="community_data">
   <div class="contents">
     <h2>
-      Here&rsquo;s how these communities experienced change from<br>2008&ndash;2012 for workers aged 65 or older employed full- or part-time.
+      Change in the percent of workers 65+ by community size.
+      <span>From 2008–2012, employed full- or part-time.</span>
     </h2>
     <div class="community_changes">
       <div class="positive">
@@ -249,9 +261,6 @@ require_once('header.php');
         <div class="d"><span><strong>-3%</strong></span></div>
       </div>
     </div>
-    <p>
-      In just four years, the number of older workers in urban counties declined, while older workers in rural communities grew. Data from a study of U.S. counties by Experian and via Dante Chinni, author of <em>Our Patchwork Nation</em>.
-    </p>
   </div>
 </section>
 
