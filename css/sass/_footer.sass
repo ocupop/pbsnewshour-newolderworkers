@@ -79,25 +79,6 @@ footer
           width: 224px
           height: 32px
 
-      &.sloan_foundation
-        clear: both
-        opacity: .5
-        padding-top: 2em
-        text-align: center
-        
-        a
-          text-decoration: none
-
-        img
-          height: 32px
-          margin-right: 1em
-          vertical-align: -6px
-
-        span
-          color: #333
-          font-family: $proxima-bold
-          font-size: 11px
-
       &.extra
         float: right
         font-size: 18px
@@ -185,6 +166,9 @@ footer
       font-family: $proxima-semibold
       font-size: 14px
 
+      &.not_person
+        color: $dark
+
       strong
         color: $dark
         font-family: $proxima-bold
@@ -194,6 +178,19 @@ footer
 
   a
     text-decoration: none
+
+  .sloan_foundation
+    padding: $line
+    text-align: center
+
+    img
+      display: block
+      margin: 0 auto .5em auto
+      width: 250px
+
+    span
+      font-family: $proxima-semibold
+      font-size: 13px
 
   .photo_credits
     opacity: .5

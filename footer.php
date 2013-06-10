@@ -32,13 +32,6 @@
         <a id="sources-open">Sources</a>
         <a id="credits-open">Credits</a>
       </p>
-
-      <p class="sloan_foundation">
-        <a href="http://www.sloan.org/">
-          <img src="img/sloan_foundation.png">
-        </a>
-        <span>The Sloan Center is funded by the Alfred P. Sloan Foundation, which is an underwriter of this project and the PBS NewsHour.</p>
-      </p>
     </div>
   </div>
 </footer>
@@ -48,6 +41,13 @@
     <a id="credits-close">&times;</a>
 
     <h2>Credits</h2>
+
+    <p class="sloan_foundation">
+      <a href="http://www.sloan.org/">
+        <img src="img/sloan_foundation.png">
+      </a>
+      <span>The Sloan Center is funded by the Alfred P. Sloan Foundation,<br>which is an underwriter of this project and the PBS NewsHour.</p>
+    </p>
 
     <h3>PBS NewsHour: Content and Editorial</h3>
     <ul>
@@ -79,11 +79,12 @@
       <li><strong>Nick Krusick</strong> video editing and design</li>
     </ul>
 
+    <h3>Header Photo</h3>
+    <ul>
+      <li class="not_person">The Staff of Vita Needle &mdash; average age: 74</li>
+    </ul>
+
     <div class="photo_credits">
-      <h3>Photos</h3>
-      <ul>
-        <li>Chapter 1: The Staff of Vita Needle &mdash; average age: 74</li>
-      </ul>
       <h3>Chapter Title Photos <span>from Flickr users</span></h3>
       <ul>
         <li><strong>Chapter 1 (park pathway)</strong> <a href="http://www.flickr.com/photos/paulmccoubrie/8676443510">Rum Bucolic Ape</a>
