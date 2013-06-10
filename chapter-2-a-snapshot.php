@@ -6,7 +6,7 @@ require_once('header.php');
 ?>
 
 <section class="chapter_title">
-  <div class="background_image parallax"></div>
+  <div class="background_image "></div>
 
   <div class="contents">
     <p>

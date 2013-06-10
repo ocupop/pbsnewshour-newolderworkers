@@ -12,7 +12,7 @@ require_once('header.php');
   </header>
 
   <div class="bleed fixed company_photo">
-    <div class="background_image parallax" data-plax="0.1"></div>
+    <div class="background_image"></div>
   </div>
 
 </div>
