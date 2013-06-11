@@ -109,8 +109,6 @@ $(document).ready ()->
       $container = $video.closest('.video')
 
       url = "http://www.youtube.com/watch?v=#{$video.data('src')}&rel=0&showinfo=0&modestbranding=1"
-      # TODO -remove test video
-      url = "http://www.youtube.com/watch?v=gWqJDJI9KEM&rel=0&showinfo=0&modestbranding=1"
 
       if $video.data('start') then url += "&start=#{to_s($video.data('start'))}"
 
