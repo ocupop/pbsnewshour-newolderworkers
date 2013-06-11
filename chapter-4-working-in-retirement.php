@@ -125,6 +125,37 @@ require_once('header.php');
   </div>
 </section>
 
+<section class="video how_big_a_boost">
+  <div class="contents">
+    <div class="replay"></div>
+    <div class="video-container">
+      <!--
+      Youtube video: TODO
+      IN: TODO
+      OUT: TODO
+      -->
+    </div>
+
+    <div class="caption">
+      <h2>
+        How Big a Boost Do Working Seniors Give the Economy?
+      </h2>
+
+      <p>
+        For those of you who do work into older age, then, there are obvious benefits to you. And, it turns out, there are benefits to the economy as well.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="copy they_want_to">
+  <div class="contents">
+    <p>
+      A majority&mdash;a full 54%&mdash;of workers 65 and older say the main reason they continue to work is because they want to.
+    </p>
+  </div>
+</section>
+
 <section class="video colleges_see_graying_workforce">
   <div class="contents">
     <div class="replay"></div>
@@ -145,14 +176,6 @@ require_once('header.php');
         In academia, many professors work long past traditional retirement age, leaving younger potential professors shut out from highly coveted full-time, tenured positions.
       </p>
     </div>
-  </div>
-</section>
-
-<section class="copy they_want_to">
-  <div class="contents">
-    <p>
-      A majority&mdash;a full 54%&mdash;of workers 65 and older say the main reason they continue to work is because they want to.
-    </p>
   </div>
 </section>
 
