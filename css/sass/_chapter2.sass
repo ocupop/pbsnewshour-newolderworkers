@@ -233,7 +233,8 @@
         &.very_rural_area .icon:after
           background-position: -1420px 0
 
-        &:hover
+        &:hover,
+        &.click
           background: #eee
           color: $dark
 
@@ -271,15 +272,28 @@
         @include clearfix
         height: 100px
 
-        div
+        .a,
+        .b,
+        .c,
+        .d
           position: absolute
           width: 200px
+
+          div
+            @include clearfix
+            width: 200px
+            height: 100px
+
+          &.hover,
+          &.click
+            background: #ddd
 
           span
             display: block
             margin: 0 auto
             width: 50%
-            height: 100%
+            position: absolute
+            left: 50px
 
             strong
               color: #fff
@@ -293,18 +307,21 @@
               top: .2em
               left: 35%
 
-          &.a
-            left: 0
-            top: 0
+        .a
+          left: 0
+          top: 0
+
+          span
             height: 30%
 
-          &.b
-            left: 25%
-            bottom: 0
-            height: 20%
+        .b
+          left: 25%
+          bottom: 0
 
-            span
-              background: transparent
+          span
+            background: transparent
+            height: 20%
+            bottom: 0
 
             strong
               color: $light
@@ -312,18 +329,23 @@
               font-size: 14px
               position: static
 
-          &.c
-            left: 50%
-            bottom: 0
-            height: 70%
+        .c
+          left: 50%
+          bottom: 0
 
-            span strong
+          span
+            height: 70%
+            bottom: 0
+
+            strong
               font-size: 28px
               padding-top: .3em
 
-          &.d
-            left: 75%
-            top: 0
+        .d
+          left: 75%
+          top: 0
+
+          span
             height: 30%
 
       .positive

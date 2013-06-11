@@ -2104,13 +2104,13 @@ footer {
   .chapter-2-a-snapshot article .question.community_size .form_fields label.very_rural_area .icon:after {
     background-position: -1420px 0; }
   /* line 236, sass/_chapter2.sass */
-  .chapter-2-a-snapshot article .question.community_size .form_fields label:hover {
+  .chapter-2-a-snapshot article .question.community_size .form_fields label:hover, .chapter-2-a-snapshot article .question.community_size .form_fields label.click {
     background: #eeeeee;
     color: #383838; }
-    /* line 240, sass/_chapter2.sass */
-    .chapter-2-a-snapshot article .question.community_size .form_fields label:hover .icon:after {
+    /* line 241, sass/_chapter2.sass */
+    .chapter-2-a-snapshot article .question.community_size .form_fields label:hover .icon:after, .chapter-2-a-snapshot article .question.community_size .form_fields label.click .icon:after {
       opacity: 1; }
-/* line 246, sass/_chapter2.sass */
+/* line 247, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .community_data h2 {
   background: #666666;
   color: white;
@@ -2118,42 +2118,91 @@ footer {
   line-height: 1.4;
   margin: 0;
   padding: 1em 0.75em 0.9em; }
-  /* line 254, sass/_chapter2.sass */
+  /* line 255, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .community_data h2 span {
     display: block;
     font-family: "Proxima N W01 Smbd";
     font-size: 16px; }
-/* line 259, sass/_chapter2.sass */
+/* line 260, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .community_data p {
   font-size: 18px;
   line-height: 1.4;
   text-align: center;
   text-transform: none; }
-/* line 265, sass/_chapter2.sass */
+/* line 266, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .community_data .community_changes {
   background: url("../img/form-background.jpg");
   height: 200px; }
-  /* line 269, sass/_chapter2.sass */
+  /* line 270, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .community_data .community_changes .positive,
   .chapter-2-a-snapshot article .community_data .community_changes .negative {
     overflow: hidden;
     *zoom: 1;
     height: 100px; }
-    /* line 274, sass/_chapter2.sass */
-    .chapter-2-a-snapshot article .community_data .community_changes .positive div,
-    .chapter-2-a-snapshot article .community_data .community_changes .negative div {
+    /* line 275, sass/_chapter2.sass */
+    .chapter-2-a-snapshot article .community_data .community_changes .positive .a,
+    .chapter-2-a-snapshot article .community_data .community_changes .positive .b,
+    .chapter-2-a-snapshot article .community_data .community_changes .positive .c,
+    .chapter-2-a-snapshot article .community_data .community_changes .positive .d,
+    .chapter-2-a-snapshot article .community_data .community_changes .negative .a,
+    .chapter-2-a-snapshot article .community_data .community_changes .negative .b,
+    .chapter-2-a-snapshot article .community_data .community_changes .negative .c,
+    .chapter-2-a-snapshot article .community_data .community_changes .negative .d {
       position: absolute;
       width: 200px; }
-      /* line 278, sass/_chapter2.sass */
-      .chapter-2-a-snapshot article .community_data .community_changes .positive div span,
-      .chapter-2-a-snapshot article .community_data .community_changes .negative div span {
+      /* line 282, sass/_chapter2.sass */
+      .chapter-2-a-snapshot article .community_data .community_changes .positive .a div,
+      .chapter-2-a-snapshot article .community_data .community_changes .positive .b div,
+      .chapter-2-a-snapshot article .community_data .community_changes .positive .c div,
+      .chapter-2-a-snapshot article .community_data .community_changes .positive .d div,
+      .chapter-2-a-snapshot article .community_data .community_changes .negative .a div,
+      .chapter-2-a-snapshot article .community_data .community_changes .negative .b div,
+      .chapter-2-a-snapshot article .community_data .community_changes .negative .c div,
+      .chapter-2-a-snapshot article .community_data .community_changes .negative .d div {
+        overflow: hidden;
+        *zoom: 1;
+        width: 200px;
+        height: 100px; }
+      /* line 287, sass/_chapter2.sass */
+      .chapter-2-a-snapshot article .community_data .community_changes .positive .a.hover, .chapter-2-a-snapshot article .community_data .community_changes .positive .a.click,
+      .chapter-2-a-snapshot article .community_data .community_changes .positive .b.hover,
+      .chapter-2-a-snapshot article .community_data .community_changes .positive .b.click,
+      .chapter-2-a-snapshot article .community_data .community_changes .positive .c.hover,
+      .chapter-2-a-snapshot article .community_data .community_changes .positive .c.click,
+      .chapter-2-a-snapshot article .community_data .community_changes .positive .d.hover,
+      .chapter-2-a-snapshot article .community_data .community_changes .positive .d.click,
+      .chapter-2-a-snapshot article .community_data .community_changes .negative .a.hover,
+      .chapter-2-a-snapshot article .community_data .community_changes .negative .a.click,
+      .chapter-2-a-snapshot article .community_data .community_changes .negative .b.hover,
+      .chapter-2-a-snapshot article .community_data .community_changes .negative .b.click,
+      .chapter-2-a-snapshot article .community_data .community_changes .negative .c.hover,
+      .chapter-2-a-snapshot article .community_data .community_changes .negative .c.click,
+      .chapter-2-a-snapshot article .community_data .community_changes .negative .d.hover,
+      .chapter-2-a-snapshot article .community_data .community_changes .negative .d.click {
+        background: #dddddd; }
+      /* line 291, sass/_chapter2.sass */
+      .chapter-2-a-snapshot article .community_data .community_changes .positive .a span,
+      .chapter-2-a-snapshot article .community_data .community_changes .positive .b span,
+      .chapter-2-a-snapshot article .community_data .community_changes .positive .c span,
+      .chapter-2-a-snapshot article .community_data .community_changes .positive .d span,
+      .chapter-2-a-snapshot article .community_data .community_changes .negative .a span,
+      .chapter-2-a-snapshot article .community_data .community_changes .negative .b span,
+      .chapter-2-a-snapshot article .community_data .community_changes .negative .c span,
+      .chapter-2-a-snapshot article .community_data .community_changes .negative .d span {
         display: block;
         margin: 0 auto;
         width: 50%;
-        height: 100%; }
-        /* line 284, sass/_chapter2.sass */
-        .chapter-2-a-snapshot article .community_data .community_changes .positive div span strong,
-        .chapter-2-a-snapshot article .community_data .community_changes .negative div span strong {
+        position: absolute;
+        left: 50px; }
+        /* line 298, sass/_chapter2.sass */
+        .chapter-2-a-snapshot article .community_data .community_changes .positive .a span strong,
+        .chapter-2-a-snapshot article .community_data .community_changes .positive .b span strong,
+        .chapter-2-a-snapshot article .community_data .community_changes .positive .c span strong,
+        .chapter-2-a-snapshot article .community_data .community_changes .positive .d span strong,
+        .chapter-2-a-snapshot article .community_data .community_changes .negative .a span strong,
+        .chapter-2-a-snapshot article .community_data .community_changes .negative .b span strong,
+        .chapter-2-a-snapshot article .community_data .community_changes .negative .c span strong,
+        .chapter-2-a-snapshot article .community_data .community_changes .negative .d span strong {
           color: white;
           display: block;
           font-family: "Proxima N W01 Bold";
@@ -2164,62 +2213,73 @@ footer {
           position: absolute;
           top: 0.2em;
           left: 35%; }
-      /* line 296, sass/_chapter2.sass */
-      .chapter-2-a-snapshot article .community_data .community_changes .positive div.a,
-      .chapter-2-a-snapshot article .community_data .community_changes .negative div.a {
-        left: 0;
-        top: 0;
+    /* line 310, sass/_chapter2.sass */
+    .chapter-2-a-snapshot article .community_data .community_changes .positive .a,
+    .chapter-2-a-snapshot article .community_data .community_changes .negative .a {
+      left: 0;
+      top: 0; }
+      /* line 314, sass/_chapter2.sass */
+      .chapter-2-a-snapshot article .community_data .community_changes .positive .a span,
+      .chapter-2-a-snapshot article .community_data .community_changes .negative .a span {
         height: 30%; }
-      /* line 301, sass/_chapter2.sass */
-      .chapter-2-a-snapshot article .community_data .community_changes .positive div.b,
-      .chapter-2-a-snapshot article .community_data .community_changes .negative div.b {
-        left: 25%;
-        bottom: 0;
-        height: 20%; }
-        /* line 306, sass/_chapter2.sass */
-        .chapter-2-a-snapshot article .community_data .community_changes .positive div.b span,
-        .chapter-2-a-snapshot article .community_data .community_changes .negative div.b span {
-          background: transparent; }
-        /* line 309, sass/_chapter2.sass */
-        .chapter-2-a-snapshot article .community_data .community_changes .positive div.b strong,
-        .chapter-2-a-snapshot article .community_data .community_changes .negative div.b strong {
+    /* line 317, sass/_chapter2.sass */
+    .chapter-2-a-snapshot article .community_data .community_changes .positive .b,
+    .chapter-2-a-snapshot article .community_data .community_changes .negative .b {
+      left: 25%;
+      bottom: 0; }
+      /* line 321, sass/_chapter2.sass */
+      .chapter-2-a-snapshot article .community_data .community_changes .positive .b span,
+      .chapter-2-a-snapshot article .community_data .community_changes .negative .b span {
+        background: transparent;
+        height: 20%;
+        bottom: 0; }
+        /* line 326, sass/_chapter2.sass */
+        .chapter-2-a-snapshot article .community_data .community_changes .positive .b span strong,
+        .chapter-2-a-snapshot article .community_data .community_changes .negative .b span strong {
           color: #aaaaaa;
           font-family: "Proxima N W01 Smbd";
           font-size: 14px;
           position: static; }
-      /* line 315, sass/_chapter2.sass */
-      .chapter-2-a-snapshot article .community_data .community_changes .positive div.c,
-      .chapter-2-a-snapshot article .community_data .community_changes .negative div.c {
-        left: 50%;
-        bottom: 0;
-        height: 70%; }
-        /* line 320, sass/_chapter2.sass */
-        .chapter-2-a-snapshot article .community_data .community_changes .positive div.c span strong,
-        .chapter-2-a-snapshot article .community_data .community_changes .negative div.c span strong {
+    /* line 332, sass/_chapter2.sass */
+    .chapter-2-a-snapshot article .community_data .community_changes .positive .c,
+    .chapter-2-a-snapshot article .community_data .community_changes .negative .c {
+      left: 50%;
+      bottom: 0; }
+      /* line 336, sass/_chapter2.sass */
+      .chapter-2-a-snapshot article .community_data .community_changes .positive .c span,
+      .chapter-2-a-snapshot article .community_data .community_changes .negative .c span {
+        height: 70%;
+        bottom: 0; }
+        /* line 340, sass/_chapter2.sass */
+        .chapter-2-a-snapshot article .community_data .community_changes .positive .c span strong,
+        .chapter-2-a-snapshot article .community_data .community_changes .negative .c span strong {
           font-size: 28px;
           padding-top: 0.3em; }
-      /* line 324, sass/_chapter2.sass */
-      .chapter-2-a-snapshot article .community_data .community_changes .positive div.d,
-      .chapter-2-a-snapshot article .community_data .community_changes .negative div.d {
-        left: 75%;
-        top: 0;
+    /* line 344, sass/_chapter2.sass */
+    .chapter-2-a-snapshot article .community_data .community_changes .positive .d,
+    .chapter-2-a-snapshot article .community_data .community_changes .negative .d {
+      left: 75%;
+      top: 0; }
+      /* line 348, sass/_chapter2.sass */
+      .chapter-2-a-snapshot article .community_data .community_changes .positive .d span,
+      .chapter-2-a-snapshot article .community_data .community_changes .negative .d span {
         height: 30%; }
-  /* line 329, sass/_chapter2.sass */
+  /* line 351, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .community_data .community_changes .positive {
     border-bottom: 2px solid #666666; }
-    /* line 332, sass/_chapter2.sass */
+    /* line 354, sass/_chapter2.sass */
     .chapter-2-a-snapshot article .community_data .community_changes .positive div span {
       background: #548e85; }
-  /* line 336, sass/_chapter2.sass */
+  /* line 358, sass/_chapter2.sass */
   .chapter-2-a-snapshot article .community_data .community_changes .negative div span {
     background: #aaaaaa; }
-/* line 351, sass/_chapter2.sass */
+/* line 373, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .video.dante_chinni .intro {
   font-size: 18px; }
-/* line 354, sass/_chapter2.sass */
+/* line 376, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .video.dante_chinni h2 {
   font-size: 63px; }
-/* line 357, sass/_chapter2.sass */
+/* line 379, sass/_chapter2.sass */
 .chapter-2-a-snapshot article .video.dante_chinni .caption {
   font-size: 18px; }
 
