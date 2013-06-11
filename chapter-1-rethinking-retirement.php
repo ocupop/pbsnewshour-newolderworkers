@@ -8,7 +8,7 @@ require_once('header.php');
 <div class="story_header_wrapper">
   <header class="story_header">
     <p><span>PBS NewsHour Presents</span></p>
-    <h1><small>The</small> <em>R</em><span>etiring</span> <small>of</small> <em>R</em><span>etirement</span></h1>
+    <h1><em>New Adventures</em> <small>for</small> <em>Older Workers</em></h1>
   </header>
 
   <div class="bleed fixed company_photo">

@@ -41,7 +41,7 @@ $current_chapter = $chapter_list[$chapter];
 <header class="site_header <?php echo $chapter !== 1 ? 'shown' : null; ?>">
   <div class="contents">
     <a class="pbs">PBS</a>
-    <a class="title" href="./"><h1><small>The</small> <em>R</em><span>etiring</span> <small>of</small> <em>R</em><span>etirement</span></h1></a>
+    <a class="title" href="./"><h1><em>New Adventures</em> <small>for</small> <em>Older Workers</em></h1></a>
     <nav>
       <ul>
         <?php
