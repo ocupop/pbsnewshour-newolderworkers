@@ -249,16 +249,16 @@ require_once('header.php');
     </h2>
     <div class="community_changes">
       <div class="positive">
-        <div class="a">&nbsp;</div>
-        <div class="b"><span><strong>no change</strong></span></div>
-        <div class="c"><span><strong>7%</strong></span></div>
-        <div class="d">&nbsp;</div>
+        <div class="a highly_urbanized">&nbsp;</div>
+        <div class="b less_urbanized"><span><strong>no change</strong></span></div>
+        <div class="c rural_area"><span><strong>7%</strong></span></div>
+        <div class="d very_rural_area">&nbsp;</div>
       </div>
       <div class="negative">
-        <div class="a"><span><strong>-3%</strong></span></div>
-        <div class="b">&nbsp;</div>
-        <div class="c">&nbsp;</div>
-        <div class="d"><span><strong>-3%</strong></span></div>
+        <div class="a highly_urbanized"><span><strong>-3%</strong></span></div>
+        <div class="b less_urbanized">&nbsp;</div>
+        <div class="c rural_area">&nbsp;</div>
+        <div class="d very_rural_area"><span><strong>-3%</strong></span></div>
       </div>
     </div>
   </div>
