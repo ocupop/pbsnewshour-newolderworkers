@@ -398,7 +398,7 @@ section {
   /* line 295, sass/_base.sass */
   section.video .replay {
     position: absolute;
-    z-index: -10;
+    z-index: 10;
     background-repeat: no-repeat;
     background-position: center; }
   /* line 301, sass/_base.sass */

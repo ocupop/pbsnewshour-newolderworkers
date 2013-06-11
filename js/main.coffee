@@ -116,7 +116,10 @@ $(document).ready ()->
 
       video_stack.push pop #that's a programmer joke for ya
 
-      if $video.data('end') then  pop.cue (to_s $video.data('end') ), ()-> pop.pause()
+      if $video.data('end') then  pop.cue (to_s $video.data('end') ), ()->
+        pop.pause()
+        pop.currentTime to_s( $video.data('start') || 0)
+        $container.removeClass('playing')
 
       pop.on "play", ()->
         video.pause() for video in video_stack when (video isnt pop)
