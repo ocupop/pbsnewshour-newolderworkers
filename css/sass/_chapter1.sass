@@ -8,10 +8,8 @@
     @include transition(opacity 1s)
 
   .company_photo .background_image
-    @include multi-background("1/CompanyPortrait")
+    @include multi-background("1/company_portrait")
     background-position: center 0
-    @media (min-width: 1024px)
-      background-position: center -125%
 
   .intro
     margin-top: 80%
@@ -34,8 +32,7 @@
     padding: 24em 0 2em 0
     @include multi-background("1/park")
     background-attachment: fixed
-    @media (min-width: 1024px)
-      background-position: center -125%
+
 
   .percentage_of_workers
     p
