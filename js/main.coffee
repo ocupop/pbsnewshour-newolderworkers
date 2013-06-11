@@ -200,9 +200,22 @@ $(document).ready ()->
     $gender_container = $("#gender_container")
     container_top = $gender_selector.offset().top
     container_bottom = $gender_container.offset().top + $gender_container.height()
+    $community_changes = $('.community_changes')
 
     scroll_actions.sticky_gender_selector = ()->
       $gender_selector.toggleClass 'sticky', (container_top - 60) < pos < (container_bottom - 240)
+
+    $('.community_size_selection').each ()->
+      $this = $(this)
+      $target = $community_changes.find(".#{$this.data('value')}")
+      $this.hover ()->
+        # toggleClass is buggy for this use case
+        $target.addClass('hover')
+      , ()->
+        $target.removeClass('hover')
+      $this.on "click", ()->
+        $community_changes.find(".click").removeClass("click")
+        $target.addClass("click")
 
   # Chapter 3: Working for the Nest Egg
 

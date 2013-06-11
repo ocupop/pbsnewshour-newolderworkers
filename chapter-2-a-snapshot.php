@@ -210,28 +210,28 @@ require_once('header.php');
     </p>
 
     <div class="form_fields">
-      <label class="highly_urbanized">
+      <label class="community_size_selection" data-value="highly_urbanized">
         <input type="radio" name="community_size" value="Major City (more than 900,000 households)">
         <strong>Largest<br>U.S. Cities</strong>
         <div class="icon"></div>
         <span>More than <strong>900,000</strong> households</span>
       </label>
 
-      <label class="less_urbanized">
+      <label class="community_size_selection" data-value="less_urbanized">
         <input type="radio" name="community_size" value="Less Urbanized (more than 85,000 households)">
         <strong>Less<br>Urbanized</strong>
         <div class="icon"></div>
         <span>More than <strong>85,000</strong> households</span>
       </label>
 
-      <label class="rural_area">
+      <label class="community_size_selection" data-value="rural_area">
         <input type="radio" name="community_size" value="Rural Area (more than 20,000 households)">
         <strong>Rural<br>Area</strong>
         <div class="icon"></div>
         <span>More than <strong>20,000</strong> households</span>
       </label>
 
-      <label class="very_rural_area">
+      <label class="community_size_selection" data-value="very_rural_area">
         <input type="radio" name="community_size" value="Very Rural Area (less than 20,000 households)">
         <strong>Very<br>Rural Area</strong>
         <div class="icon"></div>
