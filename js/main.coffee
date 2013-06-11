@@ -99,31 +99,49 @@ $(document).ready ()->
         $.removeCookie("retiring__gender")
         $.removeCookie("retiring__community_size")
 
-  # video play buttons
-  $('video').each ()->
-    $this = $(this)
-    $container = $this.closest('.video')
 
-    $container.find('.replay').on "click", ()->
-      $this[0].play()
+  do video_handler = ()->
+    window.video_stack = []
+    to_s = Popcorn.util.toSeconds
 
-    $this.on "play", ()->
-      # pause all other videos
-      video.pause() for video in $('video') when (video isnt $this[0])
-      $container.addClass('playing')
+    $('.video-container').each ()->
+      $video = $(this)
+      $container = $video.closest('.video')
 
-    $this.on "ended", ()->
-      $container.removeClass('playing')
+      url = "http://www.youtube.com/watch?v=#{$video.data('src')}&rel=0&showinfo=0&modestbranding=1"
+      # TODO -remove test video
+      url = "http://www.youtube.com/watch?v=gWqJDJI9KEM&rel=0&showinfo=0&modestbranding=1"
+
+      if $video.data('start') then url += "&start=#{to_s($video.data('start'))}"
+
+      pop = Popcorn.youtube( "##{this.id}", url )
+
+      video_stack.push pop #that's a programmer joke for ya
+
+      if $video.data('end') then  pop.cue (to_s $video.data('end') ), ()-> pop.pause()
+
+      pop.on "play", ()->
+        video.pause() for video in video_stack when (video isnt pop)
+        $container.addClass('playing')
+
+      pop.on "ended", ()->
+        $container.removeClass('playing')
+
+      # youtube has own "replay" button, unneccessary?
+      $container.find('.replay').on "click", ()->
+        pop.play()
+
+      if $video.data('autoplay')
+        top = $video.offset().top
+
+        scroll_actions[this.id] = ()->
+          if !$video.hasClass('played') and pos + ($window_height / 2) > top
+            $video.addClass('played')
+            pop.play()
 
 
-  # Autoplay some videos, if they havent autoplayed once already
-  $('.semi-autoplay').each (index)->
-    $this = $(this)
-    top = $this.offset().top
 
-    scroll_actions["video_#{index}"] = ()->
-      if !$this.hasClass('played') and  pos + $window_height/2 > top
-        $this.addClass('played')[0].play()
+
 
   # Chapter 1: Rethinking Retirement
 
