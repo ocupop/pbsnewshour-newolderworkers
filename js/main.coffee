@@ -233,6 +233,8 @@ $(document).ready ()->
       , ()->
         $target.removeClass('hover')
       $this.on "click", ()->
+        $('.community_size_selection.click').removeClass("click")
+        $this.addClass("click")
         $community_changes.find(".click").removeClass("click")
         $target.addClass("click")
 
