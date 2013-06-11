@@ -321,13 +321,22 @@ require_once('header.php');
   <div class="contents">
     <blockquote>
       <p>
-        Hello, I&rsquo;m Paul Solman&mdash;PBS NewsHour&rsquo;s business and economics correspondent. I consider it to be a privilege to have been working as a journalist for fifty years. I have no plans to stop doing the jobs I love (I also teach at Yale) any time soon and intend to keep working as long as I possibly can.
+        Hello, I&rsquo;m Paul Solman of the PBS NewsHour. At age 68, I&rsquo;m on the third green line right above my head in the chart on the left, in the dot at the far right. Note that I&rsquo;m hardly alone.
       </p>
       <p>
-        As I pretty much knew, and have confirmed in the course of reporting for this older workers series, my situation is hardly typical of aging workers in America these days. And yet more of us than ever, including more and more of my junior colleagues in the baby boom, are staying on the job past what was long considered retirement age.
+        I never imagined I would work in journalism, as I now have, for half a century, never thought I would work that long at all. And yet, though I have plenty to otherwise keep me thoroughly engaged&mdash;including five grandchildren within 20 minutes of the house and two more on the way&mdash;I work two jobs, teaching my brand of real-world economics to the NewsHour audience as the show&rsquo;s economics correspondent and to college students at Yale and elsewhere. Moreover, I intend to keep working until I&rsquo;m shown the door.
       </p>
       <p>
-        The numbers above are indeed shocking, and we included them to help outline the dramatic change America&rsquo;s workforce is going through. In twenty years workers 65&ndash;69 have doubled in their share of the labor force, and now almost a third of folks in that age range are working, up from one in five twenty years ago. What&rsquo;s more, the portion of people working past 75 has changed dramatically since 1993, as you saw above.
+        The gratification I get from work may be somewhat atypical but, as this older worker project of ours and the charts above confirm, more Americans than ever, including more and more of my junior colleagues in the baby boom, are staying on the job past &quot;retirement age.&quot;
+      </p>
+      <p>
+        In my current 65-69 age range, fully 50% more workers are still active than was the case just 20 years ago. What&rsquo;s more, as you can see in the chart above me on the right, the portion of people working past 75 has more than <strong>doubled</strong> since 1993.
+      </p>
+      <p>
+        So here&rsquo;s the question we set out to answer: Is retirement as we know it becoming a thing of the past? How long are we likely to work and why? Will we be happy on the job, or grimly counting the dollars and days until retirement?
+      </p>
+      <p>
+        The older worker team has spent much of the past year looking at the factors&mdash;demography, economics, and just plain personal preference&mdash;that help explain what&rsquo;s happening to the American workforce as it ages.
       </p>
       <cite>
         <strong>&mdash; Paul Solman</strong>
@@ -339,10 +348,7 @@ require_once('header.php');
 
 <section class="copy outro">
   <div class="contents">
-    <p class="first">
-      Is retirement as we know it becoming a thing of the past? How long are we likely to work and why? Will we be happy on the job, or miserable and counting the dollars and days until retirement? We&rsquo;ve spent much of the past year looking at the factors&mdash;demography, economics, and just plain personal preference&mdash;that help explain what&rsquo;s happening to the American workforce as it ages.
-    </p>
-    <p class="second">
+    <p>
       So what&rsquo;s going on? And what do statistics say about where you fit into the picture?
     </p>
   </div>
