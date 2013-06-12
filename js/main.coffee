@@ -321,7 +321,7 @@ $(document).ready ()->
     title = encodeURI ("PBS NewsHour: New Adventures for Older Workers")
     messages = {
       half_of_american_households: "Half of American households have less than $10k in savings."
-      death_of_the_pension: "In 1975, 85% of private sector employees had pensions. In 2013, only 35% do."
+      death_of_the_pension: "1975: 85% of private sector employees had pensions. 2013: only 35% do."
       average_investor: "The average investor underperforms during inflation."
       no_retirement_savings: "A third of Baby Boomers have no retirement savings."
     }
