@@ -322,7 +322,7 @@ require_once('header.php');
 
     <div class="caption">
       <p>
-        Does that mean rural America is actually better for older workers&mdash;a haven for those working for enjoyment or personal fulfillment? <strong><a href="chapter-3-working-for-the-nest-egg.php">Read on.</a></strong>
+        Does that mean rural America is actually better for older workers&mdash;a haven for those working for enjoyment or personal fulfillment? <strong><a href="chapter-3-working-for-the-nest-egg">Read on.</a></strong>
       </p>
     </div>
   </div>
