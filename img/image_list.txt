@@ -1,48 +1,100 @@
-1/company_portrait-giant.jpg
-1/company_portrait-large.jpg
-1/company_portrait-medium.jpg
-1/company_portrait-small.jpg
-1/grump-giant.jpg
-1/grump-large.jpg
-1/grump-medium.jpg
-1/grump-small.jpg
-1/jars-giant.jpg
-1/jars-large.jpg
-1/jars-medium.jpg
-1/jars-small.jpg
-1/park-giant.jpg
-1/park-large.jpg
-1/park-medium.jpg
-1/park-small.jpg
-1/waitress-giant.jpg
-1/waitress-large.jpg
-1/waitress-medium.jpg
-1/waitress-small.jpg
-2/briefcases-giant.jpg
-2/briefcases-large.jpg
-2/briefcases-medium.jpg
-2/briefcases-small.jpg
-2/fishing-giant.jpg
-2/fishing-large.jpg
-2/fishing-medium.jpg
-2/fishing-small.jpg
-2/man_woman-giant.jpg
-2/man_woman-large.jpg
-2/man_woman-medium.jpg
-2/man_woman-small.jpg
-3/house-giant.jpg
-3/house-large.jpg
-3/house-medium.jpg
-3/house-small.jpg
-3/pension-giant.jpg
-3/pension-large.jpg
-3/pension-medium.jpg
-3/pension-small.jpg
-4/barber-giant.jpg
-4/barber-large.jpg
-4/barber-medium.jpg
-4/barber-small.jpg
-5/man_standing-giant.jpg
-5/man_standing-large.jpg
-5/man_standing-medium.jpg
-5/man_standing-small.jpg
+img/1/company_portrait-giant.jpg
+img/1/company_portrait-large.jpg
+img/1/company_portrait-medium.jpg
+img/1/company_portrait-small.jpg
+img/1/grump-giant.jpg
+img/1/grump-large.jpg
+img/1/grump-medium.jpg
+img/1/grump-small.jpg
+img/1/jars-giant.jpg
+img/1/jars-large.jpg
+img/1/jars-medium.jpg
+img/1/jars-small.jpg
+img/1/park-giant.jpg
+img/1/park-large.jpg
+img/1/park-medium.jpg
+img/1/park-small.jpg
+img/1/waitress-giant.jpg
+img/1/waitress-large.jpg
+img/1/waitress-medium.jpg
+img/1/waitress-small.jpg
+img/2/briefcases-giant.jpg
+img/2/briefcases-large.jpg
+img/2/briefcases-medium.jpg
+img/2/briefcases-small.jpg
+img/2/fishing-giant.jpg
+img/2/fishing-large.jpg
+img/2/fishing-medium.jpg
+img/2/fishing-small.jpg
+img/2/man_woman-giant.jpg
+img/2/man_woman-large.jpg
+img/2/man_woman-medium.jpg
+img/2/man_woman-small.jpg
+img/3/house-giant.jpg
+img/3/house-large.jpg
+img/3/house-medium.jpg
+img/3/house-small.jpg
+img/3/pension-giant.jpg
+img/3/pension-large.jpg
+img/3/pension-medium.jpg
+img/3/pension-small.jpg
+img/4/barber-giant.jpg
+img/4/barber-large.jpg
+img/4/barber-medium.jpg
+img/4/barber-small.jpg
+img/5/man_standing-giant.jpg
+img/5/man_standing-large.jpg
+img/5/man_standing-medium.jpg
+img/5/man_standing-small.jpg
+
+
+# Convert to 50% JPEG
+
+convert img/1/company_portrait-giant.jpg -quality 50% img/1/company_portrait-giant.jpg
+convert img/1/company_portrait-large.jpg -quality 50% img/1/company_portrait-large.jpg
+convert img/1/company_portrait-medium.jpg -quality 50% img/1/company_portrait-medium.jpg
+convert img/1/company_portrait-small.jpg -quality 50% img/1/company_portrait-small.jpg
+convert img/1/grump-giant.jpg -quality 50% img/1/grump-giant.jpg
+convert img/1/grump-large.jpg -quality 50% img/1/grump-large.jpg
+convert img/1/grump-medium.jpg -quality 50% img/1/grump-medium.jpg
+convert img/1/grump-small.jpg -quality 50% img/1/grump-small.jpg
+convert img/1/jars-giant.jpg -quality 50% img/1/jars-giant.jpg
+convert img/1/jars-large.jpg -quality 50% img/1/jars-large.jpg
+convert img/1/jars-medium.jpg -quality 50% img/1/jars-medium.jpg
+convert img/1/jars-small.jpg -quality 50% img/1/jars-small.jpg
+convert img/1/park-giant.jpg -quality 50% img/1/park-giant.jpg
+convert img/1/park-large.jpg -quality 50% img/1/park-large.jpg
+convert img/1/park-medium.jpg -quality 50% img/1/park-medium.jpg
+convert img/1/park-small.jpg -quality 50% img/1/park-small.jpg
+convert img/1/waitress-giant.jpg -quality 50% img/1/waitress-giant.jpg
+convert img/1/waitress-large.jpg -quality 50% img/1/waitress-large.jpg
+convert img/1/waitress-medium.jpg -quality 50% img/1/waitress-medium.jpg
+convert img/1/waitress-small.jpg -quality 50% img/1/waitress-small.jpg
+convert img/2/briefcases-giant.jpg -quality 50% img/2/briefcases-giant.jpg
+convert img/2/briefcases-large.jpg -quality 50% img/2/briefcases-large.jpg
+convert img/2/briefcases-medium.jpg -quality 50% img/2/briefcases-medium.jpg
+convert img/2/briefcases-small.jpg -quality 50% img/2/briefcases-small.jpg
+convert img/2/fishing-giant.jpg -quality 50% img/2/fishing-giant.jpg
+convert img/2/fishing-large.jpg -quality 50% img/2/fishing-large.jpg
+convert img/2/fishing-medium.jpg -quality 50% img/2/fishing-medium.jpg
+convert img/2/fishing-small.jpg -quality 50% img/2/fishing-small.jpg
+convert img/2/man_woman-giant.jpg -quality 50% img/2/man_woman-giant.jpg
+convert img/2/man_woman-large.jpg -quality 50% img/2/man_woman-large.jpg
+convert img/2/man_woman-medium.jpg -quality 50% img/2/man_woman-medium.jpg
+convert img/2/man_woman-small.jpg -quality 50% img/2/man_woman-small.jpg
+convert img/3/house-giant.jpg -quality 50% img/3/house-giant.jpg
+convert img/3/house-large.jpg -quality 50% img/3/house-large.jpg
+convert img/3/house-medium.jpg -quality 50% img/3/house-medium.jpg
+convert img/3/house-small.jpg -quality 50% img/3/house-small.jpg
+convert img/3/pension-giant.jpg -quality 50% img/3/pension-giant.jpg
+convert img/3/pension-large.jpg -quality 50% img/3/pension-large.jpg
+convert img/3/pension-medium.jpg -quality 50% img/3/pension-medium.jpg
+convert img/3/pension-small.jpg -quality 50% img/3/pension-small.jpg
+convert img/4/barber-giant.jpg -quality 50% img/4/barber-giant.jpg
+convert img/4/barber-large.jpg -quality 50% img/4/barber-large.jpg
+convert img/4/barber-medium.jpg -quality 50% img/4/barber-medium.jpg
+convert img/4/barber-small.jpg -quality 50% img/4/barber-small.jpg
+convert img/5/man_standing-giant.jpg -quality 50% img/5/man_standing-giant.jpg
+convert img/5/man_standing-large.jpg -quality 50% img/5/man_standing-large.jpg
+convert img/5/man_standing-medium.jpg -quality 50% img/5/man_standing-medium.jpg
+convert img/5/man_standing-small.jpg -quality 50% img/5/man_standing-small.jpg
