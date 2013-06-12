@@ -121,6 +121,7 @@ $(document).ready ()->
         pop.pause()
         pop.currentTime to_s(0)
         $container.removeClass('playing')
+        $container.addClass('ended')
 
       pop.on "play", ()->
         video.pause() for video in video_stack when (video isnt pop)
