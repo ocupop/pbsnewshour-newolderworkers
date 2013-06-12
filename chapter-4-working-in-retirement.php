@@ -118,10 +118,6 @@ require_once('header.php');
     <p>
       Even if many continue to work because they want to, there are, of course, financial benefits to remaining on the job. As economist Larry Kotlikoff has pointed out in his weekly column, Social Security&rsquo;s rules encourage you to work for as long as possible. His post <a href="http://www.pbs.org/newshour/businessdesk/2013/02/how-social-security-pays-you-t-1.html">How Social Security Pays You to Keep Working Forever</a> was wildly popular.
     </p>
-
-    <p>
-      For those of you who do work into older age, then, there are obvious benefits to you. And, it turns out, there are benefits to the economy as well.
-    </p>
   </div>
 </section>
 
