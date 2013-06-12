@@ -125,6 +125,10 @@ require_once('header.php');
     </p>
 
     <div class="form_fields">
+      <p class="disclaimer">
+        Note that we are collecting data anonymously via our survey questions so we can provide you with a more personalized experience. Your answers also help us visualize in real time the trends appearing within the so-called &ldquo;death of retirement.&rdquo;
+      </p>
+
       <div class="field age">
         <label class="field_title">How old are you?</label>
         <input type="number" min="13" max="116" name="age" class="user_age">
@@ -182,7 +186,7 @@ require_once('header.php');
 
         <label>
           <input type="radio" name="retire_before" value="Forever." id="group_1251379033_6" data-slug="never">
-          <span>Forever.</span>
+          <span>I never want to retire.</span>
         </label>
       </div>
 
