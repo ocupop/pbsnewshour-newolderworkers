@@ -432,7 +432,7 @@ require_once('header.php');
     <div class="video-container" id="video_brutal_job_search" data-src="MWMzgU_QfHU"
       data-start="08:41" data-end="09:22" data-autoplay="true">
       <!--
-      Youtube video: http://www.youtu.be/MWMzgU_QfHU
+      Youtube video: http://youtu.be/MWMzgU_QfHU
       08:41-09:22
       IN: "I've gone through..."
       OUT: "...after the unemployment runs out, probably."
@@ -476,8 +476,9 @@ require_once('header.php');
 <section class="video paul_transition">
   <div class="contents">
     <div class="replay"></div>
-    <div class="video-container">
-      <!-- Youtube video: TODO -->
+    <div class="video-container" id="video_paul_transition" data-src="3A9WpY3V9Gc"
+      data-start="00:00" data-end="00:37" data-autoplay="true">
+      <!-- Youtube video: http://youtu.be/3A9WpY3V9Gc -->
     </div>
   </div>
 </section>

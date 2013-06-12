@@ -124,11 +124,12 @@ require_once('header.php');
 <section class="video how_big_a_boost">
   <div class="contents">
     <div class="replay"></div>
-    <div class="video-container">
+    <div class="video-container" id="video_how_big_a_boost" data-src="XPPx__nQNnQ"
+      data-start="00:00" data-end="00:21" data-autoplay="true">
       <!--
-      Youtube video: TODO
-      IN: TODO
-      OUT: TODO
+      Youtube video: http://youtu.be/XPPx__nQNnQ
+      IN: 00:00
+      OUT: 00:21 "...and their retirement take-home."
       -->
     </div>
 
