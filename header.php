@@ -3,7 +3,6 @@
 // $chapter = current chapter number
 
 // All chapters.
-// indexed for human-friendliness
 $chapter_list = array(
   1 => array( 'title' => 'Rethinking Retirement',               'slug' => 'chapter-1-rethinking-retirement' ),
   2 => array( 'title' => 'A Snapshot',                          'slug' => 'chapter-2-a-snapshot' ),
@@ -23,10 +22,27 @@ $current_chapter = $chapter_list[$chapter];
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta property="og:image" content="http://www-tc.pbs.org/newshour/new-older-workers/img/share-facebook-1.jpg" />
-  <meta property="og:image" content="http://www-tc.pbs.org/newshour/new-older-workers/img/share-facebook-2.jpg" />
-  <meta property="og:image" content="http://www-tc.pbs.org/newshour/new-older-workers/img/share-facebook-3.jpg" />
-  <meta property="og:image" content="http://www-tc.pbs.org/newshour/new-older-workers/img/share-facebook-4.jpg" />
+ 
+  <meta property="og:title" content="PBS NewsHour: New Adventures for Older Workers" />
+  <meta property="og:url" content="PBS NewsHour: New Adventures for Older Workers" />
+  <meta property="og:title" content="PBS NewsHour: New Adventures for Older Workers" />
+  <meta property="og:type" content="article"/>
+  <meta property="og:site_name" content="NewsHour" />
+  <meta property="og:description" content="92% of Americans think there's a retirement crisis. And they're right." />
+  <meta property="og:image" content="http://www.pbs.org/newshour/new-older-workers/img/share-facebook-1.jpg" />
+  <meta property="og:image" content="http://www.pbs.org/newshour/new-older-workers/img/share-facebook-2.jpg" />
+  <meta property="og:image" content="http://www.pbs.org/newshour/new-older-workers/img/share-facebook-3.jpg" />
+  <meta property="og:image" content="http://www.pbs.org/newshour/new-older-workers/img/share-facebook-4.jpg" />
+
+  <meta name="twitter:site" content="@NewsHour" />
+  <meta name="twitter:url" content="http://www.pbs.org/newshour/new-older-workers/" />
+  <meta name="twitter:title" content="PBS NewsHour: New Adventures for Older Workers">
+  <meta name="twitter:image" content="http://www.pbs.org/newshour/new-older-workers/img/share-facebook-1.jpg"/>
+  <meta name="twitter:description" value="92% of Americans think there's a retirement crisis. And they're right." />
+  <meta name="twitter:card" value="summary" />
+
+  <meta name="description" content="92% of Americans think there's a retirement crisis. And they're right." />
+
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
   <title>PBS NewsHour: New Adventures for Older Workers</title>
   <link rel="stylesheet" href="http://www-tc.pbs.org/newshour/new-older-workers/css/style.css">
