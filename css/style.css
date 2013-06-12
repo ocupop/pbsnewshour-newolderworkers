@@ -3099,9 +3099,10 @@ footer {
 .chapter-3-working-for-the-nest-egg article .unemployed_but_wanting_to_work h2 {
   font-size: 42px; }
 /* line 470, sass/_chapter3.sass */
-.chapter-3-working-for-the-nest-egg article .brutal_job_search h2 {
+.chapter-3-working-for-the-nest-egg article .brutal_job_search .caption h2 {
+  margin-top: 0;
   padding-top: 0; }
-/* line 480, sass/_chapter3.sass */
+/* line 481, sass/_chapter3.sass */
 .chapter-3-working-for-the-nest-egg article .paul_transition {
   margin-top: 5em; }
 
