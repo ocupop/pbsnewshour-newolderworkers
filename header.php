@@ -28,7 +28,7 @@ $current_chapter = $chapter_list[$chapter];
   <meta property="og:image" content="http://www.pbs.org/newshour/new-older-workers/img/share-facebook-3.jpg" />
   <meta property="og:image" content="http://www.pbs.org/newshour/new-older-workers/img/share-facebook-4.jpg" />
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-  <title>PBS NewsHour: The Retiring of Retirement</title>
+  <title>PBS NewsHour: New Adventures for Older Workers</title>
   <link rel="stylesheet" href="css/style.css">
   <script src="js/vendor/modernizr-2.6.2.min.js"></script>
   <script type="text/javascript" src="http://fast.fonts.com/jsapi/9d4a68ce-e7a7-41f7-abd3-f2da36d975fa.js"></script>
