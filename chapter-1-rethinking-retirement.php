@@ -193,7 +193,7 @@ require_once('header.php');
       </div>
 
       <div class="field radio_buttons" id="over_or_65">
-        <!-- <div class="live_pie-open" id="live_pie-over65-open">See how others responded</div> -->
+        <div class="live_pie-open" id="live_pie-over65-open">See how others responded</div>
 
         <p class="field_title">
           You&rsquo;re 65 or older. Are you working, and are you satisfied?
@@ -238,7 +238,6 @@ require_once('header.php');
       <span class="age_group age-55plus">aged 55 and older</span>
       have changed over the years. When asked &ldquo;When do you expect to retire?&rdquo; here&rsquo;s how that age group answered&mdash;10 years ago and today. Notice how few answered &ldquo;before age 65&rdquo; in 2013 versus ten years earlier.
     </p>
-
 
     <div class="splitbars twothousandthirteen">
       <h3>2013</h3>
@@ -377,6 +376,8 @@ require_once('header.php');
       <li class="yellow">Forever</li>
     </ul>
 
+    <div class="live_pie-loading"></div>
+
     <iframe class="pie_container" src="chart-under65.html"></iframe>
   </div>
 </div>
@@ -385,14 +386,16 @@ require_once('header.php');
   <div class="live_pie-over65-content">
     <a id="live_pie-over65-close">&times;</a>
 
-    <h2>You&rsquo;re 65 or older. Are you working, and are you satisfied?</h2>
+    <h2>You&rsquo;re 65 or older.<br>Are you working, and are you satisfied?</h2>
   
     <ul>
-      <li class="red">I am currently working and am happy/OK with working.</li>
-      <li class="orange">I am currently working and am unhappy—I would prefer to not be working.</li>
-      <li class="green">I am currently NOT working and am happy/OK with not working.</li>
-      <li class="teal">I am currently NOT working and am unhappy—I would prefer to be working.</li>
+      <li class="red">I&rsquo;m working and am happy</li>
+      <li class="green">I&rsquo;m working and am unhappy</li>
+      <li class="blue">I&rsquo;m NOT working and happy</li>
+      <li class="yellow">I&rsquo;m NOT working and unhappy</li>
     </ul>
+
+    <div class="live_pie-loading"></div>
 
     <iframe class="pie_container" src="chart-over65.html"></iframe>
   </div>

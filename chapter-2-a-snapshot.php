@@ -212,7 +212,7 @@ require_once('header.php');
     </p>
 
     <div class="form_fields">
-      <!-- <div class="live_pie-open" id="live_pie-community-open">See how others responded</div> -->
+      <div class="live_pie-open" id="live_pie-community-open">See how others responded</div>
 
       <label class="community_size_selection" data-value="highly_urbanized">
         <input type="radio" name="community_size" value="Major City (more than 900,000 households)">
@@ -338,6 +338,8 @@ require_once('header.php');
 
     <h2>Are you male or female?</h2>
 
+    <div class="live_pie-loading"></div>
+
     <iframe class="pie_container" src="chart-gender.html"></iframe>
   </div>
 </div>
@@ -349,11 +351,13 @@ require_once('header.php');
     <h2>What&rsquo;s your community size?</h2>
 
     <ul>
-      <li class="red">Largest US Cities</li>
-      <li class="teal">Less Urbanized</li>
+      <li class="blue">Largest US Cities</li>
+      <li class="red">Less Urbanized</li>
       <li class="yellow">Rural Area</li>
       <li class="green">Very Rural Area</li>
     </ul>
+
+    <div class="live_pie-loading"></div>
 
     <iframe class="pie_container" src="chart-community.html"></iframe>
   </div>
