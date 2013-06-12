@@ -123,7 +123,7 @@
           return $container.removeClass('playing');
         });
         $container.find('.replay').on("click", function() {
-          return pop.play();
+          return pop.play(0);
         });
         if ($video.data('autoplay')) {
           top = $video.offset().top;

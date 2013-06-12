@@ -115,7 +115,7 @@ $(document).ready ()->
 
       video_stack.push pop #that's a programmer joke for ya
 
-      if $video.data('end') then  pop.cue (to_s $video.data('end') ), ()->
+      if $video.data('end') then pop.cue (to_s $video.data('end') ), ()->
         pop.pause()
         pop.currentTime to_s( $video.data('start') || 0)
         $container.removeClass('playing')
@@ -129,7 +129,7 @@ $(document).ready ()->
 
       # youtube has own "replay" button, unneccessary?
       $container.find('.replay').on "click", ()->
-        pop.play()
+        pop.play(0)
 
       if $video.data('autoplay')
         top = $video.offset().top
