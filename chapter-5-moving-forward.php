@@ -101,15 +101,15 @@ require_once('header.php');
         </h3>
         <ul>
           <li>
-            <a href="http://www.choosetosave.org/ballpark/">Ballpark E$timate</a>
+            <a href="http://www.pbs.org/newshour/businessdesk/2013/05/the-one-safe-investment--and-w-1.html ">The One Safe Investment and Why You Never Hear About It From Financial Advisors </a>
             <p>
-              An easy-to-use, two-page worksheet that helps you quickly identify approximately how much you need to save to fund a comfortable retirement.
+              Economist Zvi Bodie, perhaps the country&rsquo;s foremost expert on pension finance, insists that every American at least consider an investment that financial advisors almost never mention.
             </p>
           </li>
           <li>
-            <a href="http://basic.esplanner.com/">ESPlanner Basic</a>
+            <a href="http://www.pbs.org/newshour/businessdesk/2013/02/of-cats-and-men-and-a-golden-o.html">What Good Do Money Management Firms Have to Offer?</a>
             <p>
-              The free version of Larry Kotlikoff&rsquo;s retirement financial calculator.
+              When a feline can pick stocks better than a human, money manager Jon Shayne argues there are still very good reasons to have money management firms actively pick stocks and invest your money.
             </p>
           </li>
           <li>
@@ -137,11 +137,9 @@ require_once('header.php');
         <h3>
           Perhaps a second career is in your future, or maybe you&rsquo;re working longer than the &ldquo;traditional&rdquo; retirement age?
         </h3>
-
         <p>
           Today&rsquo;s older workers may very well need to have a plan in place to stay in the workforce longer. Start preparing when you are in your late 50s or early 60s for your next career, or work with your employer to adapt your job and add new skills as you get older. These are good places to start for useful advice and how-tos:
         </p>
-
         <ul>
           <li>
             <a href="http://www.encore.org/">Encore.org</a>
@@ -160,6 +158,9 @@ require_once('header.php');
             <p>
               A PBS site &ldquo;where grown-ups keep growing&rdquo; that addresses a wide range of second career, financial, caregiving, health and lifestyle topics.
             </p>
+          </li>
+          <li>
+            <a href="http://www.pbs.org/newshour/businessdesk/2013/04/ten-tips-for-senior-entreprene-1.html">Ten Tips for Senior Entrepreneurs</a>
           </li>
         </ul>
       </div>
