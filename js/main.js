@@ -2,7 +2,7 @@
 (function() {
   var PRODUCTION_URL;
 
-  PRODUCTION_URL = "http://www.pbs.org/";
+  PRODUCTION_URL = "http://pbs.org/newshour/new-older-workers/";
 
   $(document).ready(function() {
     var $page_height, $window, $window_height, form_handlers, onScroll, pos, scroll_actions, set_pos, submit_user_data, video_handler;
