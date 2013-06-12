@@ -299,22 +299,25 @@ section
       position: absolute
       z-index: 10
       background-repeat: no-repeat
-      background-position: center 60px
+      background-position: center
       width: 500px
       height: 280px
 
-    &.ended .play:after
-      content: "Now Watch the Full Video"
-      color: #fff
-      font-family: $proxima-bold
-      font-size: 24px
-      text-align: center
-      text-transform: uppercase
-      width: 500px
-      position: absolute
-      left: 0
-      top: 175px
-      z-index: 11
+    &.ended .play
+      background-position: center 60px
+
+      &:after
+        content: "Now Watch the Full Video"
+        color: #fff
+        font-family: $proxima-bold
+        font-size: 24px
+        text-align: center
+        text-transform: uppercase
+        width: 500px
+        position: absolute
+        left: 0
+        top: 175px
+        z-index: 11
 
     &.playing .play
       display: none
@@ -336,7 +339,6 @@ section
         background-image: image-url("play-small.png")
 
     &.full
-      
       .video-container,
       .play
         width: 800px

@@ -405,42 +405,45 @@ section {
     position: absolute;
     z-index: 10;
     background-repeat: no-repeat;
-    background-position: center 60px;
+    background-position: center;
     width: 500px;
     height: 280px; }
   /* line 306, sass/_base.sass */
-  section.video.ended .play:after {
-    content: "Now Watch the Full Video";
-    color: white;
-    font-family: "Proxima N W01 Bold";
-    font-size: 24px;
-    text-align: center;
-    text-transform: uppercase;
-    width: 500px;
-    position: absolute;
-    left: 0;
-    top: 175px;
-    z-index: 11; }
-  /* line 319, sass/_base.sass */
+  section.video.ended .play {
+    background-position: center 60px; }
+    /* line 309, sass/_base.sass */
+    section.video.ended .play:after {
+      content: "Now Watch the Full Video";
+      color: white;
+      font-family: "Proxima N W01 Bold";
+      font-size: 24px;
+      text-align: center;
+      text-transform: uppercase;
+      width: 500px;
+      position: absolute;
+      left: 0;
+      top: 175px;
+      z-index: 11; }
+  /* line 322, sass/_base.sass */
   section.video.playing .play {
     display: none; }
-  /* line 323, sass/_base.sass */
+  /* line 326, sass/_base.sass */
   section.video.right .video-container, .chapter-2-a-snapshot article .gender_split section.video.quotation.female .video-container, .chapter-2-a-snapshot article section.video.joel_peters .video-container, .chapter-2-a-snapshot article section.video.quotation.dante_chinni .video-container, .chapter-3-working-for-the-nest-egg article section.video.if_you_look_at .video-container, .chapter-3-working-for-the-nest-egg article section.video.a_third_of_baby_boomers .video-container, .chapter-3-working-for-the-nest-egg article section.video.the_great_recession .video-container, .chapter-3-working-for-the-nest-egg article section.video.brutal_job_search .video-container, .chapter-3-working-for-the-nest-egg article section.video.julie_zissimopoulos .video-container, .chapter-4-working-in-retirement article section.video.nancy_goldberg .video-container, .chapter-4-working-in-retirement article section.video.colleges_see_graying_workforce .video-container, .chapter-4-working-in-retirement article section.video.marc_freedman .video-container, .chapter-4-working-in-retirement article section.video.vita_needle .video-container {
     float: right;
     margin-left: 2em; }
-  /* line 326, sass/_base.sass */
+  /* line 329, sass/_base.sass */
   section.video.right .play, .chapter-2-a-snapshot article .gender_split section.video.quotation.female .play, .chapter-2-a-snapshot article section.video.joel_peters .play, .chapter-2-a-snapshot article section.video.quotation.dante_chinni .play, .chapter-3-working-for-the-nest-egg article section.video.if_you_look_at .play, .chapter-3-working-for-the-nest-egg article section.video.a_third_of_baby_boomers .play, .chapter-3-working-for-the-nest-egg article section.video.the_great_recession .play, .chapter-3-working-for-the-nest-egg article section.video.brutal_job_search .play, .chapter-3-working-for-the-nest-egg article section.video.julie_zissimopoulos .play, .chapter-4-working-in-retirement article section.video.nancy_goldberg .play, .chapter-4-working-in-retirement article section.video.colleges_see_graying_workforce .play, .chapter-4-working-in-retirement article section.video.marc_freedman .play, .chapter-4-working-in-retirement article section.video.vita_needle .play {
     right: 0;
     background-image: url('../img/play-small.png?1370990272'); }
-  /* line 331, sass/_base.sass */
+  /* line 334, sass/_base.sass */
   section.video.left .video-container, .chapter-1-rethinking-retirement article section.video.working_about_the_right_amount .video-container, .chapter-2-a-snapshot article .gender_split section.video.quotation.male .video-container, .chapter-3-working-for-the-nest-egg article section.video.sheryl_garrett .video-container, .chapter-3-working-for-the-nest-egg article section.video.babs_tatalias .video-container, .chapter-3-working-for-the-nest-egg article section.video.charles_smith .video-container, .chapter-3-working-for-the-nest-egg article section.video.mike_kemp .video-container, .chapter-4-working-in-retirement article section.video.how_big_a_boost .video-container, .chapter-4-working-in-retirement article section.video.boom_in_entrepreneurship .video-container {
     float: left;
     margin-right: 2em; }
-  /* line 334, sass/_base.sass */
+  /* line 337, sass/_base.sass */
   section.video.left .play, .chapter-1-rethinking-retirement article section.video.working_about_the_right_amount .play, .chapter-2-a-snapshot article .gender_split section.video.quotation.male .play, .chapter-3-working-for-the-nest-egg article section.video.sheryl_garrett .play, .chapter-3-working-for-the-nest-egg article section.video.babs_tatalias .play, .chapter-3-working-for-the-nest-egg article section.video.charles_smith .play, .chapter-3-working-for-the-nest-egg article section.video.mike_kemp .play, .chapter-4-working-in-retirement article section.video.how_big_a_boost .play, .chapter-4-working-in-retirement article section.video.boom_in_entrepreneurship .play {
     left: 0;
     background-image: url('../img/play-small.png?1370990272'); }
-  /* line 340, sass/_base.sass */
+  /* line 342, sass/_base.sass */
   section.video.full .video-container, .chapter-2-a-snapshot article section.video.dante_chinni .video-container, .chapter-3-working-for-the-nest-egg article section.paul_transition .video-container, .chapter-4-working-in-retirement article section.video.paul_interviews_paul .video-container,
   section.video.full .play,
   .chapter-2-a-snapshot article section.video.dante_chinni .play,
@@ -449,16 +452,16 @@ section {
     width: 800px;
     height: 450px;
     margin-bottom: 1.5em; }
-  /* line 346, sass/_base.sass */
+  /* line 348, sass/_base.sass */
   section.video.full .play, .chapter-2-a-snapshot article section.video.dante_chinni .play, .chapter-3-working-for-the-nest-egg article section.paul_transition .play, .chapter-4-working-in-retirement article section.video.paul_interviews_paul .play {
     background-color: rgba(0, 0, 0, 0.5);
     background-image: url('../img/play-large.png?1370990272');
     background-position: center; }
-    /* line 351, sass/_base.sass */
+    /* line 353, sass/_base.sass */
     section.video.full .play:after, .chapter-2-a-snapshot article section.video.dante_chinni .play:after, .chapter-3-working-for-the-nest-egg article section.paul_transition .play:after, .chapter-4-working-in-retirement article section.video.paul_interviews_paul .play:after {
       display: none; }
 
-/* line 354, sass/_base.sass */
+/* line 356, sass/_base.sass */
 .major, .major-alt, .chapter-1-rethinking-retirement article .intro p.second, .chapter-3-working-for-the-nest-egg article .investor_underperforms p.second, .chapter-1-rethinking-retirement article .intro p.first,
 .chapter-1-rethinking-retirement article .intro p.third, .chapter-1-rethinking-retirement article .percentage_of_workers p, .chapter-1-rethinking-retirement article .one_in_four_workers .contents div p.first, .chapter-1-rethinking-retirement article .half_of_american_households p, .chapter-2-a-snapshot article .men_and_women .contents div p, .chapter-3-working-for-the-nest-egg article .intro p, .chapter-3-working-for-the-nest-egg article .financially_unprepared .first, .chapter-3-working-for-the-nest-egg article .investor_underperforms p.first, .chapter-4-working-in-retirement article .intro p.intro, .chapter-4-working-in-retirement article .they_want_to p {
   font-family: "Proxima N W01 Bold", "Century Gothic", Helvetica, Arial, sans-serif;
@@ -466,27 +469,27 @@ section {
   text-align: center;
   text-transform: uppercase;
   line-height: 1.3; }
-  /* line 361, sass/_base.sass */
+  /* line 363, sass/_base.sass */
   .major strong, .major-alt strong, .chapter-1-rethinking-retirement article .intro p.second strong, .chapter-3-working-for-the-nest-egg article .investor_underperforms p.second strong, .chapter-1-rethinking-retirement article .intro p.first strong,
   .chapter-1-rethinking-retirement article .intro p.third strong, .chapter-1-rethinking-retirement article .percentage_of_workers p strong, .chapter-1-rethinking-retirement article .one_in_four_workers .contents div p.first strong, .chapter-1-rethinking-retirement article .half_of_american_households p strong, .chapter-2-a-snapshot article .men_and_women .contents div p strong, .chapter-3-working-for-the-nest-egg article .intro p strong, .chapter-3-working-for-the-nest-egg article .financially_unprepared .first strong, .chapter-3-working-for-the-nest-egg article .investor_underperforms p.first strong, .chapter-4-working-in-retirement article .intro p.intro strong, .chapter-4-working-in-retirement article .they_want_to p strong {
     color: #548e85;
     font-weight: normal; }
 
-/* line 365, sass/_base.sass */
+/* line 367, sass/_base.sass */
 .major-alt, .chapter-1-rethinking-retirement article .intro p.second, .chapter-3-working-for-the-nest-egg article .investor_underperforms p.second {
   font-size: 20px; }
 
-/* line 369, sass/_base.sass */
+/* line 371, sass/_base.sass */
 .border-top, .chapter-2-a-snapshot article .joel_peters, .chapter-3-working-for-the-nest-egg article .if_you_look_at .contents, .chapter-3-working-for-the-nest-egg article .death_of_the_pension-intro h2, .chapter-3-working-for-the-nest-egg article .death_of_the_pension, .chapter-3-working-for-the-nest-egg article .death_of_the_pension .contents, .chapter-4-working-in-retirement article .nancy_goldberg .contents {
   border-top: 2px solid #383838;
   width: 100%; }
 
-/* line 373, sass/_base.sass */
+/* line 375, sass/_base.sass */
 .border-bottom, .chapter-2-a-snapshot article .joel_peters, .chapter-3-working-for-the-nest-egg article .if_you_look_at .contents, .chapter-3-working-for-the-nest-egg article .death_of_the_pension-intro h2, .chapter-3-working-for-the-nest-egg article .death_of_the_pension, .chapter-3-working-for-the-nest-egg article .death_of_the_pension .contents, .chapter-3-working-for-the-nest-egg article .death_of_the_pension-outro, .chapter-3-working-for-the-nest-egg article .savings_confidence, .chapter-4-working-in-retirement article .nancy_goldberg .contents {
   border-bottom: 2px solid #383838;
   width: 100%; }
 
-/* line 377, sass/_base.sass */
+/* line 379, sass/_base.sass */
 .bordered, .chapter-1-rethinking-retirement article .intro p.second, .chapter-1-rethinking-retirement article .percentage_of_workers p, .chapter-1-rethinking-retirement article .increase_of_workers p span, .chapter-4-working-in-retirement article .they_want_to, .chapter-4-working-in-retirement article .couldnt_be_happier {
   border-top: 2px solid #383838;
   border-bottom: 2px solid #383838;
@@ -494,7 +497,7 @@ section {
   padding: 0.5em 0 0.4em 0;
   width: 800px; }
 
-/* line 384, sass/_base.sass */
+/* line 386, sass/_base.sass */
 .form_question, .chapter-3-working-for-the-nest-egg article .calculator .form_conclusion, .chapter-5-moving-forward article .share h2,
 .chapter-5-moving-forward article .ask h2,
 .chapter-5-moving-forward article .act h2,
@@ -511,54 +514,54 @@ section {
   text-align: center;
   width: 105%; }
 
-/* line 398, sass/_base.sass */
+/* line 400, sass/_base.sass */
 .form_fields {
   background: url('../img/form-background.jpg?1371011934') center bottom repeat-x;
   font-family: "Proxima N W01 Smbd";
   margin: 0 auto;
   overflow: hidden; }
-  /* line 404, sass/_base.sass */
+  /* line 406, sass/_base.sass */
   .form_fields.padding, .chapter-1-rethinking-retirement article .age_and_retirement .form_fields, .chapter-3-working-for-the-nest-egg article .calculator .form_fields {
     padding: 1em; }
-  /* line 407, sass/_base.sass */
+  /* line 409, sass/_base.sass */
   .form_fields p.disclaimer {
     color: #666666;
     line-height: 1.4;
     font-size: 13px;
     margin: 0 0 1.5em 0; }
-  /* line 413, sass/_base.sass */
+  /* line 415, sass/_base.sass */
   .form_fields .field {
     margin-bottom: 2em; }
-    /* line 417, sass/_base.sass */
+    /* line 419, sass/_base.sass */
     .form_fields .field.radio_buttons label {
       margin: 0.25em 0; }
-      /* line 420, sass/_base.sass */
+      /* line 422, sass/_base.sass */
       .form_fields .field.radio_buttons label span {
         margin-left: 0.25em; }
-  /* line 423, sass/_base.sass */
+  /* line 425, sass/_base.sass */
   .form_fields .field_title {
     font-size: 22px;
     line-height: 1.4;
     margin: 0 0 0.25em 0;
     padding: 0;
     text-transform: uppercase; }
-    /* line 430, sass/_base.sass */
+    /* line 432, sass/_base.sass */
     .form_fields .field_title strong {
       font-family: "Proxima N W01 Bold";
       font-weight: normal; }
-    /* line 434, sass/_base.sass */
+    /* line 436, sass/_base.sass */
     .form_fields .field_title span {
       display: inline-block;
       margin: 0 0.5em; }
-  /* line 438, sass/_base.sass */
+  /* line 440, sass/_base.sass */
   .form_fields label {
     display: block;
     font-size: 18px; }
-    /* line 442, sass/_base.sass */
+    /* line 444, sass/_base.sass */
     .form_fields label strong {
       font-family: "Proxima N W01 Bold";
       font-weight: normal; }
-  /* line 446, sass/_base.sass */
+  /* line 448, sass/_base.sass */
   .form_fields .live_pie-open {
     background: #548e85 url('../img/pie.png?1371017958') 5px center no-repeat;
     border-radius: 3px;
@@ -571,11 +574,11 @@ section {
     right: 0;
     top: -50px;
     z-index: 10; }
-    /* line 459, sass/_base.sass */
+    /* line 461, sass/_base.sass */
     .form_fields .live_pie-open:hover {
       background-color: #43716a; }
 
-/* line 462, sass/_base.sass */
+/* line 464, sass/_base.sass */
 input[type=radio] {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -585,17 +588,17 @@ input[type=radio] {
   width: 25px;
   height: 25px;
   top: 8px; }
-  /* line 472, sass/_base.sass */
+  /* line 474, sass/_base.sass */
   input[type=radio]:hover {
     background-image: url('../img/radio_button-hover.png?1370990272'); }
-  /* line 475, sass/_base.sass */
+  /* line 477, sass/_base.sass */
   input[type=radio]:checked {
     background-image: url('../img/radio_button-filled.png?1370990272'); }
 
-/* line 481, sass/_base.sass */
+/* line 483, sass/_base.sass */
 .splitbars {
   height: 180px; }
-  /* line 484, sass/_base.sass */
+  /* line 486, sass/_base.sass */
   .splitbars h3 {
     color: #548e85;
     font-family: "BodoniW01-PosterItalic";
@@ -603,19 +606,19 @@ input[type=radio] {
     float: left;
     width: 8%;
     margin: 2.8em 5% 0 0; }
-  /* line 492, sass/_base.sass */
+  /* line 494, sass/_base.sass */
   .splitbars .splitbars-container {
     float: left;
     margin: 4em 0;
     width: 87%;
     height: 80px; }
-    /* line 498, sass/_base.sass */
+    /* line 500, sass/_base.sass */
     .splitbars .splitbars-container div {
       float: left;
       display: block;
       height: 80px;
       position: relative; }
-      /* line 504, sass/_base.sass */
+      /* line 506, sass/_base.sass */
       .splitbars .splitbars-container div span {
         background: rgba(0, 0, 0, 0.4);
         color: white;
@@ -626,21 +629,21 @@ input[type=radio] {
         position: absolute;
         text-transform: uppercase;
         white-space: nowrap; }
-        /* line 515, sass/_base.sass */
+        /* line 517, sass/_base.sass */
         .splitbars .splitbars-container div span strong {
           display: none; }
-      /* line 518, sass/_base.sass */
+      /* line 520, sass/_base.sass */
       .splitbars .splitbars-container div.your_answer span strong {
         display: inline; }
-      /* line 524, sass/_base.sass */
+      /* line 526, sass/_base.sass */
       .splitbars .splitbars-container div.first span, .splitbars .splitbars-container div.third span, .splitbars .splitbars-container div.fifth span {
         left: 0;
         top: -40px; }
-      /* line 530, sass/_base.sass */
+      /* line 532, sass/_base.sass */
       .splitbars .splitbars-container div.second span, .splitbars .splitbars-container div.fourth span {
         left: 0;
         bottom: -40px; }
-      /* line 540, sass/_base.sass */
+      /* line 542, sass/_base.sass */
       .splitbars .splitbars-container div.first, .splitbars .splitbars-container div.first span {
         background-color: #777777; }
       /* line 19, sass/_mixins.sass */
@@ -659,7 +662,7 @@ input[type=radio] {
         border-right: 6px solid transparent;
         border-top: 6px solid #548e85;
         margin-bottom: -6px; }
-      /* line 548, sass/_base.sass */
+      /* line 550, sass/_base.sass */
       .splitbars .splitbars-container div.second, .splitbars .splitbars-container div.second span {
         background-color: #999999; }
       /* line 9, sass/_mixins.sass */
@@ -678,7 +681,7 @@ input[type=radio] {
         border-right: 6px solid transparent;
         border-bottom: 6px solid #548e85;
         margin-top: -6px; }
-      /* line 556, sass/_base.sass */
+      /* line 558, sass/_base.sass */
       .splitbars .splitbars-container div.third, .splitbars .splitbars-container div.third span {
         background-color: #aaaaaa; }
       /* line 19, sass/_mixins.sass */
@@ -697,7 +700,7 @@ input[type=radio] {
         border-right: 6px solid transparent;
         border-top: 6px solid #548e85;
         margin-bottom: -6px; }
-      /* line 564, sass/_base.sass */
+      /* line 566, sass/_base.sass */
       .splitbars .splitbars-container div.fourth, .splitbars .splitbars-container div.fourth span {
         background-color: #cccccc; }
       /* line 9, sass/_mixins.sass */
@@ -716,7 +719,7 @@ input[type=radio] {
         border-right: 6px solid transparent;
         border-bottom: 6px solid #548e85;
         margin-top: -6px; }
-      /* line 572, sass/_base.sass */
+      /* line 574, sass/_base.sass */
       .splitbars .splitbars-container div.fifth, .splitbars .splitbars-container div.fifth span {
         background-color: #eeeeee; }
       /* line 19, sass/_mixins.sass */
@@ -735,63 +738,63 @@ input[type=radio] {
         border-right: 6px solid transparent;
         border-top: 6px solid #548e85;
         margin-bottom: -6px; }
-      /* line 580, sass/_base.sass */
+      /* line 582, sass/_base.sass */
       .splitbars .splitbars-container div.your_answer, .splitbars .splitbars-container div.your_answer span {
         background-color: #548e85; }
 
 @-webkit-keyframes pulse-highlight {
-  /* line 588, sass/_base.sass */
+  /* line 590, sass/_base.sass */
   0% {
     opacity: 0.8; }
 
-  /* line 591, sass/_base.sass */
+  /* line 593, sass/_base.sass */
   50% {
     opacity: 1; }
 
-  /* line 594, sass/_base.sass */
+  /* line 596, sass/_base.sass */
   100% {
     opacity: 0.8; } }
 
 @-moz-keyframes pulse-highlight {
-  /* line 588, sass/_base.sass */
+  /* line 590, sass/_base.sass */
   0% {
     opacity: 0.8; }
 
-  /* line 591, sass/_base.sass */
+  /* line 593, sass/_base.sass */
   50% {
     opacity: 1; }
 
-  /* line 594, sass/_base.sass */
+  /* line 596, sass/_base.sass */
   100% {
     opacity: 0.8; } }
 
 @-o-keyframes pulse-highlight {
-  /* line 588, sass/_base.sass */
+  /* line 590, sass/_base.sass */
   0% {
     opacity: 0.8; }
 
-  /* line 591, sass/_base.sass */
+  /* line 593, sass/_base.sass */
   50% {
     opacity: 1; }
 
-  /* line 594, sass/_base.sass */
+  /* line 596, sass/_base.sass */
   100% {
     opacity: 0.8; } }
 
 @keyframes pulse-highlight {
-  /* line 588, sass/_base.sass */
+  /* line 590, sass/_base.sass */
   0% {
     opacity: 0.8; }
 
-  /* line 591, sass/_base.sass */
+  /* line 593, sass/_base.sass */
   50% {
     opacity: 1; }
 
-  /* line 594, sass/_base.sass */
+  /* line 596, sass/_base.sass */
   100% {
     opacity: 0.8; } }
 
-/* line 607, sass/_base.sass */
+/* line 609, sass/_base.sass */
 .no-csstransforms3d .percent_50 svg,
 .no-csstransforms3d .percent_92 svg,
 .no-csstransforms3d .percent_68 svg,
@@ -803,7 +806,7 @@ input[type=radio] {
 .no-inlinesvg .percent_59 svg,
 .no-inlinesvg .percent_57 svg {
   display: none; }
-/* line 609, sass/_base.sass */
+/* line 611, sass/_base.sass */
 .no-csstransforms3d .percent_50 img,
 .no-csstransforms3d .percent_92 img,
 .no-csstransforms3d .percent_68 img,
@@ -816,7 +819,7 @@ input[type=radio] {
 .no-inlinesvg .percent_57 img {
   display: block !important; }
 
-/* line 615, sass/_base.sass */
+/* line 617, sass/_base.sass */
 #live_pie-under65,
 #live_pie-over65,
 #live_pie-gender,
@@ -830,7 +833,7 @@ input[type=radio] {
   height: 100%;
   z-index: 98; }
 
-/* line 628, sass/_base.sass */
+/* line 630, sass/_base.sass */
 .live_pie-under65-content,
 .live_pie-over65-content,
 .live_pie-gender-content,
@@ -849,7 +852,7 @@ input[type=radio] {
   -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0 0 35px rgba(0, 0, 0, 0.75);
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.75); }
-  /* line 645, sass/_base.sass */
+  /* line 647, sass/_base.sass */
   .live_pie-under65-content h2,
   .live_pie-over65-content h2,
   .live_pie-gender-content h2,
@@ -860,7 +863,7 @@ input[type=radio] {
     margin: 0;
     padding: 0;
     text-align: center; }
-  /* line 653, sass/_base.sass */
+  /* line 655, sass/_base.sass */
   .live_pie-under65-content ul,
   .live_pie-over65-content ul,
   .live_pie-gender-content ul,
@@ -873,7 +876,7 @@ input[type=radio] {
     padding: 0.5em 0.5em 0 0.5em;
     width: 80%;
     z-index: 3; }
-  /* line 662, sass/_base.sass */
+  /* line 664, sass/_base.sass */
   .live_pie-under65-content li,
   .live_pie-over65-content li,
   .live_pie-gender-content li,
@@ -886,7 +889,7 @@ input[type=radio] {
     margin-bottom: 0.5em;
     padding: 0.2em 0.5em;
     width: 49.2%; }
-    /* line 672, sass/_base.sass */
+    /* line 674, sass/_base.sass */
     .live_pie-under65-content li:nth-child(1), .live_pie-under65-content li:nth-child(3), .live_pie-under65-content li:nth-child(5),
     .live_pie-over65-content li:nth-child(1),
     .live_pie-over65-content li:nth-child(3),
@@ -898,7 +901,7 @@ input[type=radio] {
     .live_pie-community-content li:nth-child(3),
     .live_pie-community-content li:nth-child(5) {
       margin-right: 0.8%; }
-    /* line 677, sass/_base.sass */
+    /* line 679, sass/_base.sass */
     .live_pie-under65-content li:nth-child(2), .live_pie-under65-content li:nth-child(4), .live_pie-under65-content li:nth-child(6),
     .live_pie-over65-content li:nth-child(2),
     .live_pie-over65-content li:nth-child(4),
@@ -910,43 +913,43 @@ input[type=radio] {
     .live_pie-community-content li:nth-child(4),
     .live_pie-community-content li:nth-child(6) {
       margin-left: 0.8%; }
-    /* line 682, sass/_base.sass */
+    /* line 684, sass/_base.sass */
     .live_pie-under65-content li.red,
     .live_pie-over65-content li.red,
     .live_pie-gender-content li.red,
     .live_pie-community-content li.red {
       background: #5b0f00; }
-    /* line 684, sass/_base.sass */
+    /* line 686, sass/_base.sass */
     .live_pie-under65-content li.orange,
     .live_pie-over65-content li.orange,
     .live_pie-gender-content li.orange,
     .live_pie-community-content li.orange {
       background: #783f04; }
-    /* line 686, sass/_base.sass */
+    /* line 688, sass/_base.sass */
     .live_pie-under65-content li.green,
     .live_pie-over65-content li.green,
     .live_pie-gender-content li.green,
     .live_pie-community-content li.green {
       background: #274e13; }
-    /* line 688, sass/_base.sass */
+    /* line 690, sass/_base.sass */
     .live_pie-under65-content li.teal,
     .live_pie-over65-content li.teal,
     .live_pie-gender-content li.teal,
     .live_pie-community-content li.teal {
       background: #0c343d; }
-    /* line 690, sass/_base.sass */
+    /* line 692, sass/_base.sass */
     .live_pie-under65-content li.blue,
     .live_pie-over65-content li.blue,
     .live_pie-gender-content li.blue,
     .live_pie-community-content li.blue {
       background: #1c4587; }
-    /* line 692, sass/_base.sass */
+    /* line 694, sass/_base.sass */
     .live_pie-under65-content li.yellow,
     .live_pie-over65-content li.yellow,
     .live_pie-gender-content li.yellow,
     .live_pie-community-content li.yellow {
       background: #7f6000; }
-  /* line 695, sass/_base.sass */
+  /* line 697, sass/_base.sass */
   .live_pie-under65-content iframe.pie_container,
   .live_pie-over65-content iframe.pie_container,
   .live_pie-gender-content iframe.pie_container,
@@ -959,14 +962,14 @@ input[type=radio] {
     overflow: hidden;
     z-index: 2; }
 
-/* line 704, sass/_base.sass */
+/* line 706, sass/_base.sass */
 .live_pie-gender-content {
   height: 70%; }
-  /* line 707, sass/_base.sass */
+  /* line 709, sass/_base.sass */
   .live_pie-gender-content iframe.pie_container {
     margin: 2em auto 0 auto; }
 
-/* line 710, sass/_base.sass */
+/* line 712, sass/_base.sass */
 #live_pie-under65-close,
 #live_pie-over65-close,
 #live_pie-gender-close,
@@ -981,7 +984,7 @@ input[type=radio] {
   top: 0;
   right: 0;
   z-index: 10; }
-  /* line 725, sass/_base.sass */
+  /* line 727, sass/_base.sass */
   #live_pie-under65-close:hover,
   #live_pie-over65-close:hover,
   #live_pie-gender-close:hover,

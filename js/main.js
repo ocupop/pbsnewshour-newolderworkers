@@ -117,12 +117,10 @@
               video.pause();
             }
           }
-          $container.addClass('playing');
-          return $container.removeClass('ended');
+          return $container.addClass('playing');
         });
         pop.on("ended", function() {
-          $container.removeClass('playing');
-          return $container.addClass('ended');
+          return $container.removeClass('playing');
         });
         $container.find('.play').on("click", function() {
           return pop.play(0);
