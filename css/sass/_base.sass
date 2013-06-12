@@ -292,23 +292,38 @@ section
       display: block
       z-index: 9
 
-    .replay
+    .play
+      background: rgba(#000, .8)
+      cursor: pointer
       display: block
       position: absolute
       z-index: 10
       background-repeat: no-repeat
-      background-position: center
+      background-position: center 60px
       width: 500px
-      height: 260px
+      height: 280px
 
-    &.playing .replay
+    &.ended .play:after
+      content: "Now Watch the Full Video"
+      color: #fff
+      font-family: $proxima-bold
+      font-size: 24px
+      text-align: center
+      text-transform: uppercase
+      width: 500px
+      position: absolute
+      left: 0
+      top: 175px
+      z-index: 11
+
+    &.playing .play
       display: none
 
     &.right
       .video-container
         float: right
         margin-left: 2em
-      .replay
+      .play
         right: 0
         background-image: image-url("play-small.png")
 
@@ -316,17 +331,25 @@ section
       .video-container
         float: left
         margin-right: 2em
-      .replay
+      .play
         left: 0
         background-image: image-url("play-small.png")
 
     &.full
-      .video-container, .replay
+      
+      .video-container,
+      .play
         width: 800px
         height: 450px
         margin-bottom: 1.5em
-      .replay
+      
+      .play
+        background-color: rgba(black, .5)
         background-image: image-url("play-large.png")
+        background-position: center
+
+        &:after
+          display: none
 
 .major
   font-family: $font-heading

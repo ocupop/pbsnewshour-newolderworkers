@@ -270,7 +270,7 @@ require_once('header.php');
 
 <section class="video joel_peters">
   <div class="contents">
-    <div class="replay"></div>
+    <div class="play"></div>
     <div class="video-container" id="video_joel_peters" data-src="h6xb4F7X3w8"
       data-start="02:10" data-end="02:22" data-autoplay="true">
       <!--
@@ -319,7 +319,7 @@ require_once('header.php');
       The Urban/Rural Divide
     </h2>
 
-    <div class="replay"></div>
+    <div class="play"></div>
     <div class="video-container" id="video_dante_chinni" data-src="Z6XIsQCKcRE">
       <!-- YouTube video: http://youtu.be/Z6XIsQCKcRE -->
     </div>

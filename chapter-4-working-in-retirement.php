@@ -123,7 +123,7 @@ require_once('header.php');
 
 <section class="video how_big_a_boost">
   <div class="contents">
-    <div class="replay"></div>
+    <div class="play"></div>
     <div class="video-container" id="video_how_big_a_boost" data-src="XPPx__nQNnQ"
       data-start="00:00" data-end="00:21" data-autoplay="true">
       <!--
@@ -155,7 +155,7 @@ require_once('header.php');
 
 <section class="video colleges_see_graying_workforce">
   <div class="contents">
-    <div class="replay"></div>
+    <div class="play"></div>
     <div class="video-container" id="video_colleges_see_graying_workforces" data-src="2LGLY0yPjgE"
       data-start="01:31" data-end="02:22" data-autoplay="true">
       <!--
@@ -226,7 +226,7 @@ require_once('header.php');
 
 <section class="video boom_in_entrepreneurship">
   <div class="contents">
-    <div class="replay"></div>
+    <div class="play"></div>
     <div class="video-container" id="video_boom_in_entrepreneurship" data-src="wdJq3Z7vyfM"
       data-start="00:14" data-end="00:35" data-autoplay="true">
       <!--
@@ -250,7 +250,7 @@ require_once('header.php');
 
 <section class="video vita_needle">
   <div class="contents">
-    <div class="replay"></div>
+    <div class="play"></div>
     <div class="video-container" id="video_vita_needle" data-src="NujnD1tykkY"
       data-start="04:29" data-end="04:40" data-autoplay="true">
       <!--
@@ -278,7 +278,7 @@ require_once('header.php');
     <h2>
       The Paul Solman Interview
     </h2>
-    <div class="replay"></div>
+    <div class="play"></div>
     <div class="video-container" id="video_paul_on_paul" data-src="XXotwQ0T-W8">
       <!-- Youtube video: http://youtu.be/XXotwQ0T-W8 -->
     </div>

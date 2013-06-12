@@ -117,12 +117,14 @@
               video.pause();
             }
           }
-          return $container.addClass('playing');
+          $container.addClass('playing');
+          return $container.removeClass('ended');
         });
         pop.on("ended", function() {
-          return $container.removeClass('playing');
+          $container.removeClass('playing');
+          return $container.addClass('ended');
         });
-        $container.find('.replay').on("click", function() {
+        $container.find('.play').on("click", function() {
           return pop.play(0);
         });
         if ($video.data('autoplay')) {

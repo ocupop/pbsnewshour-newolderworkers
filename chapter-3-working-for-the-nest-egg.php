@@ -303,7 +303,7 @@ require_once('header.php');
 
 <section class="video babs_tatalias">
   <div class="contents">
-    <div class="replay"></div>
+    <div class="play"></div>
     <div class="video-container" id="video_babs_tatalias" data-src="GBTnbbQyub0"
       data-start="00:21" data-end="00:37" data-autoplay="true">
       <!--
@@ -343,7 +343,7 @@ require_once('header.php');
 
 <section class="video charles_smith">
   <div class="contents">
-    <div class="replay"></div>
+    <div class="play"></div>
     <div class="video-container" id="video_charles_smith" data-src="RO5NM1uZLQo"
       data-start="01:19" data-end="01:33" data-autoplay="true">
       <!--
@@ -387,7 +387,7 @@ require_once('header.php');
 
 <section class="video mike_kemp">
   <div class="contents">
-    <div class="replay"></div>
+    <div class="play"></div>
     <div class="video-container" id="video_mike_kemp" data-src="u2wbxSrWB7k"
       data-start="00:34" data-end="00:48" data-autoplay="true">
       <!--
@@ -428,7 +428,7 @@ require_once('header.php');
 
 <section class="video brutal_job_search">
   <div class="contents">
-    <div class="replay"></div>
+    <div class="play"></div>
     <div class="video-container" id="video_brutal_job_search" data-src="MWMzgU_QfHU"
       data-start="08:41" data-end="09:22" data-autoplay="true">
       <!--
@@ -475,7 +475,7 @@ require_once('header.php');
 
 <section class="video paul_transition">
   <div class="contents">
-    <div class="replay"></div>
+    <div class="play"></div>
     <div class="video-container" id="video_paul_transition" data-src="3A9WpY3V9Gc" data-autoplay="true">
       <!-- Youtube video: http://youtu.be/3A9WpY3V9Gc -->
     </div>

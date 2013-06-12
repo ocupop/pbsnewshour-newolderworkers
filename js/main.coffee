@@ -123,12 +123,13 @@ $(document).ready ()->
       pop.on "play", ()->
         video.pause() for video in video_stack when (video isnt pop)
         $container.addClass('playing')
+        $container.removeClass('ended')
 
       pop.on "ended", ()->
         $container.removeClass('playing')
+        $container.addClass('ended')
 
-      # youtube has own "replay" button, unneccessary?
-      $container.find('.replay').on "click", ()->
+      $container.find('.play').on "click", ()->
         pop.play(0)
 
       if $video.data('autoplay')
