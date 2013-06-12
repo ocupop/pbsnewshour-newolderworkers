@@ -229,11 +229,11 @@
 </div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-<script src="js/vendor/raf-polyfill.js"></script>
-<script src="js/vendor/jquery.cookie.js"></script>
-<script src="js/vendor/popcorn-complete.min.js"></script>
-<script src="js/main.js"></script>
+<script>window.jQuery || document.write('<script src="http://www-tc.pbs.org/newshour/new-older-workers/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://www-tc.pbs.org/newshour/new-older-workers/js/vendor/raf-polyfill.js"></script>
+<script src="http://www-tc.pbs.org/newshour/new-older-workers/js/vendor/jquery.cookie.js"></script>
+<script src="http://www-tc.pbs.org/newshour/new-older-workers/js/vendor/popcorn-complete.min.js"></script>
+<script src="http://www-tc.pbs.org/newshour/new-older-workers/js/main.js"></script>
 
 <script>
   var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
