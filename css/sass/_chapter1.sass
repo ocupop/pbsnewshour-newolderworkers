@@ -173,6 +173,7 @@
         display: block
 
     .form_fields
+      overflow: visible
       @extend .padding
 
       .field.age
@@ -182,6 +183,19 @@
           text-align: center
           line-height: 1
           padding-top: 5px
+
+    #live_pie-over65-open,
+    #live_pie-under65-open
+      @include triangle-bottom(9px, $green, down)
+
+      &:hover
+        @include triangle-bottom(9px, $green/1.25, down)
+
+    #live_pie-over65-open
+      right: -81px
+
+    #live_pie-under65-open
+      right: 40px
 
   .retirement_expectations
     @extend .blend-top

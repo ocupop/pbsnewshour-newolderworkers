@@ -39,6 +39,8 @@ require_once('header.php');
     </p>
 
     <div class="form_fields" id="gender_selector">
+      <div class="live_pie-open" id="live_pie-gender-open">See how others responded</div>
+
       <label class="first">
         <span>Male</span>
         <input type="radio" name="gender" value="Male">
@@ -210,6 +212,8 @@ require_once('header.php');
     </p>
 
     <div class="form_fields">
+      <!-- <div class="live_pie-open" id="live_pie-community-open">See how others responded</div> -->
+
       <label class="community_size_selection" data-value="highly_urbanized">
         <input type="radio" name="community_size" value="Major City (more than 900,000 households)">
         <strong>Largest<br>U.S. Cities</strong>
@@ -327,5 +331,32 @@ require_once('header.php');
     </div>
   </div>
 </section>
+
+<div id="live_pie-gender">
+  <div class="live_pie-gender-content">
+    <a id="live_pie-gender-close">&times;</a>
+
+    <h2>Are you male or female?</h2>
+
+    <iframe class="pie_container" src="chart-gender.html"></iframe>
+  </div>
+</div>
+
+<div id="live_pie-community">
+  <div class="live_pie-community-content">
+    <a id="live_pie-community-close">&times;</a>
+
+    <h2>What&rsquo;s your community size?</h2>
+
+    <ul>
+      <li class="red">Largest US Cities</li>
+      <li class="teal">Less Urbanized</li>
+      <li class="yellow">Rural Area</li>
+      <li class="green">Very Rural Area</li>
+    </ul>
+
+    <iframe class="pie_container" src="chart-community.html"></iframe>
+  </div>
+</div>
 
 <?php require_once('footer.php') ?>

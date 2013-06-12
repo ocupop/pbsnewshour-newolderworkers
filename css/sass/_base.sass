@@ -417,6 +417,22 @@ section
       font-family: $proxima-bold
       font-weight: normal
 
+  .live_pie-open
+    background: $green image-url('pie.png') 5px center no-repeat
+    border-radius: 3px
+    color: white
+    cursor: pointer
+    font-size: 14px
+    padding: .6em 1em .4em 3em
+    text-transform: uppercase
+    position: absolute
+    right: 0
+    top: -50px
+    z-index: 10
+
+    &:hover
+      background-color: $green/1.25
+
 input[type=radio]
   -webkit-appearance: none
   -moz-appearance: none
@@ -552,10 +568,133 @@ input[type=radio]
   100%
     opacity: .8
 
-// substitute PNG on pie charts if rotation cannot be done
-.no-csstransforms3d, .no-inlinesvg
-  .percent_50, .percent_92, .percent_68, .percent_59, .percent_57
+
+// Substitute PNG on pie charts if rotation cannot be done
+
+.no-csstransforms3d,
+.no-inlinesvg
+  .percent_50,
+  .percent_92,
+  .percent_68,
+  .percent_59,
+  .percent_57
     svg
       display: none
     img
       display: block !important
+
+
+// Live Data Pie Charts
+
+#live_pie-under65,
+#live_pie-over65,
+#live_pie-gender,
+#live_pie-community
+  display: none
+  background: rgba(0, 0, 0, .8)
+  position: fixed
+  top: 0
+  left: 0 
+  width: 100%
+  height: 100%
+  z-index: 98
+
+.live_pie-under65-content,
+.live_pie-over65-content,
+.live_pie-gender-content,
+.live_pie-community-content
+  background: #fff
+  border-radius: 6px
+  margin-left: -350px
+  padding: 20px
+  position: fixed
+  top: 7%
+  left: 50%
+  width: 700px
+  height: 83%
+  z-index: 99
+  overflow: hidden
+  @include box-shadow(0 0 35px rgba(0, 0, 0, .75))
+
+  h2
+    font-family: $proxima-bold
+    font-size: 24px
+    line-height: 1.2
+    margin: 0
+    padding: 0
+    text-align: center
+
+  ul
+    @include clearfix
+    background: #eee
+    border-radius: 4px
+    margin: 1em auto 0 auto
+    padding: .5em .5em 0 .5em
+    width: 80%
+    z-index: 3
+
+  li
+    border-radius: 4px
+    color: #fff
+    font-family: $proxima-semibold
+    font-size: 14px
+    float: left
+    margin-bottom: .5em
+    padding: .2em .5em
+    width: 49.2%
+
+    &:nth-child(1),
+    &:nth-child(3),
+    &:nth-child(5)
+      margin-right: .8%
+
+    &:nth-child(2),
+    &:nth-child(4),
+    &:nth-child(6)
+      margin-left: .8%
+
+    &.red
+      background: #5b0f00
+    &.orange
+      background: #783f04
+    &.green
+      background: #274e13
+    &.teal
+      background: #0c343d
+    &.blue
+      background: #1c4587
+    &.yellow
+      background: #7f6000
+
+  iframe.pie_container
+    display: block
+    margin: 1em auto 0 auto
+    padding-left: 20px
+    width: 570px
+    height: 560px
+    overflow: hidden
+    z-index: 2
+
+.live_pie-gender-content
+  height: 70%
+
+  iframe.pie_container
+    margin: 2em auto 0 auto
+
+#live_pie-under65-close,
+#live_pie-over65-close,
+#live_pie-gender-close,
+#live_pie-community-close
+  color: $light
+  cursor: pointer
+  display: block
+  font-size: 48px
+  font-weight: bold
+  padding: 20px 20px
+  position: absolute
+  top: 0
+  right: 0
+  z-index: 10
+
+  &:hover
+    color: $dark

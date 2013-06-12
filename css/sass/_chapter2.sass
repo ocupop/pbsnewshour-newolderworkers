@@ -59,11 +59,11 @@
       .form_fields
         position: absolute
         left: 50%
-        // top: 0
         margin-left: -250px
         padding: 1em 1.5em
         width: 500px
         z-index: 10
+        overflow: visible
         @include transition(transform .6s)
 
         &.sticky
@@ -80,6 +80,16 @@
 
           &.second
             text-align: right
+
+        #live_pie-gender-open
+          left: 50%
+          top: 60px
+          margin-left: -133px
+          width: 266px
+          @include triangle-top(9px, $green)
+
+          &:hover
+            @include triangle-top(9px, $green/1.25)
 
       section
         background: rgba(255, 255, 255, .8)
@@ -98,7 +108,7 @@
   .gender_split
     background: transparent image-url('line-background.png') center top repeat-y
     margin: 0 auto
-    padding: 3em 0
+    padding: 10em 0 3em 0
     width: $desktop
     overflow: hidden
 
@@ -142,7 +152,6 @@
     @extend .spread
 
     @include multi-background("2/briefcases")
-    // background-attachment: fixed
 
     .contents div
       @include boxed(#fff, right, half, left)
@@ -186,7 +195,7 @@
         float: left
         text-align: center
         margin: 0
-        padding: 2em 2.5%
+        padding: 4em 2.5% 2em 2.5%
         width: 25%
         @include transition(color .2s)
 
@@ -240,6 +249,16 @@
 
           .icon:after
             opacity: 1
+
+    #live_pie-community-open
+      left: 50%
+      top: 20px
+      margin-left: -133px
+      width: 266px
+      @include triangle-top(9px, $green)
+
+      &:hover
+        @include triangle-top(9px, $green/1.25)
 
   .community_data
     @extend .blend-top

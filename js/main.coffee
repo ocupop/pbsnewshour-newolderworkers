@@ -52,7 +52,6 @@ $(document).ready ()->
     , 300
 
   # form handlers
-
   submit_user_data = null
 
   do form_handlers = ()->
@@ -162,8 +161,6 @@ $(document).ready ()->
     $age_and_retirement = $('.age_and_retirement')
     $retirement_expectations = $('.retirement_expectations')
 
-
-
     scroll_actions.fade_header = ()->
       factor = 0
       offset = 0
@@ -238,6 +235,7 @@ $(document).ready ()->
         $community_changes.find(".click").removeClass("click")
         $target.addClass("click")
 
+
   # Chapter 3: Working for the Nest Egg
 
   if $('body').hasClass('chapter-3-working-for-the-nest-egg') then do ()->
@@ -279,7 +277,6 @@ $(document).ready ()->
 
     $user_age.on "change", calculate_retirement_savings
     $estimated_income.on "change", calculate_retirement_savings
-
 
     scroll_actions.show_data_points = ()->
       $financially_unprepared_chart_points.toggleClass 'active', (pos + (2 * $window_height / 3) > financially_unprepared_chart_top)
@@ -343,7 +340,6 @@ $(document).ready ()->
       Cheers!
     """
 
-
     $('a', $share_options).each ()->
       $this = $(this)
       parent_id = $this.closest('li').attr('id')
@@ -355,6 +351,38 @@ $(document).ready ()->
         $this.attr("href", "http://www.facebook.com/sharer.php?s=100&p[title]=#{title}&p[summary]=#{message}&p[url]=#{PRODUCTION_URL}" )
       else
         $this.attr("href", "mailto:?subject=#{title}&body=#{encodeURI(email_body)}")
+
+
+  # Live Data Pie Charts
+
+  $('#live_pie-under65-open').on "click", ()->
+    $('#live_pie-under65').fadeIn()
+
+  $('#live_pie-under65-close').on "click", (e)->
+    e.preventDefault()
+    $('#live_pie-under65').fadeOut()
+
+  $('#live_pie-over65-open').on "click", ()->
+    $('#live_pie-over65').fadeIn()
+
+  $('#live_pie-over65-close').on "click", (e)->
+    e.preventDefault()
+    $('#live_pie-over65').fadeOut()
+
+  $('#live_pie-gender-open').on "click", ()->
+    $('#live_pie-gender').fadeIn()
+
+  $('#live_pie-gender-close').on "click", (e)->
+    e.preventDefault()
+    $('#live_pie-gender').fadeOut()
+
+  $('#live_pie-community-open').on "click", ()->
+    $('#live_pie-community').fadeIn()
+
+  $('#live_pie-community-close').on "click", (e)->
+    e.preventDefault()
+    $('#live_pie-community').fadeOut()
+
 
   # Sources
 
@@ -374,3 +402,15 @@ $(document).ready ()->
   $('#credits-close').on "click", (e)->
     e.preventDefault()
     $('#credits').fadeOut()
+
+
+  # Close popups with ESC key.
+
+  $(document).on "keyup", (e)->
+    if (e.keyCode == 27)
+      $('#live_pie-under65').fadeOut()
+      $('#live_pie-over65').fadeOut()
+      $('#live_pie-gender').fadeOut()
+      $('#live_pie-community').fadeOut()
+      $('#sources').fadeOut()
+      $('#credits').fadeOut()

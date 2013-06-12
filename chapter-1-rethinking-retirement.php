@@ -150,8 +150,10 @@ require_once('header.php');
       </div>
 
       <div class="field radio_buttons" id="under_65">
+        <div class="live_pie-open" id="live_pie-under65-open">See how others responded</div>
+
         <p class="field_title">
-          So you&rsquo;re under 65. How long do you <strong>WANT</strong> to work?
+          You&rsquo;re under 65. How long do you <strong>WANT</strong> to work?
         </p>
 
         <label>
@@ -191,8 +193,10 @@ require_once('header.php');
       </div>
 
       <div class="field radio_buttons" id="over_or_65">
+        <!-- <div class="live_pie-open" id="live_pie-over65-open">See how others responded</div> -->
+
         <p class="field_title">
-          So you&rsquo;re 65 or older. Are you working, and are you satisfied?
+          You&rsquo;re 65 or older. Are you working, and are you satisfied?
         </p>
 
         <label>
@@ -357,5 +361,41 @@ require_once('header.php');
     </p>
   </div>
 </section>
+
+<div id="live_pie-under65">
+  <div class="live_pie-under65-content">
+    <a id="live_pie-under65-close">&times;</a>
+
+    <h2>You&rsquo;re under 65.<br>How long do you want to work?</h2>
+
+    <ul>
+      <li class="red">I want to retire before I&rsquo;m 65</li>
+      <li class="orange">I want to work until I&rsquo;m 65&ndash;69</li>
+      <li class="green">I want to work until I&rsquo;m  70&ndash;74</li>
+      <li class="teal">I want to work until I&rsquo;m  75&ndash;79</li>
+      <li class="blue">I want to work past 80</li>
+      <li class="yellow">Forever</li>
+    </ul>
+
+    <iframe class="pie_container" src="chart-under65.html"></iframe>
+  </div>
+</div>
+
+<div id="live_pie-over65">
+  <div class="live_pie-over65-content">
+    <a id="live_pie-over65-close">&times;</a>
+
+    <h2>You&rsquo;re 65 or older. Are you working, and are you satisfied?</h2>
+  
+    <ul>
+      <li class="red">I am currently working and am happy/OK with working.</li>
+      <li class="orange">I am currently working and am unhappy—I would prefer to not be working.</li>
+      <li class="green">I am currently NOT working and am happy/OK with not working.</li>
+      <li class="teal">I am currently NOT working and am unhappy—I would prefer to be working.</li>
+    </ul>
+
+    <iframe class="pie_container" src="chart-over65.html"></iframe>
+  </div>
+</div>
 
 <?php require_once('footer.php') ?>
