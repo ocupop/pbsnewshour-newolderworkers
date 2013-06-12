@@ -1,4 +1,7 @@
-# PBS NewsHour: New Adventures for Older Workers
+<center>
+  <img src="https://raw.github.com/ocupop/pbsnewshour-newolderworkers/master/img/pbs-logotype.png">
+  <h1>New Adventures for Older Workers</h1>
+</center>
 
 Research and story by PBS NewsHour. Website developed by Ocupop.
 
