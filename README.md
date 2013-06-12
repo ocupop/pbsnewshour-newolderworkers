@@ -1,4 +1,6 @@
-# ![PBS NewsHour](https://raw.github.com/ocupop/pbsnewshour-newolderworkers/master/img/pbs-logotype.png) New Adventures for Older Workers
+# New Adventures for Older Workers
+
+![PBS NewsHour](https://raw.github.com/ocupop/pbsnewshour-newolderworkers/master/img/pbs-logotype.png)
 
 Research and story by PBS NewsHour. Website developed by Ocupop.
 
