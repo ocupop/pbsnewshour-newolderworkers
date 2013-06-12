@@ -114,16 +114,16 @@
   background-position: center 0
 
   // giant iMac Displays
-  background-image: image-url( $name + '-giant.jpg')
+  background-image: image-url("http://www-tc.pbs.org/newshour/new-older-workers/img/" + $name + '-giant.jpg')
 
   // most displays up to HDTV size
   @media screen and (max-height: 1080px) and (max-width: 1920px)
-    background-image: image-url( $name + "-large.jpg")
+    background-image: image-url("http://www-tc.pbs.org/newshour/new-older-workers/img/" + $name + "-large.jpg")
 
   // small displays; largest image that iOS can load into single memory buffer
   @media screen and (max-height: 1024px) and (max-width: 1024px)
-    background-image: image-url($name + "-medium.jpg")
+    background-image: image-url("http://www-tc.pbs.org/newshour/new-older-workers/img/" +$name + "-medium.jpg")
 
   // phones
   @media screen and (max-height: 640px) and (max-width: 640px)
-    background-image: image-url($name + "-small.jpg")
+    background-image: image-url("http://www-tc.pbs.org/newshour/new-older-workers/img/" +$name + "-small.jpg")
