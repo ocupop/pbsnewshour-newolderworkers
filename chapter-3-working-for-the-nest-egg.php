@@ -388,7 +388,7 @@ require_once('header.php');
 <section class="video mike_kemp">
   <div class="contents">
     <div class="play"></div>
-    <div class="video-container" id="video_mike_kemp" data-src=""
+    <div class="video-container" id="video_mike_kemp" data-src="68311885"
       data-start="00:34" data-end="00:48" data-autoplay="true">
 
     </div>
