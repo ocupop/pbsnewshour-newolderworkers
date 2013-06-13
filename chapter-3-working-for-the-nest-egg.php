@@ -344,7 +344,7 @@ require_once('header.php');
       </h2>
 
       <p>
-        Rather than retire after a long career in the federal government, 63 year old Charles Smith works in a produce department for $10 an hour to support his family
+        Rather than retire after a long career in the federal government, 63-year-old Charles Smith works in a produce department for $10 an hour to support his family
       </p>
     </div>
   </div>
