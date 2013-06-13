@@ -403,7 +403,7 @@ section {
     cursor: pointer;
     display: block;
     position: absolute;
-    z-index: -10;
+    z-index: 10;
     background-repeat: no-repeat;
     background-position: center;
     width: 500px;
