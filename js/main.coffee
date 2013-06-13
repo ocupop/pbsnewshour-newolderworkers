@@ -1,9 +1,5 @@
 PRODUCTION_URL = "http://www.pbs.org/"
 
-dont = ()->
-  null
-
-
 $(document).ready ()->
   $window = $(window)
   $window_height = $window.height()
@@ -127,8 +123,6 @@ $(document).ready ()->
       p = $f($player[0])
 
       p.addEvent 'ready', ()->
-        console.log "ready"
-
         video_stack.push player_id
 
         p.addEvent 'play', ()->
@@ -163,14 +157,6 @@ $(document).ready ()->
             if !$video.hasClass('played') and pos + ($window_height / 2) > top
               $video.addClass('played')
               $f(player_id).api('play')
-
-
-
-
-
-
-
-
 
   # Chapter 1: Rethinking Retirement
 

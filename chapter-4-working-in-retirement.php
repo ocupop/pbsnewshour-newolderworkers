@@ -124,9 +124,8 @@ require_once('header.php');
 <section class="video how_big_a_boost">
   <div class="contents">
     <div class="play"></div>
-    <div class="video-container" id="video_how_big_a_boost" data-src="XPPx__nQNnQ"
+    <div class="video-container" id="video_how_big_a_boost" data-src="68277068"
       data-start="00:00" data-end="00:21" data-autoplay="true">
-      <iframe width="100%" height="100%" src="http://www.youtube.com/embed/XPPx__nQNnQ?wmode=transparent&rel=0&showinfo=0&modestbranding=1&enablejsapi=1"></iframe>
       <!--
       Youtube video: http://youtu.be/XPPx__nQNnQ
       IN: 00:00
@@ -157,9 +156,8 @@ require_once('header.php');
 <section class="video colleges_see_graying_workforce">
   <div class="contents">
     <div class="play"></div>
-    <div class="video-container" id="video_colleges_see_graying_workforces" data-src="2LGLY0yPjgE"
+    <div class="video-container" id="video_colleges_see_graying_workforces" data-src="68276147"
       data-start="01:31" data-end="02:22" data-autoplay="true">
-      <iframe width="100%" height="100%" src="http://www.youtube.com/embed/2LGLY0yPjgE?wmode=transparent&rel=0&showinfo=0&modestbranding=1&enablejsapi=1"></iframe>
       <!--
       Youtube video: http://youtu.be/2LGLY0yPjgE
       IN: 01:31 "Most of us believe that we should be able ..."
@@ -229,9 +227,8 @@ require_once('header.php');
 <section class="video boom_in_entrepreneurship">
   <div class="contents">
     <div class="play"></div>
-    <div class="video-container" id="video_boom_in_entrepreneurship" data-src="wdJq3Z7vyfM"
+    <div class="video-container" id="video_boom_in_entrepreneurship" data-src="68275545"
       data-start="00:14" data-end="00:35" data-autoplay="true">
-      <iframe width="100%" height="100%" src="http://www.youtube.com/embed/wdJq3Z7vyfM?wmode=transparent&rel=0&showinfo=0&modestbranding=1&enablejsapi=1"></iframe>
       <!--
       Youtube video: http://youtu.be/wdJq3Z7vyfM
       IN: 00:14 "Look at this nice tight stomach with the abs that you could grate cheese on..."
@@ -254,9 +251,8 @@ require_once('header.php');
 <section class="video vita_needle">
   <div class="contents">
     <div class="play"></div>
-    <div class="video-container" id="video_vita_needle" data-src="NujnD1tykkY"
+    <div class="video-container" id="video_vita_needle" data-src="68274819"
       data-start="04:29" data-end="04:40" data-autoplay="true">
-      <iframe width="100%" height="100%" src="http://www.youtube.com/embed/NujnD1tykkY?wmode=transparent&rel=0&showinfo=0&modestbranding=1&enablejsapi=1"></iframe>
       <!--
       Youtube video: http://youtu.be/NujnD1tykkY
       04:29-04:40
@@ -283,8 +279,7 @@ require_once('header.php');
       The Paul Solman Interview
     </h2>
     <div class="play"></div>
-    <div class="video-container" id="video_paul_on_paul" data-src="XXotwQ0T-W8">
-      <iframe width="100%" height="100%" src="http://www.youtube.com/embed/XXotwQ0T-W8?wmode=transparent&rel=0&showinfo=0&modestbranding=1&enablejsapi=1"></iframe>
+    <div class="video-container" id="video_paul_on_paul" data-src="68274202">
       <!-- Youtube video: http://youtu.be/XXotwQ0T-W8 -->
     </div>
   </div>
