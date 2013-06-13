@@ -1265,14 +1265,14 @@ footer {
           margin-right: 0.5em;
           vertical-align: -6px;
           width: 224px;
-           }
+          height: 32px; }
         /* line 82, sass/_footer.sass */
         footer .links p.pbs a.sloan {
           margin-left: 2em; }
           /* line 85, sass/_footer.sass */
           footer .links p.pbs a.sloan img {
             height: 32px;
-            
+            width: 137px;
             vertical-align: -6px; }
       /* line 90, sass/_footer.sass */
       footer .links p.extra {
