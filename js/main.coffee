@@ -111,7 +111,7 @@ $(document).ready ()->
       # unique player ID
       player_id = "player_#{Date.now()}"
 
-      url = "http://player.vimeo.com/video/#{$video.data('src')}?api=1&player_id=#{player_id}"
+      url = "http://player.vimeo.com/video/#{$video.data('src')}?title=0&byline=0&portrait=0color=548e85&api=1&player_id=#{player_id}"
 
       $player = $("<iframe id='#{player_id}' width='100%' height='100%' src='#{url}' frameborder='0' allowFullScreen></iframe>")
 
