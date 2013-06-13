@@ -1,5 +1,9 @@
 PRODUCTION_URL = "http://www.pbs.org/"
 
+dont = ()->
+  null
+
+
 $(document).ready ()->
   $window = $(window)
   $window_height = $window.height()
@@ -99,7 +103,11 @@ $(document).ready ()->
         $.removeCookie("retiring__community_size")
 
 
-  do video_handler = ()->
+  window.oh_shit_video_started = ()->
+    video.pause() for video in video_stack
+    console.log "video halted"
+
+  dont video_handler = ()->
     window.video_stack = []
     to_s = Popcorn.util.toSeconds
 
@@ -132,6 +140,8 @@ $(document).ready ()->
 
       # youtube has own "replay" button, unneccessary?
       $container.find('.play').on "click", ()->
+        console.log "play"
+        console.log pop
         pop.play()
 
       if $video.data('autoplay')
@@ -141,8 +151,6 @@ $(document).ready ()->
           if !$video.hasClass('played') and pos + ($window_height / 2) > top
             $video.addClass('played')
             pop.play()
-
-
 
 
 
