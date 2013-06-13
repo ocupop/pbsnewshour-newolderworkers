@@ -846,7 +846,7 @@ input[type=radio] {
   top: 7%;
   left: 50%;
   width: 700px;
-  height: 83%;
+  height: 755px;
   z-index: 99;
   overflow: hidden;
   -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, 0.75);
@@ -977,7 +977,7 @@ input[type=radio] {
 
 /* line 716, sass/_base.sass */
 .live_pie-gender-content {
-  height: 70%; }
+  height: 620px; }
   /* line 719, sass/_base.sass */
   .live_pie-gender-content iframe.pie_container {
     margin: 2em auto 0 auto; }
