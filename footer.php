@@ -23,8 +23,12 @@
   <div class="links">
     <div class="contents">
       <p class="pbs">
-        <a href="http://www.pbs.org/newshour/">
+        <a class="pbs" href="http://www.pbs.org/newshour/">
           <img src="img/pbs-logotype.png">
+        </a>
+
+        <a class="sloan" href="http://www.sloan.org/">
+          <img src="img/sloan_foundation.png">
         </a>
       </p>
 
@@ -232,12 +236,30 @@
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="js/vendor/raf-polyfill.js"></script>
 <script src="js/vendor/jquery.cookie.js"></script>
-<script src="js/vendor/popcorn-complete.min.js"></script>
 <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
-<script src="js/main.js"></script>
-
+<script src="js/main.js?cb=<?php echo rand(0,1000); ?>"></script>
+<script type="text/javascript">
+var _sf_async_config={};
+/** CONFIGURATION START **/
+_sf_async_config.uid = 7166;
+_sf_async_config.domain = "pbs.org"; /** CHANGE THIS **/
+/** CONFIGURATION END **/
+(function(){
+  function loadChartbeat() {
+    window._sf_endpt=(new Date()).getTime();
+    var e = document.createElement("script");
+    e.setAttribute("language", "javascript");
+    e.setAttribute("type", "text/javascript");
+    e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+    document.body.appendChild(e);
+  }
+  var oldonload = window.onload;
+  window.onload = (typeof window.onload != "function") ?
+     loadChartbeat : function() { oldonload(); loadChartbeat(); };
+})();
+</script>
 <script>
-  var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-4133641-2'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
