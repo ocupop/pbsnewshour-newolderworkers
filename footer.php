@@ -237,7 +237,7 @@
 <script src="js/vendor/raf-polyfill.js"></script>
 <script src="js/vendor/jquery.cookie.js"></script>
 <script src="js/vendor/popcorn-complete.js"></script>
-<script src="js/main.js"></script>
+<script src="js/main.js?cb=<?php echo rand(0,1000); ?>"></script>
 <script type="text/javascript">
 var _sf_async_config={};
 /** CONFIGURATION START **/

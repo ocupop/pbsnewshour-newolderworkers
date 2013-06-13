@@ -45,7 +45,7 @@ $current_chapter = $chapter_list[$chapter];
 
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
   <title>PBS NewsHour: New Adventures for Older Workers</title>
-  <link rel="stylesheet" href="http://www-tc.pbs.org/newshour/new-older-workers/css/style1.css">
+  <link rel="stylesheet" href="http://www-tc.pbs.org/newshour/new-older-workers/css/style.css?cb=<?php echo rand(0,1000); ?>">
   <script src="http://www-tc.pbs.org/newshour/new-older-workers/js/vendor/modernizr-2.6.2.min.js"></script>
   <script type="text/javascript" src="http://fast.fonts.com/jsapi/9d4a68ce-e7a7-41f7-abd3-f2da36d975fa.js"></script>
   <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
