@@ -273,6 +273,8 @@ require_once('header.php');
     <div class="play"></div>
     <div class="video-container" id="video_joel_peters" data-src="h6xb4F7X3w8"
       data-start="02:10" data-end="02:22" data-autoplay="true">
+      <iframe width="100%" height="100%" src="http://www.youtube.com/embed/h6xb4F7X3w8?wmode=transparent&rel=0&showinfo=0&modestbranding=1&enablejsapi=1"></iframe>
+
       <!--
       Youtube video: http://youtu.be/h6xb4F7X3w8
       02:10-02:22
@@ -322,6 +324,7 @@ require_once('header.php');
     <div class="play"></div>
     <div class="video-container" id="video_dante_chinni" data-src="Z6XIsQCKcRE">
       <!-- YouTube video: http://youtu.be/Z6XIsQCKcRE -->
+      <iframe width="100%" height="100%" src="http://www.youtube.com/embed/Z6XIsQCKcRE?wmode=transparent&rel=0&showinfo=0&modestbranding=1&enablejsapi=1"></iframe>
     </div>
 
     <div class="caption">

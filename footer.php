@@ -236,7 +236,7 @@
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="js/vendor/raf-polyfill.js"></script>
 <script src="js/vendor/jquery.cookie.js"></script>
-<script src="js/vendor/popcorn-complete.min.js"></script>
+<script src="js/vendor/popcorn-complete.js"></script>
 <script src="js/main.js"></script>
 
 <script>

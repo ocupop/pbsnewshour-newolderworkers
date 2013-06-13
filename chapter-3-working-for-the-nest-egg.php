@@ -306,6 +306,7 @@ require_once('header.php');
     <div class="play"></div>
     <div class="video-container" id="video_babs_tatalias" data-src="GBTnbbQyub0"
       data-start="00:21" data-end="00:37" data-autoplay="true">
+      <iframe width="100%" height="100%" src="http://www.youtube.com/embed/GBTnbbQyub0?wmode=transparent&rel=0&showinfo=0&modestbranding=1&enablejsapi=1"></iframe>
       <!--
       Youtube video: http://youtu.be/GBTnbbQyub0
       00:21-00:37
@@ -346,6 +347,7 @@ require_once('header.php');
     <div class="play"></div>
     <div class="video-container" id="video_charles_smith" data-src="RO5NM1uZLQo"
       data-start="01:19" data-end="01:33" data-autoplay="true">
+      <iframe width="100%" height="100%" src="http://www.youtube.com/embed/RO5NM1uZLQo?wmode=transparent&rel=0&showinfo=0&modestbranding=1&enablejsapi=1"></iframe>
       <!--
       Youtube video: http://youtu.be/RO5NM1uZLQo
       01:19-01:33
@@ -390,6 +392,7 @@ require_once('header.php');
     <div class="play"></div>
     <div class="video-container" id="video_mike_kemp" data-src="u2wbxSrWB7k"
       data-start="00:34" data-end="00:48" data-autoplay="true">
+      <iframe width="100%" height="100%" src="http://www.youtube.com/embed/u2wbxSrWB7k?wmode=transparent&rel=0&showinfo=0&modestbranding=1&enablejsapi=1"></iframe>
       <!--
       Youtube video: http://youtu.be/u2wbxSrWB7k
       00:34-00:48
@@ -431,6 +434,7 @@ require_once('header.php');
     <div class="play"></div>
     <div class="video-container" id="video_brutal_job_search" data-src="MWMzgU_QfHU"
       data-start="08:41" data-end="09:22" data-autoplay="true">
+      <iframe width="100%" height="100%" src="http://www.youtube.com/embed/MWMzgU_QfHU?wmode=transparent&rel=0&showinfo=0&modestbranding=1&enablejsapi=1"></iframe>
       <!--
       Youtube video: http://youtu.be/MWMzgU_QfHU
       08:41-09:22
@@ -477,6 +481,7 @@ require_once('header.php');
   <div class="contents">
     <div class="play"></div>
     <div class="video-container" id="video_paul_transition" data-src="3A9WpY3V9Gc" data-autoplay="true">
+      <iframe width="100%" height="100%" src="http://www.youtube.com/embed/3A9WpY3V9Gc?wmode=transparent&rel=0&showinfo=0&modestbranding=1&enablejsapi=1"></iframe>
       <!-- Youtube video: http://youtu.be/3A9WpY3V9Gc -->
     </div>
   </div>
