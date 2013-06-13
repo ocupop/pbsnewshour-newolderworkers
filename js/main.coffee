@@ -147,16 +147,17 @@ $(document).ready ()->
           $f(player_id).api('seekTo', start_time)
           $f(player_id).api('pause')
 
-        $container.find('.play').on "click", ()->
-          $f(player_id).api('play')
+      $container.find('.play').on "click", ()->
+        $f(player_id).api('play')
 
-        if $video.data('autoplay')
-          top = $video.offset().top
+      if $video.data('autoplay')
+        console.log "autoplay", player_id
+        top = $video.offset().top
 
-          scroll_actions[this.id] = ()->
-            if !$video.hasClass('played') and pos + ($window_height / 2) > top
-              $video.addClass('played')
-              $f(player_id).api('play')
+        scroll_actions[this.id] = ()->
+          if !$video.hasClass('played') and pos + ($window_height / 2) > top
+            $video.addClass('played')
+            $f(player_id).api('play')
 
   # Chapter 1: Rethinking Retirement
 
