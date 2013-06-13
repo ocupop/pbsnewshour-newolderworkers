@@ -1,4 +1,4 @@
-PRODUCTION_URL = "http://www.pbs.org/"
+PRODUCTION_URL = "http://www.pbs.org/newshour/new-older-workers/"
 
 $(document).ready ()->
   $window = $(window)
