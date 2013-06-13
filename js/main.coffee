@@ -1,8 +1,4 @@
-PRODUCTION_URL = "http://pbs.org/newshour/new-older-workers/"
-
-dont = ()->
-  null
-
+PRODUCTION_URL = "http://www.pbs.org/newshour/new-older-workers/"
 
 $(document).ready ()->
   $window = $(window)
@@ -34,10 +30,6 @@ $(document).ready ()->
 
       # translate3d makes other backgrounds sad :(
       $this.css(prefix, "translateY(#{(top - pos ) * rate}px)")
-
-  # # apply parallax to all background image containers
-  # $('.background_image', 'section').each ()->
-  #   $(this).parallax( $(this).data('plax') || -0.3)
 
   # and to the intro photo
   $('.parallax').each ()->
@@ -103,56 +95,69 @@ $(document).ready ()->
         $.removeCookie("retiring__community_size")
 
 
-  window.oh_shit_video_started = ()->
-    video.pause() for video in video_stack
-    console.log "video halted"
 
-  dont video_handler = ()->
+  do video_handler = ()->
     window.video_stack = []
-    to_s = Popcorn.util.toSeconds
+
+    to_s = (timecode)->
+      if timecode
+        [min, sec] = timecode.split(":")
+        +sec + (+min * 60)
 
     $('.video-container').each ()->
       $video = $(this)
       $container = $video.closest('.video')
 
-      url = "http://www.youtube.com/watch?v=#{$video.data('src')}&rel=0&showinfo=0&modestbranding=1"
+      # unique player ID
+      player_id = "player_#{Date.now()}"
 
-      if $video.data('start') then url += "&start=#{to_s($video.data('start'))}"
+      url = "http://player.vimeo.com/video/#{$video.data('src')}?title=0&byline=0&portrait=0color=548e85&api=1&player_id=#{player_id}"
 
-      pop = Popcorn.youtube( "##{this.id}", url )
+      $player = $("<iframe id='#{player_id}' width='100%' height='100%' src='#{url}' frameborder='0' allowFullScreen></iframe>")
 
-      video_stack.push pop #that's a programmer joke for ya
+      start_time = to_s $video.data('start')
+      end_time = to_s $video.data('end')
 
-      if $video.data('end') then pop.cue (to_s $video.data('end') ), ()->
-        # end video at end time, but only the first time its played
-        pop.removeTrackEvent pop.getLastTrackEventId()
-        pop.pause()
-        pop.currentTime to_s(0)
-        $container.removeClass('playing')
-        $container.addClass('ended')
+      $video.append $player
 
-      pop.on "play", ()->
-        video.pause() for video in video_stack when (video isnt pop)
-        $container.addClass('playing')
+      p = $f($player[0])
 
-      pop.on "ended", ()->
-        $container.removeClass('playing')
+      p.addEvent 'ready', ()->
+        video_stack.push player_id
 
-      # youtube has own "replay" button, unneccessary?
+        p.addEvent 'play', ()->
+          $f(video_id).api('pause') for video_id in video_stack when (video_id isnt player_id)
+          $container.addClass('playing')
+          null
+
+        p.addEvent 'finish', ()->
+          $container.removeClass('playing')
+
+        p.addEvent 'playProgress', (data)->
+          s = +data.seconds
+          if end_time && (s > end_time)
+            $f(player_id).api('pause')
+            $f(player_id).api('seekTo', 0)
+            $container.removeClass('playing')
+            $container.addClass('ended')
+
+            p.removeEvent 'playProgress'
+
+        if start_time
+          $f(player_id).api('seekTo', start_time)
+          $f(player_id).api('pause')
+
       $container.find('.play').on "click", ()->
-        console.log "play"
-        console.log pop
-        pop.play()
+        $f(player_id).api('play')
 
       if $video.data('autoplay')
+        console.log "autoplay", player_id
         top = $video.offset().top
 
         scroll_actions[this.id] = ()->
           if !$video.hasClass('played') and pos + ($window_height / 2) > top
             $video.addClass('played')
-            pop.play()
-
-
+            $f(player_id).api('play')
 
   # Chapter 1: Rethinking Retirement
 
@@ -326,10 +331,10 @@ $(document).ready ()->
 
   if $('body').hasClass('chapter-5-moving-forward') then do ()->
     $share_options = $(".share_options")
-    title = encodeURI ("PBS NewsHour: New Adventures for Older Workers")
+    title = encodeURI ("PBS NewsHour: The Retiring of Retirement")
     messages = {
       half_of_american_households: "Half of American households have less than $10k in savings."
-      death_of_the_pension: "1975: 85% of private sector employees had pensions. 2013: only 35% do."
+      death_of_the_pension: "In 1975, 85% of private sector employees had pensions. In 2013, only 35% do."
       average_investor: "The average investor underperforms during inflation."
       no_retirement_savings: "A third of Baby Boomers have no retirement savings."
     }
@@ -337,7 +342,7 @@ $(document).ready ()->
     email_body = """
       Hi,
 
-      I just finished reading this piece on PBS NewsHour called 'New Adventures for Older Workers' about the retirement crisis. Did you know:
+      I just finished reading this piece on PBS NewsHour called 'The Retiring of Retirement' about the retirement crisis. Did you know:
 
       - Over half of today's households have less than $10k in savings--nowhere near enough money for retirement.
       - The percentage of workers who expect to work past 65 has more than tripled in 30 years.

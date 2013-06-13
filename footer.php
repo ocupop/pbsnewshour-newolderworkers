@@ -236,7 +236,7 @@
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="js/vendor/raf-polyfill.js"></script>
 <script src="js/vendor/jquery.cookie.js"></script>
-<script src="js/vendor/popcorn-complete.js"></script>
+<script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
 <script src="js/main.js?cb=<?php echo rand(0,1000); ?>"></script>
 <script type="text/javascript">
 var _sf_async_config={};
@@ -258,8 +258,6 @@ _sf_async_config.domain = "pbs.org"; /** CHANGE THIS **/
      loadChartbeat : function() { oldonload(); loadChartbeat(); };
 })();
 </script>
-    
-
 <script>
   var _gaq=[['_setAccount','UA-4133641-2'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];

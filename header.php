@@ -23,7 +23,7 @@ $current_chapter = $chapter_list[$chapter];
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  
+
   <meta property="og:title" content="PBS NewsHour: New Adventures for Older Workers" />
   <meta property="og:url" content="http://www.pbs.org/newshour/new-older-workers/" />
   <meta property="og:type" content="article"/>
@@ -43,9 +43,9 @@ $current_chapter = $chapter_list[$chapter];
 
   <meta name="description" content="92% of Americans think there's a retirement crisis. And they're right." />
 
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
   <title>PBS NewsHour: New Adventures for Older Workers</title>
-  <link rel="stylesheet" href="http://www-tc.pbs.org/newshour/new-older-workers/css/style.css?cb=<?php echo rand(0,1000); ?>">
+<!--   <link rel="stylesheet" href="http://www-tc.pbs.org/newshour/new-older-workers/css/style.css?cb=<?php echo rand(0,1000); ?>"> -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <script src="http://www-tc.pbs.org/newshour/new-older-workers/js/vendor/modernizr-2.6.2.min.js"></script>
   <script type="text/javascript" src="http://fast.fonts.com/jsapi/9d4a68ce-e7a7-41f7-abd3-f2da36d975fa.js"></script>
   <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
