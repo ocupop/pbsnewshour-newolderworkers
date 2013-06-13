@@ -1,4 +1,4 @@
-PRODUCTION_URL = "http://www.pbs.org/"
+PRODUCTION_URL = "http://pbs.org/newshour/new-older-workers/"
 
 dont = ()->
   null
@@ -326,10 +326,10 @@ $(document).ready ()->
 
   if $('body').hasClass('chapter-5-moving-forward') then do ()->
     $share_options = $(".share_options")
-    title = encodeURI ("PBS NewsHour: The Retiring of Retirement")
+    title = encodeURI ("PBS NewsHour: New Adventures for Older Workers")
     messages = {
       half_of_american_households: "Half of American households have less than $10k in savings."
-      death_of_the_pension: "In 1975, 85% of private sector employees had pensions. In 2013, only 35% do."
+      death_of_the_pension: "1975: 85% of private sector employees had pensions. 2013: only 35% do."
       average_investor: "The average investor underperforms during inflation."
       no_retirement_savings: "A third of Baby Boomers have no retirement savings."
     }
@@ -337,7 +337,7 @@ $(document).ready ()->
     email_body = """
       Hi,
 
-      I just finished reading this piece on PBS NewsHour called 'The Retiring of Retirement' about the retirement crisis. Did you know:
+      I just finished reading this piece on PBS NewsHour called 'New Adventures for Older Workers' about the retirement crisis. Did you know:
 
       - Over half of today's households have less than $10k in savings--nowhere near enough money for retirement.
       - The percentage of workers who expect to work past 65 has more than tripled in 30 years.
