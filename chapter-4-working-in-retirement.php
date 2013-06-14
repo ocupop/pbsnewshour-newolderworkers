@@ -251,7 +251,7 @@ require_once('header.php');
       The Paul Solman Interview
     </h2>
     <div class="play"></div>
-    <div class="video-container" id="video_paul_on_paul" data-src="68274202"></div>
+    <div class="video-container" id="video_paul_on_paul" data-src="68274202" data-autoplay="true"></div>
   </div>
 </section>
 
