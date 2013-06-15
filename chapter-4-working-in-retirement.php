@@ -124,14 +124,7 @@ require_once('header.php');
 <section class="video how_big_a_boost">
   <div class="contents">
     <div class="play"></div>
-    <div class="video-container" id="video_how_big_a_boost" data-src="68277068"
-      data-start="00:00" data-end="00:21" data-autoplay="true">
-      <!--
-      Youtube video: http://youtu.be/XPPx__nQNnQ
-      IN: 00:00
-      OUT: 00:21 "...and their retirement take-home."
-      -->
-    </div>
+    <div class="video-container" id="video_how_big_a_boost" data-src="68277068" data-start="00:00" data-end="00:20" data-autoplay="true"></div>
 
     <div class="caption">
       <h2>
@@ -156,14 +149,7 @@ require_once('header.php');
 <section class="video colleges_see_graying_workforce">
   <div class="contents">
     <div class="play"></div>
-    <div class="video-container" id="video_colleges_see_graying_workforces" data-src="68276147"
-      data-start="01:31" data-end="02:22" data-autoplay="true">
-      <!--
-      Youtube video: http://youtu.be/2LGLY0yPjgE
-      IN: 01:31 "Most of us believe that we should be able ..."
-      OUT: 02:22 "...the chance to have full-time work, to develop themselves, so that older people can hang on to keep everything we love?"
-      -->
-    </div>
+    <div class="video-container" id="video_colleges_see_graying_workforces" data-src="68276147" data-start="01:32" data-end="02:25" data-autoplay="true"></div>
 
     <div class="caption">
       <h2>
@@ -227,13 +213,7 @@ require_once('header.php');
 <section class="video boom_in_entrepreneurship">
   <div class="contents">
     <div class="play"></div>
-    <div class="video-container" id="video_boom_in_entrepreneurship" data-src="68275545"
-      data-start="00:14" data-end="00:35" data-autoplay="true">
-      <!--
-      Youtube video: http://youtu.be/wdJq3Z7vyfM
-      IN: 00:14 "Look at this nice tight stomach with the abs that you could grate cheese on..."
-      OUT: 00:35 "...says Townsend, she started Mannequin Madness."
-      -->
+    <div class="video-container" id="video_boom_in_entrepreneurship" data-src="68275545" data-start="00:16" data-end="00:37" data-autoplay="true">
     </div>
 
     <div class="caption">
@@ -251,15 +231,7 @@ require_once('header.php');
 <section class="video vita_needle">
   <div class="contents">
     <div class="play"></div>
-    <div class="video-container" id="video_vita_needle" data-src="68274819"
-      data-start="04:29" data-end="04:40" data-autoplay="true">
-      <!--
-      Youtube video: http://youtu.be/NujnD1tykkY
-      04:29-04:40
-      IN: "My friends are all in the ground..."
-      OUT: "...I don't want to be like that."
-      -->
-    </div>
+    <div class="video-container" id="video_vita_needle" data-src="68274819" data-start="04:29" data-end="05:01" data-autoplay="true"></div>
 
     <div class="caption">
       <h2>
@@ -279,9 +251,7 @@ require_once('header.php');
       The Paul Solman Interview
     </h2>
     <div class="play"></div>
-    <div class="video-container" id="video_paul_on_paul" data-src="68274202">
-      <!-- Youtube video: http://youtu.be/XXotwQ0T-W8 -->
-    </div>
+    <div class="video-container" id="video_paul_on_paul" data-src="68274202" data-autoplay="true"></div>
   </div>
 </section>
 

@@ -271,13 +271,7 @@ require_once('header.php');
 <section class="video joel_peters">
   <div class="contents">
     <div class="play"></div>
-    <div class="video-container" id="video_joel_peters" data-src="68273203"
-      data-start="02:10" data-end="02:22" data-autoplay="true">
-      <!--
-      Youtube video: http://youtu.be/h6xb4F7X3w8
-      02:10-02:22
-      -->
-    </div>
+    <div class="video-container" id="video_joel_peters" data-src="68273203" data-start="02:11" data-end="02:23" data-autoplay="true"></div>
 
     <div class="caption">
       <h2>

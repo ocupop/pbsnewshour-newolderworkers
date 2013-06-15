@@ -846,7 +846,7 @@ input[type=radio] {
   top: 7%;
   left: 50%;
   width: 700px;
-  height: 83%;
+  height: 755px;
   z-index: 99;
   overflow: hidden;
   -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, 0.75);
@@ -977,7 +977,7 @@ input[type=radio] {
 
 /* line 716, sass/_base.sass */
 .live_pie-gender-content {
-  height: 70%; }
+  height: 620px; }
   /* line 719, sass/_base.sass */
   .live_pie-gender-content iframe.pie_container {
     margin: 2em auto 0 auto; }
@@ -3532,7 +3532,7 @@ footer {
     transition: color 0.2s; }
 /* line 111, sass/_chapter5.sass */
 .chapter-5-moving-forward article .ask_details a.big,
-.chapter-5-moving-forward article .three_steps a {
+.chapter-5-moving-forward article .three_steps li > a {
   background-color: #548e85;
   color: white;
   display: inline-block;
@@ -3547,7 +3547,7 @@ footer {
   transition: background-color 0.2s; }
   /* line 44, sass/_mixins.sass */
   .chapter-5-moving-forward article .ask_details a.big:before,
-  .chapter-5-moving-forward article .three_steps a:before {
+  .chapter-5-moving-forward article .three_steps li > a:before {
     content: "";
     position: absolute;
     top: 50%;
@@ -3559,18 +3559,18 @@ footer {
     margin-right: -20px; }
   /* line 124, sass/_chapter5.sass */
   .chapter-5-moving-forward article .ask_details a.big:before,
-  .chapter-5-moving-forward article .three_steps a:before {
+  .chapter-5-moving-forward article .three_steps li > a:before {
     -webkit-transition: border-left-color 0.2s;
     -moz-transition: border-left-color 0.2s;
     -o-transition: border-left-color 0.2s;
     transition: border-left-color 0.2s; }
   /* line 127, sass/_chapter5.sass */
   .chapter-5-moving-forward article .ask_details a.big:hover,
-  .chapter-5-moving-forward article .three_steps a:hover {
+  .chapter-5-moving-forward article .three_steps li > a:hover {
     background: #383838; }
     /* line 44, sass/_mixins.sass */
     .chapter-5-moving-forward article .ask_details a.big:hover:before,
-    .chapter-5-moving-forward article .three_steps a:hover:before {
+    .chapter-5-moving-forward article .three_steps li > a:hover:before {
       content: "";
       position: absolute;
       top: 50%;
