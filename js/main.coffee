@@ -151,7 +151,6 @@ $(document).ready ()->
         $f(player_id).api('play')
 
       if $video.data('autoplay')
-        console.log "autoplay", player_id
         top = $video.offset().top
 
         scroll_actions[this.id] = ()->
