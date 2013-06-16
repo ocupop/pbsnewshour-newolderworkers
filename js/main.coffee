@@ -137,7 +137,7 @@ $(document).ready ()->
           s = +data.seconds
           if end_time && (s > end_time)
             $f(player_id).api('pause')
-            $f(player_id).api('seekTo', 0)
+            $f(player_id).api('seekTo', 1)
             $container.removeClass('playing')
             $container.addClass('ended')
 
