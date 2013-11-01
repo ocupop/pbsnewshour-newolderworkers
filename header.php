@@ -49,7 +49,7 @@ $current_chapter = $chapter_list[$chapter];
   <script src="http://www-tc.pbs.org/newshour/new-older-workers/js/vendor/modernizr-2.6.2.min.js"></script>
   <script type="text/javascript" src="http://fast.fonts.com/jsapi/9d4a68ce-e7a7-41f7-abd3-f2da36d975fa.js"></script>
   <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
-
+  <script>if((/Chrome/).test(navigator.userAgent)){document.getElementsByTagName('html')[0].className+=" chromefix"}</script>
 </head>
 
 <body class="<?php echo $current_chapter['slug']; ?>">

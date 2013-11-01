@@ -65,7 +65,7 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="chapter_title">
+<section class="chapter_title chromefix">
   <div class="contents">
     <p>
       Chapter One
@@ -94,7 +94,7 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="copy increase_of_workers">
+<section class="copy increase_of_workers chromefix">
   <div class="contents">
     <p class="first">
       The increase of workers
@@ -260,7 +260,7 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="copy one_in_four_workers">
+<section class="copy one_in_four_workers chromefix">
   <div class="contents">
     <div>
       <p class="first">
@@ -288,7 +288,7 @@ require_once('header.php');
   </div>
 </section>
 
-<section class="copy half_of_american_households">
+<section class="copy half_of_american_households chromefix">
   <div class="contents">
     <p>
       Half of American households have less than $10,000 in savings.
@@ -387,7 +387,7 @@ require_once('header.php');
     <a id="live_pie-over65-close">&times;</a>
 
     <h2>You&rsquo;re 65 or older.<br>Are you working, and are you satisfied?</h2>
-  
+
     <ul>
       <li class="red">I&rsquo;m working and am happy</li>
       <li class="green">I&rsquo;m working and am unhappy</li>

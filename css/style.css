@@ -3626,3 +3626,8 @@ footer {
 .chapter-5-moving-forward article .three_steps .third_step {
   background-image: url(http://www-tc.pbs.org/newshour/new-older-workers/img/5/3.gif);
   background-position: left 25px; }
+
+
+.chromefix .chromefix{
+  background-attachment: scroll !important ;
+}
